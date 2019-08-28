@@ -1,11 +1,8 @@
-Classes = [
-
-{ "Classetitle": "Chemistry P", "ClassRoom": "26", "TeacherName": "Kwan" },
-{ "Classetitle": "Spanish 3 P", "ClassRoom": "10", "TeacherName": "Ramirez" },
-{ "Classetitle": "World Civ P", "ClassRoom": " -", "TeacherName": "Bell" },
-{ "Classetitle": "Intergrated Math 2 P", "ClassRoom": "19", "TeacherName": "Loomis" },
-{ "Classetitle": "AP Comp Principles", "ClassRoom": "Lib", "TeacherName": "Glantz" },
-{ "Classetitle": "Inter Rob Eng", "ClassRoom": "M1", "TeacherName": "Harvey" },
-{ "Classetitle": "English 10 P", "ClassRoom": "25", "TeacherName": "Sangster" }  
-
-]
+{
+  "Class1": { "Classetitle": "Chemistry P", "ClassRoom": "26", "TeacherName": "Kwan" },
+  "Class1": { "Classetitle": "World Civ P", "ClassRoom": " -", "TeacherName": "Bell" },
+  "Class1": { "Classetitle": "Intergrated Math 2 P", "ClassRoom": "19", "TeacherName": "Loomis" },
+  "Class1": { "Classetitle": "AP Comp Principles", "ClassRoom": "Lib", "TeacherName": "Glantz" },
+  "Class1": { "Classetitle": "Inter Rob Eng", "ClassRoom": "M1", "TeacherName": "Harvey" },
+  "Class1": { "Classetitle": "English 10 P", "ClassRoom": "25", "TeacherName": "Sangster"},
+}
