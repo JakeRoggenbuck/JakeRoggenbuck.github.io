@@ -30,18 +30,3 @@ mv vim/ ~/.config/
 mv .bashrc ~/
 mv .profile ~/
 mv .wallpapers/ ~/
-
-#Installs programs from array
-bins=(neovim vim emacs feh eog ranger sxhkd bspwm polybar compton xfce4-terminal gimp kate firefox atom lxappearance ffmpeg dmenu rofi neofetch gnome-tweaks)
-
-for x in "${bins[@]}" 
-do	
-	echo Do you want $x? y/n
-	read answere
-
-	if [ $answere == 'y' ]
-	then
-		pacman -S $x || echo installing $x failed
-	fi
-done
-
