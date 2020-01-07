@@ -1,4 +1,14 @@
 #!/bin/bash
+
+#     _            _         
+#    | | __ _ _ __| |__  ___ 
+# _  | |/ _` | '__| '_ \/ __|
+#| |_| | (_| | |  | |_) \__ \
+# \___/ \__,_|_|  |_.__/|___/
+
+# Jake Auto Rice Bash Script
+
+
 #Gets needed file from github
 git clone https://github.com/JakeRoggenbuck/ConfigFiles ~/Downloads/ConfigFiles
 git clone https://github.com/JakeRoggenbuck/.scripts.git ~/.scripts 
@@ -9,7 +19,7 @@ rm -ri ~/Desktop
 mv ~/Templates ~/.templates
 
 mkdir ~/Repos
-mkdir ~/Resources
+mkdir ~/Library
 
 mkdir ~/Media
 
@@ -26,7 +36,15 @@ mv dunst/ ~/.config/
 mv rofi/ ~/.config/
 mv nvim/ ~/.config/
 mv vim/ ~/.config/
+mv alacritty/ ~/.config/
+mv termite/ ~/.config/
+
+mkdir --parents /usr/share/xfce4/terminal/colorschemes/; mv xfce4TerminalColorSchemes/* $_
+
+mv user-dirs.dirs ~/.config
 
 mv .bashrc ~/
+mv .bash_aliases ~/
+mv .xscreensaver ~/
 mv .profile ~/
-mv .wallpapers/ ~/
+mv .wallpaper/ ~/
