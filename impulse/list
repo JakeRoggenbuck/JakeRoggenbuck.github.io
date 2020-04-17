@@ -1,6 +1,11 @@
 {
     "packages":[
-    	"rushnote.tar.gz",
-	"test.tar.gz"
-	]
+	{
+	    "name":"rushnote",
+	    "desc":"Take quick notes from command line when in a rush.",
+	},{
+	    "name":"test",
+	    "desc":"A test",
+	}
+    ]
 }
