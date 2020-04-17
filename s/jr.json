@@ -1,9 +1,0 @@
-{
-  "Class1": { "Classtitle": "Chemistry P", "ClassRoom": "26", "TeacherName": "Kwan" },
-  "Class2": { "Classtitle": "Spanish 3 P", "ClassRoom": "10", "TeacherName": "Ramirez" },
-  "Class3": { "Classtitle": "World Civ P", "ClassRoom": " -", "TeacherName": "Bell" },
-  "Class4": { "Classtitle": "Intergrated Math 2 P", "ClassRoom": "19", "TeacherName": "Loomis" },
-  "Class5": { "Classtitle": "AP Comp Principles", "ClassRoom": "Lib", "TeacherName": "Glantz" },
-  "Class6": { "Classtitle": "Inter Rob Eng", "ClassRoom": "M1", "TeacherName": "Harvey" },
-  "Class7": { "Classtitle": "English 10 P", "ClassRoom": "25", "TeacherName": "Sangster"},
-}
