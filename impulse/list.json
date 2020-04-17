@@ -1,12 +1,10 @@
 {
-    "packages":[
-	"rushnote":{
-	    "name":"rushnote",
-	    "desc":"Take quick notes from command line when in a rush."
-	},
-	"test":{
-	    "name":"test",
-	    "desc":"A test"
-	}
-    ]
+    "rushnote":{
+	"name":"rushnote",
+	"desc":"Take quick notes from command line when in a rush."
+    },
+    "test":{
+	"name":"test",
+	"desc":"A test"
+    }
 }
