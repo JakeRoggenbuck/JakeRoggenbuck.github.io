@@ -1,5 +1,5 @@
 {
-    packages = [
+    "packages":[
     	"rushnote.tar.gz",
 	"test.tar.gz"
 	]
