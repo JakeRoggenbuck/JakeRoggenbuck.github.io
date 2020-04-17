@@ -1,5 +1,6 @@
 {
     packages = [
-    	"rushnote.tar.gz"
+    	"rushnote.tar.gz",
+	"test.tar.gz"
 	]
 }
