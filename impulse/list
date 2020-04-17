@@ -1,1 +1,5 @@
-rushnote.tar.gz
+{
+    packages = [
+    	"rushnote.tar.gz"
+	]
+}
