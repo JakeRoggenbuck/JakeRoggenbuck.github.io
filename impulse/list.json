@@ -6,5 +6,9 @@
     "test":{
 	"name":"test",
 	"desc":"A test"
+    },
+    "hashc":{
+	"name":"hashc",
+	"desc":"A small util to view hashes as color"
     }
 }
