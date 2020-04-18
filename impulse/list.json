@@ -10,5 +10,9 @@
     "hashc":{
 	"name":"hashc",
 	"desc":"A small util to view hashes as color"
+    },
+     "emojicopy":{
+	"name":"emojicopy",
+	"desc":"A small util to copy emojis"
     }
 }
