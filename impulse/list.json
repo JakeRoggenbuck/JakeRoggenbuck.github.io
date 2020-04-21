@@ -7,7 +7,11 @@
 	"name":"hashc",
 	"desc":"A small util to view hashes as color"
     },
-     "emojicopy":{
+    "st":{
+	"name":"st",
+	"desc":"Jakes fork of st"
+    },
+	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
     }
