@@ -3,10 +3,6 @@
 	"name":"rushnote",
 	"desc":"Take quick notes from command line when in a rush."
     },
-    "test":{
-	"name":"test",
-	"desc":"A test"
-    },
     "hashc":{
 	"name":"hashc",
 	"desc":"A small util to view hashes as color"
