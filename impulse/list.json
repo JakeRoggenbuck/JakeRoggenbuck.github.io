@@ -15,6 +15,10 @@
 	"name":"dwm",
 	"desc":"A simple window manager"
     },
+	"dmenu":{
+	"name":"dmenu",
+	"desc":"A simple program runner"
+	},
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
