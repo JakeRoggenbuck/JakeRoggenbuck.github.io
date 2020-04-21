@@ -11,6 +11,10 @@
 	"name":"st",
 	"desc":"Jakes fork of st"
     },
+    "dwm":{
+	"name":"dwm",
+	"desc":"A simple window manager"
+    },
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
