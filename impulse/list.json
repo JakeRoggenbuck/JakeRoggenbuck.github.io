@@ -19,6 +19,10 @@
 	"name":"dmenu",
 	"desc":"A simple program runner"
 	},
+	"surf":{
+	"name":"surf",
+	"desc":"A simple browser"
+	},
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
