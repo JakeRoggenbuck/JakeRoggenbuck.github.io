@@ -23,6 +23,10 @@
 	"name":"surf",
 	"desc":"A simple browser"
 	},
+	"lwm":{
+	"name":"lwm",
+	"desc":"A simple wm"
+	},
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
