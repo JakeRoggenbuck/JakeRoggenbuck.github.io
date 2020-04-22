@@ -27,6 +27,10 @@
 	"name":"lwm",
 	"desc":"A simple wm"
 	},
+	"impulse":{
+	"name":"impulse",
+	"desc":"A simple package manager"
+	},
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
