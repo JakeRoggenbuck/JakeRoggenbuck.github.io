@@ -31,6 +31,10 @@
 	"name":"impulse",
 	"desc":"A simple package manager"
 	},
+	"rpi-smart-system":{
+	"name":"rpi-smart-system",
+	"desc":"GSSL is a simple raspberry pi gpio object library with tui"
+	},
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
