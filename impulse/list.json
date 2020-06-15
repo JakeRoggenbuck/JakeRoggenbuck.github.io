@@ -3,15 +3,39 @@
 	"name":"rushnote",
 	"desc":"Take quick notes from command line when in a rush."
     },
-    "test":{
-	"name":"test",
-	"desc":"A test"
-    },
     "hashc":{
 	"name":"hashc",
 	"desc":"A small util to view hashes as color"
     },
-     "emojicopy":{
+    "st":{
+	"name":"st",
+	"desc":"Jakes fork of st"
+    },
+    "dwm":{
+	"name":"dwm",
+	"desc":"A simple window manager"
+    },
+	"dmenu":{
+	"name":"dmenu",
+	"desc":"A simple program runner"
+	},
+	"surf":{
+	"name":"surf",
+	"desc":"A simple browser"
+	},
+	"lwm":{
+	"name":"lwm",
+	"desc":"A simple wm"
+	},
+	"impulse":{
+	"name":"impulse",
+	"desc":"A simple package manager"
+	},
+	"rpi-smart-system":{
+	"name":"rpi-smart-system",
+	"desc":"GSSL is a simple raspberry pi gpio object library with tui"
+	},
+	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
     }

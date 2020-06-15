@@ -1,28 +1,88 @@
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-		<title>Jake Roggenbuck</title>
-	</head>
-	<body>
-		<div class="All">
-			<h1>Jake Roggenbuck</h1>
-			<h4>Just your ordinary Linux user who appreciates open source</h4>
-			<h3>Links, Repos, and Docs</h3>
-			<h4 class="headerText"> Welcome, here are some of my projects</h4>
-			<ul>
-				<li>Raspberry pi smart home system <a class="linkText" href="https://github.com/jakeroggenbuck/raspberrypismarthome">Repo</a></li>
-				<li>Rushnote: Take quick notes from command line when in a rush <a class="linkText" href="https://github.com/jakeroggenbuck/rushnote">Repo</a></li>
-				<li>Configs: My Linux configuration files for varies programs and software<a class="linkText" href="https://github.com/jakeroggenbuck/configs">Repo</a></li>
-				<li>JARBS: Jake Auto Rice Bash Script<a class="linkText" href="https://github.com/jakeroggenbuck/jarbs">Repo</a></li>
-
-			</ul>
-			<h4 class="HeaderText">On going projects</h4>
-			<h4>I also contribute to a data analysis system for the robotics team 1678 Citrus Circuits <a class ="linkText" href="https://www.citruscircuits.org/scouting.html">White papers</a></h4>
-			<br>
-			<h4 class="HeaderText">Here are the best ways to contact me</h4>
-			<h4>Email <a class="linkText" href="mailto:jake@jr0.org">jake@jr0.org</a></h4>
-			<h4>Google form <a class="linkText" href="https://forms.gle/TZtrSKbAwKEQNr6b7">Contact me</a>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Jr0.org</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Jake Roggenbuck</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repos.html">Repos</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repos.html">Repos</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+	  <h1 class="header center orange-text">Jr0.org</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A collection of Repos, Links, and Projects</h5>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+			  <a href="repos.html"><h2 class="center light-blue-text"><i class="material-icons">code</i></h2></a>
+            <h5 class="center">Repos</h5>
+			<p class="light">All of my repositories can be found on my <a href="https://github.com/jakeroggenbuck">Github</a>. I have some of my favorites highlighted on the <a href="repos.html">repos</a> page</p>
+          </div>
+        </div>
+		<div class="col s12 m4">
+          <div class="icon-block">
+			  <a href="links.html"><h2 class="center light-blue-text"><i class="material-icons">link</i></h2></a>
+            <h5 class="center">Links</h5>
+			<p class="light">Just a page to some links and helpful sites here <a href="links.html">links</a></p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+			  <a href="projects.html"><h2 class="center light-blue-text"><i class="material-icons">folder</i></h2></a>
+            <h5 class="center">Projects</h5>
+			<p class="light">Here is a list of projects I help with; <a href="projects.html">projects</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Jake Roggenbuck</h5>
+          <p class="grey-text text-lighten-4">A simple website for my projects and repos</p>
+        </div>
+        <div class="col l3 s12">
+		  <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="mailto:jake@jr0.org">jr0.org</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
 </html>
