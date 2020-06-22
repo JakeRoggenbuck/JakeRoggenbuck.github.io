@@ -1,0 +1,46 @@
+{
+    "rushnote":{
+	"name":"rushnote",
+	"desc":"Take quick notes from command line when in a rush."
+    },
+    "hashc":{
+	"name":"hashc",
+	"desc":"A small util to view hashes as color"
+    },
+    "st":{
+	"name":"st",
+	"desc":"Jakes fork of st"
+    },
+    "dwm":{
+	"name":"dwm",
+	"desc":"A simple window manager"
+    },
+	"dmenu":{
+	"name":"dmenu",
+	"desc":"A simple program runner"
+	},
+	"surf":{
+	"name":"surf",
+	"desc":"A simple browser"
+	},
+	"lwm":{
+	"name":"lwm",
+	"desc":"A simple wm"
+	},
+	"impulse":{
+	"name":"impulse",
+	"desc":"A simple package manager"
+	},
+	"rpi-smart-system":{
+	"name":"rpi-smart-system",
+	"desc":"GSSL is a simple raspberry pi gpio object library with tui"
+	},
+	"emojicopy":{
+	"name":"emojicopy",
+	"desc":"A small util to copy emojis"
+    },
+	"snow_script":{
+	"name":"snow_script",
+	"desc":"A simple and high/low macro lang, similar to pogscript with way nicer syntax"
+    }
+}
