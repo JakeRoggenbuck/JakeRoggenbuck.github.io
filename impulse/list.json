@@ -38,5 +38,9 @@
 	"emojicopy":{
 	"name":"emojicopy",
 	"desc":"A small util to copy emojis"
+    },
+	"snow_scipt":{
+	"name":"snow_scipt",
+	"desc":"A simple and high/low macro lang, similar to pogscript with way nicer syntax"
     }
 }
