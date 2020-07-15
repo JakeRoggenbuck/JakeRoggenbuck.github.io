@@ -42,5 +42,9 @@
 	"snow_script":{
 	"name":"snow_script",
 	"desc":"A simple and high/low macro lang, similar to pogscript with way nicer syntax"
-    }
+    },
+	"amethyst":{
+	"name":"amethyst",
+	"desc":"A simple package manager written in ruby"
+	}
 }
