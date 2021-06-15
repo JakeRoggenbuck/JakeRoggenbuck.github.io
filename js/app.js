@@ -52,7 +52,7 @@ function populate_repos(data, id) {
 
     var link = document.createElement("a");
     link.setAttribute("class", "light");
-    link.setAttribute("href", entry["url"]);
+    link.setAttribute("href", entry["html_url"]);
 
     // Create text nodes
     var nodeName = document.createTextNode(entry["name"]);
