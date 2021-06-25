@@ -2231,3 +2231,14 @@ var links_data = [
     url: "https://github.com/jakeroggenbuck",
   },
 ];
+
+var tutoring_data = [
+  {
+    logo: "url",
+    name: "Intro to python",
+    description: "a description",
+    grade_recommendation: "1st",
+    prerequisites: ["python 1", "python 2"],
+    times_available: ["day 1", "day 2"],
+  },
+];

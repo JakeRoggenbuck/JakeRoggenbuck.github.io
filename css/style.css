@@ -1,17 +1,19 @@
 :root {
-  --primary-color: #302ae6;
-  --secondary-color: #536390;
+  --primary-color: #29b6f6;
+  --secondary-color: #fdb549;
   --font-color: #424242;
   --bg-color: #fff;
   --heading-color: #292922;
+  --light-element: #dedede;
 }
 
 [data-theme="dark"] {
-  --primary-color: #9a97f3;
-  --secondary-color: #818cab;
+  --primary-color: #29b6f6;
+  --secondary-color: #fdb549;
   --font-color: #e1e1ff;
   --bg-color: #232220;
   --heading-color: #818cab;
+  --light-element: #282725;
 }
 
 body {
@@ -96,4 +98,17 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.tutor-class-frame {
+  background: var(--light-element);
+  border-radius: 16px;
+}
+
+.prerequisites {
+  color: var(--primary-color);
+}
+
+.avalible-times {
+  color: var(--secondary-color);
 }
