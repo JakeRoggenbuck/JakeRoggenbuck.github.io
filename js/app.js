@@ -110,41 +110,34 @@ function populate_tutoring(data, id) {
     var nodeName = document.createTextNode(entry["name"]);
     var nodeDesc = document.createTextNode(entry["description"]);
 
+    make_list = (data_point, div) => {
+      var data_points = entry[data_point];
+      for (let i = 0; i < data_points.length; i++) {
+        var this_data_point = data_points[i];
+        // Create the text node for a data_point
+        var data_point_text = document.createTextNode(this_data_point);
+
+        // Make an element the text will be appended to
+        var data_points_element = document.createElement("p");
+        data_points_element.setAttribute("class", "light");
+
+        // Add the text to the element
+        data_points_element.appendChild(data_point_text);
+        // Add the element to the main div of all the data_points
+        div.appendChild(data_points_element);
+      }
+    };
+
     // Makes the list of prerequisites in a div
     var prerequisites_div = document.createElement("div");
     prerequisites_div.setAttribute("class", "prerequisites");
-
-    var prerequisites = entry["prerequisites"];
-    for (let i = 0; i < prerequisites.length; i++) {
-      var prerequisite = prerequisites[i];
-      // Create the text node for a prerequisite
-      var prerequisite_text = document.createTextNode(prerequisite);
-
-      // Make an element the text will be appended to
-      var prerequisites_element = document.createElement("p");
-      prerequisites_element.setAttribute("class", "light");
-
-      // Add the text to the element
-      prerequisites_element.appendChild(prerequisite_text);
-      // Add the element to the main div of all the prerequisites
-      prerequisites_div.appendChild(prerequisites_element);
-    }
+    make_list("prerequisites", prerequisites_div);
 
     var avalible_times_div = document.createElement("div");
     avalible_times_div.setAttribute("class", "avalible-times");
 
     var times_available = entry["times_available"];
-    for (let i = 0; i < times_available.length; i++) {
-      var avalible_time = times_available[i];
-      var avalible_time_text = document.createTextNode(avalible_time);
-
-      // Create the list of avalible times
-      var times_available_element = document.createElement("p");
-      times_available_element.setAttribute("class", "light");
-
-      times_available_element.appendChild(avalible_time_text);
-      avalible_times_div.appendChild(times_available_element);
-    }
+    make_list("times_available", avalible_times_div);
 
     // Append text nodes to elements
     name.appendChild(nodeName);
