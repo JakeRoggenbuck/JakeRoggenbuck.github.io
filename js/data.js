@@ -2241,4 +2241,22 @@ var tutoring_data = [
     prerequisites: ["python 1", "python 2"],
     times_available: ["day 1", "day 2"],
   },
+
+  {
+    logo: "urldsf",
+    name: "Intro to pythondsffds",
+    description: "a descriptionsdffsd",
+    grade_recommendation: "1stsdfds",
+    prerequisites: ["pythonsdf 1", "python 2sdf"],
+    times_available: ["dasdfy 1", "day 2sdf"],
+  },
+
+  {
+    logo: "urldsf",
+    name: "Intro to pythondsffds",
+    description: "a descriptionsdffsd",
+    grade_recommendation: "1stsdfds",
+    prerequisites: ["pythonsdf 1", "python 2sdf"],
+    times_available: ["dasdfy 1", "day 2sdf"],
+  },
 ];

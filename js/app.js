@@ -104,6 +104,8 @@ function populate_tutoring(data, id) {
     var desc = document.createElement("p");
     desc.setAttribute("class", "light");
 
+    var elementEntrys = document.getElementById(id);
+
     // Create text nodes
     var nodeName = document.createTextNode(entry["name"]);
     var nodeDesc = document.createTextNode(entry["description"]);
@@ -113,7 +115,7 @@ function populate_tutoring(data, id) {
     prerequisites_div.setAttribute("class", "prerequisites");
 
     var prerequisites = entry["prerequisites"];
-    for (var i = 0; i < prerequisites.length; i++) {
+    for (let i = 0; i < prerequisites.length; i++) {
       var prerequisite = prerequisites[i];
       // Create the text node for a prerequisite
       var prerequisite_text = document.createTextNode(prerequisite);
@@ -132,7 +134,7 @@ function populate_tutoring(data, id) {
     avalible_times_div.setAttribute("class", "avalible-times");
 
     var times_available = entry["times_available"];
-    for (var i = 0; i < times_available.length; i++) {
+    for (let i = 0; i < times_available.length; i++) {
       var avalible_time = times_available[i];
       var avalible_time_text = document.createTextNode(avalible_time);
 
@@ -155,7 +157,6 @@ function populate_tutoring(data, id) {
     frame.appendChild(avalible_times_div);
 
     // Append xib to entrys
-    var elementEntrys = document.getElementById(id);
     elementEntrys.appendChild(frame);
   }
 }
