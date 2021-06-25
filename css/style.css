@@ -103,6 +103,7 @@ input:checked + .slider:before {
 .tutor-class-frame {
   background: var(--light-element);
   border-radius: 16px;
+  min-height: 100px;
 }
 
 .prerequisites {
