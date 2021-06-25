@@ -92,11 +92,14 @@ function populate_repos(data, id) {
 }
 
 function populate_tutoring(data, id) {
+  var current_row = document.createElement("div");
+  current_row.setAttribute("class", "row tutor-row");
+
   for (var i = 0; i < data.length; i++) {
     var entry = data[i];
 
     var frame = document.createElement("div");
-    frame.setAttribute("class", "tutor-class-frame");
+    frame.setAttribute("class", "tutor-class-frame col");
 
     var name = document.createElement("h5");
     name.setAttribute("class", "center");
@@ -149,8 +152,14 @@ function populate_tutoring(data, id) {
     frame.appendChild(prerequisites_div);
     frame.appendChild(avalible_times_div);
 
-    // Append xib to entrys
-    elementEntrys.appendChild(frame);
+    if (current_row.childNodes.length < 3) {
+      current_row.appendChild(frame);
+    }
+    if (current_row.childNodes.length == 3) {
+      elementEntrys.appendChild(current_row);
+      current_row = document.createElement("div");
+      current_row.setAttribute("class", "row tutor-row");
+    }
   }
 }
 

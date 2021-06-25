@@ -100,10 +100,25 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+#tutoring_entrys {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
 .tutor-class-frame {
   background: var(--light-element);
   border-radius: 16px;
-  min-height: 100px;
+
+  min-width: 300px;
+  max-width: 300px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tutor-row .tutor-class-frame {
+  min-height: 300px;
 }
 
 .prerequisites {
