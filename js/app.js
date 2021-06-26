@@ -115,6 +115,7 @@ function populate_tutoring(data, id) {
 
     make_list = (data_point, div) => {
       var data_points = entry[data_point];
+      var list = document.createElement("ul");
       for (let i = 0; i < data_points.length; i++) {
         var this_data_point = data_points[i];
         // Create the text node for a data_point
@@ -124,16 +125,29 @@ function populate_tutoring(data, id) {
         var data_points_element = document.createElement("p");
         data_points_element.setAttribute("class", "light");
 
+        var list_element = document.createElement("li");
+        list_element.setAttribute("class", "list-item");
+
         // Add the text to the element
         data_points_element.appendChild(data_point_text);
+        list_element.appendChild(data_points_element);
         // Add the element to the main div of all the data_points
-        div.appendChild(data_points_element);
+        list.appendChild(list_element);
       }
+      div.appendChild(list);
     };
 
     // Makes the list of prerequisites in a div
     var prerequisites_div = document.createElement("div");
     prerequisites_div.setAttribute("class", "prerequisites");
+    if (entry["prerequisites"].length != 0) {
+      // Make a title that says "Prerequisites" if there are prerequisites
+      var prereq_title_element = document.createElement("p");
+      prereq_title_element.setAttribute("class", "light prerequisites-title");
+      var prereq_title = document.createTextNode("Recommended prerequisites:");
+      prereq_title_element.appendChild(prereq_title);
+      prerequisites_div.appendChild(prereq_title_element);
+    }
     make_list("prerequisites", prerequisites_div);
 
     var avalible_times_div = document.createElement("div");
@@ -141,6 +155,16 @@ function populate_tutoring(data, id) {
 
     var times_available = entry["times_available"];
     make_list("times_available", avalible_times_div);
+
+    var signup_title = document.createTextNode("Sign Up");
+    var signup = document.createElement("button");
+    signup.setAttribute("class", "btn signup-button");
+
+    var signup_link = document.createElement("a");
+    signup_link.setAttribute("href", entry["url"]);
+
+    signup.appendChild(signup_title);
+    signup_link.appendChild(signup);
 
     // Append text nodes to elements
     name.appendChild(nodeName);
@@ -151,6 +175,7 @@ function populate_tutoring(data, id) {
     frame.appendChild(desc);
     frame.appendChild(prerequisites_div);
     frame.appendChild(avalible_times_div);
+    frame.appendChild(signup_link);
 
     if (current_row.childNodes.length < 3) {
       current_row.appendChild(frame);

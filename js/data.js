@@ -2240,6 +2240,7 @@ var tutoring_data = [
     grade_recommendation: "1st",
     prerequisites: [],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
 
   {
@@ -2249,6 +2250,7 @@ var tutoring_data = [
     grade_recommendation: "4th",
     prerequisites: ["Intro to python"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
 
   {
@@ -2259,6 +2261,7 @@ var tutoring_data = [
     grade_recommendation: "6th",
     prerequisites: ["Intermediate Python"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
     logo: "url",
@@ -2267,6 +2270,7 @@ var tutoring_data = [
     grade_recommendation: "1st",
     prerequisites: [],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
     logo: "url",
