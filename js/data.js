@@ -2234,7 +2234,6 @@ var links_data = [
 
 var tutoring_data = [
   {
-    logo: "url",
     name: "Intro to Python",
     description:
       "Learn the basics of programming with the Python Language. Learn variables, functions, control flow and more. The approach to learning in this class is applicable when learning any language or programming skill and is and amazing way to start.",
@@ -2243,7 +2242,6 @@ var tutoring_data = [
     url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intermediate Python",
     description:
       "Learn problem solving and algorithms in Python. The implementation of algorithms is one of the most sought-after skill in the industry.",
@@ -2252,7 +2250,6 @@ var tutoring_data = [
     url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Advanced Python",
     description:
       "Learn advanced programming topics through the use of Python and it's many libraries.",
@@ -2261,7 +2258,6 @@ var tutoring_data = [
     url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intro to Javascript",
     description:
       "Learn the basics of programming in Javascript. Javascript is the most popular language, and has tons of uses in the Web. Javascript is used in lots of places in learning and industry.",
@@ -2270,66 +2266,67 @@ var tutoring_data = [
     url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intermediate Javascript",
     description:
       "Javascript is an amazing language when learned correctly. This class will be expanding on ideas from the intro class to perfect skills with Javascript.",
     prerequisites: ["Intro to Javascript"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intro to Rust",
     description:
       "Learn the basics of programming in Rust. Rust is one of the fastest growing languages, with great reasons to learn it.",
     prerequisites: [],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intermediate Rust",
     description: "Learn more complex ideas about algorithms in Rust.",
     prerequisites: ["Intro to Rust"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
 
   {
-    logo: "url",
     name: "Intro to C++",
     description:
       "An introduction to a great, modern systems level language. As one of the most used languages of programs and operating system, C++ is a great language to learn.",
     prerequisites: [],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intermediate C++",
     description:
       "A more in-depth look into the ideas about optimization and memory.",
     prerequisites: ["Intro to C++"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intro to Java",
     description:
       "Java continues to be extremely relevant, and a great way to learn programming, having uses in game development, and system level software, as well as being used by lots of notable Robotics teams.",
     prerequisites: [],
+    times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "APIs and Web Frameworks",
     description:
       "APIs and Web Frameworks are extremely important to the web, and continue to grow in importance. This class will teach things like Python Flask, FastAPI, and requests.",
     prerequisites: ["Intro to Python or Intro to Rust"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
   {
-    logo: "url",
     name: "Intro to Object Oriented Programming",
     description:
       "Covered in part by other classes, however the primary focus of this class is Object Oriented Programming.",
     prerequisites: ["Intro to C++, Rust, or Python"],
     times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
   },
 ];
