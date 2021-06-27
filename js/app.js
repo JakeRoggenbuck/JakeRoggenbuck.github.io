@@ -146,6 +146,7 @@ function populate_tutoring(data, id) {
       prereq_title_element.setAttribute("class", "light prerequisites-title");
       var prereq_title = document.createTextNode("Recommended prerequisites:");
       prereq_title_element.appendChild(prereq_title);
+
       prerequisites_div.appendChild(prereq_title_element);
     }
     make_list("prerequisites", prerequisites_div);

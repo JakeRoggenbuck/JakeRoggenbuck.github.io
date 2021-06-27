@@ -115,9 +115,12 @@ input:checked + .slider:before {
   min-width: 300px;
   max-width: 300px;
 
+  height: 400px;
+
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
 }
 
 .tutor-row .tutor-class-frame {
@@ -126,14 +129,13 @@ input:checked + .slider:before {
 
 .prerequisites {
   color: var(--primary-color);
+  position: relative;
 }
 
 .prerequisite {
-  margin: 0px;
 }
 
 .prerequisites-title {
-  margin: 0px;
 }
 
 .avalible-times {
@@ -148,6 +150,9 @@ input:checked + .slider:before {
 
 .signup-button {
   background-color: var(--primary-color);
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
 
 .signup-button:hover {
