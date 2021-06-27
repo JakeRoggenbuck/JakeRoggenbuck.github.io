@@ -116,6 +116,7 @@ function populate_tutoring(data, id) {
     make_list = (data_point, div) => {
       var data_points = entry[data_point];
       var list = document.createElement("ul");
+      list.setAttribute("class", "prerequisites-list");
       for (let i = 0; i < data_points.length; i++) {
         var this_data_point = data_points[i];
         // Create the text node for a data_point
@@ -163,6 +164,7 @@ function populate_tutoring(data, id) {
 
     var signup_link = document.createElement("a");
     signup_link.setAttribute("href", entry["url"]);
+    signup_link.setAttribute("target", "_blank");
 
     signup.appendChild(signup_title);
     signup_link.appendChild(signup);
