@@ -6,7 +6,7 @@
   --font-color: #424242;
   --bg-color: #fff;
   --heading-color: #292922;
-  --light-element: #dedede;
+  --light-element: #f1f1f1;
 }
 
 [data-theme="dark"] {
@@ -136,9 +136,11 @@ input:checked + .slider:before {
 }
 
 .prerequisites-list {
+  margin-top: -16px;
 }
 
 .prerequisites-title {
+  margin-bottom: -10px;
 }
 
 .avalible-times {

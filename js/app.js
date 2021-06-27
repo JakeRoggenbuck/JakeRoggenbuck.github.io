@@ -52,7 +52,7 @@ function populate_repos(data, id) {
     desc.setAttribute("class", "light");
 
     var lang = document.createElement("p");
-    lang.setAttribute("class", "light");
+    lang.setAttribute("class", "heavy");
 
     var link = document.createElement("a");
     link.setAttribute("class", "light");
@@ -145,7 +145,7 @@ function populate_tutoring(data, id) {
       // Make a title that says "Prerequisites" if there are prerequisites
       var prereq_title_element = document.createElement("p");
       prereq_title_element.setAttribute("class", "light prerequisites-title");
-      var prereq_title = document.createTextNode("Recommended prerequisites:");
+      var prereq_title = document.createTextNode("Recommended prerequisite:");
       prereq_title_element.appendChild(prereq_title);
 
       prerequisites_div.appendChild(prereq_title_element);
