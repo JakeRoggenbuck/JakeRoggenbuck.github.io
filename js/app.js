@@ -24,7 +24,7 @@ function rank_repos(repos) {
   return repos;
 }
 
-function sortRepos(repos) {
+function sort_repos(repos) {
   repos.sort(function (first, second) {
     return first.rank != second.rank ? (first.rank < second.rank ? -1 : 1) : 0;
   });
@@ -32,16 +32,18 @@ function sortRepos(repos) {
 }
 
 function populate_repos(data, id) {
-  var data = rank_repos(data);
-  var data = sortRepos(data);
+  data = sort_repos(rank_repos(data));
 
   for (var i = 0; i < data.length; i++) {
     var entry = data[i];
+
     var col = document.createElement("div");
     col.setAttribute("class", "col s12 m4");
     col.setAttribute("margin-bottom", "100px");
+
     var ico = document.createElement("div");
     ico.setAttribute("class", "icon-block");
+
     var space = document.createElement("div");
     space.setAttribute("class", "space");
 
@@ -154,8 +156,6 @@ function populate_tutoring(data, id) {
 
     var avalible_times_div = document.createElement("div");
     avalible_times_div.setAttribute("class", "avalible-times");
-
-    var times_available = entry["times_available"];
     make_list("times_available", avalible_times_div);
 
     var signup_title = document.createTextNode("Sign Up");

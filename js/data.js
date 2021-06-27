@@ -2246,7 +2246,7 @@ var tutoring_data = [
     logo: "url",
     name: "Intermediate Python",
     description:
-      "Learn problem solving and algorithms in Python. The implementaion of algorithms is one of the most sought-after skill in the industry.",
+      "Learn problem solving and algorithms in Python. The implementation of algorithms is one of the most sought-after skill in the industry.",
     prerequisites: ["Intro to python"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
@@ -2315,7 +2315,6 @@ var tutoring_data = [
     description:
       "Java continues to be extremely relevant, and a great way to learn programming, having uses in game development, and system level software, as well as being used by lots of notable Robotics teams.",
     prerequisites: [],
-    times_available: [],
   },
   {
     logo: "url",
@@ -2327,7 +2326,7 @@ var tutoring_data = [
   },
   {
     logo: "url",
-    name: "Intro Object Oriented Programming",
+    name: "Intro to Object Oriented Programming",
     description:
       "Covered in part by other classes, however the primary focus of this class is Object Oriented Programming.",
     prerequisites: ["Intro to C++, Rust, or Python"],
