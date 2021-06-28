@@ -107,13 +107,17 @@ function populate_tutoring(data, id) {
     name.setAttribute("class", "center");
 
     var desc = document.createElement("p");
-    desc.setAttribute("class", "light");
+    desc.setAttribute("class", "light description");
+
+    var teachers = document.createElement("p");
+    teachers.setAttribute("class", "light teachers");
 
     var elementEntrys = document.getElementById(id);
 
     // Create text nodes
     var nodeName = document.createTextNode(entry["name"]);
     var nodeDesc = document.createTextNode(entry["description"]);
+    var nodeTeach = document.createTextNode("Teachers: " + entry["teachers"]);
 
     make_list = (data_point, div) => {
       var data_points = entry[data_point];
@@ -172,11 +176,13 @@ function populate_tutoring(data, id) {
     // Append text nodes to elements
     name.appendChild(nodeName);
     desc.appendChild(nodeDesc);
+    teachers.appendChild(nodeTeach);
 
     // Append elements to xib
     frame.appendChild(name);
     frame.appendChild(desc);
     frame.appendChild(prerequisites_div);
+    frame.appendChild(teachers);
     frame.appendChild(avalible_times_div);
     frame.appendChild(signup_link);
 

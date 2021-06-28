@@ -123,6 +123,10 @@ input:checked + .slider:before {
   position: relative;
 }
 
+.description {
+  padding-bottom: 10px;
+}
+
 .tutor-row .tutor-class-frame {
   min-height: 300px;
 }
@@ -151,6 +155,10 @@ input:checked + .slider:before {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+.teachers {
+  color: var(--secondary-color);
 }
 
 .signup-button {

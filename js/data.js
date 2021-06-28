@@ -2240,6 +2240,7 @@ var tutoring_data = [
     prerequisites: [],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intermediate Python",
@@ -2248,6 +2249,7 @@ var tutoring_data = [
     prerequisites: ["Intro to python"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Advanced Python",
@@ -2256,6 +2258,7 @@ var tutoring_data = [
     prerequisites: ["Intermediate Python"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intro to Javascript",
@@ -2264,6 +2267,7 @@ var tutoring_data = [
     prerequisites: [],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intermediate Javascript",
@@ -2272,6 +2276,7 @@ var tutoring_data = [
     prerequisites: ["Intro to Javascript"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intro to Rust",
@@ -2280,6 +2285,7 @@ var tutoring_data = [
     prerequisites: [],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intermediate Rust",
@@ -2287,8 +2293,8 @@ var tutoring_data = [
     prerequisites: ["Intro to Rust"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
-
   {
     name: "Intro to C++",
     description:
@@ -2296,6 +2302,7 @@ var tutoring_data = [
     prerequisites: [],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intermediate C++",
@@ -2304,6 +2311,7 @@ var tutoring_data = [
     prerequisites: ["Intro to C++"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
   {
     name: "Intro to Java",
@@ -2312,6 +2320,16 @@ var tutoring_data = [
     prerequisites: [],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R, Cameron B"],
+  },
+  {
+    name: "Intermidiate to Java",
+    description:
+      "Java is one of the best languages for learning. Java can be used for all sorts of things in industry and is a great language to learn complex ideas with. Learn about classes, objects, polymorphism and more in the Intermediate class.",
+    prerequisites: ["Intro to Java"],
+    times_available: [],
+    url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R, Cameron B"],
   },
   {
     name: "APIs and Web Frameworks",
@@ -2320,13 +2338,6 @@ var tutoring_data = [
     prerequisites: ["Intro to Python or Intro to Rust"],
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
-  },
-  {
-    name: "Intro to Object Oriented Programming",
-    description:
-      "Covered in part by other classes, however the primary focus of this class is Object Oriented Programming.",
-    prerequisites: ["Intro to C++, Rust, or Python"],
-    times_available: [],
-    url: "https://forms.gle/WGMkphCnRN56fKc96",
+    teachers: ["Jake R"],
   },
 ];
