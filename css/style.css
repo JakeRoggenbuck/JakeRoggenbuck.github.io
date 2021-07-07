@@ -171,3 +171,8 @@ input:checked + .slider:before {
 .signup-button:hover {
   background-color: var(--primary-color-hover);
 }
+
+.recommended {
+  color: var(--secondary-color);
+  font-size: 20px;
+}

@@ -2241,6 +2241,7 @@ var tutoring_data = [
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
     teachers: ["Jake R"],
+    recommended: true,
   },
   {
     name: "Intermediate Python",
@@ -2268,6 +2269,7 @@ var tutoring_data = [
     times_available: [],
     url: "https://forms.gle/WGMkphCnRN56fKc96",
     teachers: ["Jake R"],
+    recommended: true,
   },
   {
     name: "Intermediate Javascript",

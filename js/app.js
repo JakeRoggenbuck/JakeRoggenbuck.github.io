@@ -110,12 +110,17 @@ function populate_tutoring(data, id) {
     desc.setAttribute("class", "light description");
 
     var teachers = document.createElement("p");
-    teachers.setAttribute("class", "light teachers");
+    teachers.setAttribute("class", "teachers");
+
+    var recommended = document.createElement("p");
+    recommended.setAttribute("class", "recommended");
 
     var elementEntrys = document.getElementById(id);
 
     // Create text nodes
-    var nodeName = document.createTextNode(entry["name"]);
+    var nodeName = document.createTextNode(
+      entry["recommended"] === true ? "⭐ " + entry["name"] : entry["name"]
+    );
     var nodeDesc = document.createTextNode(entry["description"]);
     var nodeTeach = document.createTextNode("Teachers: " + entry["teachers"]);
 
@@ -181,6 +186,13 @@ function populate_tutoring(data, id) {
     // Append elements to xib
     frame.appendChild(name);
     frame.appendChild(desc);
+
+    if (entry["recommended"] === true) {
+      var nodeRecommended = document.createTextNode("Recommended");
+      recommended.appendChild(nodeRecommended);
+      frame.appendChild(recommended);
+    }
+
     frame.appendChild(prerequisites_div);
     frame.appendChild(teachers);
     frame.appendChild(avalible_times_div);
