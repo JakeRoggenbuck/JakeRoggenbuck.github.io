@@ -2222,6 +2222,16 @@ var projects_data = [
     desc: "The Da Vinci Computer Science website",
     url: "https://sites.google.com/djusdstudents.org/dv-cshs",
   },
+  {
+    name: "Citrus Circuits",
+    desc: "A high school robotics team",
+    url: "https://www.citruscircuits.org/",
+  },
+  {
+    name: "Server",
+    desc: "A data analysis project for the Citrus Circuits robotics team",
+    url: "https://github.com/JakeRoggenbuck/server-public",
+  },
 ];
 
 var links_data = [
