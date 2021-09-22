@@ -2209,17 +2209,22 @@ var repos_data = [
 var projects_data = [
   {
     name: 'QME Games',
-    desc: 'A game development group',
+    desc: 'Project Manager of the development group',
     url: 'https://github.com/qmegame/',
   },
   {
     name: 'Software Club',
-    desc: 'A club dedicated to teaching members of the DVCA High School how to write useful software and prepare for industry.',
+    desc: 'Presedent of club dedicated to teaching members of the DVCA High School how to write useful software and prepare for industry.',
     url: 'https://jr0.org/software-club.html',
   },
   {
     name: 'DHS Gamedev',
-    desc: 'A game development club',
+    desc: 'Project Manager of the DHS development club',
+    url: 'https://github.com/dhs-gamedev/',
+  },
+  {
+    name: 'DHS Coding Club',
+    desc: 'Project Manager of the DHS Coding Club',
     url: 'https://github.com/dhs-gamedev/',
   },
   {
