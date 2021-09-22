@@ -2214,7 +2214,7 @@ var projects_data = [
   },
   {
     name: 'Software Club',
-    desc: 'Presedent of a club dedicated to teaching members of the DVCA High School how to write useful software and prepare for industry.',
+    desc: 'President of a club dedicated to teaching members of the DVCA High School how to write useful software and prepare for industry.',
     url: 'https://jr0.org/software-club.html',
   },
   {
