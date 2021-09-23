@@ -1,0 +1,17 @@
+{
+  "auto_avg_balls_low": 35.8398,
+  "auto_avg_balls_high": 20.1135,
+  "auto_avg_balls_total": 22.559,
+  "tele_avg_balls_low": 87.466,
+  "tele_avg_balls_high": 21.2427,
+  "tele_avg_balls_total": 17.0952,
+  "avg_incap_time": 61.4018,
+  "auto_sd_balls_low": 99.7744,
+  "auto_sd_balls_high": 8.8245,
+  "tele_sd_balls_low": 95.0354,
+  "tele_sd_balls_high": 3.5811,
+  "tele_cp_rotation_successes": 98,
+  "tele_cp_position_successes": 87,
+  "climb_all_attempts": 69,
+  "team_number": 4665
+}
