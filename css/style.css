@@ -9,7 +9,7 @@
   --light-element: #f1f1f1;
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
   --primary-color: #29b6f6;
   --secondary-color: #fdb549;
   --font-color: #e1e1ff;
@@ -78,7 +78,7 @@ body {
 .slider:before {
   background-color: #fff;
   bottom: 2px;
-  content: "";
+  content: '';
   height: 26px;
   left: 2px;
   position: absolute;
@@ -175,4 +175,32 @@ input:checked + .slider:before {
 .recommended {
   color: var(--secondary-color);
   font-size: 20px;
+}
+
+.repos-container-div {
+  display: flex;
+  flex-flow: row wrap;
+
+  position: relative;
+  margin: auto;
+  width: 80%;
+  padding: 40px 10px 10px;
+}
+
+.repo-item-div {
+  margin: auto;
+  width: 400px;
+  max-width: 100%;
+
+  padding: 0 32px 32px 0;
+
+  border-radius: 8px;
+}
+
+.repo-item {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
 }
