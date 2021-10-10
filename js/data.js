@@ -9,16 +9,31 @@ var repos_data = [
     language: 'Shell',
     license: null,
     private: false,
+    created_at: 'October 31, 2019',
   },
   {
     name: '.wallpaper',
-    description: null,
+    description: 'A collection of wallpapers',
     html_url: 'https://github.com/JakeRoggenbuck/.wallpaper',
+    archived: false,
+    stargazers_count: 1,
+    language: null,
+    license: null,
+    private: false,
+    created_at: 'April 17, 2020',
+  },
+  {
+    name: '2021-software-general-homework',
+    description:
+      'Master repository for Software General members to fork and clone in order to upload their lessons to Github',
+    html_url:
+      'https://github.com/JakeRoggenbuck/2021-software-general-homework',
     archived: false,
     stargazers_count: 0,
     language: null,
     license: null,
     private: false,
+    created_at: 'August 23, 2021',
   },
   {
     name: 'advent-of-code',
@@ -29,6 +44,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'December 01, 2020',
   },
   {
     name: 'amethyst',
@@ -45,6 +61,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 14, 2020',
   },
   {
     name: 'Apollo-11',
@@ -62,6 +79,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTA=',
     },
     private: false,
+    created_at: 'February 20, 2020',
   },
   {
     name: 'arch_installer',
@@ -78,6 +96,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 23, 2020',
   },
   {
     name: 'argos-translate',
@@ -95,6 +114,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 21, 2021',
   },
   {
     name: 'asmura',
@@ -105,6 +125,25 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'March 24, 2020',
+  },
+  {
+    name: 'auto-clock-speed',
+    description:
+      'A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.',
+    html_url: 'https://github.com/JakeRoggenbuck/auto-clock-speed',
+    archived: false,
+    stargazers_count: 7,
+    language: 'Rust',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'July 07, 2021',
   },
   {
     name: 'BackgroundImageText',
@@ -115,6 +154,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'July 05, 2019',
   },
   {
     name: 'bash_startup',
@@ -131,6 +171,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'January 29, 2021',
   },
   {
     name: 'BestVimPlugins',
@@ -141,6 +182,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'October 26, 2020',
   },
   {
     name: 'bookmark-search',
@@ -152,6 +194,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'February 22, 2021',
   },
   {
     name: 'BrainF',
@@ -162,6 +205,7 @@ var repos_data = [
     language: 'Brainfuck',
     license: null,
     private: false,
+    created_at: 'March 16, 2020',
   },
   {
     name: 'break',
@@ -173,6 +217,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'June 24, 2020',
   },
   {
     name: 'bspswallow',
@@ -189,6 +234,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 01, 2020',
   },
   {
     name: 'calcLex',
@@ -199,6 +245,25 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'April 24, 2020',
+  },
+  {
+    name: 'Cardinal',
+    description:
+      'Cardinal is a web server that serves data from the frc1678/server project to the frc1678/viewer project.',
+    html_url: 'https://github.com/JakeRoggenbuck/Cardinal',
+    archived: false,
+    stargazers_count: 3,
+    language: 'Python',
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'September 16, 2021',
   },
   {
     name: 'CError',
@@ -210,6 +275,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 10, 2020',
   },
   {
     name: 'ChatApp',
@@ -220,6 +286,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 17, 2020',
   },
   {
     name: 'ChromeWebLauncher',
@@ -230,6 +297,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'January 20, 2019',
   },
   {
     name: 'claculator',
@@ -246,6 +314,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTE4',
     },
     private: false,
+    created_at: 'May 23, 2020',
   },
   {
     name: 'cli',
@@ -262,6 +331,18 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 19, 2020',
+  },
+  {
+    name: 'Clifford',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/Clifford',
+    archived: false,
+    stargazers_count: 0,
+    language: 'C++',
+    license: null,
+    private: false,
+    created_at: 'June 30, 2021',
   },
   {
     name: 'codinggames',
@@ -272,6 +353,41 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'December 23, 2019',
+  },
+  {
+    name: 'colorgradient',
+    description: 'A tool to generate gradients in python',
+    html_url: 'https://github.com/JakeRoggenbuck/colorgradient',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'February 20, 2021',
+  },
+  {
+    name: 'colorgradient-julia',
+    description: 'A tool in Julia to make color gradients',
+    html_url: 'https://github.com/JakeRoggenbuck/colorgradient-julia',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Julia',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'July 14, 2021',
   },
   {
     name: 'colorgradient-rs',
@@ -288,6 +404,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'May 01, 2021',
   },
   {
     name: 'Covid19-cases-tui',
@@ -298,6 +415,41 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 20, 2020',
+  },
+  {
+    name: 'cproc',
+    description: 'A small C preprocessor, written in C.',
+    html_url: 'https://github.com/JakeRoggenbuck/cproc',
+    archived: false,
+    stargazers_count: 0,
+    language: 'C',
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'July 04, 2021',
+  },
+  {
+    name: 'cpython',
+    description: 'The Python programming language',
+    html_url: 'https://github.com/JakeRoggenbuck/cpython',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'other',
+      name: 'Other',
+      spdx_id: 'NOASSERTION',
+      url: null,
+      node_id: 'MDc6TGljZW5zZTA=',
+    },
+    private: false,
+    created_at: 'August 31, 2021',
   },
   {
     name: 'cruz-lang',
@@ -308,6 +460,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 26, 2020',
   },
   {
     name: 'Crypto-Chat',
@@ -318,6 +471,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'January 25, 2020',
   },
   {
     name: 'crystal-colord',
@@ -334,6 +488,24 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'January 30, 2021',
+  },
+  {
+    name: 'cutil',
+    description: 'Some shell commands written in C',
+    html_url: 'https://github.com/JakeRoggenbuck/cutil',
+    archived: false,
+    stargazers_count: 0,
+    language: 'C',
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'July 20, 2021',
   },
   {
     name: 'dcbankofcarter',
@@ -344,6 +516,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'May 03, 2019',
   },
   {
     name: 'Deepai',
@@ -354,6 +527,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 11, 2020',
   },
   {
     name: 'Dictionary-tui',
@@ -364,6 +538,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 19, 2020',
   },
   {
     name: 'discord_keep_save',
@@ -374,6 +549,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 05, 2020',
   },
   {
     name: 'dmenuSpecialCharacterCopier',
@@ -384,6 +560,7 @@ var repos_data = [
     language: 'Shell',
     license: null,
     private: false,
+    created_at: 'March 19, 2020',
   },
   {
     name: 'door-lock',
@@ -400,6 +577,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'December 11, 2020',
   },
   {
     name: 'dotfiles',
@@ -408,9 +586,10 @@ var repos_data = [
     html_url: 'https://github.com/JakeRoggenbuck/dotfiles',
     archived: false,
     stargazers_count: 0,
-    language: 'Vim script',
+    language: 'Shell',
     license: null,
     private: false,
+    created_at: 'September 12, 2020',
   },
   {
     name: 'dotfiles-1',
@@ -421,6 +600,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'August 04, 2020',
   },
   {
     name: 'dot_dropper',
@@ -437,14 +617,15 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 26, 2020',
   },
   {
     name: 'draft.vim',
     description:
-      'Quickly writeup and save drafts for messaging apps in your favorite editor',
+      'Quickly writeup and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments.',
     html_url: 'https://github.com/JakeRoggenbuck/draft.vim',
     archived: false,
-    stargazers_count: 0,
+    stargazers_count: 1,
     language: 'Vim script',
     license: {
       key: 'mit',
@@ -454,6 +635,24 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'December 31, 2020',
+  },
+  {
+    name: 'dragon',
+    description: 'Drag and drop source/target for X',
+    html_url: 'https://github.com/JakeRoggenbuck/dragon',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'August 08, 2021',
   },
   {
     name: 'dwm',
@@ -470,6 +669,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 20, 2020',
   },
   {
     name: 'electronTBAViewer',
@@ -480,6 +680,25 @@ var repos_data = [
     language: 'JavaScript',
     license: null,
     private: false,
+    created_at: 'April 03, 2020',
+  },
+  {
+    name: 'EO-2021',
+    description:
+      'Solution for Earth Observing Dashboard 2021 Urban Societal Behavior Patterns Challenge',
+    html_url: 'https://github.com/JakeRoggenbuck/EO-2021',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'June 26, 2021',
   },
   {
     name: 'f09f',
@@ -497,6 +716,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'March 11, 2021',
   },
   {
     name: 'f09f-rs',
@@ -504,7 +724,7 @@ var repos_data = [
       'pronounced fonf; is a statically typed language with simple but powerful syntax, and an interpreter written in rust',
     html_url: 'https://github.com/JakeRoggenbuck/f09f-rs',
     archived: false,
-    stargazers_count: 0,
+    stargazers_count: 1,
     language: 'Rust',
     license: {
       key: 'mit',
@@ -514,6 +734,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 22, 2021',
   },
   {
     name: 'fastly-py',
@@ -530,6 +751,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'October 06, 2020',
   },
   {
     name: 'firefox-landing-page',
@@ -540,6 +762,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'April 23, 2020',
   },
   {
     name: 'firefox-landing-page-1',
@@ -550,6 +773,7 @@ var repos_data = [
     language: 'JavaScript',
     license: null,
     private: false,
+    created_at: 'May 20, 2020',
   },
   {
     name: 'firefoxThemes',
@@ -560,17 +784,18 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'March 17, 2020',
   },
   {
     name: 'flask-sql-login',
-    description:
-      'SQL login page: If this is insecure please let me know so I can fix it',
+    description: null,
     html_url: 'https://github.com/JakeRoggenbuck/flask-sql-login',
     archived: false,
     stargazers_count: 0,
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 21, 2020',
   },
   {
     name: 'FlaskSQLApp',
@@ -581,6 +806,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 09, 2020',
   },
   {
     name: 'flowerknight',
@@ -598,6 +824,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'June 01, 2021',
   },
   {
     name: 'fork-craft',
@@ -614,6 +841,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'March 21, 2020',
   },
   {
     name: 'fred',
@@ -630,6 +858,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'July 10, 2020',
   },
   {
     name: 'fumble_api',
@@ -641,6 +870,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 26, 2020',
   },
   {
     name: 'GalapagosReefOctopus',
@@ -651,6 +881,35 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'February 19, 2019',
+  },
+  {
+    name: 'game-2021',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/game-2021',
+    archived: false,
+    stargazers_count: 0,
+    language: 'C',
+    license: null,
+    private: false,
+    created_at: 'October 08, 2021',
+  },
+  {
+    name: 'game-design-scoring',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/game-design-scoring',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'February 06, 2021',
   },
   {
     name: 'git-lesson',
@@ -661,6 +920,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'November 08, 2019',
   },
   {
     name: 'git-training',
@@ -671,6 +931,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'January 02, 2019',
   },
   {
     name: 'gnome-clocks',
@@ -687,6 +948,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTg=',
     },
     private: false,
+    created_at: 'July 03, 2019',
   },
   {
     name: 'GPGExchange',
@@ -704,6 +966,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'August 18, 2020',
   },
   {
     name: 'gpg_passkeep',
@@ -714,6 +977,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 03, 2020',
   },
   {
     name: 'gpt-2',
@@ -731,6 +995,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'June 25, 2019',
   },
   {
     name: 'hash-colorer',
@@ -741,6 +1006,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'April 17, 2020',
   },
   {
     name: 'HexViewer',
@@ -757,6 +1023,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'November 29, 2020',
   },
   {
     name: 'hexviewer-rs',
@@ -774,6 +1041,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'May 04, 2021',
   },
   {
     name: 'Highlight',
@@ -784,6 +1052,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'July 25, 2019',
   },
   {
     name: 'ice',
@@ -800,6 +1069,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'October 06, 2020',
   },
   {
     name: 'ImgurApi',
@@ -816,6 +1086,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 29, 2020',
   },
   {
     name: 'ImportLint',
@@ -833,6 +1104,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'November 08, 2020',
   },
   {
     name: 'impulse',
@@ -843,6 +1115,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'April 17, 2020',
   },
   {
     name: 'inflector',
@@ -853,6 +1126,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'November 15, 2019',
   },
   {
     name: 'is_254_or_larger',
@@ -863,6 +1137,24 @@ var repos_data = [
     language: 'JavaScript',
     license: null,
     private: false,
+    created_at: 'June 14, 2020',
+  },
+  {
+    name: 'jai',
+    description: ' Jai is a programming language',
+    html_url: 'https://github.com/JakeRoggenbuck/jai',
+    archived: false,
+    stargazers_count: 3,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'August 20, 2021',
   },
   {
     name: 'jakeroggenbuck',
@@ -873,6 +1165,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'April 01, 2021',
   },
   {
     name: 'JakeRoggenbuck.github.io',
@@ -880,9 +1173,10 @@ var repos_data = [
     html_url: 'https://github.com/JakeRoggenbuck/JakeRoggenbuck.github.io',
     archived: false,
     stargazers_count: 0,
-    language: 'HTML',
+    language: 'JavaScript',
     license: null,
     private: false,
+    created_at: 'May 27, 2019',
   },
   {
     name: 'jakesutils',
@@ -899,6 +1193,18 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'November 07, 2020',
+  },
+  {
+    name: 'jam0001',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/jam0001',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: null,
+    private: false,
+    created_at: 'August 20, 2021',
   },
   {
     name: 'JARBS',
@@ -909,6 +1215,7 @@ var repos_data = [
     language: 'Shell',
     license: null,
     private: false,
+    created_at: 'November 03, 2019',
   },
   {
     name: 'JavaPong',
@@ -919,6 +1226,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'March 16, 2020',
   },
   {
     name: 'Journal.vim',
@@ -935,6 +1243,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'March 31, 2021',
   },
   {
     name: 'js-snake',
@@ -951,6 +1260,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'August 18, 2020',
   },
   {
     name: 'kotlin-todo-app',
@@ -961,6 +1271,7 @@ var repos_data = [
     language: 'Kotlin',
     license: null,
     private: false,
+    created_at: 'February 15, 2021',
   },
   {
     name: 'Lan-Website',
@@ -971,6 +1282,7 @@ var repos_data = [
     language: 'PHP',
     license: null,
     private: false,
+    created_at: 'March 17, 2020',
   },
   {
     name: 'learn-planck',
@@ -987,6 +1299,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'November 24, 2020',
   },
   {
     name: 'learningMachineLearning',
@@ -997,6 +1310,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 19, 2020',
   },
   {
     name: 'learningx86_assembly',
@@ -1007,6 +1321,7 @@ var repos_data = [
     language: 'Assembly',
     license: null,
     private: false,
+    created_at: 'August 08, 2020',
   },
   {
     name: 'learning_sql',
@@ -1017,6 +1332,42 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 04, 2020',
+  },
+  {
+    name: 'least-squares-regression',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/least-squares-regression',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Jupyter Notebook',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'July 17, 2021',
+  },
+  {
+    name: 'lesson-tester',
+    description:
+      'Test python code in the browser. Wrap code with specific lesson tests for code completeness grading. ',
+    html_url: 'https://github.com/JakeRoggenbuck/lesson-tester',
+    archived: false,
+    stargazers_count: 0,
+    language: 'JavaScript',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'August 27, 2021',
   },
   {
     name: 'lightBot',
@@ -1027,6 +1378,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'May 27, 2020',
   },
   {
     name: 'LimeOS',
@@ -1037,10 +1389,12 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'October 31, 2019',
   },
   {
     name: 'link',
-    description: null,
+    description:
+      'I url shortener using Rocket.rs & Diesel.rs; being used in production',
     html_url: 'https://github.com/JakeRoggenbuck/link',
     archived: false,
     stargazers_count: 0,
@@ -1053,6 +1407,35 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'May 26, 2021',
+  },
+  {
+    name: 'magic-identify',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/magic-identify',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'September 08, 2021',
+  },
+  {
+    name: 'mahou',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/mahou',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Rust',
+    license: null,
+    private: false,
+    created_at: 'May 20, 2021',
   },
   {
     name: 'markov-chain',
@@ -1069,6 +1452,18 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 12, 2021',
+  },
+  {
+    name: 'math',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/math',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Jupyter Notebook',
+    license: null,
+    private: false,
+    created_at: 'September 04, 2021',
   },
   {
     name: 'mechanize',
@@ -1085,6 +1480,18 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTA=',
     },
     private: false,
+    created_at: 'September 17, 2020',
+  },
+  {
+    name: 'MeditativeSquares',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/MeditativeSquares',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: null,
+    private: false,
+    created_at: 'August 07, 2021',
   },
   {
     name: 'minecraft_texture_packs',
@@ -1095,6 +1502,7 @@ var repos_data = [
     language: 'GLSL',
     license: null,
     private: false,
+    created_at: 'February 24, 2021',
   },
   {
     name: 'ModPackMaker',
@@ -1105,6 +1513,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 09, 2020',
   },
   {
     name: 'mongo-notes',
@@ -1115,6 +1524,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 10, 2020',
   },
   {
     name: 'mongoc',
@@ -1126,6 +1536,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 24, 2020',
   },
   {
     name: 'mongoc-rs',
@@ -1143,6 +1554,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'May 09, 2021',
   },
   {
     name: 'mongodb-login',
@@ -1153,6 +1565,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 05, 2020',
   },
   {
     name: 'mongodb_schema_check',
@@ -1163,6 +1576,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 23, 2020',
   },
   {
     name: 'mongofastlogger',
@@ -1180,6 +1594,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 27, 2020',
   },
   {
     name: 'MongoShortener',
@@ -1190,6 +1605,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 14, 2020',
   },
   {
     name: 'mongo_passkeep',
@@ -1200,6 +1616,18 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 16, 2020',
+  },
+  {
+    name: 'my-readme-image',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/my-readme-image',
+    archived: false,
+    stargazers_count: 0,
+    language: 'HTML',
+    license: null,
+    private: false,
+    created_at: 'June 30, 2021',
   },
   {
     name: 'n-rus-bot',
@@ -1216,6 +1644,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 16, 2020',
   },
   {
     name: 'nasa-spaceapps-2020',
@@ -1226,6 +1655,24 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'October 06, 2020',
+  },
+  {
+    name: 'nasa-spaceapps-2021',
+    description: 'Project for NASA Spaceapps 2021',
+    html_url: 'https://github.com/JakeRoggenbuck/nasa-spaceapps-2021',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'October 02, 2021',
   },
   {
     name: 'ned-bot',
@@ -1243,6 +1690,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 07, 2020',
   },
   {
     name: 'new-website',
@@ -1259,6 +1707,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'June 15, 2020',
   },
   {
     name: 'nitrogen-css',
@@ -1276,6 +1725,19 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'March 31, 2021',
+  },
+  {
+    name: 'novus-chart',
+    description:
+      'A modern looking, accessible medical chart application based on a MERN stack.',
+    html_url: 'https://github.com/JakeRoggenbuck/novus-chart',
+    archived: false,
+    stargazers_count: 0,
+    language: 'JavaScript',
+    license: null,
+    private: false,
+    created_at: 'June 30, 2021',
   },
   {
     name: 'nxyso_api',
@@ -1293,6 +1755,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 12, 2020',
   },
   {
     name: 'nxyso_definition_bot',
@@ -1303,6 +1766,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'June 24, 2020',
   },
   {
     name: 'openpilot',
@@ -1319,6 +1783,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'February 27, 2020',
   },
   {
     name: 'Paper',
@@ -1329,6 +1794,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'January 19, 2021',
   },
   {
     name: 'pathfinder',
@@ -1345,6 +1811,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'May 06, 2021',
   },
   {
     name: 'pinter',
@@ -1361,6 +1828,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'November 24, 2020',
   },
   {
     name: 'planck.vim',
@@ -1377,6 +1845,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'November 30, 2020',
   },
   {
     name: 'player_data_finder',
@@ -1387,6 +1856,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 19, 2020',
   },
   {
     name: 'pll',
@@ -1397,6 +1867,25 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'December 01, 2020',
+  },
+  {
+    name: 'plrs',
+    description:
+      'The multi-tool of lexical analysis and tokenization. Make parsers in less time for many use cases.',
+    html_url: 'https://github.com/JakeRoggenbuck/plrs',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Rust',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'July 29, 2021',
   },
   {
     name: 'pogscript',
@@ -1407,6 +1896,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'December 31, 2019',
   },
   {
     name: 'Polybot',
@@ -1417,6 +1907,7 @@ var repos_data = [
     language: 'C++',
     license: null,
     private: false,
+    created_at: 'December 18, 2019',
   },
   {
     name: 'Polybot-2',
@@ -1427,6 +1918,25 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'April 04, 2020',
+  },
+  {
+    name: 'ponyc',
+    description:
+      ':horse: Pony is an open-source, actor-model, capabilities-secure, high performance programming language',
+    html_url: 'https://github.com/JakeRoggenbuck/ponyc',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'bsd-2-clause',
+      name: 'BSD 2-Clause "Simplified" License',
+      spdx_id: 'BSD-2-Clause',
+      url: 'https://api.github.com/licenses/bsd-2-clause',
+      node_id: 'MDc6TGljZW5zZTQ=',
+    },
+    private: false,
+    created_at: 'September 01, 2021',
   },
   {
     name: 'position_reader',
@@ -1437,6 +1947,35 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 17, 2020',
+  },
+  {
+    name: 'programming-languages',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/programming-languages',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: null,
+    private: false,
+    created_at: 'August 28, 2021',
+  },
+  {
+    name: 'project-announcements',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/project-announcements',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'September 11, 2021',
   },
   {
     name: 'public-pgp-keys',
@@ -1447,6 +1986,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'July 10, 2020',
   },
   {
     name: 'pwntools',
@@ -1463,6 +2003,24 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTA=',
     },
     private: false,
+    created_at: 'January 12, 2020',
+  },
+  {
+    name: 'pylexlite',
+    description: 'A test of the early stages of plrs',
+    html_url: 'https://github.com/JakeRoggenbuck/pylexlite',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Rust',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'July 18, 2021',
   },
   {
     name: 'pyswitch',
@@ -1479,6 +2037,41 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 11, 2020',
+  },
+  {
+    name: 'pytest_assignments',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/pytest_assignments',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'September 18, 2021',
+  },
+  {
+    name: 'qme',
+    description: 'A game written in Java',
+    html_url: 'https://github.com/JakeRoggenbuck/qme',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'gpl-3.0',
+      name: 'GNU General Public License v3.0',
+      spdx_id: 'GPL-3.0',
+      url: 'https://api.github.com/licenses/gpl-3.0',
+      node_id: 'MDc6TGljZW5zZTk=',
+    },
+    private: false,
+    created_at: 'July 05, 2021',
   },
   {
     name: 'qme-launcher',
@@ -1489,6 +2082,7 @@ var repos_data = [
     language: 'Java',
     license: null,
     private: false,
+    created_at: 'February 02, 2021',
   },
   {
     name: 'qme-releases',
@@ -1499,6 +2093,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'February 01, 2021',
   },
   {
     name: 'qme5-server',
@@ -1509,6 +2104,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'January 21, 2021',
   },
   {
     name: 'Reddit_Downloader',
@@ -1519,6 +2115,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 11, 2020',
   },
   {
     name: 'reminder-bot',
@@ -1535,6 +2132,19 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'January 02, 2021',
+  },
+  {
+    name: 'rock',
+    description:
+      'A simple command line utility for manipulating standard in and out, similar to awk',
+    html_url: 'https://github.com/JakeRoggenbuck/rock',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Rust',
+    license: null,
+    private: false,
+    created_at: 'May 17, 2021',
   },
   {
     name: 'rocket-pinball',
@@ -1551,6 +2161,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 27, 2021',
   },
   {
     name: 'rocky',
@@ -1562,6 +2173,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'December 14, 2020',
   },
   {
     name: 'Route-Finding',
@@ -1572,6 +2184,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 24, 2020',
   },
   {
     name: 'RushNote',
@@ -1582,6 +2195,7 @@ var repos_data = [
     language: 'C++',
     license: null,
     private: false,
+    created_at: 'November 23, 2019',
   },
   {
     name: 'sapphire',
@@ -1598,6 +2212,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 20, 2020',
   },
   {
     name: 'SARS-CoV-2_Peplomer_Structure_Analysis',
@@ -1615,6 +2230,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 14, 2020',
   },
   {
     name: 'scouting-scripts',
@@ -1631,6 +2247,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'February 17, 2020',
   },
   {
     name: 'Scry',
@@ -1648,6 +2265,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'February 15, 2021',
   },
   {
     name: 'Seamonsters-2605.github.io',
@@ -1658,6 +2276,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'November 05, 2019',
   },
   {
     name: 'server-public',
@@ -1666,7 +2285,7 @@ var repos_data = [
     html_url: 'https://github.com/JakeRoggenbuck/server-public',
     archived: false,
     stargazers_count: 0,
-    language: null,
+    language: 'Python',
     license: {
       key: 'mit',
       name: 'MIT License',
@@ -1675,6 +2294,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'April 15, 2020',
   },
   {
     name: 'sfetch',
@@ -1685,6 +2305,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 22, 2020',
   },
   {
     name: 'Shredder',
@@ -1695,6 +2316,18 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 07, 2020',
+  },
+  {
+    name: 'Shuzhengz',
+    description: 'Profile Readme Repo',
+    html_url: 'https://github.com/JakeRoggenbuck/Shuzhengz',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: null,
+    private: false,
+    created_at: 'September 02, 2021',
   },
   {
     name: 'SignInWebApp',
@@ -1705,6 +2338,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'May 15, 2019',
   },
   {
     name: 'Skyometer',
@@ -1716,6 +2350,7 @@ var repos_data = [
     language: 'HTML',
     license: null,
     private: false,
+    created_at: 'September 03, 2019',
   },
   {
     name: 'snow_script',
@@ -1733,6 +2368,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'June 19, 2020',
   },
   {
     name: 'sodium',
@@ -1749,6 +2385,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'December 27, 2019',
   },
   {
     name: 'SoftwareGeneralFinalTests',
@@ -1759,6 +2396,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'September 25, 2020',
   },
   {
     name: 'sort-vis',
@@ -1775,6 +2413,19 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'March 29, 2020',
+  },
+  {
+    name: 'sorting-algorithms',
+    description:
+      'This repository contains a variety of sorting algorithms written in several programming languages.',
+    html_url: 'https://github.com/JakeRoggenbuck/sorting-algorithms',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Java',
+    license: null,
+    private: false,
+    created_at: 'June 29, 2021',
   },
   {
     name: 'spaceapp',
@@ -1791,6 +2442,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'June 24, 2019',
   },
   {
     name: 'spicetify-cli-extensions',
@@ -1807,6 +2459,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'November 26, 2020',
   },
   {
     name: 'spicetify-cli-themes',
@@ -1823,6 +2476,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'November 26, 2020',
   },
   {
     name: 'spicetify-customapps',
@@ -1840,6 +2494,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'January 18, 2021',
   },
   {
     name: 'spicetify-themes',
@@ -1857,6 +2512,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'March 28, 2021',
   },
   {
     name: 'SQLShortener',
@@ -1867,6 +2523,24 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 10, 2020',
+  },
+  {
+    name: 'stow-squid',
+    description: 'stow-squid - Stow your dotfiles',
+    html_url: 'https://github.com/JakeRoggenbuck/stow-squid',
+    archived: false,
+    stargazers_count: 3,
+    language: 'Rust',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'August 13, 2021',
   },
   {
     name: 'strategy_presentation_numpy',
@@ -1883,6 +2557,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'October 18, 2020',
   },
   {
     name: 'tap',
@@ -1893,6 +2568,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'August 29, 2020',
   },
   {
     name: 'tbaTestScripts',
@@ -1903,6 +2579,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 16, 2020',
   },
   {
     name: 'Terbot-2',
@@ -1913,6 +2590,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'March 25, 2020',
   },
   {
     name: 'Termitebot',
@@ -1923,6 +2601,7 @@ var repos_data = [
     language: 'C++',
     license: null,
     private: false,
+    created_at: 'December 18, 2019',
   },
   {
     name: 'testDiscordBot',
@@ -1933,6 +2612,7 @@ var repos_data = [
     language: 'JavaScript',
     license: null,
     private: false,
+    created_at: 'April 07, 2020',
   },
   {
     name: 'tlib',
@@ -1943,6 +2623,7 @@ var repos_data = [
     language: null,
     license: null,
     private: false,
+    created_at: 'December 13, 2019',
   },
   {
     name: 'typeschemalib',
@@ -1960,6 +2641,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'September 20, 2020',
   },
   {
     name: 'ursina',
@@ -1976,6 +2658,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'March 28, 2021',
   },
   {
     name: 'ursina-platform-game',
@@ -1986,6 +2669,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'March 29, 2021',
   },
   {
     name: 'valueourminds_website',
@@ -2002,6 +2686,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 07, 2020',
   },
   {
     name: 'vim-character-creator',
@@ -2018,6 +2703,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 08, 2020',
   },
   {
     name: 'vim-game-snake',
@@ -2034,6 +2720,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'August 02, 2020',
   },
   {
     name: 'vim-impulse-syntax',
@@ -2050,6 +2737,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'August 02, 2020',
   },
   {
     name: 'vim-selection-test',
@@ -2066,6 +2754,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 09, 2020',
   },
   {
     name: 'vim-snow-script-syntax',
@@ -2082,6 +2771,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 09, 2020',
   },
   {
     name: 'vimage.vim',
@@ -2098,6 +2788,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 26, 2020',
   },
   {
     name: 'Vorahk',
@@ -2108,6 +2799,25 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'May 27, 2020',
+  },
+  {
+    name: 'Vyxal',
+    description:
+      'A golfing language that has aspects of traditional programming languages.',
+    html_url: 'https://github.com/JakeRoggenbuck/Vyxal',
+    archived: false,
+    stargazers_count: 0,
+    language: null,
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'August 23, 2021',
   },
   {
     name: 'wallpaper_downloader',
@@ -2118,6 +2828,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'June 03, 2020',
   },
   {
     name: 'xdotool_python_window_util',
@@ -2134,6 +2845,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'July 29, 2020',
   },
   {
     name: 'yaml_serialize',
@@ -2144,6 +2856,7 @@ var repos_data = [
     language: 'Python',
     license: null,
     private: false,
+    created_at: 'October 10, 2020',
   },
   {
     name: 'yes-no-neural-network-classifier',
@@ -2161,6 +2874,18 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTEz',
     },
     private: false,
+    created_at: 'October 24, 2020',
+  },
+  {
+    name: 'Yutimim-dictionary-parser',
+    description: null,
+    html_url: 'https://github.com/JakeRoggenbuck/Yutimim-dictionary-parser',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: null,
+    private: false,
+    created_at: 'September 11, 2021',
   },
   {
     name: 'zerOS',
@@ -2171,6 +2896,7 @@ var repos_data = [
     language: 'Shell',
     license: null,
     private: false,
+    created_at: 'July 21, 2020',
   },
   {
     name: 'zflat',
@@ -2187,6 +2913,7 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'March 25, 2021',
   },
   {
     name: 'zflat.vim',
@@ -2203,6 +2930,24 @@ var repos_data = [
       node_id: 'MDc6TGljZW5zZTk=',
     },
     private: false,
+    created_at: 'March 25, 2021',
+  },
+  {
+    name: 'zipfs-law',
+    description: 'An example use of the library plrs',
+    html_url: 'https://github.com/JakeRoggenbuck/zipfs-law',
+    archived: false,
+    stargazers_count: 0,
+    language: 'Python',
+    license: {
+      key: 'mit',
+      name: 'MIT License',
+      spdx_id: 'MIT',
+      url: 'https://api.github.com/licenses/mit',
+      node_id: 'MDc6TGljZW5zZTEz',
+    },
+    private: false,
+    created_at: 'August 31, 2021',
   },
 ];
 
