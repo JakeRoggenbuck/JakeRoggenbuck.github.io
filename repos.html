@@ -57,6 +57,7 @@
         >
       </div>
     </nav>
+
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br /><br />
@@ -71,18 +72,13 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="section">
-        <div class="row">
-          <div id="repo_entrys">
-            <script>
-              populate_repos(repos_data, "repo_entrys");
-            </script>
-          </div>
-        </div>
-      </div>
-      <br /><br />
+
+    <div id="repo_entrys" class="repos-container-div">
+      <script>
+        populate_repos(repos_data, 'repo_entrys');
+      </script>
     </div>
+
     <footer class="page-footer lighter-orange">
       <div class="container">
         <div class="row">

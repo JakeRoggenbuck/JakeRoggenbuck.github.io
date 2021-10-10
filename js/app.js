@@ -38,7 +38,7 @@ function populate_repos(data, id) {
     var entry = data[i];
 
     var col = document.createElement("div");
-    col.setAttribute("class", "col s12 m4");
+    col.setAttribute("class", "repo-item");
     col.setAttribute("margin-bottom", "100px");
 
     var ico = document.createElement("div");
@@ -56,6 +56,9 @@ function populate_repos(data, id) {
     var lang = document.createElement("p");
     lang.setAttribute("class", "heavy");
 
+    var date = document.createElement("p");
+    date.setAttribute("class", "heavy");
+
     var link = document.createElement("a");
     link.setAttribute("class", "light");
     link.setAttribute("href", entry["html_url"]);
@@ -64,6 +67,7 @@ function populate_repos(data, id) {
     var nodeName = document.createTextNode(entry["name"]);
     var nodeDesc = document.createTextNode(entry["description"]);
     var nodeLang = document.createTextNode(entry["language"]);
+    var nodeDate = document.createTextNode(entry["created_at"]);
     var nodeLink = document.createTextNode(entry["html_url"]);
 
     // Get entrys element
@@ -73,6 +77,7 @@ function populate_repos(data, id) {
     name.appendChild(nodeName);
     desc.appendChild(nodeDesc);
     lang.appendChild(nodeLang);
+    date.appendChild(nodeDate);
     link.appendChild(nodeLink);
     // Append elements to xib
     ico.appendChild(name);
@@ -86,6 +91,7 @@ function populate_repos(data, id) {
     }
 
     ico.appendChild(link);
+    ico.appendChild(date);
     space.appendChild(ico);
     col.appendChild(space);
     // Append xib to entrys
