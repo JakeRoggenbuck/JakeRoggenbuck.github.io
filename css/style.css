@@ -198,7 +198,7 @@ input:checked + .slider:before {
 }
 
 .repo-item {
-  background-color: #ffffff;
+  background: var(--light-element);
   width: 300px;
   padding: 10px;
   margin: 20px;
