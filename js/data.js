@@ -2982,11 +2982,6 @@ var projects_data = [
     desc: 'A high school robotics team',
     url: 'https://www.citruscircuits.org/',
   },
-  {
-    name: 'Server',
-    desc: 'A data analysis project for the Citrus Circuits robotics team',
-    url: 'https://github.com/JakeRoggenbuck/server-public',
-  },
 ];
 
 var links_data = [
