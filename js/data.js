@@ -3203,65 +3203,74 @@ var tutoring_data = [
     teachers: ['Jake R'],
   },
   {
-    name: 'Intro to Rust',
+    name: 'Advanced Javascript',
     description:
-      'Learn the basics of programming in Rust. Rust is one of the fastest growing languages, with great reasons to learn it.',
-    prerequisites: [],
+      "Learn advanced programming topics through the use of Javascript and it's many frameworks and libraries.",
+    prerequisites: ['Intermediate Javascript'],
     times_available: [],
     url: 'https://forms.gle/WGMkphCnRN56fKc96',
     teachers: ['Jake R'],
   },
-  {
-    name: 'Intermediate Rust',
-    description: 'Learn more complex ideas about algorithms in Rust.',
-    prerequisites: ['Intro to Rust'],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R'],
-  },
-  {
-    name: 'Intro to C++',
-    description:
-      'An introduction to a great, modern systems level language. As one of the most used languages of programs and operating system, C++ is a great language to learn.',
-    prerequisites: [],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R'],
-  },
-  {
-    name: 'Intermediate C++',
-    description:
-      'A more in-depth look into the ideas about optimization and memory.',
-    prerequisites: ['Intro to C++'],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R'],
-  },
-  {
-    name: 'Intro to Java',
-    description:
-      'Java continues to be extremely relevant, and a great way to learn programming, having uses in game development, and system level software, as well as being used by lots of notable Robotics teams.',
-    prerequisites: [],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R, Cameron B'],
-  },
-  {
-    name: 'Intermidiate to Java',
-    description:
-      'Java is one of the best languages for learning. Java can be used for all sorts of things in industry and is a great language to learn complex ideas with. Learn about classes, objects, polymorphism and more in the Intermediate class.',
-    prerequisites: ['Intro to Java'],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R, Cameron B'],
-  },
-  {
-    name: 'APIs and Web Frameworks',
-    description:
-      'APIs and Web Frameworks are extremely important to the web, and continue to grow in importance. This class will teach things like Python Flask, FastAPI, and requests.',
-    prerequisites: ['Intro to Python or Intro to Rust'],
-    times_available: [],
-    url: 'https://forms.gle/WGMkphCnRN56fKc96',
-    teachers: ['Jake R'],
-  },
+  // {
+  //   name: 'Intro to Rust',
+  //   description:
+  //     'Learn the basics of programming in Rust. Rust is one of the fastest growing languages, with great reasons to learn it.',
+  //   prerequisites: [],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R'],
+  // },
+  // {
+  //   name: 'Intermediate Rust',
+  //   description: 'Learn more complex ideas about algorithms in Rust.',
+  //   prerequisites: ['Intro to Rust'],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R'],
+  // },
+  // {
+  //   name: 'Intro to C++',
+  //   description:
+  //     'An introduction to a great, modern systems level language. As one of the most used languages of programs and operating system, C++ is a great language to learn.',
+  //   prerequisites: [],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R'],
+  // },
+  // {
+  //   name: 'Intermediate C++',
+  //   description:
+  //     'A more in-depth look into the ideas about optimization and memory.',
+  //   prerequisites: ['Intro to C++'],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R'],
+  // },
+  // {
+  //   name: 'Intro to Java',
+  //   description:
+  //     'Java continues to be extremely relevant, and a great way to learn programming, having uses in game development, and system level software, as well as being used by lots of notable Robotics teams.',
+  //   prerequisites: [],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R, Cameron B'],
+  // },
+  // {
+  //   name: 'Intermidiate to Java',
+  //   description:
+  //     'Java is one of the best languages for learning. Java can be used for all sorts of things in industry and is a great language to learn complex ideas with. Learn about classes, objects, polymorphism and more in the Intermediate class.',
+  //   prerequisites: ['Intro to Java'],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R, Cameron B'],
+  // },
+  // {
+  //   name: 'APIs and Web Frameworks',
+  //   description:
+  //     'APIs and Web Frameworks are extremely important to the web, and continue to grow in importance. This class will teach things like Python Flask, FastAPI, and requests.',
+  //   prerequisites: ['Intro to Python or Intro to Rust'],
+  //   times_available: [],
+  //   url: 'https://forms.gle/WGMkphCnRN56fKc96',
+  //   teachers: ['Jake R'],
+  // },
 ];
