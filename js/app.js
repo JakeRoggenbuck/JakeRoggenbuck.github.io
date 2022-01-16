@@ -19,7 +19,7 @@ function rank_repos(repos) {
     reduce_when_not_null("language");
     reduce_when_greater_then_one("stargazers_count");
 
-    entry["rank"] = rank;
+    entry["rank"] = rank - parseInt(entry["stargazers_count"], 10);
   }
   return repos;
 }
