@@ -6,7 +6,7 @@
   --font-color: #424242;
   --bg-color: #fff;
   --heading-color: #292922;
-  --light-element: #f1f1f1;
+  --light-element: #f4f4f4;
 }
 
 [data-theme='dark'] {
@@ -193,8 +193,6 @@ input:checked + .slider:before {
   max-width: 100%;
 
   padding: 0 32px 32px 0;
-
-  border-radius: 8px;
 }
 
 .repo-item {
@@ -202,5 +200,5 @@ input:checked + .slider:before {
   width: 300px;
   padding: 10px;
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
