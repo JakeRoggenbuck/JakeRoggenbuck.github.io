@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Footer from './footer';
 import { graphql, useStaticQuery } from 'gatsby';
+import Home from '../components/home';
 
 import {
   pageStyles,
@@ -32,6 +33,7 @@ const DevlogPage = () => {
 
   return (
     <main style={pageStyles}>
+      <Home />
       <title>Devlog - Jake Roggenbuck</title>
       <h1 style={headingStyles}>Devlog</h1>
       <ul style={listStyles}>

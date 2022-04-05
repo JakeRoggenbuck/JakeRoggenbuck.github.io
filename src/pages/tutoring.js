@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Footer from './footer';
+import Home from '../components/home';
 
 import {
   pageStyles,
@@ -78,6 +79,7 @@ const links = [
 const TutoringPage = () => {
   return (
     <main style={pageStyles}>
+      <Home />
       <title>Tutoring - Jake Roggenbuck</title>
       <h1 style={headingStyles}>Tutoring</h1>
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Footer from './footer';
+import Home from '../components/home';
 
 import {
   pageStyles,
@@ -47,6 +48,7 @@ const links = [
 const ClubsPage = () => {
   return (
     <main style={pageStyles}>
+      <Home />
       <title>Clubs - Jake Roggenbuck</title>
       <h1 style={headingStyles}>Clubs</h1>
       <ul style={listStyles}>
