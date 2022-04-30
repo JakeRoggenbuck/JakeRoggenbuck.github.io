@@ -28,14 +28,14 @@ const DevlogPage = () => {
     }
   `);
 
-  console.log(devlogs);
+  const devlogs_list = devlogs.edges.reverse();
 
   return (
     <main style={pageStyles}>
       <title>Devlog - Jake Roggenbuck</title>
       <h1 style={headingStyles}>Devlog</h1>
       <ul style={listStyles}>
-        {devlogs.edges.map((link) => (
+        {devlogs_list.map((link) => (
           <li key={link['node'].title} style={{ ...listItemStyles }}>
             <span>
               <a style={linkStyle}>{link['node'].title}</a>
