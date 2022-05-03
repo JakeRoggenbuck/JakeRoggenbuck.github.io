@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Footer from './footer';
+import Footer from '../elements/footer';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import {

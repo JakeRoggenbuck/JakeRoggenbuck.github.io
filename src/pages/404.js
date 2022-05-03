@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Snom from './snom.js';
+import Snom from '../elements/snom.js';
 
 import {
   pageStyles,
