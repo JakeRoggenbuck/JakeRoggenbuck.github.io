@@ -22,6 +22,7 @@ const DevlogPage = () => {
             title
             text
             date
+            links
           }
         }
       }
@@ -41,6 +42,16 @@ const DevlogPage = () => {
               <a style={linkStyle}>{link['node'].title}</a>
               <p style={descriptionStyle}>{link['node'].text}</p>
               <p style={descriptionStyle}>{link['node'].date}</p>
+
+              <ul>
+                {link['node'].links.map((entry) => (
+                  <a style={linkStyle} href={entry}>
+                    <li>
+                      <p style={descriptionStyle}>{entry}</p>
+                    </li>
+                  </a>
+                ))}
+              </ul>
             </span>
           </li>
         ))}

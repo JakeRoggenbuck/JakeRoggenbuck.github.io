@@ -2,12 +2,21 @@
   {
     "date": "February 2022",
     "title": "Creating Dev Log Page",
-    "text": "This months has been pretty interesting. I have learned several things like how to use Gatsby and GraphQL. I have been working on auto-clock-speed a lot, and I 0.1.8 was released! I have also been writing code for the Hermes project. This months I picked up the book 'Design Patterns' and it's great. Something that I have been using more often is React. Sometimes I forget how useful a good frontend framework can be. On an unrelated note, I have been learning more about computer science theory and software development history. Knowing what others did in the past is helpful when making decision."
+    "text": "This months has been pretty interesting. I have learned several things like how to use Gatsby and GraphQL. I have been working on auto-clock-speed a lot, and I 0.1.8 was released! I have also been writing code for the Hermes project. This months I picked up the book 'Design Patterns' and it's great. Something that I have been using more often is React. Sometimes I forget how useful a good frontend framework can be. On an unrelated note, I have been learning more about computer science theory and software development history. Knowing what others did in the past is helpful when making decision.",
+    "links": []
   },
 
   {
     "date": "March 2022",
     "title": "Starting Local List",
-    "text": "This month, I registered the domains finditlocal.org and finditlocal.us for a company called Local List I started in connection with my Econ class. I created a frontend using React and a backend using Django. Currently, both are hosted and communicating to display local products at those domains. I am really excited for this project and I even printed business cards and stickers for the project to share with classmates. I feel like this project is the latest culmination of my skills in frontend, backend, and system architecture. The part I am most proud of is the architecture and design decisions to allow for further development and higher traffic as the project grows. I also worked more on my yet to be released (as of March 31st 2022) runtime-analysis-paper, including a new idea I thought of regarding error handling."
+    "text": "This month, I registered the domains finditlocal.org and finditlocal.us for a company called Local List I started in connection with my Econ class. I created a frontend using React and a backend using Django. Currently, both are hosted and communicating to display local products at those domains. I am really excited for this project and I even printed business cards and stickers for the project to share with classmates. I feel like this project is the latest culmination of my skills in frontend, backend, and system architecture. The part I am most proud of is the architecture and design decisions to allow for further development and higher traffic as the project grows. I also worked more on my yet to be released (as of March 31st 2022) runtime-analysis-paper, including a new idea I thought of regarding error handling.",
+    "links": ["http://finditlocal.org"]
+  },
+
+  {
+    "date": "April 2022",
+    "title": "Local List Business Pitch",
+    "text": "On April 21st, the whole Local List team (Me and 4 others) got to present our business to our town's chamber of commerce. Our idea and demo was met with lots of excitement and great feedback. The day after, we got to pitch our idea to more business owners during our school's business project's night event. We won the event's Judges award for our idea and presentation. The current site can be found at thelocallist.org",
+    "links": ["http://thelocallist.org"]
   }
 ]
