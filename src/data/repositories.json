@@ -78,6 +78,17 @@
     "private": false
   },
   {
+    "name": "approximate-pi",
+    "description": "This program creates a bunch of points in a square, then draws a circle with the same radius. Then it checks which points are inside the circle. The ratio of inside to out should be around pi/4, therefor multiplying that by 4 should result in an approximation of pi.",
+    "html_url": "https://github.com/JakeRoggenbuck/approximate-pi",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "C",
+    "license": null,
+    "created_at": "April 17, 2022",
+    "private": false
+  },
+  {
     "name": "arch_installer",
     "description": null,
     "html_url": "https://github.com/JakeRoggenbuck/arch_installer",
@@ -127,7 +138,7 @@
     "description": "A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.",
     "html_url": "https://github.com/JakeRoggenbuck/auto-clock-speed",
     "archived": false,
-    "stargazers_count": 9,
+    "stargazers_count": 11,
     "language": "Rust",
     "license": {
       "key": "mit",
@@ -137,17 +148,6 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "created_at": "July 07, 2021",
-    "private": false
-  },
-  {
-    "name": "BackgroundImageText",
-    "description": null,
-    "html_url": "https://github.com/JakeRoggenbuck/BackgroundImageText",
-    "archived": false,
-    "stargazers_count": 0,
-    "language": "Python",
-    "license": null,
-    "created_at": "July 05, 2019",
     "private": false
   },
   {
@@ -301,6 +301,17 @@
     "private": false
   },
   {
+    "name": "chi-squared-c",
+    "description": null,
+    "html_url": "https://github.com/JakeRoggenbuck/chi-squared-c",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "C",
+    "license": null,
+    "created_at": "May 04, 2022",
+    "private": false
+  },
+  {
     "name": "ChromeWebLauncher",
     "description": null,
     "html_url": "https://github.com/JakeRoggenbuck/ChromeWebLauncher",
@@ -382,6 +393,17 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "created_at": "February 20, 2021",
+    "private": false
+  },
+  {
+    "name": "colorgradient-c",
+    "description": null,
+    "html_url": "https://github.com/JakeRoggenbuck/colorgradient-c",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "C",
+    "license": null,
+    "created_at": "April 11, 2022",
     "private": false
   },
   {
@@ -479,7 +501,7 @@
     "description": null,
     "html_url": "https://github.com/JakeRoggenbuck/Crypto-Chat",
     "archived": false,
-    "stargazers_count": 1,
+    "stargazers_count": 0,
     "language": "Python",
     "license": null,
     "created_at": "January 25, 2020",
@@ -559,6 +581,17 @@
     "private": false
   },
   {
+    "name": "derive",
+    "description": "Calculate the derivative",
+    "html_url": "https://github.com/JakeRoggenbuck/derive",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "C",
+    "license": null,
+    "created_at": "April 17, 2022",
+    "private": false
+  },
+  {
     "name": "Dictionary-tui",
     "description": null,
     "html_url": "https://github.com/JakeRoggenbuck/Dictionary-tui",
@@ -567,6 +600,17 @@
     "language": "Python",
     "license": null,
     "created_at": "March 19, 2020",
+    "private": false
+  },
+  {
+    "name": "directory-info",
+    "description": null,
+    "html_url": "https://github.com/JakeRoggenbuck/directory-info",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "Python",
+    "license": null,
+    "created_at": "December 21, 2021",
     "private": false
   },
   {
@@ -696,17 +740,6 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "created_at": "July 20, 2020",
-    "private": false
-  },
-  {
-    "name": "electronTBAViewer",
-    "description": null,
-    "html_url": "https://github.com/JakeRoggenbuck/electronTBAViewer",
-    "archived": false,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "license": null,
-    "created_at": "April 03, 2020",
     "private": false
   },
   {
@@ -1169,6 +1202,17 @@
     "private": false
   },
   {
+    "name": "integrate",
+    "description": null,
+    "html_url": "https://github.com/JakeRoggenbuck/integrate",
+    "archived": false,
+    "stargazers_count": 1,
+    "language": "C",
+    "license": null,
+    "created_at": "April 18, 2022",
+    "private": false
+  },
+  {
     "name": "is_254_or_larger",
     "description": "first test making an npm package, also a joke",
     "html_url": "https://github.com/JakeRoggenbuck/is_254_or_larger",
@@ -1396,7 +1440,7 @@
     "description": "Test python code in the browser. Wrap code with specific lesson tests for code completeness grading. ",
     "html_url": "https://github.com/JakeRoggenbuck/lesson-tester",
     "archived": false,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "language": "JavaScript",
     "license": {
       "key": "mit",
@@ -1445,6 +1489,28 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "created_at": "May 26, 2021",
+    "private": false
+  },
+  {
+    "name": "link-cli",
+    "description": "Utility to manage link.jr0.org",
+    "html_url": "https://github.com/JakeRoggenbuck/link-cli",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "Python",
+    "license": null,
+    "created_at": "May 17, 2022",
+    "private": false
+  },
+  {
+    "name": "mac-shifter",
+    "description": "Makes your linux computer look generic to the local network",
+    "html_url": "https://github.com/JakeRoggenbuck/mac-shifter",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "Python",
+    "license": null,
+    "created_at": "March 21, 2022",
     "private": false
   },
   {
@@ -1800,6 +1866,28 @@
     "private": false
   },
   {
+    "name": "ocean-game-js",
+    "description": "Simple ocean game demo in Javascript for DV Game Jam",
+    "html_url": "https://github.com/JakeRoggenbuck/ocean-game-js",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "license": null,
+    "created_at": "May 24, 2022",
+    "private": false
+  },
+  {
+    "name": "ocean-game-py",
+    "description": "Simple ocean game demo in Python for DV Game Jam",
+    "html_url": "https://github.com/JakeRoggenbuck/ocean-game-py",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "Python",
+    "license": null,
+    "created_at": "May 23, 2022",
+    "private": false
+  },
+  {
     "name": "on-logs-research",
     "description": null,
     "html_url": "https://github.com/JakeRoggenbuck/on-logs-research",
@@ -1808,6 +1896,23 @@
     "language": "Jupyter Notebook",
     "license": null,
     "created_at": "November 03, 2021",
+    "private": false
+  },
+  {
+    "name": "onefetch",
+    "description": "Git repository summary on your terminal",
+    "html_url": "https://github.com/JakeRoggenbuck/onefetch",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "Rust",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "created_at": "March 24, 2022",
     "private": false
   },
   {
@@ -1840,7 +1945,7 @@
   },
   {
     "name": "pascals-triangle",
-    "description": null,
+    "description": "Exploration of pascals triangle",
     "html_url": "https://github.com/JakeRoggenbuck/pascals-triangle",
     "archived": false,
     "stargazers_count": 0,
@@ -2147,6 +2252,17 @@
     "private": false
   },
   {
+    "name": "Python-Guides",
+    "description": "This repository contains the codes for the Python tutorials on statology.org",
+    "html_url": "https://github.com/JakeRoggenbuck/Python-Guides",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": null,
+    "license": null,
+    "created_at": "March 07, 2022",
+    "private": false
+  },
+  {
     "name": "qme",
     "description": "A game written in Java",
     "html_url": "https://github.com/JakeRoggenbuck/qme",
@@ -2294,6 +2410,23 @@
     "language": "C++",
     "license": null,
     "created_at": "November 23, 2019",
+    "private": false
+  },
+  {
+    "name": "Rust",
+    "description": " All Algorithms implemented in Rust ",
+    "html_url": "https://github.com/JakeRoggenbuck/Rust",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": null,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "created_at": "March 31, 2022",
     "private": false
   },
   {
@@ -2628,11 +2761,22 @@
     "private": false
   },
   {
+    "name": "statistical-tests-rs",
+    "description": "Statistical Tests for Rust",
+    "html_url": "https://github.com/JakeRoggenbuck/statistical-tests-rs",
+    "archived": false,
+    "stargazers_count": 1,
+    "language": "Rust",
+    "license": null,
+    "created_at": "May 22, 2022",
+    "private": false
+  },
+  {
     "name": "stow-squid",
     "description": "stow-squid - Stow your dotfiles",
     "html_url": "https://github.com/JakeRoggenbuck/stow-squid",
     "archived": false,
-    "stargazers_count": 3,
+    "stargazers_count": 2,
     "language": "Rust",
     "license": {
       "key": "mit",
@@ -2692,6 +2836,17 @@
     "language": null,
     "license": null,
     "created_at": "March 25, 2020",
+    "private": false
+  },
+  {
+    "name": "termcolor-c",
+    "description": null,
+    "html_url": "https://github.com/JakeRoggenbuck/termcolor-c",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": "C",
+    "license": null,
+    "created_at": "April 11, 2022",
     "private": false
   },
   {
@@ -2914,6 +3069,23 @@
     "private": false
   },
   {
+    "name": "vosk-api",
+    "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
+    "html_url": "https://github.com/JakeRoggenbuck/vosk-api",
+    "archived": false,
+    "stargazers_count": 0,
+    "language": null,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "created_at": "March 07, 2022",
+    "private": false
+  },
+  {
     "name": "Vyxal",
     "description": "A golfing language that has aspects of traditional programming languages.",
     "html_url": "https://github.com/JakeRoggenbuck/Vyxal",
@@ -3019,8 +3191,8 @@
     "description": "Yfin is the Official package manager for the Y-flat programming language. Yfin allows the user to install, upgrade, and uninstall packages. It also allows a user to initialize a package with the Y-flat package structure and files automatically generated.",
     "html_url": "https://github.com/JakeRoggenbuck/yfin",
     "archived": false,
-    "stargazers_count": 3,
-    "language": "Rust",
+    "stargazers_count": 0,
+    "language": null,
     "license": {
       "key": "gpl-3.0",
       "name": "GNU General Public License v3.0",
@@ -3028,7 +3200,7 @@
       "url": "https://api.github.com/licenses/gpl-3.0",
       "node_id": "MDc6TGljZW5zZTk="
     },
-    "created_at": "December 18, 2021",
+    "created_at": "March 04, 2022",
     "private": false
   },
   {
