@@ -15,7 +15,7 @@ const links = [
     url: 'auto-clock-speed',
     link: 'https://github.com/jakeroggenbuck/auto-clock-speed',
     description:
-      'A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life. This is a project that I put a lot of time into, more than any other project outside of school, and has three active developers.',
+      'A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life. This is a project that I put a lot of time into, more than any other project outside of school, and has three active developers. This project required knowledge in low level system and unix-like operating systems, along with knowledge of Rust.',
     color: '#fdb549',
   },
   {
@@ -23,7 +23,7 @@ const links = [
     url: 'local-list',
     link: 'http://thelocallist.org',
     description:
-      'Local goods and service discovery system. This was apart of my Econ class and was a project where I got to use things I am very familiar with to build cool software.',
+      'Local goods and service discovery system. This was apart of my Econ class and was a project where I got to use things I am very familiar with to build cool software. This project required knowledge in systems architecture and databases, along with Python, Javascript, and server stuff for hosting.',
     color: '#fdb549',
   },
   {
@@ -31,7 +31,7 @@ const links = [
     url: 'statistical-tests-rs',
     link: 'https://github.com/jakeroggenbuck/statistical-tests-rs',
     description:
-      "Statistical Tests for Rust. I noticed that there is not a way to do any statistics other than mean and standard deviation of a population in Rust. The library doesn't even meantion that it is just of a population, because there is standard deviation of a sample as well. I made both, and also made a two sample t test. This is so I can possibly made a tool in the future that helps with stats work, and I will use this library to compile it to wasm and then use it in a Javascript page so that it is fast, accurate, and usable in the browser.",
+      "Statistical Tests for Rust. I noticed that there is not a way to do any statistics other than mean and standard deviation of a population in Rust. The library doesn't even mention that it is just of a population, because there is standard deviation of a sample as well. I made both, and also made a two sample t test. This is so I can possibly made a tool in the future that helps with stats work, and I will use this library to compile it to wasm and then use it in a Javascript page so that it is fast, accurate, and usable in the browser.",
     color: '#fdb549',
   },
   {
@@ -58,7 +58,14 @@ const ProjectInvent = () => {
       <title>Project Invent - Jake Roggenbuck</title>
       <h1 style={headingStyles}>Project Invent</h1>
 
-      <h2>Here is a list of portfolio projects for my Project Invent Class.</h2>
+      <h3>
+        Here is a list of portfolio projects for my Project Invent Class.
+        Project Invent is the end of the CTE Pathway and these projects show my
+        wide variety of skills and interests. These are all recent projects that
+        needed many hours of work each.
+      </h3>
+
+      <br />
 
       <ul style={listStyles}>
         {links.map((link) => (
@@ -71,6 +78,18 @@ const ProjectInvent = () => {
           </li>
         ))}
       </ul>
+
+      <h2>Retrospective</h2>
+      <h3>
+        I have grown a lot in the past few months. I have been able to projects
+        for many months and put tons of hours into them. Before, I would simply
+        add a few hundred lines to a project and forget about it, but now I have
+        had personal growth and I am able to pick projects that will be fun and
+        educational. For one, I have written about 4000 lines and delete another
+        1000 lines of code over the past year.
+      </h3>
+
+      <br />
 
       {links.map((link) => (
         <div id={link.url} style={{ ...listItemStyles }}>
