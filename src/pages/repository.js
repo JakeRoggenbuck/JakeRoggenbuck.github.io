@@ -46,7 +46,7 @@ const rank_repos = (repos) => {
 
 const sort_repos = (repos) => {
   repos.sort(function (first, second) {
-    return first['node'].rank != second['node'].rank
+    return first['node'].rank !== second['node'].rank
       ? first['node'].rank < second['node'].rank
         ? -1
         : 1

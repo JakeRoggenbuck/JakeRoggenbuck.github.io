@@ -4,10 +4,7 @@ import Footer from '../../elements/footer';
 import {
   pageStyles,
   headingStyles,
-  listStyles,
-  listItemStyles,
   linkStyle,
-  descriptionStyle,
 } from '../../style';
 
 const LocalList = () => {

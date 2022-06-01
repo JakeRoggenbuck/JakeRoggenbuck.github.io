@@ -5,7 +5,6 @@ import { graphql, useStaticQuery } from 'gatsby';
 import {
   pageStyles,
   headingStyles,
-  headingAccentStyles,
   listStyles,
   listItemStyles,
   linkStyle,

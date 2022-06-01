@@ -85,8 +85,8 @@ const ProjectInvent = () => {
         for many months and put tons of hours into them. Before, I would simply
         add a few hundred lines to a project and forget about it, but now I have
         had personal growth and I am able to pick projects that will be fun and
-        educational. For one, I have written about 4000 lines and delete another
-        1000 lines of code over the past year.
+        educational. For one, I have written about 6,300 lines and delete
+        another 3,500 lines of code over the past year.
       </h3>
 
       <br />

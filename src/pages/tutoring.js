@@ -4,7 +4,6 @@ import Footer from '../elements/footer';
 import {
   pageStyles,
   headingStyles,
-  headingAccentStyles,
   listStyles,
   listItemStyles,
   linkStyle,
