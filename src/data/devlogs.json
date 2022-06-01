@@ -18,5 +18,11 @@
     "title": "Local List Business Pitch",
     "text": "On April 21st, the whole Local List team (Me and 4 others) got to present our business to our town's chamber of commerce. Our idea and demo was met with lots of excitement and great feedback. The day after, we got to pitch our idea to more business owners during our school's business project's night event. We won the event's Judges award for our idea and presentation. The current site can be found at thelocallist.org. Our judges invited us to a city event where we will have a booth and present to the public. This month, I also made two projects (derive, and integrate) in C that implement ideas from calculus. I also started using Svelte for a mindfulness tracker app that I might publish in a few weeks.",
     "links": ["http://thelocallist.org", "https://github.com/JakeRoggenbuck/derive", "https://github.com/JakeRoggenbuck/integrate"]
-  }
+  },
+
+  {
+    "date": "May 2022",
+    "title": "Da Vinci Game Jam - More Auto Clock Speed",
+    "text": "This month I had my finals and AP tests, all of which where a lot of work, but I still worked on some project and organized the first annual Da Vinci Game Jam for my school. Links to the resources for the workshops can be found at the first link below. The game jam was an overall success and we had many great game entries. This month I also worked on auto clock speed some more, adding a universal interface to all of the commands and other issues. I created a total of 44 commits on that project this month. Github summarizes this month with 'Created 238 commits in 26 repositories', I also created 13 repositories this month, two for the game jam, one related to a possible future auto-clock-speed side project, two about my statistics class, two about my link shortener project, two related to JABACAT (Group of programmers), and one as a tool to help view csv files that I might release sometime next month.",
+    "links": ["https://jr0.org/event/dv-game-jam-2022/", "https://github.com/JakeRoggenbuck/auto-clock-speed"]
 ]
