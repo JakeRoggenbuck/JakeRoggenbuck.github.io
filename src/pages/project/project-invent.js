@@ -67,6 +67,14 @@ const ProjectInvent = () => {
 
       <br />
 
+      <h5>
+        View the{' '}
+        <a href="https://github.com/JakeRoggenbuck/JakeRoggenbuck.github.io/blob/main/src/pages/project/project-invent.js">
+          code
+        </a>{' '}
+        for this page.
+      </h5>
+
       <ul style={listStyles}>
         {links.map((link) => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
