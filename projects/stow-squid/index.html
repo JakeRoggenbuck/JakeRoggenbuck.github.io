@@ -1,0 +1,67 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>stow-squid</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/stow-squid/"><meta property="og:type" content="website"><meta property="og:title" content="stow-squid"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="stow-squid"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/stow-squid/"><meta property="twitter:url" content="https://jr0.org/projects/stow-squid/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/stow-squid/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
+<script src=https://jr0.org/js/feather-icons.min.js></script>
+<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>stow-squid</h1></div><div class=post-content><p><h1 id=-stow-squid-012-rusthttpsimgshieldsiogithubworkflowstatusjakeroggenbuckstow-squidruststylefor-the-badge>🦑 stow-squid 0.1.2 <img src="https://img.shields.io/github/workflow/status/jakeroggenbuck/stow-squid/Rust?style=for-the-badge" alt=Rust></h1><p>Stow your dotfiles</p><p><img src=https://user-images.githubusercontent.com/35516367/130694893-177cf2d5-eda1-419a-b6f7-1b2eb1f1d4cf.png alt=image></p><h2 id=install>Install</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>git clone https://github.com/JakeRoggenbuck/stow-squid.git
+</span></span><span style=display:flex><span>cd stow-squid
+</span></span><span style=display:flex><span>cargo install --path .
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Add config to ~/.config/stow-squid/stow-squid.toml</span>
+</span></span><span style=display:flex><span>mkdir -p ~/.config/stow-squid/ <span style=color:#f92672>&amp;&amp;</span> cp example-config.toml ~/.config/stow-squid/stow-squid.toml
+</span></span></code></pre></div><h2 id=verbs>Verbs</h2><p>For all verbs, the name is of a specific dotfile and is optional. Including a name will only run the verb on that dotfile. Without a name, it will run the verb on all the dots in the config.</p><h3 id=save>Save</h3><p>This is to update your dotfiles (that are scattered around your machine) to your git repo</p><pre tabindex=0><code>stow-squid save &lt;name&gt;
+</code></pre><p><img src=https://user-images.githubusercontent.com/35516367/130696265-2dde8c08-5bee-41f4-b48d-8b69e15ac184.png alt=image></p><p><img src=https://user-images.githubusercontent.com/35516367/130696302-607159a2-2a69-42d4-9f20-505827e32cb1.png alt=image></p><h3 id=deploy>Deploy</h3><p>This is to place all your dotfiles from your git repo to all the various places they might go</p><pre tabindex=0><code>stow-squid deploy &lt;name&gt;
+</code></pre><p><img src=https://user-images.githubusercontent.com/35516367/130696213-d763bd68-2449-4921-8d40-b22c6114f7cb.png alt=image></p><p><img src=https://user-images.githubusercontent.com/35516367/130696199-2c57623d-c6b1-4d79-98f3-f0f4b6ae9286.png alt=image></p><h3 id=list>List</h3><pre tabindex=0><code>stow-squid list
+</code></pre><h2 id=config>Config</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=display:flex><span><span style=color:#75715e># Git path</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>gitpath</span> = <span style=color:#e6db74>&#34;/path/to/git/dir&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Structure</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># [[files]]</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># name = &#34;dotfile-name&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># origin = &#34;path/to/file/from/git/repo&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># deployed = &#34;/path/to/where/the/file/is/placed&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Example</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># [[files]]</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># name = &#34;bspwm&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># origin = &#34;/home/jake/Build/dotfiles/bspwm/bspwmrc&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># deployed = &#34;/home/jake/.config/bspwm/bspwmrc&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Add you first dotfile here</span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>files</span>]]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>origin</span> = <span style=color:#e6db74>&#34;&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>deployed</span> = <span style=color:#e6db74>&#34;&#34;</span>
+</span></span></code></pre></div><h2 id=config-example>Config Example</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=display:flex><span><span style=color:#a6e22e>gitpath</span> = <span style=color:#e6db74>&#34;/home/jake/Build/dotfiles/&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>files</span>]]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;bspwm&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>origin</span> = <span style=color:#e6db74>&#34;/home/jake/Build/dotfiles/bspwm/bspwmrc&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>deployed</span> = <span style=color:#e6db74>&#34;/home/jake/.config/bspwm/bspwmrc&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>files</span>]]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;alacritty&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>origin</span> = <span style=color:#e6db74>&#34;/home/jake/Build/dotfiles/alacritty/alacritty.yml&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>deployed</span> = <span style=color:#e6db74>&#34;/home/jake/.config/alacritty/alacritty.yml&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>files</span>]]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;bashrc&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>origin</span> = <span style=color:#e6db74>&#34;/home/jake/Build/dotfiles/.bashrc&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>deployed</span> = <span style=color:#e6db74>&#34;/home/jake/.bashrc&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>[[<span style=color:#a6e22e>files</span>]]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;sxhkd&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>origin</span> = <span style=color:#e6db74>&#34;/home/jake/Build/dotfiles/sxhkd/sxhkdrc&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>deployed</span> = <span style=color:#e6db74>&#34;/home/jake/.config/sxhkd/sxhkdrc&#34;</span>
+</span></span></code></pre></div><h2 id=help>Help</h2><pre tabindex=0><code>USAGE:
+    drop &lt;verb&gt; [dot]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    &lt;verb&gt;
+    &lt;dot&gt;
+</code></pre></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
