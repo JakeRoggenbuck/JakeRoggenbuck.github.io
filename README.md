@@ -2,7 +2,7 @@
 Currently, Hugo to make this static website.
 
 ## New
-Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlog](https://jr0.org/devlog).
+Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlogs](https://jr0.org/devlogs).
 
 ## History
 This website has been up since May 26, 2019 in some form or another.
