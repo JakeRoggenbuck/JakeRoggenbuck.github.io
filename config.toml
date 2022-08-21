@@ -1,0 +1,42 @@
+baseURL = 'https://jr0.org'
+languageCode = 'en-us'
+title = 'JR0.org'
+theme = "gokarna"
+
+[params]
+  footer = "Jake Roggenbuck"
+  avatarUrl = "/images/35516367.jpg"
+  avatarSize = "size-m"
+  description = "Software Developer & Student"
+
+  socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/jake-roggenbuck-1500a8215/"},
+    {name = "dribbble", url = "https://jr0.org"},
+    {name = "email", url = "mailto:me@jr0.org"},
+    {name = "github", url = "https://github.com/jakeroggenbuck"}
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+	weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Devlog"
+    pre = "<span data-feather='book'></span>"
+    url = "/devlogs/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"
+    weight = 5
