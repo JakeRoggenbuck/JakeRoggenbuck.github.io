@@ -3,6 +3,9 @@
 title: dotfiles
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/dotfiles/)
+
 # dotfiles
 - A collection of my dotfiles that I use on my GNU/Linux machine
   - Both Arch (current Laptop and Desktop) and Ubuntu (Old Desktop).

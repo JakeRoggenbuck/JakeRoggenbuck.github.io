@@ -3,6 +3,9 @@
 title: mahou
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/mahou/)
+
 # mahou
 
 Mahou is my AP Computer Science create task for the 2020-21 year. Mahou is a source-to-source compiler, from a custom language to python.

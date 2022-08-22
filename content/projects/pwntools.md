@@ -3,6 +3,9 @@
 title: pwntools
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/pwntools/)
+
 # pwntools - CTF toolkit
 ![pwntools logo](https://github.com/Gallopsled/pwntools/blob/stable/docs/source/logo.png?raw=true)
 

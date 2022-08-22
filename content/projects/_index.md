@@ -12,8 +12,8 @@ type: page
 - [diri-c](/projects/diri-c)
 
 ## All
-- [.scripts](/projects/.scripts)
-- [.wallpaper](/projects/.wallpaper)
+- [.scripts](/projects/scripts)
+- [.wallpaper](/projects/wallpaper)
 - [2021-software-general-homework](/projects/2021-software-general-homework)
 - [advent-of-code](/projects/advent-of-code)
 - [amethyst](/projects/amethyst)

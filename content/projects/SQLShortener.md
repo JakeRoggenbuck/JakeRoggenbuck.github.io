@@ -3,6 +3,9 @@
 title: SQLShortener
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/SQLShortener/)
+
 # SQLShortener
 Create short url with `New`, Use short url with `Use`
 

@@ -3,6 +3,9 @@
 title: spicetify-cli-extensions
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/spicetify-cli-extensions/)
+
 # spicetify-cli-extensions
 
 This is a place for an assortment of small extensions for spicetify

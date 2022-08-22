@@ -3,16 +3,22 @@
 title: JakeRoggenbuck.github.io
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io/)
+
 # jr0.org
-Currently, I am using Gatsby and React to make this static website. The data comes from Graphql and is reandered and built before deploy.
+Currently, Hugo to make this static website.
 
 ## New
-Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlog](https://jr0.org/devlog).
+Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlogs](https://jr0.org/devlogs).
 
 ## History
 This website has been up since May 26, 2019 in some form or another.
 
 ### Current
+![image](https://user-images.githubusercontent.com/35516367/185334720-facb0b35-f056-47ae-86e9-11243654ad43.png)
+
+### Prior
 ![image](https://user-images.githubusercontent.com/35516367/158723802-ff67bbc9-71e4-4fb0-9189-a5397976a8d5.png)
 
 ### Prior

@@ -3,6 +3,9 @@
 title: markov-chain
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/markov-chain/)
+
 # Markov chain
 this is a simple markov chain implementation inspired by a project @nathansolomon1678 made
 

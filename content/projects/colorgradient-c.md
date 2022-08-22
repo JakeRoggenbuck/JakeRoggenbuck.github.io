@@ -3,6 +3,9 @@
 title: colorgradient-c
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/colorgradient-c/)
+
 # colorgradient-c
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)
 - Rust version [colorgradient-rs](https://github.com/JakeRoggenbuck/colorgradient-rs)

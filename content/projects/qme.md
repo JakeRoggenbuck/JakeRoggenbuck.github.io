@@ -3,6 +3,9 @@
 title: qme
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/qme/)
+
 ![Build Status](https://github.com/adamhutchings/qme5/workflows/Run%20tests/badge.svg)
 ![Version](https://img.shields.io/github/v/release/qmegame/qme-releases)
 

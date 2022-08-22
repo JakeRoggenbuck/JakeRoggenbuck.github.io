@@ -3,6 +3,9 @@
 title: CError
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/CError/)
+
 # CError
 Run cerror on a source code file of a compiled language to get the length of the outputted error compared to the filesize.
 Some people try to get the largest error with the smallest file, this script gives you a score for this.

@@ -3,6 +3,9 @@
 title: Vyxal
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/Vyxal/)
+
 # Vyxal - Terse, Elegant and Readable
 
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)

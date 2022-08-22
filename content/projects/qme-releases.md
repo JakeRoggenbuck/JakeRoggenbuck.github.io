@@ -3,6 +3,9 @@
 title: qme-releases
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/qme-releases/)
+
 ## QME Releases
 
 ### How to install QME unsing the QME Installer (Recommended)

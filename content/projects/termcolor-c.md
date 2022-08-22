@@ -3,6 +3,9 @@
 title: termcolor-c
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/termcolor-c/)
+
 # termcolor-c
 Simple color printing in C
 

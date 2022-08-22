@@ -3,6 +3,9 @@
 title: yflat-docs
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/yflat-docs/)
+
 # yflat-docs
 Documentation for all parts of Y-flat.
 

@@ -3,6 +3,9 @@
 title: fastly-py
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/fastly-py/)
+
 ## Fastly Python Client
 
 fastly-py is available through `pip` as the [fastly](https://pypi.python.org/pypi/fastly) package

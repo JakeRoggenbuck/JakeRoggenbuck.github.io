@@ -3,6 +3,9 @@
 title: ursina
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/ursina/)
+
 # ursina    ʕ •ᴥ•ʔゝ□
 An easy to use game engine/framework for python.
 

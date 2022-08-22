@@ -3,6 +3,9 @@
 title: integrate
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/integrate/)
+
 # integrate
 
 ## Build

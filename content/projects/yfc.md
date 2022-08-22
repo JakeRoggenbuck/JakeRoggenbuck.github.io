@@ -3,6 +3,9 @@
 title: yfc
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/yfc/)
+
 # yfc
 
 ## Overview

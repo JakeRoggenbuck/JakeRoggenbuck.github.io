@@ -3,6 +3,9 @@
 title: zipfs-law
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/zipfs-law/)
+
 # zipfs-law
 
 ```py

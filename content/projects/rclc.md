@@ -3,6 +3,9 @@
 title: rclc
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/rclc/)
+
 <div align="center">
 
   # Rust Command Line Chat (RCLC) ![Rust](https://img.shields.io/github/workflow/status/jabacat/rclc/Rust?style=for-the-badge)

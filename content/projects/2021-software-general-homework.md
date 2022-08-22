@@ -3,6 +3,9 @@
 title: 2021-software-general-homework
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/2021-software-general-homework/)
+
 # 2021-software-general-homework
 
 1. Assignments that crash immediately when run cannot be made up.

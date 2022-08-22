@@ -3,6 +3,9 @@
 title: vimage.vim
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/vimage.vim/)
+
 # vimage.vim
 vimage.vim - Open image paths in vim
 

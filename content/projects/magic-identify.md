@@ -3,6 +3,9 @@
 title: magic-identify
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/magic-identify/)
+
 # About
 
 magic-identify implements a wrapper around both the python-magic

@@ -3,6 +3,9 @@
 title: openpilot
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/openpilot/)
+
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 
 Table of Contents

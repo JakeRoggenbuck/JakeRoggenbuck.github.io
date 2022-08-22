@@ -3,6 +3,9 @@
 title: crystal-colord
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/crystal-colord/)
+
 # crystal-colord
 
  A library for colored text in crystal 

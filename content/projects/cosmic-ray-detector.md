@@ -3,6 +3,9 @@
 title: cosmic-ray-detector
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/cosmic-ray-detector/)
+
 # Cosmic Ray Detector
 If I find a cosmic ray with this, I will publish a paper about it.
 

@@ -3,6 +3,9 @@
 title: on-logs-research
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/on-logs-research/)
+
 # on-logs-research
 
 Exploration on the decimal places of logs from December 2021 - Present

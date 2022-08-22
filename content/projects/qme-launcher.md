@@ -3,6 +3,9 @@
 title: qme-launcher
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/qme-launcher/)
+
 # Installing QME
 
 ## 1. Get Java 15

@@ -3,6 +3,9 @@
 title: cruz-lang
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/cruz-lang/)
+
 # Cruzlang
 
 Cruz Lang is a simple explicit static typed language. <br>

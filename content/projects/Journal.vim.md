@@ -3,6 +3,9 @@
 title: Journal.vim
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/Journal.vim/)
+
 # Journal.vim
 
 ## What it does

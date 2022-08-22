@@ -3,6 +3,9 @@
 title: bspswallow
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/bspswallow/)
+
 # bspswallow
 Adds functionality provided by the dwm "swallow" patch to bspwm.
 

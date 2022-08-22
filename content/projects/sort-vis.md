@@ -3,6 +3,9 @@
 title: sort-vis
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/sort-vis/)
+
 # sort-vis
 ## Visualizes sorting alogithims using p5 js
 

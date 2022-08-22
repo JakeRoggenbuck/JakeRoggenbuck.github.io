@@ -3,6 +3,9 @@
 title: vim-game-snake
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/vim-game-snake/)
+
 # VimGameSnake
 
 version 0.1

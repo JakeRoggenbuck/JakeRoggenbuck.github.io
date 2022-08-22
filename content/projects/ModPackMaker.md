@@ -3,6 +3,9 @@
 title: ModPackMaker
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/ModPackMaker/)
+
 # ModPackMaker
 
 ## Use

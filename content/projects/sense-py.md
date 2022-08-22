@@ -3,6 +3,9 @@
 title: sense-py
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/sense-py/)
+
 # sense-py
 Sense the directories around you, are they git repositories, what language, etc.
 

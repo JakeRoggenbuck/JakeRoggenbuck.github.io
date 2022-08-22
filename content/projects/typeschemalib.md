@@ -3,6 +3,9 @@
 title: typeschemalib
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/typeschemalib/)
+
 # typeschemalib
 A yaml like schema that can be used to check dictionaries for correct schema
 

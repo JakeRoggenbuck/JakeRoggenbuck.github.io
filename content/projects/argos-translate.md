@@ -3,6 +3,9 @@
 title: argos-translate
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/argos-translate/)
+
 # Argos Translate
 [Docs](https://argos-translate.readthedocs.io) | [Website](https://www.argosopentech.com) | [Video intro](https://youtu.be/yn37-CpRzTc)
 

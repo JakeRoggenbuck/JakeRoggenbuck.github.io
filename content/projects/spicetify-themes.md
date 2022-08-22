@@ -3,6 +3,9 @@
 title: spicetify-themes
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/spicetify-themes/)
+
 # spicetify community themes
 
 This is a collection of themes for [spicetify](https://github.com/khanhas/spicetify-cli), a command-line tool to customize Spotify; you can add your own theme simply by opening a Pull Requests (more info in the Contributions section).

@@ -3,6 +3,9 @@
 title: Deepai
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/Deepai/)
+
 # Deepai
 
 ## Use

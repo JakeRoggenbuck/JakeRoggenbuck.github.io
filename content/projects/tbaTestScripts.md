@@ -3,6 +3,9 @@
 title: tbaTestScripts
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/tbaTestScripts/)
+
 # tbaTestScripts
 
 ### TBA API key

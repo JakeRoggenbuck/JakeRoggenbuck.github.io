@@ -3,6 +3,9 @@
 title: Termitebot
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/Termitebot/)
+
 # Termitebot
 
 Copy and update termite configs.

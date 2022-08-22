@@ -3,6 +3,9 @@
 title: pathfinder
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/pathfinder/)
+
 # Pathfinder
 A simple utility to view, edit, and search your $PATH
 

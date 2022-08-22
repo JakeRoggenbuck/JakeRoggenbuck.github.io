@@ -3,6 +3,9 @@
 title: statistical-tests-rs
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/statistical-tests-rs/)
+
 # statistical-tests-rs
 Statistical Tests for Rust
 

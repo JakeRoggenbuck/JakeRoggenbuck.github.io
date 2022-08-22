@@ -3,6 +3,9 @@
 title: vim-character-creator
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/vim-character-creator/)
+
 # vim-character-creator
 
 #### character-creator only has dice rolling functionality as of 0.2 with lots more features coming soon.

@@ -3,6 +3,9 @@
 title: server-public
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/server-public/)
+
 # 1678 Server 2019-2020
 
 Run `setup_environment.py` when you clone the repository.

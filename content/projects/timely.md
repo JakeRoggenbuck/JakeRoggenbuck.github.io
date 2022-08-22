@@ -3,6 +3,9 @@
 title: timely
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/timely/)
+
 # Timely ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/timely/Go?style=for-the-badge)
 Keep track of work hour in the command line
 

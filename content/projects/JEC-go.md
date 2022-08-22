@@ -3,6 +3,9 @@
 title: JEC-go
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/JEC-go/)
+
 # JEC-go ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-go/Go?style=for-the-badge)
 Jabacat's Easy Config
 

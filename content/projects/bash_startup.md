@@ -3,6 +3,9 @@
 title: bash_startup
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/bash_startup/)
+
 # bash_startup
 
 More complex things I want to run when my bashrc runs (external scripts)

@@ -3,6 +3,9 @@
 title: auto-clock-speed
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/auto-clock-speed/)
+
 ![Auto Clock Speed Banner Logo](https://user-images.githubusercontent.com/35516367/169680198-99d02746-22f7-433d-a9a1-d8858edef512.png)
 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/auto-clock-speed/Rust?style=for-the-badge)
 ![Crates Version](https://img.shields.io/crates/v/autoclockspeed?style=for-the-badge)

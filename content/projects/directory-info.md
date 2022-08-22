@@ -3,6 +3,9 @@
 title: directory-info
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/directory-info/)
+
 # Diri
 **DIR**ectory **I**nfo tool that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system.
 

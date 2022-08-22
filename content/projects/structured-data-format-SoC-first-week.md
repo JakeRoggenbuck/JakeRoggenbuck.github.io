@@ -3,6 +3,9 @@
 title: structured-data-format-SoC-first-week
 type: page
 ---
+
+[See on Github](https://github.com/jakeroggenbuck/structured-data-format-SoC-first-week/)
+
 # structured-data-format-SoC-first-week
 Summer Of Code (SoC) First Week - Structured Data Format
 
