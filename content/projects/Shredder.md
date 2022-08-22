@@ -7,3 +7,5 @@ type: page
 [See on Github](https://github.com/jakeroggenbuck/Shredder/)
 
 # Shredder
+
+Instead of sredding files normally, replace all of the data with Random Star Wars Quotes.
