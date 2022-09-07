@@ -12,3 +12,4 @@ A collection of monthly summaries comprised of particular projects, progress, an
 - [May 2022](/devlogs/may-2022) - **Da Vinci Game Jam & More Auto Clock Speed**
 - [June 2022](/devlogs/june-2022) - **Go, C, and Rust!**
 - [July 2022](/devlogs/july-2022) - **Summer projects**
+- [August 2022](/devlogs/august-2022) - **Work & Hackathons**
