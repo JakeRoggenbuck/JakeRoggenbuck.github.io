@@ -1,5 +1,173 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>qme</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/qme/"><meta property="og:type" content="website"><meta property="og:title" content="qme"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="qme"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/qme/"><meta property="twitter:url" content="https://jr0.org/projects/qme/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/qme/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>qme</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/qme/>See on Github</a></p><p><img src=https://github.com/adamhutchings/qme5/workflows/Run%20tests/badge.svg alt="Build Status">
-<img src=https://img.shields.io/github/v/release/qmegame/qme-releases alt=Version></p><p>This is the repository for the QME source code and assets.</p><h2 id=qme>QME</h2><p><img src="https://github.com/adamhutchings/qme5/blob/master/info/full_view_04.png?raw=true" alt="Example image"></p><h2 id=keybinds>Keybinds</h2><p><img src="https://github.com/adamhutchings/qme5/blob/master/info/movement.png?raw=true" alt=Keybinds></p><ul><li>w, a, s, and d for movement</li><li>i zooms the camera in</li><li>o zooms the camera out</li></ul><h2 id=requirements>Requirements</h2><p>The project is built using the latest version of open Java Development Pack
-<code>java-latest-openjdk-devel</code></p><p>The current version the program supports Java version <code>15</code></p><p>Maximum backwards compatibility with JDK version <code>11</code></p><p>Note: If you are using MacOS and do not have a working Maven installation, please run the script <code>./scripts/classpath_manager.py</code> and select the <code>./osx_classpath</code></p></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>qme</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/qme/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="qme">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="qme">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/qme/">
+    <meta property="twitter:url" content="https://jr0.org/projects/qme/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/qme/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>qme</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/qme/">See on Github</a></p>
+<p><img src="https://github.com/adamhutchings/qme5/workflows/Run%20tests/badge.svg" alt="Build Status">
+<img src="https://img.shields.io/github/v/release/qmegame/qme-releases" alt="Version"></p>
+<p>This is the repository for the QME source code and assets.</p>
+<h2 id="qme">QME</h2>
+<p><img src="https://github.com/adamhutchings/qme5/blob/master/info/full_view_04.png?raw=true" alt="Example image"></p>
+<h2 id="keybinds">Keybinds</h2>
+<p><img src="https://github.com/adamhutchings/qme5/blob/master/info/movement.png?raw=true" alt="Keybinds"></p>
+<ul>
+<li>w, a, s, and d for movement</li>
+<li>i zooms the camera in</li>
+<li>o zooms the camera out</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>The project is built using the latest version of open Java Development Pack
+<code>java-latest-openjdk-devel</code></p>
+<p>The current version the program supports Java version <code>15</code></p>
+<p>Maximum backwards compatibility with JDK version <code>11</code></p>
+<p>Note: If you are using MacOS and do not have a working Maven installation, please run the script <code>./scripts/classpath_manager.py</code> and select the <code>./osx_classpath</code></p>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

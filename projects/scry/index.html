@@ -1,8 +1,197 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>Scry</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/scry/"><meta property="og:type" content="website"><meta property="og:title" content="Scry"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Scry"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/scry/"><meta property="twitter:url" content="https://jr0.org/projects/scry/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/scry/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>Scry</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/Scry/>See on Github</a></p><h1 id=scry>Scry</h1><p>Scry is a web application that allows users to quickly check open ports, logins, and critical system information about their server from any web browser, anywhere.</p><p>Scry consists of both a local server and a client. The server is responsible for gathering data about the system it&rsquo;s monitoring, then making it accessible to the client. The clients job is to present the data from the server, in an easy to use graphical interface in the browser.</p><p></p><h1 id=server>Server</h1><p>The server includes two main parts, the updater_deamon and the Scry Fastapi. First, the updater_deamon will run commands in the background to gather crucial information about the system and update it in the local database. The Scry Fastapi will allow the client to pull data using an internal web API to present the data in the browser.</p><h3 id=requirements>Requirements</h3><h4 id=python>Python</h4><ul><li>The server code is located in <code>./server/</code>, go to this directory before the next step</li><li>Install using <code>pip3 install -r requirements.txt</code></li></ul><h4 id=non-python>Non-Python</h4><p>We use netstat and who for getting system information and Mongodb for our database
-Most systems come pre-installed with who, and possibly netstat but they may have to be installed separately</p><h3 id=running>Running</h3><ul><li>Run <code>./start.sh</code> to run the updater_deamon.py in the background then it will run the scry.py Fastapi app</li></ul><h1 id=client>Client</h1><p>The client is a Node.js React app the pulls data from the local Scry web API and displays it.</p><h3 id=requirements-1>Requirements</h3><ul><li>Install the requirements using <code>npm install</code> in the <code>./client/scry</code> directory.</li></ul><h3 id=running-1>Running</h3><ul><li>Then run it using <code>npm start</code>.</li></ul><h3 id=video-demonstration>Video demonstration</h3><p><a href="https://www.youtube.com/watch?v=D87Blido5tQ">https://www.youtube.com/watch?v=D87Blido5tQ</a></p><h2 id=screenshots>Screenshots</h2><p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/main_page.png?raw=true" alt="Main Page">
-<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/ports.png?raw=true" alt=Ports>
-<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/users.png?raw=true" alt=Users>
-<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/main_page_with_command_line.png?raw=true" alt="Main Page With Command Line"></p><h2 id=design-process-artifacts>Design process artifacts</h2><h3 id=original-ideas>Original ideas</h3><p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/original_system_design.png?raw=true" alt="First structure idea"></p><h3 id=original-current-designs>Original current designs</h3><p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/using_mongodb_to_connect_the_two_apps.png?raw=true" alt="Mongodb connection">
-<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/current_design.png?raw=true" alt="Current system design"></p></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Scry</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/scry/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Scry">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Scry">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/scry/">
+    <meta property="twitter:url" content="https://jr0.org/projects/scry/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/scry/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>Scry</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/Scry/">See on Github</a></p>
+<h1 id="scry">Scry</h1>
+<p>Scry is a web application that allows users to quickly check open ports, logins, and critical system information about their server from any web browser, anywhere.</p>
+<p>Scry consists of both a local server and a client. The server is responsible for gathering data about the system it&rsquo;s monitoring, then making it accessible to the client. The clients job is to present the data from the server, in an easy to use graphical interface in the browser.</p>
+<p><!-- raw HTML omitted --></p>
+<h1 id="server">Server</h1>
+<p>The server includes two main parts, the updater_deamon and the Scry Fastapi. First, the updater_deamon will run commands in the background to gather crucial information about the system and update it in the local database. The Scry Fastapi will allow the client to pull data using an internal web API to present the data in the browser.</p>
+<h3 id="requirements">Requirements</h3>
+<h4 id="python">Python</h4>
+<ul>
+<li>The server code is located in <code>./server/</code>, go to this directory before the next step<!-- raw HTML omitted --></li>
+<li>Install using <code>pip3 install -r requirements.txt</code></li>
+</ul>
+<h4 id="non-python">Non-Python</h4>
+<p>We use netstat and who for getting system information and Mongodb for our database<!-- raw HTML omitted -->
+Most systems come pre-installed with who, and possibly netstat but they may have to be installed separately</p>
+<h3 id="running">Running</h3>
+<ul>
+<li>Run <code>./start.sh</code> to run the updater_deamon.py in the background then it will run the scry.py Fastapi app</li>
+</ul>
+<h1 id="client">Client</h1>
+<p>The client is a Node.js React app the pulls data from the local Scry web API and displays it.</p>
+<h3 id="requirements-1">Requirements</h3>
+<ul>
+<li>Install the requirements using <code>npm install</code> in the <code>./client/scry</code> directory.</li>
+</ul>
+<h3 id="running-1">Running</h3>
+<ul>
+<li>Then run it using <code>npm start</code>.</li>
+</ul>
+<h3 id="video-demonstration">Video demonstration</h3>
+<p><a href="https://www.youtube.com/watch?v=D87Blido5tQ">https://www.youtube.com/watch?v=D87Blido5tQ</a></p>
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/main_page.png?raw=true" alt="Main Page">
+<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/ports.png?raw=true" alt="Ports">
+<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/users.png?raw=true" alt="Users">
+<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/main_page_with_command_line.png?raw=true" alt="Main Page With Command Line"></p>
+<h2 id="design-process-artifacts">Design process artifacts</h2>
+<h3 id="original-ideas">Original ideas</h3>
+<p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/original_system_design.png?raw=true" alt="First structure idea"></p>
+<h3 id="original-current-designs">Original current designs</h3>
+<p><img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/using_mongodb_to_connect_the_two_apps.png?raw=true" alt="Mongodb connection">
+<img src="https://github.com/JakeRoggenbuck/Scry/blob/main/images/current_design.png?raw=true" alt="Current system design"></p>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

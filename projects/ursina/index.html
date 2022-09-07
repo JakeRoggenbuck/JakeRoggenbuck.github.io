@@ -1,41 +1,250 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>ursina</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/ursina/"><meta property="og:type" content="website"><meta property="og:title" content="ursina"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="ursina"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/ursina/"><meta property="twitter:url" content="https://jr0.org/projects/ursina/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/ursina/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>ursina</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/ursina/>See on Github</a></p><h1 id=ursina----ʕ-ᴥʔゝ>ursina ʕ •ᴥ•ʔゝ□</h1><p>An easy to use game engine/framework for python.</p><p><img src=/docs/made_with_ursina.jpg alt=Banner></p><h2 id=getting-started>Getting Started</h2><ol><li><p>Install Python 3.6 or newer. <a href=https://www.python.org/downloads/>https://www.python.org/downloads/</a></p></li><li><p>Open cmd/terminal and type:</p><pre><code> pip install ursina
-</code></pre></li></ol><p>If you want to install the newest version from git, you can install like this:</p><pre><code>    pip install git+https://github.com/pokepetter/ursina.git
-</code></pre><p>If you want to easily edit the source, it&rsquo;s recommended to clone the git
-repo and install as develop like this. Make sure you have git installed. <a href=https://git-scm.com/>https://git-scm.com/</a></p><pre><code>    git clone https://github.com/pokepetter/ursina.git
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>ursina</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/ursina/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ursina">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ursina">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/ursina/">
+    <meta property="twitter:url" content="https://jr0.org/projects/ursina/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/ursina/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>ursina</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/ursina/">See on Github</a></p>
+<h1 id="ursina----ʕ-ᴥʔゝ">ursina    ʕ •ᴥ•ʔゝ□</h1>
+<p>An easy to use game engine/framework for python.</p>
+<p><img src="/docs/made_with_ursina.jpg" alt="Banner"></p>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>
+<p>Install Python 3.6 or newer. <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+</li>
+<li>
+<p>Open cmd/terminal and type:</p>
+<pre><code> pip install ursina
+</code></pre>
+</li>
+</ol>
+<p>If you want to install the newest version from git, you can install like this:</p>
+<pre><code>    pip install git+https://github.com/pokepetter/ursina.git
+</code></pre>
+<p>If you want to easily edit the source, it&rsquo;s recommended to clone the git
+repo and install as develop like this. Make sure you have git installed. <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+<pre><code>    git clone https://github.com/pokepetter/ursina.git
     python setup.py develop
-</code></pre><p>Also install any of the optional dependencies you want from the list below,
-or install them all with:</p><pre><code>    pip install ursina[extras]
-</code></pre><p>On some systems you might have to use pip3 instead of pip in order to use Python 3 and not the old Python 2.</p><h2 id=dependencies>Dependencies</h2><ul><li>python 3.6+</li><li>panda3d</li><li>screeninfo, for detecting screen resolution</li><li>hurry.filesize, for converting bytes to megabytes</li><li>pillow, for texture manipulation</li><li>psd-tools, for converting .psd files</li><li>blender, for converting .blend files</li><li>pyperclip, for copy/pasting</li></ul><h2 id=examples>Examples</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> ursina <span style=color:#f92672>import</span> <span style=color:#f92672>*</span>            <span style=color:#75715e># this will import everything we need from ursina with just one line.</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>app <span style=color:#f92672>=</span> Ursina()
-</span></span><span style=display:flex><span>ground <span style=color:#f92672>=</span> Entity(
-</span></span><span style=display:flex><span>    model <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;cube&#39;</span>,
-</span></span><span style=display:flex><span>    color <span style=color:#f92672>=</span> color<span style=color:#f92672>.</span>magenta,
-</span></span><span style=display:flex><span>    z <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>.1</span>,
-</span></span><span style=display:flex><span>    y <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>3</span>,
-</span></span><span style=display:flex><span>    origin <span style=color:#f92672>=</span> (<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>.5</span>),
-</span></span><span style=display:flex><span>    scale <span style=color:#f92672>=</span> (<span style=color:#ae81ff>50</span>, <span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>10</span>),
-</span></span><span style=display:flex><span>    collider <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;box&#39;</span>,
-</span></span><span style=display:flex><span>    )
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>app<span style=color:#f92672>.</span>run()                       <span style=color:#75715e># opens a window and starts the game.</span>
-</span></span></code></pre></div><ul><li><p><a href=/samples/minecraft_clone.py>Minecraft Clone</a></p></li><li><p><a href=/samples/platformer.py>Platformer Game</a></p></li></ul><h2 id=how-do-i-make-a-game>How do I make a game?</h2><p>Ursina games are made by writing Python code. You can use any text editor you want, but personally I like to use Atom.</p><ol><li>Create an empty .py file called &lsquo;ursina_game.py&rsquo;</li><li>Copy this text into your new file:</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> ursina <span style=color:#f92672>import</span> <span style=color:#f92672>*</span>           <span style=color:#75715e># this will import everything we need from ursina with just one line.</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>app <span style=color:#f92672>=</span> Ursina()
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>player <span style=color:#f92672>=</span> Entity(
-</span></span><span style=display:flex><span>    model <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;cube&#39;</span> ,           <span style=color:#75715e># finds a 3d model by name</span>
-</span></span><span style=display:flex><span>    color <span style=color:#f92672>=</span> color<span style=color:#f92672>.</span>orange,
-</span></span><span style=display:flex><span>    scale_y <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span>    )
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>update</span>():                  <span style=color:#75715e># update gets automatically called by the engine.</span>
-</span></span><span style=display:flex><span>    player<span style=color:#f92672>.</span>x <span style=color:#f92672>+=</span> held_keys[<span style=color:#e6db74>&#39;d&#39;</span>] <span style=color:#f92672>*</span> <span style=color:#ae81ff>.1</span>
-</span></span><span style=display:flex><span>    player<span style=color:#f92672>.</span>x <span style=color:#f92672>-=</span> held_keys[<span style=color:#e6db74>&#39;a&#39;</span>] <span style=color:#f92672>*</span> <span style=color:#ae81ff>.1</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>app<span style=color:#f92672>.</span>run()                     <span style=color:#75715e># opens a window and starts the game.</span>
-</span></span></code></pre></div><ol start=3><li><p>Type this in the terminal to start the game:</p><pre><code>python ursina_game.py
-</code></pre><p>If you use Atom, I recommend installing the package atom-python-run to run your scripts with the press of a button.</p></li><li><p>You can now move the orange box around with &lsquo;a&rsquo; and &rsquo;d&rsquo;!</p><p>To close the window, you can by default, press shift+q or press the red x. to disable this, write &lsquo;window.exit_button.enabled = False&rsquo; somewhere in your code.</p></li></ol></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+</code></pre>
+<p>Also install any of the optional dependencies you want from the list below,
+or install them all with:</p>
+<pre><code>    pip install ursina[extras]
+</code></pre>
+<p>On some systems you might have to use pip3 instead of pip in order to use Python 3 and not the old Python 2.</p>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>python 3.6+</li>
+<li>panda3d</li>
+<li>screeninfo, for detecting screen resolution</li>
+<li>hurry.filesize, for converting bytes to megabytes</li>
+<li>pillow, for texture manipulation</li>
+<li>psd-tools, for converting .psd files</li>
+<li>blender, for converting .blend files</li>
+<li>pyperclip, for copy/pasting</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> ursina <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>            <span style="color:#75715e"># this will import everything we need from ursina with just one line.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Ursina()
+</span></span><span style="display:flex;"><span>ground <span style="color:#f92672">=</span> Entity(
+</span></span><span style="display:flex;"><span>    model <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cube&#39;</span>,
+</span></span><span style="display:flex;"><span>    color <span style="color:#f92672">=</span> color<span style="color:#f92672">.</span>magenta,
+</span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">.1</span>,
+</span></span><span style="display:flex;"><span>    y <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">3</span>,
+</span></span><span style="display:flex;"><span>    origin <span style="color:#f92672">=</span> (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">.5</span>),
+</span></span><span style="display:flex;"><span>    scale <span style="color:#f92672">=</span> (<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">10</span>),
+</span></span><span style="display:flex;"><span>    collider <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;box&#39;</span>,
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>run()                       <span style="color:#75715e"># opens a window and starts the game.</span>
+</span></span></code></pre></div><ul>
+<li>
+<p><a href="/samples/minecraft_clone.py">Minecraft Clone</a></p>
+</li>
+<li>
+<p><a href="/samples/platformer.py">Platformer Game</a></p>
+</li>
+</ul>
+<h2 id="how-do-i-make-a-game">How do I make a game?</h2>
+<p>Ursina games are made by writing Python code. You can use any text editor you want, but personally I like to use Atom.</p>
+<ol>
+<li>Create an empty .py file called &lsquo;ursina_game.py&rsquo;</li>
+<li>Copy this text into your new file:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> ursina <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>           <span style="color:#75715e"># this will import everything we need from ursina with just one line.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Ursina()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>player <span style="color:#f92672">=</span> Entity(
+</span></span><span style="display:flex;"><span>    model <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cube&#39;</span> ,           <span style="color:#75715e"># finds a 3d model by name</span>
+</span></span><span style="display:flex;"><span>    color <span style="color:#f92672">=</span> color<span style="color:#f92672">.</span>orange,
+</span></span><span style="display:flex;"><span>    scale_y <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update</span>():                  <span style="color:#75715e"># update gets automatically called by the engine.</span>
+</span></span><span style="display:flex;"><span>    player<span style="color:#f92672">.</span>x <span style="color:#f92672">+=</span> held_keys[<span style="color:#e6db74">&#39;d&#39;</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">.1</span>
+</span></span><span style="display:flex;"><span>    player<span style="color:#f92672">.</span>x <span style="color:#f92672">-=</span> held_keys[<span style="color:#e6db74">&#39;a&#39;</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">.1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>run()                     <span style="color:#75715e"># opens a window and starts the game.</span>
+</span></span></code></pre></div><ol start="3">
+<li>
+<p>Type this in the terminal to start the game:</p>
+<pre><code>python ursina_game.py
+</code></pre>
+<p>If you use Atom, I recommend installing the package atom-python-run to run your scripts with the press of a button.</p>
+</li>
+<li>
+<p>You can now move the orange box around with &lsquo;a&rsquo; and &rsquo;d&rsquo;!</p>
+<p>To close the window, you can by default, press shift+q or press the red x. to disable this, write &lsquo;window.exit_button.enabled =   False&rsquo; somewhere in your code.</p>
+</li>
+</ol>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

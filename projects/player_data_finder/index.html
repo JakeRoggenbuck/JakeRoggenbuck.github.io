@@ -1,9 +1,168 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>player_data_finder</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/player_data_finder/"><meta property="og:type" content="website"><meta property="og:title" content="player_data_finder"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="player_data_finder"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/player_data_finder/"><meta property="twitter:url" content="https://jr0.org/projects/player_data_finder/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/player_data_finder/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>player_data_finder</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/player_data_finder/>See on Github</a></p><h1 id=player_data_finder>player_data_finder</h1><h2 id=install>Install</h2><p><code>pip3 install -r requirements.txt</code></p><h2 id=setup>Setup</h2><p>Make a file called <code>config.py</code>
-Add this class and your ftp credentials</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-py data-lang=py><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Config</span>:
-</span></span><span style=display:flex><span>	host <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;ftp.example.com&#34;</span>
-</span></span><span style=display:flex><span>	username <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;user&#34;</span>
-</span></span><span style=display:flex><span>	password <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;password&#34;</span>
-</span></span><span style=display:flex><span>	port <span style=color:#f92672>=</span> <span style=color:#ae81ff>254</span>
-</span></span></code></pre></div><h2 id=running>Running</h2><p><code>python3 main.py</code></p></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>player_data_finder</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/player_data_finder/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="player_data_finder">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="player_data_finder">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/player_data_finder/">
+    <meta property="twitter:url" content="https://jr0.org/projects/player_data_finder/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/player_data_finder/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>player_data_finder</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/player_data_finder/">See on Github</a></p>
+<h1 id="player_data_finder">player_data_finder</h1>
+<h2 id="install">Install</h2>
+<p><code>pip3 install -r requirements.txt</code></p>
+<h2 id="setup">Setup</h2>
+<p>Make a file called <code>config.py</code>
+Add this class and your ftp credentials</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Config</span>:
+</span></span><span style="display:flex;"><span>	host <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ftp.example.com&#34;</span>
+</span></span><span style="display:flex;"><span>	username <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;user&#34;</span>
+</span></span><span style="display:flex;"><span>	password <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;password&#34;</span>
+</span></span><span style="display:flex;"><span>	port <span style="color:#f92672">=</span> <span style="color:#ae81ff">254</span>
+</span></span></code></pre></div><h2 id="running">Running</h2>
+<p><code>python3 main.py</code></p>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

@@ -1,38 +1,194 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>yaml_serialize</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/yaml_serialize/"><meta property="og:type" content="website"><meta property="og:title" content="yaml_serialize"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="yaml_serialize"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/yaml_serialize/"><meta property="twitter:url" content="https://jr0.org/projects/yaml_serialize/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/yaml_serialize/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>yaml_serialize</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/yaml_serialize/>See on Github</a></p><h1 id=yaml_serialize>yaml_serialize</h1><p>A simple way to store python objects in yaml</p><h2 id=use>Use</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-py data-lang=py><span style=display:flex><span><span style=color:#f92672>from</span> src <span style=color:#f92672>import</span> yaml_serialize
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>MyObject</span>:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>def</span> __init__(self):
-</span></span><span style=display:flex><span>        self<span style=color:#f92672>.</span>name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Jake&#34;</span>
-</span></span><span style=display:flex><span>        self<span style=color:#f92672>.</span>age <span style=color:#f92672>=</span> <span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span>        self<span style=color:#f92672>.</span>favorite_color <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Green&#34;</span>
-</span></span><span style=display:flex><span>        self<span style=color:#f92672>.</span>mylist <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;hey&#34;</span>, <span style=color:#e6db74>&#34;this&#34;</span>, <span style=color:#e6db74>&#34;is&#34;</span>, <span style=color:#e6db74>&#34;cool&#34;</span>]
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>my_object <span style=color:#f92672>=</span> MyObject()
-</span></span><span style=display:flex><span>serializer <span style=color:#f92672>=</span> yaml_serialize<span style=color:#f92672>.</span>Serialize(my_object)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Get serialized object as string</span>
-</span></span><span style=display:flex><span>my_serialized_object <span style=color:#f92672>=</span> serializer<span style=color:#f92672>.</span>get()
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Write serialized object with class name &#34;MyObject.yml&#34;</span>
-</span></span><span style=display:flex><span>serializer<span style=color:#f92672>.</span>write()
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Write serialized object with custom name &#34;MyCoolObject.yml&#34;</span>
-</span></span><span style=display:flex><span>serializer<span style=color:#f92672>.</span>write(<span style=color:#e6db74>&#34;MyCoolObject.yml&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>des <span style=color:#f92672>=</span> yaml_serialize<span style=color:#f92672>.</span>Deserialize()
-</span></span><span style=display:flex><span>new <span style=color:#f92672>=</span> des<span style=color:#f92672>.</span>read(my_serialized_object)
-</span></span><span style=display:flex><span>print(new)
-</span></span></code></pre></div><h2 id=output>Output</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#f92672>_object</span>: <span style=color:#75715e>!!python/object:__main__.MyObject</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>age</span>: <span style=color:#ae81ff>16</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>favorite_color</span>: <span style=color:#ae81ff>Green</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>mylist</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>hey</span>
-</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>this</span>
-</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>is</span>
-</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>cool</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Jake</span>
-</span></span></code></pre></div></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>yaml_serialize</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/yaml_serialize/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="yaml_serialize">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="yaml_serialize">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/yaml_serialize/">
+    <meta property="twitter:url" content="https://jr0.org/projects/yaml_serialize/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/yaml_serialize/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>yaml_serialize</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/yaml_serialize/">See on Github</a></p>
+<h1 id="yaml_serialize">yaml_serialize</h1>
+<p>A simple way to store python objects in yaml</p>
+<h2 id="use">Use</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#f92672">from</span> src <span style="color:#f92672">import</span> yaml_serialize
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyObject</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Jake&#34;</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>age <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>favorite_color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Green&#34;</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>mylist <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;hey&#34;</span>, <span style="color:#e6db74">&#34;this&#34;</span>, <span style="color:#e6db74">&#34;is&#34;</span>, <span style="color:#e6db74">&#34;cool&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_object <span style="color:#f92672">=</span> MyObject()
+</span></span><span style="display:flex;"><span>serializer <span style="color:#f92672">=</span> yaml_serialize<span style="color:#f92672">.</span>Serialize(my_object)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get serialized object as string</span>
+</span></span><span style="display:flex;"><span>my_serialized_object <span style="color:#f92672">=</span> serializer<span style="color:#f92672">.</span>get()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Write serialized object with class name &#34;MyObject.yml&#34;</span>
+</span></span><span style="display:flex;"><span>serializer<span style="color:#f92672">.</span>write()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Write serialized object with custom name &#34;MyCoolObject.yml&#34;</span>
+</span></span><span style="display:flex;"><span>serializer<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;MyCoolObject.yml&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>des <span style="color:#f92672">=</span> yaml_serialize<span style="color:#f92672">.</span>Deserialize()
+</span></span><span style="display:flex;"><span>new <span style="color:#f92672">=</span> des<span style="color:#f92672">.</span>read(my_serialized_object)
+</span></span><span style="display:flex;"><span>print(new)
+</span></span></code></pre></div><h2 id="output">Output</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">_object</span>: <span style="color:#75715e">!!python/object:__main__.MyObject</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">age</span>: <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">favorite_color</span>: <span style="color:#ae81ff">Green</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">mylist</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">hey</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">this</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">is</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">cool</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Jake</span>
+</span></span></code></pre></div>
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

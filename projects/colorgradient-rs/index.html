@@ -1,26 +1,190 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>colorgradient-rs</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/colorgradient-rs/"><meta property="og:type" content="website"><meta property="og:title" content="colorgradient-rs"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="colorgradient-rs"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/colorgradient-rs/"><meta property="twitter:url" content="https://jr0.org/projects/colorgradient-rs/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/colorgradient-rs/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>colorgradient-rs</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/colorgradient-rs/>See on Github</a></p><h1 id=colorgradient-rs>colorgradient-rs</h1><p><img src=https://user-images.githubusercontent.com/35516367/116793337-1716c680-aa7b-11eb-9c1e-2cda170e2118.png alt=image></p><ul><li>Python version <a href=https://github.com/JakeRoggenbuck/colorgradient>colorgradient</a></li><li>Rust version <a href=https://github.com/JakeRoggenbuck/colorgradient-rs>colorgradient-rs</a></li><li>Julia version <a href=https://github.com/JakeRoggenbuck/colorgradient-julia>colorgradient-julia</a></li><li>C version <a href=https://github.com/JakeRoggenbuck/colorgradient-c>colorgradient-c</a></li><li>Go version <a href=https://github.com/JakeRoggenbuck/colorgradient-go>colorgradient-go</a></li></ul><h1 id=install>Install</h1><pre tabindex=0><code>git clone https://github.com/JakeRoggenbuck/colorgradient-rs
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>colorgradient-rs</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/colorgradient-rs/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="colorgradient-rs">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="colorgradient-rs">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/colorgradient-rs/">
+    <meta property="twitter:url" content="https://jr0.org/projects/colorgradient-rs/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/colorgradient-rs/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>colorgradient-rs</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/colorgradient-rs/">See on Github</a></p>
+<h1 id="colorgradient-rs">colorgradient-rs</h1>
+<p><img src="https://user-images.githubusercontent.com/35516367/116793337-1716c680-aa7b-11eb-9c1e-2cda170e2118.png" alt="image"></p>
+<ul>
+<li>Python version <a href="https://github.com/JakeRoggenbuck/colorgradient">colorgradient</a></li>
+<li>Rust version <a href="https://github.com/JakeRoggenbuck/colorgradient-rs">colorgradient-rs</a></li>
+<li>Julia version <a href="https://github.com/JakeRoggenbuck/colorgradient-julia">colorgradient-julia</a></li>
+<li>C version <a href="https://github.com/JakeRoggenbuck/colorgradient-c">colorgradient-c</a></li>
+<li>Go version <a href="https://github.com/JakeRoggenbuck/colorgradient-go">colorgradient-go</a></li>
+</ul>
+<h1 id="install">Install</h1>
+<pre tabindex="0"><code>git clone https://github.com/JakeRoggenbuck/colorgradient-rs
 cargo install --path colorgradient-rs
-</code></pre><h1 id=test>Test</h1><pre tabindex=0><code>cargo test
-</code></pre><h1 id=code>Code</h1><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>calculate_gradient</span>(num: <span style=color:#66d9ef>i64</span>, original_colors: Vec<span style=color:#f92672>&lt;</span>RGB<span style=color:#f92672>&gt;</span>) -&gt; Vec<span style=color:#f92672>&lt;</span>RGB<span style=color:#f92672>&gt;</span> {
-</span></span><span style=display:flex><span>    <span style=color:#75715e>// Get the needed step value to fit the num of iterations in the original_colors length
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> step: <span style=color:#66d9ef>f32</span> <span style=color:#f92672>=</span> (original_colors.len() <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>f32</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>1.0</span>) <span style=color:#f92672>/</span> num <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>f32</span>;
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> channels <span style=color:#f92672>=</span> get_channels(original_colors);
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> colors <span style=color:#f92672>=</span> Vec::<span style=color:#f92672>&lt;</span>RGB<span style=color:#f92672>&gt;</span>::new();
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>num {
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// Use step to count up with index
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#66d9ef>let</span> x: <span style=color:#66d9ef>f32</span> <span style=color:#f92672>=</span> i <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>f32</span> <span style=color:#f92672>*</span> step;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> color <span style=color:#f92672>=</span> Vec::new();
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// Get each channel as a reference, use it as the known x values
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#66d9ef>for</span> channel <span style=color:#66d9ef>in</span> [<span style=color:#f92672>&amp;</span>channels.red, <span style=color:#f92672>&amp;</span>channels.green, <span style=color:#f92672>&amp;</span>channels.blue].iter() {
-</span></span><span style=display:flex><span>            <span style=color:#75715e>// Add the y values found from the x value to the color
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            color.push(find_y(x <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>f32</span>, channel).abs());
-</span></span><span style=display:flex><span>        }
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// Change the vector of colors to RGB structure, and add it to all the colors
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        colors.push(vec_to_rgb<span style=color:#f92672>!</span>(color));
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> colors;
-</span></span><span style=display:flex><span>}
-</span></span></code></pre></div></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+</code></pre><h1 id="test">Test</h1>
+<pre tabindex="0"><code>cargo test
+</code></pre><h1 id="code">Code</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rs" data-lang="rs"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">calculate_gradient</span>(num: <span style="color:#66d9ef">i64</span>, original_colors: Vec<span style="color:#f92672">&lt;</span>RGB<span style="color:#f92672">&gt;</span>) -&gt; Vec<span style="color:#f92672">&lt;</span>RGB<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Get the needed step value to fit the num of iterations in the original_colors length
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> step: <span style="color:#66d9ef">f32</span> <span style="color:#f92672">=</span> (original_colors.len() <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">f32</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1.0</span>) <span style="color:#f92672">/</span> num <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">f32</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> channels <span style="color:#f92672">=</span> get_channels(original_colors);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> colors <span style="color:#f92672">=</span> Vec::<span style="color:#f92672">&lt;</span>RGB<span style="color:#f92672">&gt;</span>::new();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span>num {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Use step to count up with index
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">let</span> x: <span style="color:#66d9ef">f32</span> <span style="color:#f92672">=</span> i <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">f32</span> <span style="color:#f92672">*</span> step;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> color <span style="color:#f92672">=</span> Vec::new();
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Get each channel as a reference, use it as the known x values
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> channel <span style="color:#66d9ef">in</span> [<span style="color:#f92672">&amp;</span>channels.red, <span style="color:#f92672">&amp;</span>channels.green, <span style="color:#f92672">&amp;</span>channels.blue].iter() {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Add the y values found from the x value to the color
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            color.push(find_y(x <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">f32</span>, channel).abs());
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Change the vector of colors to RGB structure, and add it to all the colors
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        colors.push(vec_to_rgb<span style="color:#f92672">!</span>(color));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> colors;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

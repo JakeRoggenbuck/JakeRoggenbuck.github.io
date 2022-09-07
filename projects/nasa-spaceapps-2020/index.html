@@ -1,3 +1,181 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>nasa-spaceapps-2020</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/nasa-spaceapps-2020/"><meta property="og:type" content="website"><meta property="og:title" content="nasa-spaceapps-2020"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="nasa-spaceapps-2020"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/nasa-spaceapps-2020/"><meta property="twitter:url" content="https://jr0.org/projects/nasa-spaceapps-2020/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/nasa-spaceapps-2020/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>nasa-spaceapps-2020</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/nasa-spaceapps-2020/>See on Github</a></p><h1 id=heasarc-and-neossat-data-viewer>HEASARC and NEOSSat Data Viewer</h1><p>nasa-spaceapps-2020</p><p>By George Berdovskiy and Shuzheng (Tom) Zhang</p><p>Set up instructions:</p><ol><li>Install pip, see how to do it at <a href=https://pip.pypa.io/en/stable/installing/>https://pip.pypa.io/en/stable/installing/</a></li><li>Install flask using <code>pip install flask</code></li><li>Install packages using pip, you can see the full list in <code>requirements.txt</code><ol><li>You can install them manually, or navigate to this directory in terminal/command prompt and type in:<ol><li><code>pip install -r requirements.txt</code></li></ol></li></ol></li><li>Navigate to directory <code>nasa-spaceapps-2020/app_directory</code> in terminal/command prompt</li><li>Run the webapp using <code>python viewer.py</code><ol><li>If you see line <code>Running on http://127.0.0.1:5000/</code> in the terminal, this indicates that the app is working</li><li>If not, check for missing packages and dependencies</li></ol></li><li>Now go to your browser (We have only tested Firefox), and type in <code>http://127.0.0.1:5000/</code> in the address bar</li><li>The webapp should now be up and running</li></ol></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>nasa-spaceapps-2020</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/nasa-spaceapps-2020/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="nasa-spaceapps-2020">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="nasa-spaceapps-2020">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/nasa-spaceapps-2020/">
+    <meta property="twitter:url" content="https://jr0.org/projects/nasa-spaceapps-2020/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/nasa-spaceapps-2020/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>nasa-spaceapps-2020</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/nasa-spaceapps-2020/">See on Github</a></p>
+<h1 id="heasarc-and-neossat-data-viewer">HEASARC and NEOSSat Data Viewer</h1>
+<p>nasa-spaceapps-2020</p>
+<p>By George Berdovskiy and Shuzheng (Tom) Zhang</p>
+<p>Set up instructions:</p>
+<ol>
+<li>Install pip, see how to do it at <a href="https://pip.pypa.io/en/stable/installing/">https://pip.pypa.io/en/stable/installing/</a></li>
+<li>Install flask using <code>pip install flask</code></li>
+<li>Install packages using pip, you can see the full list in <code>requirements.txt</code>
+<ol>
+<li>You can install them manually, or navigate to this directory in terminal/command prompt and type in:
+<ol>
+<li><code>pip install -r requirements.txt</code></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Navigate to directory <code>nasa-spaceapps-2020/app_directory</code> in terminal/command prompt</li>
+<li>Run the webapp using <code>python viewer.py</code>
+<ol>
+<li>If you see line <code>Running on http://127.0.0.1:5000/</code> in the terminal, this indicates that the app is working</li>
+<li>If not, check for missing packages and dependencies</li>
+</ol>
+</li>
+<li>Now go to your browser (We have only tested Firefox), and type in <code>http://127.0.0.1:5000/</code> in the address bar</li>
+<li>The webapp should now be up and running</li>
+</ol>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>

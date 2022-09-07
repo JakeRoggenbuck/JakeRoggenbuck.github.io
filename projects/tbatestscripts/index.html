@@ -1,36 +1,207 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>tbaTestScripts</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/projects/tbatestscripts/"><meta property="og:type" content="website"><meta property="og:title" content="tbaTestScripts"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="tbaTestScripts"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/projects/tbatestscripts/"><meta property="twitter:url" content="https://jr0.org/projects/tbatestscripts/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/projects/tbatestscripts/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
-<script src=https://jr0.org/js/feather-icons.min.js></script>
-<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>tbaTestScripts</h1></div><div class=post-content><p><p><a href=https://github.com/jakeroggenbuck/tbaTestScripts/>See on Github</a></p><h1 id=tbatestscripts>tbaTestScripts</h1><h3 id=tba-api-key>TBA API key</h3><ul><li>Create an api key</li><li><a href=https://www.thebluealliance.com/apidocs>API docs</a></li><li>Make a <code>api_key.py</code> file</li><li>Add request_headers = {&lsquo;X-TBA-Auth-Key&rsquo;: &lsquo;Your Key Here&rsquo;}</li></ul><h3 id=uses>Uses</h3><h4 id=averagebumpercolorpy>averageBumperColor.py</h4><p>In <code>averageBumperColor.py</code> the url <code>event/{event_code}/matches/simple</code> is used.
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>tbaTestScripts</title>
+    <meta name="description" content="Software Developer &amp; Student">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://jr0.org/projects/tbatestscripts/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="tbaTestScripts">
+    <meta property="og:description" content="Software Developer &amp; Student">
+    <meta property="og:image" content="/images/35516367.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="tbaTestScripts">
+    <meta name="twitter:description" content="Software Developer &amp; Student">
+    <meta property="twitter:domain" content="https://jr0.org/projects/tbatestscripts/">
+    <meta property="twitter:url" content="https://jr0.org/projects/tbatestscripts/">
+    <meta name="twitter:image" content="/images/35516367.jpg">
+
+    
+    <link rel="canonical" href="https://jr0.org/projects/tbatestscripts/" />
+
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://jr0.org/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://jr0.org/css/dark.css">
+
+    <script src="https://jr0.org/js/svg-injector.min.js"></script>
+    <script src="https://jr0.org/js/feather-icons.min.js"></script>
+    <script src="https://jr0.org/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://jr0.org">
+                <img src="https://jr0.org/images/35516367.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://jr0.org">JR0.org</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://jr0.org/devlogs/"><span data-feather='book'></span> Devlog </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>tbaTestScripts</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/jakeroggenbuck/tbaTestScripts/">See on Github</a></p>
+<h1 id="tbatestscripts">tbaTestScripts</h1>
+<h3 id="tba-api-key">TBA API key</h3>
+<ul>
+<li>Create an api key</li>
+<li><a href="https://www.thebluealliance.com/apidocs">API docs</a></li>
+<li>Make a <code>api_key.py</code> file</li>
+<li>Add request_headers = {&lsquo;X-TBA-Auth-Key&rsquo;: &lsquo;Your Key Here&rsquo;}</li>
+</ul>
+<h3 id="uses">Uses</h3>
+<h4 id="averagebumpercolorpy">averageBumperColor.py</h4>
+<p>In <code>averageBumperColor.py</code> the url <code>event/{event_code}/matches/simple</code> is used.
 Example of the event_code could be <code>2020caln</code>.
-The feilds used are <code>["alliances"]["blue"]["team_keys"]</code> and <code>["alliances"]["red"]["team_keys"]</code>
-The data it returns is a json of the average bumper/alliance color used</p><pre tabindex=0><code>{
+The feilds used are <code>[&quot;alliances&quot;][&quot;blue&quot;][&quot;team_keys&quot;]</code> and <code>[&quot;alliances&quot;][&quot;red&quot;][&quot;team_keys&quot;]</code>
+The data it returns is a json of the average bumper/alliance color used</p>
+<pre tabindex="0"><code>{
 	&#39;frc6560&#39;: -4,
 	&#39;frc115&#39;: 0,
 	&#39;frc114&#39;: -6,
 	&#39;frc1678&#39;: -6
 }
-</code></pre><h4 id=matchcolormakerpy>matchColorMaker.py</h4><p>In <code>matchColorMaker.py</code> the url <code>event/{event_key}/matches/simple</code> is used.
+</code></pre><h4 id="matchcolormakerpy">matchColorMaker.py</h4>
+<p>In <code>matchColorMaker.py</code> the url <code>event/{event_key}/matches/simple</code> is used.
 Example of the event_key could be <code>2020caln</code>.
-The feilds used are <code>["alliances"]["blue"]["team_keys"]</code> and <code>["alliances"]["red"]["team_keys"]</code>
-The data it prints is two lists with the red team and then the blue team in match</p><pre tabindex=0><code>[&#39;frc1678&#39;, &#39;frc973&#39;, &#39;frc4&#39;] [&#39;frc6560&#39;, &#39;frc115&#39;, &#39;frc114&#39;]
+The feilds used are <code>[&quot;alliances&quot;][&quot;blue&quot;][&quot;team_keys&quot;]</code> and <code>[&quot;alliances&quot;][&quot;red&quot;][&quot;team_keys&quot;]</code>
+The data it prints is two lists with the red team and then the blue team in match</p>
+<pre tabindex="0"><code>[&#39;frc1678&#39;, &#39;frc973&#39;, &#39;frc4&#39;] [&#39;frc6560&#39;, &#39;frc115&#39;, &#39;frc114&#39;]
 [&#39;frc1678&#39;, &#39;frc973&#39;, &#39;frc4&#39;] [&#39;frc6560&#39;, &#39;frc115&#39;, &#39;frc114&#39;]
 [&#39;frc1678&#39;, &#39;frc973&#39;, &#39;frc5089&#39;] [&#39;frc6560&#39;, &#39;frc115&#39;, &#39;frc114&#39;]
 [&#39;frc1678&#39;, &#39;frc973&#39;, &#39;frc4&#39;] [&#39;frc359&#39;, &#39;frc1388&#39;, &#39;frc3309&#39;]
-</code></pre><h4 id=teamsmapviewpy>teamsMapView.py</h4><p>In <code>teamsMapView.py</code> the url <code>event/{tba_key}/teams</code> is used.
+</code></pre><h4 id="teamsmapviewpy">teamsMapView.py</h4>
+<p>In <code>teamsMapView.py</code> the url <code>event/{tba_key}/teams</code> is used.
 Example of the event_code could be <code>2020mosl</code>.
-The feilds used are <code>team["nickname"]</code> and <code>team["state_prov"]</code>
-The data it prints are the teams and their state/province</p><pre tabindex=0><code>Metool Brigade, Illinois
+The feilds used are <code>team[&quot;nickname&quot;]</code> and <code>team[&quot;state_prov&quot;]</code>
+The data it prints are the teams and their state/province</p>
+<pre tabindex="0"><code>Metool Brigade, Illinois
 RAVEN Robotics, Missouri
 Tech Heads, Missouri
 Citrus Circuits, California
-</code></pre><h4 id=teamsviewerpy>teamsViewer.py</h4><p>In <code>teamsViewer.py</code> the url <code>event/{tba_key}/teams</code> is used.
+</code></pre><h4 id="teamsviewerpy">teamsViewer.py</h4>
+<p>In <code>teamsViewer.py</code> the url <code>event/{tba_key}/teams</code> is used.
 Example of the event_code could be <code>2020mosl</code>.
-The feilds used are <code>team["key"]</code>, <code>team["nickname"]</code>, <code>team["city"]</code>, <code>team["state_prov"]</code>, and <code>team["rookie_year"]</code>
-The data it prints are the teams and a few facts about them</p><pre tabindex=0><code>Team frc2978 Cavaliers is from Saint Louis, Missouri and their rookie year was 2009
+The feilds used are <code>team[&quot;key&quot;]</code>, <code>team[&quot;nickname&quot;]</code>, <code>team[&quot;city&quot;]</code>, <code>team[&quot;state_prov&quot;]</code>, and <code>team[&quot;rookie_year&quot;]</code>
+The data it prints are the teams and a few facts about them</p>
+<pre tabindex="0"><code>Team frc2978 Cavaliers is from Saint Louis, Missouri and their rookie year was 2009
 Team frc302 The Dragons is from Lake Orion, Michigan and their rookie year was 1999
 Team frc3330 System of the Corn  is from Saint Charles, Missouri and their rookie year was 2010
 Team frc3397 Robolions is from Saint Louis, Missouri and their rookie year was 2010
-</code></pre><h4 id=teamsspecificinfopy>teamsSpecificInfo.py</h4><p>In <code>teamsSpecificInfo.py</code> the url <code>team/{team_key}</code> is used.
+</code></pre><h4 id="teamsspecificinfopy">teamsSpecificInfo.py</h4>
+<p>In <code>teamsSpecificInfo.py</code> the url <code>team/{team_key}</code> is used.
 Example of the team_key could be <code>frc253</code>.
-The data it prints all data about the given team</p><pre tabindex=0><code>{&#39;address&#39;: None, &#39;city&#39;: &#39;Millbrae&#39;, &#39;country&#39;: &#39;USA&#39;, &#39;gmaps_place_id&#39;: None, &#39;gmaps_url&#39;: None, &#39;home_championship&#39;: {&#39;2020&#39;: &#39;Houston&#39;}, &#39;key&#39;: &#39;frc253&#39;, &#39;lat&#39;: None, &#39;lng&#39;: None, &#39;location_name&#39;: None, &#39;motto&#39;: None, &#39;name&#39;: &#39;Caccia Plumbing Inc/Millbrae Lions Club/Bishop Wisecarver/San Mateo Union High School District/Google/FIRST NorCal/Lockheed Martin/Santosh Abraham/SolidWorks/Comcast NBCUniversal/GATE/Intuitive Foundation/Millbrae Leos Club/San Carlos Kiwanis Club/Upward Credit Union/AGC Acupuncture Clinic/Rotary Club of Millbrae/Millbrae T4U/Tea Link/San Mateo Credit Union/Numis International Inc&amp;Mills High School&#39;, &#39;nickname&#39;: &#39;Boba Bots&#39;, &#39;postal_code&#39;: &#39;94030&#39;, &#39;rookie_year&#39;: 1999, &#39;school_name&#39;: &#39;Mills High School&#39;, &#39;state_prov&#39;: &#39;California&#39;, &#39;team_number&#39;: 253, &#39;website&#39;: &#39;https://millsroboticsteam253.com&#39;}
-</code></pre></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span></footer></body></html>
+The data it prints all data about the given team</p>
+<pre tabindex="0"><code>{&#39;address&#39;: None, &#39;city&#39;: &#39;Millbrae&#39;, &#39;country&#39;: &#39;USA&#39;, &#39;gmaps_place_id&#39;: None, &#39;gmaps_url&#39;: None, &#39;home_championship&#39;: {&#39;2020&#39;: &#39;Houston&#39;}, &#39;key&#39;: &#39;frc253&#39;, &#39;lat&#39;: None, &#39;lng&#39;: None, &#39;location_name&#39;: None, &#39;motto&#39;: None, &#39;name&#39;: &#39;Caccia Plumbing Inc/Millbrae Lions Club/Bishop Wisecarver/San Mateo Union High School District/Google/FIRST NorCal/Lockheed Martin/Santosh Abraham/SolidWorks/Comcast NBCUniversal/GATE/Intuitive Foundation/Millbrae Leos Club/San Carlos Kiwanis Club/Upward Credit Union/AGC Acupuncture Clinic/Rotary Club of Millbrae/Millbrae T4U/Tea Link/San Mateo Credit Union/Numis International Inc&amp;Mills High School&#39;, &#39;nickname&#39;: &#39;Boba Bots&#39;, &#39;postal_code&#39;: &#39;94030&#39;, &#39;rookie_year&#39;: 1999, &#39;school_name&#39;: &#39;Mills High School&#39;, &#39;state_prov&#39;: &#39;California&#39;, &#39;team_number&#39;: 253, &#39;website&#39;: &#39;https://millsroboticsteam253.com&#39;}
+</code></pre>
+        </p>
+    </div>
+</div>
+
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Jake Roggenbuck</span>
+</footer>
+</body>
+</html>
