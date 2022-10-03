@@ -1,8 +1,9 @@
 hugo --minify
 mkdir /tmp/hugo-tmp
+/bin/cp -fr public/* /tmp/hugo-tmp
 
 git switch gh-pages
-/bin/cp -fr public/* /tmp/hugo-tmp
+/bit/cp -fr /tmp/hugo-tmp .
 
 git add .
 git commit -m "New Auto Deploy"
