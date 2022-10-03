@@ -4,7 +4,7 @@ title: pylexlite
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/pylexlite/)
+[See on GitHub](https://github.com/jakeroggenbuck/pylexlite/)
 
 # pylex_lite
 

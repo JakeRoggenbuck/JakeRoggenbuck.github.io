@@ -4,7 +4,7 @@ title: Deepai
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Deepai/)
+[See on GitHub](https://github.com/jakeroggenbuck/Deepai/)
 
 # Deepai
 

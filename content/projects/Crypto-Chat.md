@@ -4,7 +4,7 @@ title: Crypto-Chat
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Crypto-Chat/)
+[See on GitHub](https://github.com/jakeroggenbuck/Crypto-Chat/)
 
 # Crypto-Chat
 

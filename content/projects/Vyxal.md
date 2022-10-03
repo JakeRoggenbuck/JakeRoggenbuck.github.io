@@ -4,7 +4,7 @@ title: Vyxal
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Vyxal/)
+[See on GitHub](https://github.com/jakeroggenbuck/Vyxal/)
 
 # Vyxal - Terse, Elegant and Readable
 

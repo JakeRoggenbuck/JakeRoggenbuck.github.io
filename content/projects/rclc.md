@@ -4,7 +4,7 @@ title: rclc
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/rclc/)
+[See on GitHub](https://github.com/jakeroggenbuck/rclc/)
 
 <div align="center">
 

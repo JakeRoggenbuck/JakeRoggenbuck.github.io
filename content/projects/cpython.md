@@ -4,6 +4,6 @@ title: cpython
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/cpython/)
+[See on GitHub](https://github.com/jakeroggenbuck/cpython/)
 
 404: Not Found

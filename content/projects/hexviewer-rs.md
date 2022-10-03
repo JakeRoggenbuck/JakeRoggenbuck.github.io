@@ -4,7 +4,7 @@ title: hexviewer-rs
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/hexviewer-rs/)
+[See on GitHub](https://github.com/jakeroggenbuck/hexviewer-rs/)
 
 # hexviewer-rs
 Hexviewer allows you to quickly view the hex representation of a file with vim style keybinds<br><br>

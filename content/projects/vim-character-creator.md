@@ -4,7 +4,7 @@ title: vim-character-creator
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/vim-character-creator/)
+[See on GitHub](https://github.com/jakeroggenbuck/vim-character-creator/)
 
 # vim-character-creator
 

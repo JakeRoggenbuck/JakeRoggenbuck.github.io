@@ -4,7 +4,7 @@ title: rocky
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/rocky/)
+[See on GitHub](https://github.com/jakeroggenbuck/rocky/)
 
 <p align="center">
 <img src="https://media.githubusercontent.com/media/rocky-linux/branding/main/logo-text-light%402x.png" alt="Rocky Linux Logo">

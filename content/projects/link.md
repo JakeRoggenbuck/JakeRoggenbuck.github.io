@@ -4,7 +4,7 @@ title: link
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/link/)
+[See on GitHub](https://github.com/jakeroggenbuck/link/)
 
 # link ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/link/Rust?style=for-the-badge)
 

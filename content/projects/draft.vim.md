@@ -4,7 +4,7 @@ title: draft.vim
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/draft.vim/)
+[See on GitHub](https://github.com/jakeroggenbuck/draft.vim/)
 
 # Draft.vim
 Quickly writeup and save drafts for messaging apps in your favorite editor [vimawesome.com/plugin/draft-vim](https://vimawesome.com/plugin/draft-vim)

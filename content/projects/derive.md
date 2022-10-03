@@ -4,7 +4,7 @@ title: derive
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/derive/)
+[See on GitHub](https://github.com/jakeroggenbuck/derive/)
 
 # derive
 Calculate the derivative of a function non-algebraically

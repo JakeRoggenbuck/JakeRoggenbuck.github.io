@@ -80,7 +80,7 @@ The `weight` attribute can be added in the markdown metadata for `post` types. W
 3. Do not show anything if the variable is unset or an empty string.
 
 ## Icons
-Gokarna supports popular social media icons (Github, Linkedin, Twitter, StackOverflow, Dribbble, etc.) out of the box. See full list of supported icons [here](https://github.com/526avijitgupta/gokarna/tree/main/static/icons).
+Gokarna supports popular social media icons (GitHub, Linkedin, Twitter, StackOverflow, Dribbble, etc.) out of the box. See full list of supported icons [here](https://github.com/526avijitgupta/gokarna/tree/main/static/icons).
 
 ### Icons on homepage
 

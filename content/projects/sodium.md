@@ -4,7 +4,7 @@ title: sodium
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/sodium/)
+[See on GitHub](https://github.com/jakeroggenbuck/sodium/)
 
 
 <img src="https://raw.githubusercontent.com/redox-os/assets/master/logos/sodium/Sodium_logo.png" height="200" />

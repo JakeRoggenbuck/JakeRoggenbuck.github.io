@@ -4,7 +4,7 @@ title: Journal.vim
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Journal.vim/)
+[See on GitHub](https://github.com/jakeroggenbuck/Journal.vim/)
 
 # Journal.vim
 

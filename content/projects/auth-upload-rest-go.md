@@ -4,7 +4,7 @@ title: auth-upload-rest-go
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/auth-upload-rest-go/)
+[See on GitHub](https://github.com/jakeroggenbuck/auth-upload-rest-go/)
 
 # auth-upload-rest-go
 Authenticated REST server written in Go.

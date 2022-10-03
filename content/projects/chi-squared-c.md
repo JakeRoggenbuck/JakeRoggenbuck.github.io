@@ -4,7 +4,7 @@ title: chi-squared-c
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/chi-squared-c/)
+[See on GitHub](https://github.com/jakeroggenbuck/chi-squared-c/)
 
 # chi-squared-c
 

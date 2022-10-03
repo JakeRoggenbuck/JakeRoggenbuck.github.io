@@ -4,7 +4,7 @@ title: hash-colorer
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/hash-colorer/)
+[See on GitHub](https://github.com/jakeroggenbuck/hash-colorer/)
 
 # hash-colorer
 ### View hashes as colors

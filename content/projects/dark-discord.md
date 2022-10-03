@@ -4,7 +4,7 @@ title: dark-discord
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/dark-discord/)
+[See on GitHub](https://github.com/jakeroggenbuck/dark-discord/)
 
 # dark-discord
 An actual dark theme for Discord

@@ -4,7 +4,7 @@ title: zerOS
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/zerOS/)
+[See on GitHub](https://github.com/jakeroggenbuck/zerOS/)
 
 # zerOS
 an os? based on arch

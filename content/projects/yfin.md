@@ -4,7 +4,7 @@ title: yfin
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/yfin/)
+[See on GitHub](https://github.com/jakeroggenbuck/yfin/)
 
 # yfin 0.1.2 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/yfin/Rust?style=for-the-badge)
 

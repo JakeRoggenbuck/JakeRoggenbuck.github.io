@@ -4,7 +4,7 @@ title: lark
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/lark/)
+[See on GitHub](https://github.com/jakeroggenbuck/lark/)
 
 # Lark - a parsing toolkit for Python
 

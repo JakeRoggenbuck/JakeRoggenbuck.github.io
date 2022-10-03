@@ -4,7 +4,7 @@ title: kotlin-todo-app
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/kotlin-todo-app/)
+[See on GitHub](https://github.com/jakeroggenbuck/kotlin-todo-app/)
 
 # kotlin-todo-app
 

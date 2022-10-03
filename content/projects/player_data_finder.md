@@ -4,7 +4,7 @@ title: player_data_finder
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/player_data_finder/)
+[See on GitHub](https://github.com/jakeroggenbuck/player_data_finder/)
 
 # player_data_finder
 

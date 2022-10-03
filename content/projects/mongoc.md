@@ -4,7 +4,7 @@ title: mongoc
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/mongoc/)
+[See on GitHub](https://github.com/jakeroggenbuck/mongoc/)
 
 <a href="https://pypi.org/project/mongoc/">![Version](https://img.shields.io/pypi/v/mongoc)</a>
 

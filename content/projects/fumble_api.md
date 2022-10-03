@@ -4,7 +4,7 @@ title: fumble_api
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/fumble_api/)
+[See on GitHub](https://github.com/jakeroggenbuck/fumble_api/)
 
 # fumble_api
 A simple web API to return critical charts for the game dnd 5e

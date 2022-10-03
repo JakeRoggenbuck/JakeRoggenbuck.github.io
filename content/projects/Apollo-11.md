@@ -4,7 +4,7 @@ title: Apollo-11
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Apollo-11/)
+[See on GitHub](https://github.com/jakeroggenbuck/Apollo-11/)
 
 # Apollo-11
 [![NASA][1]][2]

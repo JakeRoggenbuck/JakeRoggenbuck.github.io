@@ -4,7 +4,7 @@ title: yaml_serialize
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/yaml_serialize/)
+[See on GitHub](https://github.com/jakeroggenbuck/yaml_serialize/)
 
 # yaml_serialize
 A simple way to store python objects in yaml 

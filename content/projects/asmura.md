@@ -4,7 +4,7 @@ title: asmura
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/asmura/)
+[See on GitHub](https://github.com/jakeroggenbuck/asmura/)
 
 Source code for an RPG game
 To run the game, type "java -jar asmura.jar" in terminal

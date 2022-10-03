@@ -4,7 +4,7 @@ title: colorgradient-go
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/colorgradient-go/)
+[See on GitHub](https://github.com/jakeroggenbuck/colorgradient-go/)
 
 # colorgradient-go
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

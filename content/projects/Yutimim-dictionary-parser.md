@@ -4,7 +4,7 @@ title: Yutimim-dictionary-parser
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Yutimim-dictionary-parser/)
+[See on GitHub](https://github.com/jakeroggenbuck/Yutimim-dictionary-parser/)
 
 # Yutimim-dictionary-parser
 

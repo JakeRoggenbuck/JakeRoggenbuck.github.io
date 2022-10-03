@@ -4,7 +4,7 @@ title: ursina-platform-game
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ursina-platform-game/)
+[See on GitHub](https://github.com/jakeroggenbuck/ursina-platform-game/)
 
 # ursina-platform-game
 

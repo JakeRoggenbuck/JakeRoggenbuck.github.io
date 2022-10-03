@@ -4,7 +4,7 @@ title: broken-package-yf
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/broken-package-yf/)
+[See on GitHub](https://github.com/jakeroggenbuck/broken-package-yf/)
 
 # broken-package-yf
 An example broken package 

@@ -4,7 +4,7 @@ title: rocket-pinball
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/rocket-pinball/)
+[See on GitHub](https://github.com/jakeroggenbuck/rocket-pinball/)
 
 # rocket-[not]-pinball
 A game that started as pinball, but really isn't, more fun

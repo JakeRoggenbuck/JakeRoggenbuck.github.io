@@ -4,7 +4,7 @@ title: car-lights
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/car-lights/)
+[See on GitHub](https://github.com/jakeroggenbuck/car-lights/)
 
 # car-lights
 

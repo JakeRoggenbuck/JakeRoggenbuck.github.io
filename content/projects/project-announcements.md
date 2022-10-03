@@ -4,7 +4,7 @@ title: project-announcements
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/project-announcements/)
+[See on GitHub](https://github.com/jakeroggenbuck/project-announcements/)
 
 # project-announcements
 

@@ -4,7 +4,7 @@ title: covers
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/covers/)
+[See on GitHub](https://github.com/jakeroggenbuck/covers/)
 
 # CoveRs
 Code coverage for Rust in Rust

@@ -4,6 +4,6 @@ title: dcbankofcarter
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/dcbankofcarter/)
+[See on GitHub](https://github.com/jakeroggenbuck/dcbankofcarter/)
 
 # dcbankofcarter

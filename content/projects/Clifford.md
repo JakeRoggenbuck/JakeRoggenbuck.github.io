@@ -4,7 +4,7 @@ title: Clifford
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Clifford/)
+[See on GitHub](https://github.com/jakeroggenbuck/Clifford/)
 
 # Clifford Attractors
 ![](image.png)

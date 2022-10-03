@@ -4,6 +4,6 @@ title: Skyometer
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Skyometer/)
+[See on GitHub](https://github.com/jakeroggenbuck/Skyometer/)
 
 404: Not Found

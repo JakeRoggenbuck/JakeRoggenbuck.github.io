@@ -4,7 +4,7 @@ title: qme-releases
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/qme-releases/)
+[See on GitHub](https://github.com/jakeroggenbuck/qme-releases/)
 
 ## QME Releases
 

@@ -4,7 +4,7 @@ title: colorgradient-julia
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/colorgradient-julia/)
+[See on GitHub](https://github.com/jakeroggenbuck/colorgradient-julia/)
 
 # colorgradient-julia
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

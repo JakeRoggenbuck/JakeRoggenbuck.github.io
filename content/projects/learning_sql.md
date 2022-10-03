@@ -4,7 +4,7 @@ title: learning_sql
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/learning_sql/)
+[See on GitHub](https://github.com/jakeroggenbuck/learning_sql/)
 
 # learning_sql
 

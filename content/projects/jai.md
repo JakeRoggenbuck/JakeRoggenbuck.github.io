@@ -4,7 +4,7 @@ title: jai
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/jai/)
+[See on GitHub](https://github.com/jakeroggenbuck/jai/)
 
 # Jai ![Pytest](https://img.shields.io/github/workflow/status/jakeroggenbuck/jai/pytest?style=for-the-badge)
 Our entry to the [langjam](https://github.com/langjam/jam0001)

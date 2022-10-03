@@ -4,7 +4,7 @@ title: valueourminds_website
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/valueourminds_website/)
+[See on GitHub](https://github.com/jakeroggenbuck/valueourminds_website/)
 
 # valueourminds_website
 

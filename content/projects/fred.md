@@ -4,7 +4,7 @@ title: fred
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/fred/)
+[See on GitHub](https://github.com/jakeroggenbuck/fred/)
 
 # fred
 Like GnuShred, Fred overwrites files to make them harder to read using the string 'fred'

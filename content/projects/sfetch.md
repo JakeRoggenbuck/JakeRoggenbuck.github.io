@@ -4,7 +4,7 @@ title: sfetch
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/sfetch/)
+[See on GitHub](https://github.com/jakeroggenbuck/sfetch/)
 
 # sfetch
 A very simple fetch

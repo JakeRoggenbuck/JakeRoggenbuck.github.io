@@ -4,7 +4,7 @@ title: spinners
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/spinners/)
+[See on GitHub](https://github.com/jakeroggenbuck/spinners/)
 
 # Spinners - 🛎 60+ Elegant terminal spinners for Rust
 

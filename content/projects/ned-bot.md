@@ -4,7 +4,7 @@ title: ned-bot
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ned-bot/)
+[See on GitHub](https://github.com/jakeroggenbuck/ned-bot/)
 
 # ned-bot
 ## A discord bot that reacts with 🇩 when any users react with 🇳 and 🇪. It likes spelling its name.

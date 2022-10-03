@@ -4,6 +4,6 @@ title: ChromeWebLauncher
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ChromeWebLauncher/)
+[See on GitHub](https://github.com/jakeroggenbuck/ChromeWebLauncher/)
 
 # ChromeWebLauncher

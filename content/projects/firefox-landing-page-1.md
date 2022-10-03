@@ -4,7 +4,7 @@ title: firefox-landing-page-1
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/firefox-landing-page-1/)
+[See on GitHub](https://github.com/jakeroggenbuck/firefox-landing-page-1/)
 
 # Landing Page
 Clone the library to your computer

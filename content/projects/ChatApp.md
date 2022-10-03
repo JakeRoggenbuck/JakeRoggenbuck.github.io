@@ -4,7 +4,7 @@ title: ChatApp
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ChatApp/)
+[See on GitHub](https://github.com/jakeroggenbuck/ChatApp/)
 
 # ChatApp
 

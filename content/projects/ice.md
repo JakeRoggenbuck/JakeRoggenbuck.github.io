@@ -4,7 +4,7 @@ title: ice
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ice/)
+[See on GitHub](https://github.com/jakeroggenbuck/ice/)
 
 # Ice
 Programming language and interpreter

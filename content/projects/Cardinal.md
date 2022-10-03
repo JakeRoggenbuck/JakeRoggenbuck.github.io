@@ -4,7 +4,7 @@ title: Cardinal
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Cardinal/)
+[See on GitHub](https://github.com/jakeroggenbuck/Cardinal/)
 
 # Cardinal
 Cardinal is a web server that serves data from the frc1678/server project to the frc1678/viewer project.
@@ -105,7 +105,7 @@ curl -X GET "https://cardinal.citruscircuits.org/cardinal/api/generate/calc_tba_
 
 #### 2. Basic functioning system & initial tests
 	- Run the system on every developer's computer and troubleshoot
-	- Get automatic testing working with Github actions
+	- Get automatic testing working with GitHub actions
 
 #### 3. Automatic test data generator API
 	- Fully generate data the view can use to test from this service

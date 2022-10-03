@@ -4,7 +4,7 @@ title: bookmark-search
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/bookmark-search/)
+[See on GitHub](https://github.com/jakeroggenbuck/bookmark-search/)
 
 # Bookmark search
 A simple thing to allow you to search your bookmarks better than any browser default bookmark search

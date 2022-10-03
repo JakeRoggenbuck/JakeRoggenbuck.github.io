@@ -4,7 +4,7 @@ title: lightBot
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/lightBot/)
+[See on GitHub](https://github.com/jakeroggenbuck/lightBot/)
 
 # lightBot
 

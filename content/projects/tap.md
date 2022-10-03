@@ -4,7 +4,7 @@ title: tap
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/tap/)
+[See on GitHub](https://github.com/jakeroggenbuck/tap/)
 
 # Tap ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/tap/Rust?style=for-the-badge)
 Quickly tap basic file into existence

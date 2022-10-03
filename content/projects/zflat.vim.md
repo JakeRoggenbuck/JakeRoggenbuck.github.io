@@ -4,7 +4,7 @@ title: zflat.vim
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/zflat.vim/)
+[See on GitHub](https://github.com/jakeroggenbuck/zflat.vim/)
 
 # zflat.vim
 A syntax highlighting for zflat lang files

@@ -4,7 +4,7 @@ title: 2021-software-general-homework
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/2021-software-general-homework/)
+[See on GitHub](https://github.com/jakeroggenbuck/2021-software-general-homework/)
 
 # 2021-software-general-homework
 

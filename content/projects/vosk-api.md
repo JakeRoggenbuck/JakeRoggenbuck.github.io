@@ -4,7 +4,7 @@ title: vosk-api
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/vosk-api/)
+[See on GitHub](https://github.com/jakeroggenbuck/vosk-api/)
 
 # Vosk Speech Recognition Toolkit
 

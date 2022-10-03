@@ -4,7 +4,7 @@ title: ocean-game-py
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ocean-game-py/)
+[See on GitHub](https://github.com/jakeroggenbuck/ocean-game-py/)
 
 # ocean-game-py
 Simple ocean game demo for DV Game Jam

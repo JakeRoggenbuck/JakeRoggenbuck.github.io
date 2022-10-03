@@ -4,7 +4,7 @@ title: mahou
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/mahou/)
+[See on GitHub](https://github.com/jakeroggenbuck/mahou/)
 
 # mahou
 

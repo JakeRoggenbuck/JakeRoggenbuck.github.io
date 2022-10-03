@@ -4,7 +4,7 @@ title: BrainF
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/BrainF/)
+[See on GitHub](https://github.com/jakeroggenbuck/BrainF/)
 
 # BrainF
 

@@ -4,7 +4,7 @@ title: Termitebot
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Termitebot/)
+[See on GitHub](https://github.com/jakeroggenbuck/Termitebot/)
 
 # Termitebot
 

@@ -4,7 +4,7 @@ title: JEC-py
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/JEC-py/)
+[See on GitHub](https://github.com/jakeroggenbuck/JEC-py/)
 
 # JEC-py ![Python](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-py/Py?style=for-the-badge)
 Jabacat's Easy Config

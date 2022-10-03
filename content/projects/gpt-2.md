@@ -4,7 +4,7 @@ title: gpt-2
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/gpt-2/)
+[See on GitHub](https://github.com/jakeroggenbuck/gpt-2/)
 
 # gpt-2
 

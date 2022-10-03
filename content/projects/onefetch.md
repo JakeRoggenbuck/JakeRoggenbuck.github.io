@@ -4,7 +4,7 @@ title: onefetch
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/onefetch/)
+[See on GitHub](https://github.com/jakeroggenbuck/onefetch/)
 
 <h3 align="center"><img src="assets/onefetch.svg" height="130px"></h3>
 

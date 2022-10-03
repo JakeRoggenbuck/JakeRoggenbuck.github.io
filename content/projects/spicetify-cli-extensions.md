@@ -4,7 +4,7 @@ title: spicetify-cli-extensions
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/spicetify-cli-extensions/)
+[See on GitHub](https://github.com/jakeroggenbuck/spicetify-cli-extensions/)
 
 # spicetify-cli-extensions
 

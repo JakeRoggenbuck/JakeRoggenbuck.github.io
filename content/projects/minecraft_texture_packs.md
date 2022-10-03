@@ -4,7 +4,7 @@ title: minecraft_texture_packs
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/minecraft_texture_packs/)
+[See on GitHub](https://github.com/jakeroggenbuck/minecraft_texture_packs/)
 
 # minecraft_texture_packs
 

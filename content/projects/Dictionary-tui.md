@@ -4,7 +4,7 @@ title: Dictionary-tui
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Dictionary-tui/)
+[See on GitHub](https://github.com/jakeroggenbuck/Dictionary-tui/)
 
 # Dictionary-tui
 

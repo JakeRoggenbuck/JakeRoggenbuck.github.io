@@ -4,7 +4,7 @@ title: sense-rs
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/sense-rs/)
+[See on GitHub](https://github.com/jakeroggenbuck/sense-rs/)
 
 # sense-rs
 Sense the directories around you, are they git repositories, what language, etc.
