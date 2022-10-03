@@ -4,4 +4,4 @@ type: page
 ---
 
 # 2022
-- [Observations on Every Third Digit of the Thue-Morse Sequence](/research/t3d)
+- [Observations on Every Third Digit of the Thue-Morse Sequence](/research/t3)
