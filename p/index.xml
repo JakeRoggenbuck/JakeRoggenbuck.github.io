@@ -1,72 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ps on JR0.org</title>
-    <link>https://jr0.org/p/</link>
-    <description>Recent content in Ps on JR0.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jr0.org/p/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Clubs</title>
-      <link>https://jr0.org/p/clubs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/clubs/</guid>
-      <description>QME Games I am project manager for the QME Games group. https://github.com/qmegame/
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ps on JR0.org</title><link>https://jr0.org/p/</link><description>Recent content in Ps on JR0.org</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://jr0.org/p/index.xml" rel="self" type="application/rss+xml"/><item><title>Clubs</title><link>https://jr0.org/p/clubs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/clubs/</guid><description>QME Games I am project manager for the QME Games group. https://github.com/qmegame/
 Software Club President of a club dedicated to teaching members of the DVCA High School how to write useful software and prepare for industry. https://jr0.org/p/software-club
 DHS Gamedev Project manager for the DHS game development club. https://github.com/dhs-gamedev/
 DHS Coding Club Project manager &amp;amp; presenter for the DHS Coding Club. https://github.com/dhs-gamedev/
-DV-CSHS I am the president of the Da Vinci Computer Science Honors Society https://sites.</description>
-    </item>
-    
-    <item>
-      <title>Local List</title>
-      <link>https://jr0.org/p/local-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/local-list/</guid>
-      <description>Local List is a Web App that allows users to search and discover local products and services in their area. This project was made as a part of a school project but has since expanded and partnered with real businesses.
+DV-CSHS I am the president of the Da Vinci Computer Science Honors Society https://sites.</description></item><item><title>Local List</title><link>https://jr0.org/p/local-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/local-list/</guid><description>Local List is a Web App that allows users to search and discover local products and services in their area. This project was made as a part of a school project but has since expanded and partnered with real businesses.
 Visit the page! TheLocalList.org
-The tides have turned and the majority of sales happen on Amazon, seemingly irreversibly drowning local business. Our mission is to tip the scale back in favor of local business before it is too late.</description>
-    </item>
-    
-    <item>
-      <title>Project Invent</title>
-      <link>https://jr0.org/p/project-invent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/project-invent/</guid>
-      <description>Here is a list of portfolio projects for my Project Invent Class. Project Invent is the end of the CTE Pathway and these projects show my wide variety of skills and interests. These are all recent projects that needed many hours of work each.
-Auto Clock Speed A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life. This is a project that I put a lot of time into, more than any other project outside of school, and has three active developers.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://jr0.org/p/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/research/</guid>
-      <description>On Logs Research Exploration on the decimal places of logs from December 2021. Jupyter Notebook
-Pascals Triangle Exploration of pascals triangle from January 2022. Jupyter Notebook</description>
-    </item>
-    
-    <item>
-      <title>Software Club</title>
-      <link>https://jr0.org/p/software-club/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/software-club/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stats Project 2022</title>
-      <link>https://jr0.org/p/stats-project-2022/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jr0.org/p/stats-project-2022/</guid>
-      <description>Jupyter Lab for the project - Graphs.ipynb</description>
-    </item>
-    
-  </channel>
-</rss>
+The tides have turned and the majority of sales happen on Amazon, seemingly irreversibly drowning local business. Our mission is to tip the scale back in favor of local business before it is too late.</description></item><item><title>Project Invent</title><link>https://jr0.org/p/project-invent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/project-invent/</guid><description>Here is a list of portfolio projects for my Project Invent Class. Project Invent is the end of the CTE Pathway and these projects show my wide variety of skills and interests. These are all recent projects that needed many hours of work each.
+Auto Clock Speed A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life. This is a project that I put a lot of time into, more than any other project outside of school, and has three active developers.</description></item><item><title>Research</title><link>https://jr0.org/p/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/research/</guid><description>On Logs Research Exploration on the decimal places of logs from December 2021. Jupyter Notebook
+Pascals Triangle Exploration of pascals triangle from January 2022. Jupyter Notebook</description></item><item><title>Software Club</title><link>https://jr0.org/p/software-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/software-club/</guid><description/></item><item><title>Stats Project 2022</title><link>https://jr0.org/p/stats-project-2022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jr0.org/p/stats-project-2022/</guid><description>Jupyter Lab for the project - Graphs.ipynb</description></item></channel></rss>
