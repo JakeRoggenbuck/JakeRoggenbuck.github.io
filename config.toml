@@ -30,6 +30,12 @@ theme = "gokarna"
     weight = 3
 
   [[menu.main]]
+    name = "Research"
+    pre = "<span data-feather='book'></span>"
+    url = "/research/"
+    weight = 3
+
+  [[menu.main]]
     name = "Devlog"
     pre = "<span data-feather='book'></span>"
     url = "/devlogs/"
