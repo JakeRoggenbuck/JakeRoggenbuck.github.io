@@ -6,3 +6,6 @@ git switch gh-pages
 git add .
 git commit -m "New Auto Deploy"
 git push origin gh-pages
+
+rm -rf /tmp/hugo-tmp
+git switch main
