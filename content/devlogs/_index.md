@@ -13,3 +13,4 @@ A collection of monthly summaries comprised of particular projects, progress, an
 - [June 2022](/devlogs/june-2022) - **Go, C, and Rust!**
 - [July 2022](/devlogs/july-2022) - **Summer projects**
 - [August 2022](/devlogs/august-2022) - **Work & Hackathons**
+- [September 2022](/devlogs/september-2022) - **T3 Paper & Starting college**
