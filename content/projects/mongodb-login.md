@@ -4,6 +4,6 @@ title: mongodb-login
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/mongodb-login/)
+[See on GitHub](https://github.com/jakeroggenbuck/mongodb-login/)
 
 # mongodb-login

@@ -4,7 +4,7 @@ title: planck.vim
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/planck.vim/)
+[See on GitHub](https://github.com/jakeroggenbuck/planck.vim/)
 
 # planck.vim
 A syntax highlighting for planck lang files

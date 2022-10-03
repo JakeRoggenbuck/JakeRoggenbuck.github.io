@@ -4,7 +4,7 @@ title: cruz-lang
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/cruz-lang/)
+[See on GitHub](https://github.com/jakeroggenbuck/cruz-lang/)
 
 # Cruzlang
 

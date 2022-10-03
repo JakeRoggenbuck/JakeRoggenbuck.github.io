@@ -4,6 +4,6 @@ title: advent-of-code
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/advent-of-code/)
+[See on GitHub](https://github.com/jakeroggenbuck/advent-of-code/)
 
 # advent-of-code

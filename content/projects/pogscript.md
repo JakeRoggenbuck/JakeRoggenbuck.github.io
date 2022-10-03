@@ -4,7 +4,7 @@ title: pogscript
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/pogscript/)
+[See on GitHub](https://github.com/jakeroggenbuck/pogscript/)
 
 # Pogscript
 ### Pogscript, Overtly, Great, Script

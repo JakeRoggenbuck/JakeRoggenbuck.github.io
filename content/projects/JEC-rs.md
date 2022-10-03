@@ -4,7 +4,7 @@ title: JEC-rs
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/JEC-rs/)
+[See on GitHub](https://github.com/jakeroggenbuck/JEC-rs/)
 
 # JEC-rs ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-rs/Rust?style=for-the-badge)
 Jabacat's Easy Config

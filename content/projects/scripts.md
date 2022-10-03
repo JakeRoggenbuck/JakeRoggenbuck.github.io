@@ -4,7 +4,7 @@ title: .scripts
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/.scripts/)
+[See on GitHub](https://github.com/jakeroggenbuck/.scripts/)
 
 # .scripts version 0.3
 

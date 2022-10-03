@@ -4,6 +4,6 @@ title: SignInWebApp
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/SignInWebApp/)
+[See on GitHub](https://github.com/jakeroggenbuck/SignInWebApp/)
 
 # SignInWebApp

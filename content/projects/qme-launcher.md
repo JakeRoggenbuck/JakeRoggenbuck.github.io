@@ -4,7 +4,7 @@ title: qme-launcher
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/qme-launcher/)
+[See on GitHub](https://github.com/jakeroggenbuck/qme-launcher/)
 
 # Installing QME
 

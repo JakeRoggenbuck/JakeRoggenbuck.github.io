@@ -4,7 +4,7 @@ title: claculator
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/claculator/)
+[See on GitHub](https://github.com/jakeroggenbuck/claculator/)
 
 # claculator
 adds numbers together

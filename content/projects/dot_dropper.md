@@ -4,7 +4,7 @@ title: dot_dropper
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/dot_dropper/)
+[See on GitHub](https://github.com/jakeroggenbuck/dot_dropper/)
 
 # dot_dropper
 

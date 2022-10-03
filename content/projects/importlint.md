@@ -4,7 +4,7 @@ title: importlint
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/importlint/)
+[See on GitHub](https://github.com/jakeroggenbuck/importlint/)
 
 # ImportLint
 Check and fix your module and package imports in python files

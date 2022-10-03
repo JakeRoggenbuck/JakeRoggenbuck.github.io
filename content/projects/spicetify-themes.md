@@ -4,7 +4,7 @@ title: spicetify-themes
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/spicetify-themes/)
+[See on GitHub](https://github.com/jakeroggenbuck/spicetify-themes/)
 
 # spicetify community themes
 

@@ -4,7 +4,7 @@ title: Rust
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Rust/)
+[See on GitHub](https://github.com/jakeroggenbuck/Rust/)
 
 # The Algorithms - Rust [![Gitter](https://img.shields.io/gitter/room/the-algorithms/rust.svg?style=flat-square)](https://gitter.im/the-algorithms/rust) [![build](https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml/badge.svg)](https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml)
 

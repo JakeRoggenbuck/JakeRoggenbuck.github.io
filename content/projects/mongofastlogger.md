@@ -4,7 +4,7 @@ title: mongofastlogger
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/mongofastlogger/)
+[See on GitHub](https://github.com/jakeroggenbuck/mongofastlogger/)
 
 <a href="https://pypi.org/project/mongofastlogger/">![Version](https://img.shields.io/pypi/v/mongofastlogger)</a>
 

@@ -4,7 +4,7 @@ title: pinter
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/pinter/)
+[See on GitHub](https://github.com/jakeroggenbuck/pinter/)
 
 Pinter ![C/C++ CI](https://github.com/plancklang/pinter/workflows/C/C++%20CI/badge.svg)
 ======

@@ -4,7 +4,7 @@ title: spaceapp
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/spaceapp/)
+[See on GitHub](https://github.com/jakeroggenbuck/spaceapp/)
 
 # spaceapp
 Telescope Aiming tool

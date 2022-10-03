@@ -4,7 +4,7 @@ title: flowerknight
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/flowerknight/)
+[See on GitHub](https://github.com/jakeroggenbuck/flowerknight/)
 
 # flowerknight
 

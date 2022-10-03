@@ -4,7 +4,7 @@ title: LimeOS
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/LimeOS/)
+[See on GitHub](https://github.com/jakeroggenbuck/LimeOS/)
 
 # LimeOS
 Backgrounds images for LimeOS

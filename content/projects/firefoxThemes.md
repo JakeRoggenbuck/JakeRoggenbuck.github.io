@@ -4,6 +4,6 @@ title: firefoxThemes
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/firefoxThemes/)
+[See on GitHub](https://github.com/jakeroggenbuck/firefoxThemes/)
 
 # firefoxThemes

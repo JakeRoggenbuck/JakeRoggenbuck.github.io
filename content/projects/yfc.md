@@ -4,7 +4,7 @@ title: yfc
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/yfc/)
+[See on GitHub](https://github.com/jakeroggenbuck/yfc/)
 
 # yfc
 

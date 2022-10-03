@@ -4,7 +4,7 @@ title: bash_startup
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/bash_startup/)
+[See on GitHub](https://github.com/jakeroggenbuck/bash_startup/)
 
 # bash_startup
 

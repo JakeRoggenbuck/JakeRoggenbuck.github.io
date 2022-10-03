@@ -4,7 +4,7 @@ title: daily-tasks
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/daily-tasks/)
+[See on GitHub](https://github.com/jakeroggenbuck/daily-tasks/)
 
 # Daily Tasks
 Teaching Svelte and FastAPI

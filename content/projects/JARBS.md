@@ -4,7 +4,7 @@ title: JARBS
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/JARBS/)
+[See on GitHub](https://github.com/jakeroggenbuck/JARBS/)
 
 # Jake's Auto Rice Bash Script
 

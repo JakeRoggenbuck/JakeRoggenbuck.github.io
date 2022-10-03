@@ -4,7 +4,7 @@ title: amethyst
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/amethyst/)
+[See on GitHub](https://github.com/jakeroggenbuck/amethyst/)
 
 ![alt text](https://raw.githubusercontent.com/jakeroggenbuck/amethyst/master/amethyst.png)
 <br>A simple package manager written in ruby

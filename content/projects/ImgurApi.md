@@ -4,7 +4,7 @@ title: ImgurApi
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ImgurApi/)
+[See on GitHub](https://github.com/jakeroggenbuck/ImgurApi/)
 
 # ImgurApi
 

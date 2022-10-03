@@ -4,7 +4,7 @@ title: gosense
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/gosense/)
+[See on GitHub](https://github.com/jakeroggenbuck/gosense/)
 
 # sense-go
 Sense the directories around you, are they git repositories, what language, etc.

@@ -4,7 +4,7 @@ title: sense-c
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/sense-c/)
+[See on GitHub](https://github.com/jakeroggenbuck/sense-c/)
 
 # sense-c
 Sense the directories around you, are they git repositories, what language, etc.

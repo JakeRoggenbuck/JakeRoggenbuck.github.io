@@ -4,6 +4,6 @@ title: MongoShortener
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/MongoShortener/)
+[See on GitHub](https://github.com/jakeroggenbuck/MongoShortener/)
 
 # MongoShortener

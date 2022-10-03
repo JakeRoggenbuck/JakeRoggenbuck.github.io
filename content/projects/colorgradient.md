@@ -4,7 +4,7 @@ title: colorgradient
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/colorgradient/)
+[See on GitHub](https://github.com/jakeroggenbuck/colorgradient/)
 
 # colorgradient
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

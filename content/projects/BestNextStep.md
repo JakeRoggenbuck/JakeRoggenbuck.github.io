@@ -4,7 +4,7 @@ title: BestNextStep
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/BestNextStep/)
+[See on GitHub](https://github.com/jakeroggenbuck/BestNextStep/)
 
 # Best Next Step ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/BestNextStep/Go?style=for-the-badge)
 Keep track of where you are on projects and what your Best Next Step is.

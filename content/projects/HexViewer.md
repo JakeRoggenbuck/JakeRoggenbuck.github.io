@@ -4,7 +4,7 @@ title: HexViewer
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/HexViewer/)
+[See on GitHub](https://github.com/jakeroggenbuck/HexViewer/)
 
 # HexViewer
 Better rust version: https://github.com/JakeRoggenbuck/hexviewer-rs

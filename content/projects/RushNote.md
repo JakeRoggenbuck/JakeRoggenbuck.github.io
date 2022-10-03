@@ -4,7 +4,7 @@ title: RushNote
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/RushNote/)
+[See on GitHub](https://github.com/jakeroggenbuck/RushNote/)
 
 # RUSHNOTE
 Take quick notes from command line when in a rush.

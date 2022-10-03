@@ -4,7 +4,7 @@ title: stackoverflow-search-vim
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/stackoverflow-search-vim/)
+[See on GitHub](https://github.com/jakeroggenbuck/stackoverflow-search-vim/)
 
 # Stack Overflow Search Vim
 Inspired by a conversation with [@Shuzhengz](https://github.com/Shuzhengz). Still a work in progress.

@@ -4,7 +4,7 @@ title: .wallpaper
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/.wallpaper/)
+[See on GitHub](https://github.com/jakeroggenbuck/.wallpaper/)
 
 # .wallpaper
 

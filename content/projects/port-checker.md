@@ -4,7 +4,7 @@ title: port-checker
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/port-checker/)
+[See on GitHub](https://github.com/jakeroggenbuck/port-checker/)
 
 # Port Checker ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/port-checker/Go?style=for-the-badge)
 Check for open tcp and tcp6 ports and their process info for server debugging

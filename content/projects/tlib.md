@@ -4,7 +4,7 @@ title: tlib
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/tlib/)
+[See on GitHub](https://github.com/jakeroggenbuck/tlib/)
 
 # tlib
 

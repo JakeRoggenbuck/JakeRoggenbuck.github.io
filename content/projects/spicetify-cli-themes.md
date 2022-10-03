@@ -4,7 +4,7 @@ title: spicetify-cli-themes
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/spicetify-cli-themes/)
+[See on GitHub](https://github.com/jakeroggenbuck/spicetify-cli-themes/)
 
 # spicetify-cli-themes
 

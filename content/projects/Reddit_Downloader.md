@@ -4,7 +4,7 @@ title: Reddit_Downloader
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Reddit_Downloader/)
+[See on GitHub](https://github.com/jakeroggenbuck/Reddit_Downloader/)
 
 # Reddit_Downloader
 

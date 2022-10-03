@@ -4,7 +4,7 @@ title: jakeroggenbuck
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/jakeroggenbuck/)
+[See on GitHub](https://github.com/jakeroggenbuck/jakeroggenbuck/)
 
 # Jake Roggenbuck
 

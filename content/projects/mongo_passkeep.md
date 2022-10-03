@@ -4,7 +4,7 @@ title: mongo_passkeep
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/mongo_passkeep/)
+[See on GitHub](https://github.com/jakeroggenbuck/mongo_passkeep/)
 
 # mongo_passkeep
 A command line utility for storing passwords

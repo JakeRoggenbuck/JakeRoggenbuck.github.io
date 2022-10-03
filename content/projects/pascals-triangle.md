@@ -4,7 +4,7 @@ title: pascals-triangle
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/pascals-triangle/)
+[See on GitHub](https://github.com/jakeroggenbuck/pascals-triangle/)
 
 # pascals-triangle
 Exploration of pascals triangle

@@ -4,7 +4,7 @@ title: JakeRoggenbuck.github.io
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io/)
+[See on GitHub](https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io/)
 
 # jr0.org
 Currently, Hugo to make this static website.

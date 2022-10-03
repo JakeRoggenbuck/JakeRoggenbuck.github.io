@@ -4,7 +4,7 @@ title: stow-squid
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/stow-squid/)
+[See on GitHub](https://github.com/jakeroggenbuck/stow-squid/)
 
 # 🦑 stow-squid 0.1.2 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/stow-squid/Rust?style=for-the-badge)
 Stow your dotfiles

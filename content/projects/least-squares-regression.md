@@ -4,7 +4,7 @@ title: least-squares-regression
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/least-squares-regression/)
+[See on GitHub](https://github.com/jakeroggenbuck/least-squares-regression/)
 
 # least-squares-regression
 

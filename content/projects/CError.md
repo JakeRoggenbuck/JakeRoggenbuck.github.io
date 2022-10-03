@@ -4,7 +4,7 @@ title: CError
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/CError/)
+[See on GitHub](https://github.com/jakeroggenbuck/CError/)
 
 # CError
 Run cerror on a source code file of a compiled language to get the length of the outputted error compared to the filesize.

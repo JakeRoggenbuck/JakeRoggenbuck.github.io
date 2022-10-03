@@ -4,7 +4,7 @@ title: nxyso_api
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/nxyso_api/)
+[See on GitHub](https://github.com/jakeroggenbuck/nxyso_api/)
 
 # nxyso_api
 A definition and search API for a language called Nysjomon made using FastApi

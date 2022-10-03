@@ -4,7 +4,7 @@ title: link-cli
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/link-cli/)
+[See on GitHub](https://github.com/jakeroggenbuck/link-cli/)
 
 # link-cli
 Utility to manage link.jr0.org

@@ -4,7 +4,7 @@ title: programming-languages
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/programming-languages/)
+[See on GitHub](https://github.com/jakeroggenbuck/programming-languages/)
 
 # programming-languages
 This is list of programming languages I have made for learning. In each project there were many key takeaways that can be learned from. I will continue to add information and lessons learned from each project. I will also add a description of each project and what it accomplished.

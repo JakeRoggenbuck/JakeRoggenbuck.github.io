@@ -4,7 +4,7 @@ title: Shredder
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/Shredder/)
+[See on GitHub](https://github.com/jakeroggenbuck/Shredder/)
 
 # Shredder
 

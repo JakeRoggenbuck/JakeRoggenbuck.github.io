@@ -4,7 +4,7 @@ title: tbaTestScripts
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/tbaTestScripts/)
+[See on GitHub](https://github.com/jakeroggenbuck/tbaTestScripts/)
 
 # tbaTestScripts
 

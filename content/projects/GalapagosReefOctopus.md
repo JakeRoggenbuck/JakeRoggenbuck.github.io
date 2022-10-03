@@ -4,6 +4,6 @@ title: GalapagosReefOctopus
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/GalapagosReefOctopus/)
+[See on GitHub](https://github.com/jakeroggenbuck/GalapagosReefOctopus/)
 
 # GalapagosReefOctopus

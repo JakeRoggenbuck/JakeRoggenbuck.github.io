@@ -4,7 +4,7 @@ title: BestVimPlugins
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/BestVimPlugins/)
+[See on GitHub](https://github.com/jakeroggenbuck/BestVimPlugins/)
 
 # Themes
 These are some great themes. I only use gruvbox right now but the rest of these themes are great.

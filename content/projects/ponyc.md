@@ -4,7 +4,7 @@ title: ponyc
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ponyc/)
+[See on GitHub](https://github.com/jakeroggenbuck/ponyc/)
 
 # Pony
 

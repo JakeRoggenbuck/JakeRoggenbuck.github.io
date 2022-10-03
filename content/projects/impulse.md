@@ -4,7 +4,7 @@ title: impulse
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/impulse/)
+[See on GitHub](https://github.com/jakeroggenbuck/impulse/)
 
 # impulse
 

@@ -4,7 +4,7 @@ title: better-scripts
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/better-scripts/)
+[See on GitHub](https://github.com/jakeroggenbuck/better-scripts/)
 
 # better-scripts
 Scripts that are better than [the ones](https://github.com/jakeroggenbuck/.scripts) I wrote a long time ago

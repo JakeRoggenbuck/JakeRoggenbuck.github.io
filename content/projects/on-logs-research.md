@@ -4,7 +4,7 @@ title: on-logs-research
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/on-logs-research/)
+[See on GitHub](https://github.com/jakeroggenbuck/on-logs-research/)
 
 # on-logs-research
 

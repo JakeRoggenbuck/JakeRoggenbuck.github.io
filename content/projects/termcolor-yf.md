@@ -4,7 +4,7 @@ title: termcolor-yf
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/termcolor-yf/)
+[See on GitHub](https://github.com/jakeroggenbuck/termcolor-yf/)
 
 # termcolor-yf
 

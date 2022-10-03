@@ -4,7 +4,7 @@ title: game-design-scoring
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/game-design-scoring/)
+[See on GitHub](https://github.com/jakeroggenbuck/game-design-scoring/)
 
 #  Game Design Scoring Regression Model
 

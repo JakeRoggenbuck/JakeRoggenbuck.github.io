@@ -4,7 +4,7 @@ title: ModPackMaker
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/ModPackMaker/)
+[See on GitHub](https://github.com/jakeroggenbuck/ModPackMaker/)
 
 # ModPackMaker
 

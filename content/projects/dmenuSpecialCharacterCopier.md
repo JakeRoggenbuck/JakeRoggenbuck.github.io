@@ -4,6 +4,6 @@ title: dmenuSpecialCharacterCopier
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/dmenuSpecialCharacterCopier/)
+[See on GitHub](https://github.com/jakeroggenbuck/dmenuSpecialCharacterCopier/)
 
 # dmenuSpecialCharacterCopier

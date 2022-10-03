@@ -4,7 +4,7 @@ title: openpilot
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/openpilot/)
+[See on GitHub](https://github.com/jakeroggenbuck/openpilot/)
 
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 

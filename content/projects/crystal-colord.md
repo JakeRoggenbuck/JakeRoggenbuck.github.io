@@ -4,7 +4,7 @@ title: crystal-colord
 type: page
 ---
 
-[See on Github](https://github.com/jakeroggenbuck/crystal-colord/)
+[See on GitHub](https://github.com/jakeroggenbuck/crystal-colord/)
 
 # crystal-colord
 
