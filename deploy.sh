@@ -3,7 +3,7 @@ mkdir /tmp/hugo-tmp
 /bin/cp -fr public/* /tmp/hugo-tmp
 
 git switch gh-pages
-/bit/cp -fr /tmp/hugo-tmp .
+/bin/cp -fr /tmp/hugo-tmp .
 
 git add .
 git commit -m "New Auto Deploy"
