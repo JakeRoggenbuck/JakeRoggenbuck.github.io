@@ -14,3 +14,4 @@ A collection of monthly summaries comprised of particular projects, progress, an
 - [July 2022](/devlogs/july-2022) - **Summer projects**
 - [August 2022](/devlogs/august-2022) - **Work & Hackathons**
 - [September 2022](/devlogs/september-2022) - **T3 Paper & Starting college**
+- [October 2022](/devlogs/october-2022) - **ACS 0.1.10, Algorithms & more C**
