@@ -1,0 +1,59 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>Type safety in Rust</title><meta name=description content="Software Developer & Student"><meta name=keywords content><meta property="og:url" content="https://jr0.org/posts/type-safety-in-rust/"><meta property="og:type" content="website"><meta property="og:title" content="Type safety in Rust"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Type safety in Rust"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/posts/type-safety-in-rust/"><meta property="twitter:url" content="https://jr0.org/posts/type-safety-in-rust/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/posts/type-safety-in-rust/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
+<script src=https://jr0.org/js/feather-icons.min.js></script>
+<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/research/><span data-feather=book></span> Research</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><span id=dark-theme-toggle-screen-reader-target class=sr-only></span>
+<a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><span id=hamburger-menu-toggle-screen-reader-target class=sr-only>menu</span>
+<a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/research/><span data-feather=book></span> Research</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><span id=dark-theme-toggle-screen-reader-target class=sr-only>theme</span>
+<a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>Type safety in Rust</h1></div><div class=post-content><p><p>Here is an interesting thing that shows why compiled languages are good, specifically why Rust is great.</p><p>Take this code example that checks an enum.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-py data-lang=py><span style=display:flex><span><span style=color:#f92672>from</span> enum <span style=color:#f92672>import</span> Enum
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Mode</span>(Enum):
+</span></span><span style=display:flex><span>    Easy <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>    Hard <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode<span style=color:#f92672>.</span>Easy:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>&#34;It&#39;s easy.&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:#66d9ef>elif</span> mode <span style=color:#f92672>==</span> Mode<span style=color:#f92672>.</span>Hard:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>&#34;Hard mode.&#34;</span>)
+</span></span></code></pre></div><p>What happens if <code>mode</code> is set to <code>None</code>, or <code>2</code> or <code>"Anything"</code>.
+If that&rsquo;s the case, neither method will be executed.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-py data-lang=py><span style=display:flex><span><span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode<span style=color:#f92672>.</span>Easy:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>&#34;It&#39;s easy.&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:#66d9ef>elif</span> mode <span style=color:#f92672>==</span> Mode<span style=color:#f92672>.</span>Hard:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>&#34;Hard mode.&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:#66d9ef>else</span>:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>&#34;Error?&#34;</span>)
+</span></span></code></pre></div><p>In languages like this, you will usually find a comment like this <code># This should never happen</code>
+and like this <code>Why? What went wrong? Time to debug to find the line that broke this.</code></p><p>In compiled languages, specifically a feature of statically typed language evaluated at compile time, <code>mode</code> would have a type, most likely int.
+This means that the options of a <code>None</code> type or a <code>string</code> cannot be represented in a variable of that type.
+This is cool and this happens in languages like C/C++, Java, etc. but this isn&rsquo;t as good as it can get.</p><p>In Rust,
+We make invalid types unrepresentable.
+Here is a Rust example no more complex than the Python example, yet it insures safety that Python does not.</p><p>This code compiles because mode can only be Easy or Hard. The evaluation is between the same types.
+<code>mode == Mode::EASY</code> => <code>&lt;Mode> == &lt;Mode></code> => type valid.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#75715e>#[derive(PartialEq)]</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>enum</span> <span style=color:#a6e22e>Mode</span> {
+</span></span><span style=display:flex><span>    EASY <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>,
+</span></span><span style=display:flex><span>    HARD <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>,
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> mode <span style=color:#f92672>=</span> Mode::EASY;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::EASY {
+</span></span><span style=display:flex><span>        println!(<span style=color:#e6db74>&#34;It&#39;s easy.&#34;</span>);
+</span></span><span style=display:flex><span>    } <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::HARD {
+</span></span><span style=display:flex><span>        println!(<span style=color:#e6db74>&#34;Hard mode.&#34;</span>)
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>However, if you accidentally what mode out for a string&mldr;</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>let</span> mode <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;This is a string&#34;</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::EASY {
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;It&#39;s easy.&#34;</span>);
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::HARD {
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;Hard mode.&#34;</span>)
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>You get many helpful compiler errors, like <code>can't compare '&str' with 'Mode'</code> so you know exactly what is wrong.</p><p>Any even when C/C++ would fail, Rust gives an error letting you know what is wrong early.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>let</span> mode <span style=color:#f92672>=</span> <span style=color:#ae81ff>3</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::EASY {
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;It&#39;s easy.&#34;</span>);
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> mode <span style=color:#f92672>==</span> Mode::HARD {
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;Hard mode.&#34;</span>)
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>=> <code>can't compare '{integer}' with 'Mode'</code></p></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span>
+<span>Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a></span></footer></body></html>
