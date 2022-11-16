@@ -10,14 +10,14 @@ This month, I made an October themed fetch program.
 [JakeRoggenbuck/spookyfetch](https://github.com/JakeRoggenbuck/spookyfetch)
 
 ## Auto Clock Speed 0.1.10
-In this release, we closed and complete 76 issues. This was a relatively large release with tons of new features and lots of bug fixes.
+In this release, we closed and completed 76 issues. This was a relatively large release with tons of new features and lots of bug fixes.
 
 [Release can be found here](https://github.com/JakeRoggenbuck/auto-clock-speed/releases/tag/0.1.10)
 
 ![acs](https://user-images.githubusercontent.com/35516367/199084229-aee15ac5-bd86-41e9-b7fc-22517e21e6f0.png)
 
 ## Algorithms
-A friend challenge me to make a program to find anagrams in a list of words that has a better time complexity than quadratic.
+A friend challenged me to make a program to find anagrams in a list of words that has a better time complexity than quadratic.
 
 My project can be found [here](https://github.com/JakeRoggenbuck/anagram) in both python and rust.
 
