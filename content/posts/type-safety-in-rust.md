@@ -1,6 +1,8 @@
 ---
 title: Type safety in Rust
-type: page
+date: 2022-11-05T00:00:00
+tags: ["rust", "language", "concept"]
+type: post
 ---
 
 Here is an interesting thing that shows why compiled languages are good, specifically why Rust is great.
