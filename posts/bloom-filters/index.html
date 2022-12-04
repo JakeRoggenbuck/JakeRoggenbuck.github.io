@@ -1,0 +1,269 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#FF4D4D}</style><title>Bloom filters in Rust</title><meta name=description content="Software Developer & Student"><meta name=keywords content="rust,language,concept,data-structures,algorithms"><meta property="og:url" content="https://jr0.org/posts/bloom-filters/"><meta property="og:type" content="website"><meta property="og:title" content="Bloom filters in Rust"><meta property="og:description" content="Software Developer & Student"><meta property="og:image" content="/images/35516367.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Bloom filters in Rust"><meta name=twitter:description content="Software Developer & Student"><meta property="twitter:domain" content="https://jr0.org/posts/bloom-filters/"><meta property="twitter:url" content="https://jr0.org/posts/bloom-filters/"><meta name=twitter:image content="/images/35516367.jpg"><link rel=canonical href=https://jr0.org/posts/bloom-filters/><link rel=stylesheet type=text/css href=https://jr0.org/css/normalize.min.css media=print onload='this.media="all"'><link rel=stylesheet type=text/css href=https://jr0.org/css/main.css><link disabled id=dark-theme rel=stylesheet href=https://jr0.org/css/dark.css><script src=https://jr0.org/js/svg-injector.min.js></script>
+<script src=https://jr0.org/js/feather-icons.min.js></script>
+<script src=https://jr0.org/js/main.js></script></head><body><script type=text/javascript>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=avatar><a href=https://jr0.org><img src=https://jr0.org/images/35516367.jpg alt=avatar></a></div><div class=nav-title><a class=nav-brand href=https://jr0.org>JR0.org</a></div><div class=nav-links><div class=nav-link><a href=https://jr0.org/><span data-feather=home></span> Home</a></div><div class=nav-link><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></div><div class=nav-link><a href=https://jr0.org/research/><span data-feather=book></span> Research</a></div><div class=nav-link><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></div><div class=nav-link><a href=https://jr0.org/posts/><span data-feather=book></span> Posts</a></div><div class=nav-link><a href=https://jr0.org/tags/><span data-feather=tag></span> Tags</a></div><div class=nav-link><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><span id=dark-theme-toggle-screen-reader-target class=sr-only></span>
+<a><span id=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><span id=hamburger-menu-toggle-screen-reader-target class=sr-only>menu</span>
+<a><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=https://jr0.org/><span data-feather=home></span> Home</a></li><li class=nav-item><a href=https://jr0.org/projects/><span data-feather=code></span> Projects</a></li><li class=nav-item><a href=https://jr0.org/research/><span data-feather=book></span> Research</a></li><li class=nav-item><a href=https://jr0.org/devlogs/><span data-feather=book></span> Devlog</a></li><li class=nav-item><a href=https://jr0.org/posts/><span data-feather=book></span> Posts</a></li><li class=nav-item><a href=https://jr0.org/tags/><span data-feather=tag></span> Tags</a></li><li class=nav-item><a href=https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io><span data-feather=github></span></a></li><li class="nav-item dark-theme-toggle"><span id=dark-theme-toggle-screen-reader-target class=sr-only>theme</span>
+<a><span id=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>Bloom filters in Rust</h1><small role=doc-subtitle></small><p class=post-date>December 3, 2022</p><ul class=post-tags><li class=post-tag><a href=https://jr0.org/tags/rust>rust</a></li><li class=post-tag><a href=https://jr0.org/tags/language>language</a></li><li class=post-tag><a href=https://jr0.org/tags/concept>concept</a></li><li class=post-tag><a href=https://jr0.org/tags/data-structures>data-structures</a></li><li class=post-tag><a href=https://jr0.org/tags/algorithms>algorithms</a></li></ul></div><div class=post-content><p><h2 id=intro>Intro</h2><p>A bloom filters is a data structure that allows you to quickly identify if some data has been previously added to the structure.
+What makes a bloom filter unique is that is that it gives up full accuracy for huge speed boost.
+A bloom filter has small false positive rate, and this rate can be decreased by using more memory and more hash algorithms, however you can find an optimal amount of memory and hash algorithm count to achieve great speed while still maintaining lower memory than a normal list.
+This specific implementation uses three different hashing algorithms.</p><h2 id=use-cases>Use cases</h2><p>Bloom filter are very convenient for many different use cases.</p><p>My favorite one is for checking if a username or unique exists somewhere. Bloom filter have very low memory usage as well as being fast, so for a solution that didn&rsquo;t need 100% accuracy and can get away with something close 99%, then a bloom filter might be the correct structure.</p><h2 id=implementation>Implementation</h2><p>We will define a structure in Rust to represent the bloom filter.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>BloomFilter</span> {
+</span></span><span style=display:flex><span>    size: <span style=color:#66d9ef>usize</span>,
+</span></span><span style=display:flex><span>    hash_count: <span style=color:#66d9ef>i8</span>,
+</span></span><span style=display:flex><span>    bitvector: <span style=color:#a6e22e>BitVec</span>,
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Bloom filters usually have two traits (methods) associated with the structure.</p><ol><li><strong>add</strong> an item to the structure</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String);
+</span></span></code></pre></div><ol start=2><li><strong>check</strong> if an item likely exists in the structure</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span>;
+</span></span></code></pre></div><p>We define these traits for the structure by &ldquo;Implementing them like this&rdquo;.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>trait</span> Filter {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash</span>(<span style=color:#f92672>&amp;</span>self, s: String, i: <span style=color:#66d9ef>usize</span>) -&gt; <span style=color:#66d9ef>i32</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>impl</span> Filter <span style=color:#66d9ef>for</span> BloomFilter {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String) {
+</span></span><span style=display:flex><span>		<span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span> {
+</span></span><span style=display:flex><span>		<span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash</span>(<span style=color:#f92672>&amp;</span>self, s: String, i: <span style=color:#66d9ef>usize</span>) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>		<span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>For the add trait, we need to call each hash function for the value given to get a likely unique set of keys for the value.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String) {
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> x <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>self.hash_count {
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>let</span> v <span style=color:#f92672>=</span> self.hash(value.clone(), x.try_into().unwrap());
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>let</span> k <span style=color:#f92672>=</span> v <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>usize</span> <span style=color:#f92672>%</span> self.size;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>		self.bitvector.set(k, <span style=color:#66d9ef>true</span>);
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>We need to do something similar to check if a value has been added.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span> {
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> acc <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> x <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>self.hash_count {
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>let</span> v <span style=color:#f92672>=</span> self.hash(value.clone(), x.try_into().unwrap());
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>let</span> k <span style=color:#f92672>=</span> v <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>usize</span> <span style=color:#f92672>%</span> self.size;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>if</span> self.bitvector.get(k).unwrap_or(<span style=color:#66d9ef>false</span>) {
+</span></span><span style=display:flex><span>			acc <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>		}
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>return</span> acc <span style=color:#f92672>&gt;=</span> self.hash_count;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>The hash function is just a collection of the other hash functions.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash</span>(<span style=color:#f92672>&amp;</span>self, s: String, i: <span style=color:#66d9ef>usize</span>) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>let</span> functions: [<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>dyn</span> Fn(String) -&gt; <span style=color:#66d9ef>i32</span>; <span style=color:#ae81ff>3</span>] <span style=color:#f92672>=</span> [<span style=color:#f92672>&amp;</span>hash_1, <span style=color:#f92672>&amp;</span>hash_2, <span style=color:#f92672>&amp;</span>hash_3];
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>return</span> functions[i](s);
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Here are the other hash functions.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_1</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> hash <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> size <span style=color:#f92672>=</span> s.len();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>size {
+</span></span><span style=display:flex><span>        hash <span style=color:#f92672>=</span> hash <span style=color:#f92672>+</span> (s.chars().nth(i)).unwrap() <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>0x30</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    hash
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_2</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> hash <span style=color:#f92672>=</span> <span style=color:#ae81ff>7</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> size <span style=color:#f92672>=</span> s.len();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>size {
+</span></span><span style=display:flex><span>        hash <span style=color:#f92672>=</span> (hash <span style=color:#f92672>*</span> <span style=color:#ae81ff>31</span> <span style=color:#f92672>+</span> (s.chars().nth(i)).unwrap() <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>0x30</span>) <span style=color:#f92672>%</span> size <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    hash <span style=color:#f92672>%</span> size <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_3</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    (hash_2(s) <span style=color:#f92672>+</span> <span style=color:#ae81ff>7</span>) <span style=color:#f92672>*</span> <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>All together, it should look like this.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_1</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> hash <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> size <span style=color:#f92672>=</span> s.len();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>size {
+</span></span><span style=display:flex><span>        hash <span style=color:#f92672>=</span> hash <span style=color:#f92672>+</span> (s.chars().nth(i)).unwrap() <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>0x30</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    hash
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_2</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> hash <span style=color:#f92672>=</span> <span style=color:#ae81ff>7</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> size <span style=color:#f92672>=</span> s.len();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>size {
+</span></span><span style=display:flex><span>        hash <span style=color:#f92672>=</span> (hash <span style=color:#f92672>*</span> <span style=color:#ae81ff>31</span> <span style=color:#f92672>+</span> (s.chars().nth(i)).unwrap() <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>0x30</span>) <span style=color:#f92672>%</span> size <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    hash <span style=color:#f92672>%</span> size <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>i32</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash_3</span>(s: String) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>    (hash_2(s) <span style=color:#f92672>+</span> <span style=color:#ae81ff>7</span>) <span style=color:#f92672>*</span> <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>BloomFilter</span> {
+</span></span><span style=display:flex><span>    size: <span style=color:#66d9ef>usize</span>,
+</span></span><span style=display:flex><span>    hash_count: <span style=color:#66d9ef>i8</span>,
+</span></span><span style=display:flex><span>    bitvector: <span style=color:#a6e22e>BitVec</span>,
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>trait</span> Filter {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash</span>(<span style=color:#f92672>&amp;</span>self, s: String, i: <span style=color:#66d9ef>usize</span>) -&gt; <span style=color:#66d9ef>i32</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>impl</span> Filter <span style=color:#66d9ef>for</span> BloomFilter {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>add</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, value: String) {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>for</span> x <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>self.hash_count {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>let</span> v <span style=color:#f92672>=</span> self.hash(value.clone(), x.try_into().unwrap());
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>let</span> k <span style=color:#f92672>=</span> v <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>usize</span> <span style=color:#f92672>%</span> self.size;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>            self.bitvector.set(k, <span style=color:#66d9ef>true</span>);
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>check</span>(<span style=color:#f92672>&amp;</span>self, value: String) -&gt; <span style=color:#66d9ef>bool</span> {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> acc <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>for</span> x <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>self.hash_count {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>let</span> v <span style=color:#f92672>=</span> self.hash(value.clone(), x.try_into().unwrap());
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>let</span> k <span style=color:#f92672>=</span> v <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>usize</span> <span style=color:#f92672>%</span> self.size;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>if</span> self.bitvector.get(k).unwrap_or(<span style=color:#66d9ef>false</span>) {
+</span></span><span style=display:flex><span>                acc <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>            }
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> acc <span style=color:#f92672>&gt;=</span> self.hash_count;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>hash</span>(<span style=color:#f92672>&amp;</span>self, s: String, i: <span style=color:#66d9ef>usize</span>) -&gt; <span style=color:#66d9ef>i32</span> {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> functions: [<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>dyn</span> Fn(String) -&gt; <span style=color:#66d9ef>i32</span>; <span style=color:#ae81ff>3</span>] <span style=color:#f92672>=</span> [<span style=color:#f92672>&amp;</span>hash_1, <span style=color:#f92672>&amp;</span>hash_2, <span style=color:#f92672>&amp;</span>hash_3];
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> functions[i](s);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h2 id=other-types-of-searches>Other types of searches</h2><p>For testing purposes, we can use two different types of searches to compare against the bloom filter.</p><h4 id=linear-search>Linear Search</h4><p>Linear search iterates through the array, checking if it exists.
+This has a linear time complexity <code>O(n)</code> and is not ideal for this and many other use cases.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#e6db74>/// Search for the term using linear search
+</span></span></span><span style=display:flex><span><span style=color:#e6db74></span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>linear_search</span>(array: <span style=color:#66d9ef>&amp;</span>[String], term: String) -&gt; <span style=color:#66d9ef>bool</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> c <span style=color:#66d9ef>in</span> array {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> c <span style=color:#f92672>==</span> term.as_str() {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span> <span style=color:#66d9ef>true</span>;
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#66d9ef>false</span>;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h4 id=bogo-search>Bogo Search</h4><p>Bogo search is an algorithm that was designed to be purposefully bad.
+This algorithm has a time complexity of factorial time <code>O(n!)</code>. This algorithm should never ever be used.</p><p>It essentially picks a random number to use at an index to check if the item is at that index. If it&rsquo;s not, it repeats.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#e6db74>/// Search for the term using the worst search algorithm, bogo search
+</span></span></span><span style=display:flex><span><span style=color:#e6db74></span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>bogo_search</span>(array: <span style=color:#66d9ef>&amp;</span>[String], term: String) -&gt; <span style=color:#66d9ef>bool</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> num: <span style=color:#66d9ef>usize</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>loop</span> {
+</span></span><span style=display:flex><span>        num <span style=color:#f92672>=</span> thread_rng().gen_range(<span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>array.len());
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> array[num] <span style=color:#f92672>==</span> term.as_str() {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span> <span style=color:#66d9ef>true</span>;
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h2 id=testing-and-setup>Testing and Setup</h2><p>The rest of the code in the <a href=https://github.com/JakeRoggenbuck/bloom-filter-rs>project</a> is for setting up the data to be searched and testing of the search algorithms.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>fill_array_and_bloom_filter</span>(num_vec: <span style=color:#66d9ef>&amp;</span><span style=color:#a6e22e>mut</span> [String], bf: <span style=color:#66d9ef>&amp;</span><span style=color:#a6e22e>mut</span> BloomFilter) -&gt; Result<span style=color:#f92672>&lt;</span>()<span style=color:#f92672>&gt;</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> file <span style=color:#f92672>=</span> File::open(<span style=color:#e6db74>&#34;english-words/words.txt&#34;</span>)<span style=color:#f92672>?</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> reader <span style=color:#f92672>=</span> BufReader::new(file);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> index <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> line <span style=color:#66d9ef>in</span> reader.lines() {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> index <span style=color:#f92672>&lt;</span> num_vec.len() {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>let</span> l <span style=color:#f92672>=</span> line<span style=color:#f92672>?</span>;
+</span></span><span style=display:flex><span>            <span style=color:#75715e>// Add word to array
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            num_vec[index] <span style=color:#f92672>=</span> l.clone();
+</span></span><span style=display:flex><span>            <span style=color:#75715e>// Add word to bloom filter
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            bf.add(l);
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>        index <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    Ok(())
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Set up bloom filter
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> bf <span style=color:#f92672>=</span> BloomFilter {
+</span></span><span style=display:flex><span>        bitvector: <span style=color:#a6e22e>BitVec</span>::from_elem(<span style=color:#ae81ff>10000</span>, <span style=color:#66d9ef>false</span>),
+</span></span><span style=display:flex><span>        hash_count: <span style=color:#ae81ff>3</span>,
+</span></span><span style=display:flex><span>        size: <span style=color:#ae81ff>10000</span>,
+</span></span><span style=display:flex><span>    };
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Set up num vec
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> num_vec: Vec<span style=color:#f92672>&lt;</span>String<span style=color:#f92672>&gt;</span> <span style=color:#f92672>=</span> vec![String::new(); <span style=color:#ae81ff>17000</span>];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    fill_array_and_bloom_filter(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> num_vec, <span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> bf).unwrap();
+</span></span><span style=display:flex><span>    num_vec.shuffle(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> thread_rng());
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> length <span style=color:#f92672>=</span> num_vec.len();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Pick random term
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> rng <span style=color:#f92672>=</span> rand::thread_rng();
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> x: <span style=color:#66d9ef>usize</span> <span style=color:#f92672>=</span> rng.gen_range(<span style=color:#ae81ff>0</span><span style=color:#f92672>..</span>num_vec.len());
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> term: String <span style=color:#f92672>=</span> num_vec[x].clone();
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;The randomly selected term is &#39;{term}&#39;&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Calculate all of the hashes for the term
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> one <span style=color:#f92672>=</span> hash_1(term.clone());
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> two <span style=color:#f92672>=</span> hash_2(term.clone());
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> three <span style=color:#f92672>=</span> hash_3(term.clone());
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;The hashes for &#39;{term}&#39; are {one}, {two}, {three}\n&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    println!(
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;This will test how fast the word &#39;{term}&#39; can be found in the array of {length} words.&#34;</span>
+</span></span><span style=display:flex><span>    );
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Test the time it takes for linear search
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> before <span style=color:#f92672>=</span> Instant::now();
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> _ <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span><span style=color:#ae81ff>100</span> {
+</span></span><span style=display:flex><span>        linear_search(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> num_vec, term.clone());
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;Elapsed time for linear_search: {:.2?}&#34;</span>, before.elapsed());
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Test the time it takes for bloom filter check
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> before <span style=color:#f92672>=</span> Instant::now();
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> _ <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span><span style=color:#ae81ff>100</span> {
+</span></span><span style=display:flex><span>        bf.check(term.clone());
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    println!(
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;Elapsed time for bloom filter check: {:.2?}&#34;</span>,
+</span></span><span style=display:flex><span>        before.elapsed()
+</span></span><span style=display:flex><span>    );
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Test the time is takes for bogo search
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> before <span style=color:#f92672>=</span> Instant::now();
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> _ <span style=color:#66d9ef>in</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>..</span><span style=color:#ae81ff>100</span> {
+</span></span><span style=display:flex><span>        bogo_search(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> num_vec, term.clone());
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;Elapsed time for bogo_search: {:.2?}&#34;</span>, before.elapsed());
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h2 id=results>Results</h2><pre tabindex=0><code>The randomly selected term is &#39;amicabilities&#39;
+The hashes for &#39;amicabilities&#39; are 736, 11, 54
+
+This will test how fast the word &#39;amicabilities&#39; can be found in the array of 17000 words.
+Elapsed time for linear_search: 220.81ms
+Elapsed time for bloom filter check: 3.61ms
+Elapsed time for bogo_search: 4.64s
+</code></pre><pre tabindex=0><code>The randomly selected term is &#39;Aldermaston&#39;
+The hashes for &#39;Aldermaston&#39; are 618, 0, 21
+
+This will test how fast the word &#39;Aldermaston&#39; can be found in the array of 17000 words.
+Elapsed time for linear_search: 245.29ms
+Elapsed time for bloom filter check: 2.69ms
+Elapsed time for bogo_search: 5.53s
+</code></pre><pre tabindex=0><code>The randomly selected term is &#39;Achille&#39;
+The hashes for &#39;Achille&#39; are 354, 1, 24
+
+This will test how fast the word &#39;Achille&#39; can be found in the array of 17000 words.
+Elapsed time for linear_search: 273.41ms
+Elapsed time for bloom filter check: 1.30ms
+Elapsed time for bogo_search: 6.68s
+</code></pre><p><img src=https://user-images.githubusercontent.com/35516367/202334238-5aaa4157-d613-4ace-bcaa-c28c0cadb3a1.png alt="Linear and Bloom filter (in ms)">
+<img src=https://user-images.githubusercontent.com/35516367/202334239-55aabb02-b24b-4091-99b3-b86ea67a9dfc.png alt="Linear, Bloom filter and Bogo (in ms)"></p><h2 id=setting-up-the-project>Setting up the project</h2><h3 id=cloning>Cloning</h3><pre tabindex=0><code>git clone https://github.com/JakeRoggenbuck/bloom-filter-rs.git
+cd bloom-filter-rs
+</code></pre><h3 id=words-submodule>Words Submodule</h3><pre tabindex=0><code>git submodule init
+git submodule update
+</code></pre></p></div></div></main><footer class=footer><span>&copy; 2022 Jake Roggenbuck</span>
+<span>Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a></span></footer></body></html>
