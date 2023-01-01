@@ -16,3 +16,4 @@ A collection of monthly summaries comprised of particular projects, progress, an
 - [September 2022](/devlogs/september-2022) - **T3 Paper & Starting college**
 - [October 2022](/devlogs/october-2022) - **ACS 0.1.10, Algorithms & more C**
 - [November 2022](/devlogs/november-2022) - **Flamegraph, Local List, and even more C**
+- [December 2022](/devlogs/december-2022) - **New projects and updates**
