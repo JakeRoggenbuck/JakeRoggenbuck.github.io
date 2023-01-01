@@ -3,6 +3,7 @@ title: Bloom filters in Rust
 date: 2022-12-03T00:00:00
 tags: ["rust", "language", "concept", "data-structures", "algorithms"]
 type: post
+showTableOfContents: true
 ---
 
 ## Intro
