@@ -11,21 +11,21 @@
 </span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>is_local_git</span>(<span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>path);
 </span></span></code></pre></div><p><a href=https://github.com/JakeRoggenbuck/sense-c/blob/main/src/git.h>git.h</a></p><h3 id=language>Language</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#66d9ef>enum</span> LANG <span style=color:#a6e22e>get_lang</span>(<span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>path);
 </span></span></code></pre></div><h2 id=example>Example</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() {
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> lang <span style=color:#f92672>=</span> get_lang(<span style=color:#e6db74>&#34;./&#34;</span>);
-</span></span><span style=display:flex><span>    printf(<span style=color:#e6db74>&#34;%s</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, get_lang_name(lang));
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> lang <span style=color:#f92672>=</span> <span style=color:#a6e22e>get_lang</span>(<span style=color:#e6db74>&#34;./&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;%s</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, <span style=color:#a6e22e>get_lang_name</span>(lang));
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> git <span style=color:#f92672>=</span> has_git(<span style=color:#e6db74>&#34;./&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> git <span style=color:#f92672>=</span> <span style=color:#a6e22e>has_git</span>(<span style=color:#e6db74>&#34;./&#34;</span>);
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (git) {
-</span></span><span style=display:flex><span>        printf(<span style=color:#e6db74>&#34;Is git!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Is git!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
 </span></span><span style=display:flex><span>    } <span style=color:#66d9ef>else</span> {
-</span></span><span style=display:flex><span>        printf(<span style=color:#e6db74>&#34;Is not git.</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Is not git.</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> local <span style=color:#f92672>=</span> is_local_git(<span style=color:#e6db74>&#34;./&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> local <span style=color:#f92672>=</span> <span style=color:#a6e22e>is_local_git</span>(<span style=color:#e6db74>&#34;./&#34;</span>);
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (local) {
-</span></span><span style=display:flex><span>        printf(<span style=color:#e6db74>&#34;Is local!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Is local!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
 </span></span><span style=display:flex><span>    } <span style=color:#66d9ef>else</span> {
-</span></span><span style=display:flex><span>        printf(<span style=color:#e6db74>&#34;Is not local.</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Is not local.</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;

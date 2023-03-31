@@ -10,13 +10,13 @@
 </span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;stdio.h&gt;</span><span style=color:#75715e>
 </span></span></span><span style=display:flex><span><span style=color:#75715e></span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() {
-</span></span><span style=display:flex><span>    cprint(<span style=color:#e6db74>&#34;Passed</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, FG_GREEN);
-</span></span><span style=display:flex><span>    cprint(<span style=color:#e6db74>&#34;Failed</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, FG_RED);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>cprint</span>(<span style=color:#e6db74>&#34;Passed</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, FG_GREEN);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>cprint</span>(<span style=color:#e6db74>&#34;Failed</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, FG_RED);
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>msg <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Hello!!&#34;</span>;
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>new;
-</span></span><span style=display:flex><span>    color(msg, new, FG_BLUE);
-</span></span><span style=display:flex><span>    printf(<span style=color:#e6db74>&#34;%s</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, new);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>color</span>(msg, new, FG_BLUE);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;%s</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, new);
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
 </span></span><span style=display:flex><span>}
