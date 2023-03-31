@@ -61,9 +61,7 @@ I added some small UI changes to give it a more modern look. New more centered l
 
 **New on left - Old on right**
 
-![https://media.discordapp.net/attachments/960232396677054526/1072438685166993498/Screen_Shot_2023-02-07_at_00.44.04.png?width=414&height=662](https://media.discordapp.net/attachments/960232396677054526/1072438685166993498/Screen_Shot_2023-02-07_at_00.44.04.png?width=414&height=662)
-
-![https://media.discordapp.net/attachments/960232396677054526/1072438741920124979/Screen_Shot_2023-02-07_at_00.44.22.png?width=414&height=662](https://media.discordapp.net/attachments/960232396677054526/1072438741920124979/Screen_Shot_2023-02-07_at_00.44.22.png?width=414&height=662)
+![Local List](https://cdn.discordapp.com/attachments/697154250052075543/1091247246810550312/Local_List.png)
 
 ### readme - Create readme files with one command [[link]](https://github.com/JakeRoggenbuck/readme)
 
