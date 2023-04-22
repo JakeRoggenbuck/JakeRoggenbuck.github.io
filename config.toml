@@ -1,11 +1,11 @@
 baseURL = 'https://jr0.org'
 languageCode = 'en-us'
-title = 'JR0.org'
+title = 'Jake Roggenbuck'
 theme = "gokarna"
 
 [params]
   footer = "Jake Roggenbuck"
-  avatarUrl = "/images/35516367.jpg"
+  avatarUrl = "/images/1660626342357.jpg"
   avatarSize = "size-m"
   description = "Software Developer & Student"
 
