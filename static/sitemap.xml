@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jr0.org/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/research/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/posts/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/march-2023/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/auto-clock-speed/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/stow-squid/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/study-cli/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/bestnextstep/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yfin/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/diri-c/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/scripts/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/wallpaper/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/2021-software-general-homework/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/advent-of-code/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/amethyst/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/apollo-11/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/approximate-pi/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/arch_installer/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/area-api/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/argos-translate/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/asmura/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/auth-upload-rest-go/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/autoclockspeed.github.io/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/bash_startup/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/bestvimplugins/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/better-scripts/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/bookmark-search/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/brainf/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/break/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/broken-package-yf/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/bspswallow/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/calclex/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/car-lights/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cardinal/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cerror/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/chatapp/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/chi-squared-c/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/chromeweblauncher/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/claculator/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cli/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/clifford/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/codinggames/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/colorgradient/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/colorgradient-c/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/colorgradient-go/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/colorgradient-julia/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/colorgradient-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cosmic-ray-detector/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/covers/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/covid19-cases-tui/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cproc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cpython/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cruz-lang/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/crypto-chat/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/crystal-colord/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cutil/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/cve-bin-tool/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/daily-tasks/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dark-discord/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dcbankofcarter/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/deepai/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/derive/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dictionary-tui/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/directory-info/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/discord_keep_save/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dmenuspecialcharactercopier/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/door-lock/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dotfiles/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dotfiles-1/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dot_dropper/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/draft.vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dragon/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/dwm/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/f09f/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/f09f-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/fastly-py/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/firefox-landing-page/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/firefox-landing-page-1/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/firefoxthemes/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/flask-sql-login/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/flasksqlapp/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/flowerknight/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/fork-craft/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/fred/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/fumble_api/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/galapagosreefoctopus/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/game-2021/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/game-design-scoring/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/git-lesson/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/git-training/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/gnome-clocks/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/gosense/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/gpgexchange/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/gpg_passkeep/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/gpt-2/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/hash-colorer/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/hermes/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/hexviewer/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/hexviewer-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/highlight/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/hyper-minimal-loaders/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ice/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/imgurapi/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/importlint/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/impulse/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/indirect-git-repo/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/inflector/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/integrate/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/is_254_or_larger/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jai/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jakeroggenbuck/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jakeroggenbuck.github.io/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jakesutils/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jam0001/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jarbs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/javapong/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jec-go/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jec-py/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/jec-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/journal.vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/js-snake/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/kotlin-todo-app/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/lan-website/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/lark/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/learn-planck/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/learningmachinelearning/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/learningx86_assembly/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/learning_sql/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/least-squares-regression/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/lesson-tester/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/lightbot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/limeos/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/link/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/link-cli/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mac-shifter/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/macaroon/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/magic-identify/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mahou/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/markov-chain/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/math/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mechanize/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/meditativesquares/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/minecraft_texture_packs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/modpackmaker/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongo-notes/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongoc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongoc-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongodb-login/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongodb_schema_check/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongofastlogger/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongoshortener/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/mongo_passkeep/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/my-readme-image/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/n-rus-bot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/nasa-spaceapps-2020/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/nasa-spaceapps-2021/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ned-bot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/new-website/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/nitrogen-css/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/novus-chart/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/nxyso_api/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/nxyso_definition_bot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ocean-game-js/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ocean-game-py/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/on-logs-research/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/one-time-pad-generator-asm/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/onefetch/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/openpilot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/paper/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pascals-triangle/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pathfinder/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pgzero/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pinter/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/planck.vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/player_data_finder/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pll/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/plrs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pogscript/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/polybot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/polybot-2/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ponyc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/port-checker/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/position_reader/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/programming-languages/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/project-announcements/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/project-invent-rube-goldberg-machine/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/public-pgp-keys/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pwm-dc-motor/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pwntools/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pylexlite/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pyswitch/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/pytest_assignments/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/python-guides/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/qme/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/qme-launcher/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/qme-releases/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/qme5-server/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rclc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/reddit_downloader/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/reduc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/reminder-bot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rest-api-in-every-lang/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rock/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rocket-pinball/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rocky/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/route-finding/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rushnote/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/rust/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sapphire/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sars-cov-2_peplomer_structure_analysis/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/scouting-scripts/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/scry/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/seamonsters-2605.github.io/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sense-c/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sense-py/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sense-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/server-public/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sfetch/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/shredder/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/shuzhengz/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/signinwebapp/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/skyometer/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/snow_script/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sodium/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/softwaregeneralfinaltests/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sort-vis/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sorting-algorithms/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spaceapp/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spicetify-cli-extensions/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spicetify-cli-themes/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spicetify-customapps/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spicetify-themes/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/spinners/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sqlite-cpp/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/sqlshortener/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/stackoverflow-search-intellij/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/stackoverflow-search-vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/statistical-tests-rs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/strategy_presentation_numpy/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/structured-data-format-soc-first-week/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/tap/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/tbatestscripts/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/terbot-2/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/termcolor-c/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/termcolor-yf/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/termitebot/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/timely/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/tlib/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/typeschemalib/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ursina/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/ursina-platform-game/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/valueourminds_website/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vim-character-creator/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vim-game-snake/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vim-impulse-syntax/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vim-selection-test/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vim-snow-script-syntax/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vimage.vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vorahk/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vosk-api/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/vyxal/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/wallpaper_downloader/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/xdotool_python_window_util/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yaml_serialize/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yes-no-neural-network-classifier/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yf-package-example/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yfc/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yflat-docs/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/yutimim-dictionary-parser/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/zeros/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/zflat/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/zflat.vim/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/projects/zipfs-law/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/research/t3/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/research/on-logs-research/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/research/pascals-triangle/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/january-2023/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/february-2023/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/february-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/march-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/april-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/may-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/june-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/july-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/august-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/september-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/october-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/november-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/devlogs/december-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/posts/bloom-filters/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/posts/type-safety-in-rust/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/concept/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/language/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/rust/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/algorithms/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/tags/data-structures/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jr0.org/events/dv-game-jam-2022/</loc>
+  <lastmod>2023-04-25T03:36:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

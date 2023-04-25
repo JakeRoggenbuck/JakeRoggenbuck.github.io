@@ -8,6 +8,7 @@ theme = "gokarna"
   avatarUrl = "/images/1660626342357.jpg"
   avatarSize = "size-m"
   description = "Software Developer & Student"
+  metaKeywords = ["software", "job", "developer", "code", "project", "manager", "technical", "rust", "github"]
 
   customHeadHTML = '''
 
