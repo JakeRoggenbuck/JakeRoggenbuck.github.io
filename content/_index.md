@@ -4,4 +4,4 @@ Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&ty
 
 GPG: [309BBC9](jakeroggenbuck.gpg)
 
-Here is a quick link to my most recent [devlog](devlogs/march-2023/)
+Here is a quick link to my most recent [Devlog](devlogs/march-2023/)
