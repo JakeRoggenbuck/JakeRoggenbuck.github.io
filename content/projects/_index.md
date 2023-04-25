@@ -15,6 +15,8 @@ type: page
 - [.scripts](/projects/scripts)
 - [.wallpaper](/projects/wallpaper)
 - [2021-software-general-homework](/projects/2021-software-general-homework)
+
+### A
 - [advent-of-code](/projects/advent-of-code)
 - [amethyst](/projects/amethyst)
 - [Apollo-11](/projects/apollo-11)
@@ -26,6 +28,8 @@ type: page
 - [auth-upload-rest-go](/projects/auth-upload-rest-go)
 - [auto-clock-speed](/projects/auto-clock-speed)
 - [autoclockspeed.github.io](/projects/autoclockspeed.github.io)
+
+### B
 - [bash_startup](/projects/bash_startup)
 - [BestNextStep](/projects/bestnextstep)
 - [BestVimPlugins](/projects/bestvimplugins)
@@ -35,6 +39,8 @@ type: page
 - [break](/projects/break)
 - [broken-package-yf](/projects/broken-package-yf)
 - [bspswallow](/projects/bspswallow)
+
+### C
 - [calcLex](/projects/calclex)
 - [car-lights](/projects/car-lights)
 - [Cardinal](/projects/cardinal)
@@ -61,6 +67,8 @@ type: page
 - [crystal-colord](/projects/crystal-colord)
 - [cutil](/projects/cutil)
 - [cve-bin-tool](/projects/cve-bin-tool)
+
+### D
 - [daily-tasks](/projects/daily-tasks)
 - [dark-discord](/projects/dark-discord)
 - [dcbankofcarter](/projects/dcbankofcarter)
@@ -78,6 +86,8 @@ type: page
 - [draft.vim](/projects/draft.vim)
 - [dragon](/projects/dragon)
 - [dwm](/projects/dwm)
+
+### F
 - [f09f](/projects/f09f)
 - [f09f-rs](/projects/f09f-rs)
 - [fastly-py](/projects/fastly-py)
@@ -90,6 +100,8 @@ type: page
 - [fork-craft](/projects/fork-craft)
 - [fred](/projects/fred)
 - [fumble_api](/projects/fumble_api)
+
+### G
 - [GalapagosReefOctopus](/projects/galapagosreefoctopus)
 - [game-2021](/projects/game-2021)
 - [game-design-scoring](/projects/game-design-scoring)
@@ -100,12 +112,16 @@ type: page
 - [GPGExchange](/projects/gpgexchange)
 - [gpg_passkeep](/projects/gpg_passkeep)
 - [gpt-2](/projects/gpt-2)
+
+### H
 - [hash-colorer](/projects/hash-colorer)
 - [hermes](/projects/hermes)
 - [HexViewer](/projects/hexviewer)
 - [hexviewer-rs](/projects/hexviewer-rs)
 - [Highlight](/projects/highlight)
 - [hyper-minimal-loaders](/projects/hyper-minimal-loaders)
+
+### I
 - [ice](/projects/ice)
 - [ImgurApi](/projects/imgurapi)
 - [importlint](/projects/importlint)
@@ -114,6 +130,8 @@ type: page
 - [inflector](/projects/inflector)
 - [integrate](/projects/integrate)
 - [is_254_or_larger](/projects/is_254_or_larger)
+
+### J
 - [jai](/projects/jai)
 - [jakeroggenbuck](/projects/jakeroggenbuck)
 - [JakeRoggenbuck.github.io](/projects/jakeroggenbuck.github.io)
@@ -126,7 +144,11 @@ type: page
 - [JEC-rs](/projects/jec-rs)
 - [Journal.vim](/projects/journal.vim)
 - [js-snake](/projects/js-snake)
+
+### K
 - [kotlin-todo-app](/projects/kotlin-todo-app)
+
+### L
 - [Lan-Website](/projects/lan-website)
 - [lark](/projects/lark)
 - [learn-planck](/projects/learn-planck)
@@ -139,6 +161,8 @@ type: page
 - [LimeOS](/projects/limeos)
 - [link](/projects/link)
 - [link-cli](/projects/link-cli)
+
+### M
 - [mac-shifter](/projects/mac-shifter)
 - [macaroon](/projects/macaroon)
 - [magic-identify](/projects/magic-identify)
@@ -158,6 +182,8 @@ type: page
 - [MongoShortener](/projects/mongoshortener)
 - [mongo_passkeep](/projects/mongo_passkeep)
 - [my-readme-image](/projects/my-readme-image)
+
+### N
 - [n-rus-bot](/projects/n-rus-bot)
 - [nasa-spaceapps-2020](/projects/nasa-spaceapps-2020)
 - [nasa-spaceapps-2021](/projects/nasa-spaceapps-2021)
@@ -167,12 +193,16 @@ type: page
 - [novus-chart](/projects/novus-chart)
 - [nxyso_api](/projects/nxyso_api)
 - [nxyso_definition_bot](/projects/nxyso_definition_bot)
+
+### O
 - [ocean-game-js](/projects/ocean-game-js)
 - [ocean-game-py](/projects/ocean-game-py)
 - [on-logs-research](/projects/on-logs-research)
 - [one-time-pad-generator-asm](/projects/one-time-pad-generator-asm)
 - [onefetch](/projects/onefetch)
 - [openpilot](/projects/openpilot)
+
+### P
 - [Paper](/projects/paper)
 - [pascals-triangle](/projects/pascals-triangle)
 - [pathfinder](/projects/pathfinder)
@@ -198,10 +228,14 @@ type: page
 - [pyswitch](/projects/pyswitch)
 - [pytest_assignments](/projects/pytest_assignments)
 - [Python-Guides](/projects/python-guides)
+
+### Q
 - [qme](/projects/qme)
 - [qme-launcher](/projects/qme-launcher)
 - [qme-releases](/projects/qme-releases)
 - [qme5-server](/projects/qme5-server)
+
+### R
 - [rclc](/projects/rclc)
 - [Reddit_Downloader](/projects/reddit_downloader)
 - [Reduc](/projects/reduc)
@@ -213,6 +247,8 @@ type: page
 - [Route-Finding](/projects/route-finding)
 - [RushNote](/projects/rushnote)
 - [Rust](/projects/rust)
+
+### S
 - [sapphire](/projects/sapphire)
 - [SARS-CoV-2_Peplomer_Structure_Analysis](/projects/sars-cov-2_peplomer_structure_analysis)
 - [scouting-scripts](/projects/scouting-scripts)
@@ -247,6 +283,8 @@ type: page
 - [strategy_presentation_numpy](/projects/strategy_presentation_numpy)
 - [structured-data-format-SoC-first-week](/projects/structured-data-format-soc-first-week)
 - [study-cli](/projects/study-cli)
+
+### T
 - [tap](/projects/tap)
 - [tbaTestScripts](/projects/tbatestscripts)
 - [Terbot-2](/projects/terbot-2)
@@ -256,8 +294,12 @@ type: page
 - [timely](/projects/timely)
 - [tlib](/projects/tlib)
 - [typeschemalib](/projects/typeschemalib)
+
+### U
 - [ursina](/projects/ursina)
 - [ursina-platform-game](/projects/ursina-platform-game)
+
+### V
 - [valueourminds_website](/projects/valueourminds_website)
 - [vim-character-creator](/projects/vim-character-creator)
 - [vim-game-snake](/projects/vim-game-snake)
@@ -268,8 +310,14 @@ type: page
 - [Vorahk](/projects/vorahk)
 - [vosk-api](/projects/vosk-api)
 - [Vyxal](/projects/vyxal)
+
+### W
 - [wallpaper_downloader](/projects/wallpaper_downloader)
+
+### X
 - [xdotool_python_window_util](/projects/xdotool_python_window_util)
+
+### Y
 - [yaml_serialize](/projects/yaml_serialize)
 - [yes-no-neural-network-classifier](/projects/yes-no-neural-network-classifier)
 - [yf-package-example](/projects/yf-package-example)
@@ -277,6 +325,8 @@ type: page
 - [yfin](/projects/yfin)
 - [yflat-docs](/projects/yflat-docs)
 - [Yutimim-dictionary-parser](/projects/yutimim-dictionary-parser)
+
+### Z
 - [zerOS](/projects/zeros)
 - [zflat](/projects/zflat)
 - [zflat.vim](/projects/zflat.vim)
