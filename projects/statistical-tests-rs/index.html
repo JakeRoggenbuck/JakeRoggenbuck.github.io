@@ -13,7 +13,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> array: [<span style=color:#66d9ef>f64</span>; <span style=color:#ae81ff>4</span>] <span style=color:#f92672>=</span> [<span style=color:#ae81ff>3.4</span>, <span style=color:#ae81ff>6.7</span>, <span style=color:#ae81ff>2.3</span>, <span style=color:#ae81ff>1.1</span>];
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> m <span style=color:#f92672>=</span> mean(<span style=color:#f92672>&amp;</span>array);
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;{}&#34;</span>, m);
+</span></span><span style=display:flex><span>    println!(<span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{}</span><span style=color:#e6db74>&#34;</span>, m);
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rs data-lang=rs><span style=display:flex><span><span style=color:#66d9ef>use</span> statistical_tests_rs::{GetStatistics, SampleStatistics};
 </span></span><span style=display:flex><span>
@@ -21,7 +21,7 @@
 </span></span><span style=display:flex><span>    <span style=color:#75715e>// Get the statistics of a sample
 </span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> samp <span style=color:#f92672>=</span> SampleStatistics::from_array(<span style=color:#f92672>&amp;</span>array);
 </span></span><span style=display:flex><span>    println!(
-</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;Sample Mean: {}, Sample Standard Deviation: {}&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;Sample Mean: </span><span style=color:#e6db74>{}</span><span style=color:#e6db74>, Sample Standard Deviation: </span><span style=color:#e6db74>{}</span><span style=color:#e6db74>&#34;</span>,
 </span></span><span style=display:flex><span>        samp.sample_mean, samp.standard_error
 </span></span><span style=display:flex><span>    );
 </span></span><span style=display:flex><span>}
