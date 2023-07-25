@@ -7,7 +7,7 @@ tags: ["Jake", "Roggenbuck", "projects", "software", "github", "code", "product"
 
 I am currently a student at UC Davis studying Computer Science.
 
-Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
+Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
 
 ## Contact
 

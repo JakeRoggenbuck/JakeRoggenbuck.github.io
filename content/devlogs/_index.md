@@ -9,6 +9,8 @@ A collection of monthly summaries comprised of particular projects, progress, an
 - [January 2023](/devlogs/january-2023) - **AggieWorks, Data Structures, and tools in C**
 - [February 2023](/devlogs/february-2023) - **Tools in C and C++, and updates to draft.vim**
 - [March 2023](/devlogs/march-2023) - **Devious Code Contest, Satellites, and Local List Updates**
+- [April 2023](/devlogs/april-2023) - **Classes, Clubly, and more**
+- [May 2023](/devlogs/may-2023) - **Hackathon, Workshop, and Projects**
 
 # 2022
 - [February 2022](/devlogs/february-2022) - **Creating Dev Log Page**
