@@ -39,6 +39,9 @@ git pull upstream main
 ```
 
 ## Before a feature/assignment/change
+
+This should be done before the start of any distinct feature or large change.
+
 ```sh
 git switch main
 
