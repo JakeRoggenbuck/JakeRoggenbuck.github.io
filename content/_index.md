@@ -1,5 +1,5 @@
 ---
-tags: ["Jake", "Roggenbuck", "projects", "software", "github", "code", "product", "manager"]
+tags: ["Jake", "Roggenbuck", "projects", "software", "github", "code", "product", "manager", "machine learning"]
 ---
 
 I am currently a student at UC Davis studying Computer Science.<br>
