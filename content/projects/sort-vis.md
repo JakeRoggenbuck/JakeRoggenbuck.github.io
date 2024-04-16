@@ -2,9 +2,14 @@
 ---
 title: sort-vis
 type: page
+date: 2020-03-29T00:00:00
+tags: ["JavaScript"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sort-vis/)
+{{< github repo="jakeroggenbuck/sort-vis" >}}
+
+<br>
 
 # sort-vis
 ## Visualizes sorting alogithims using p5 js

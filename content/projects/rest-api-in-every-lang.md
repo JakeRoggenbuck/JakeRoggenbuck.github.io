@@ -2,11 +2,18 @@
 ---
 title: rest-api-in-every-lang
 type: page
+date: 2022-06-17T00:00:00
+tags: ["Java"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/rest-api-in-every-lang/)
+{{< github repo="jakeroggenbuck/rest-api-in-every-lang" >}}
+
+<br>
 
 # REST APIs in every language
+A collection of many REST frameworks in many languages.
+
 Please add more langs and frameworks!
 
 - Python
@@ -14,7 +21,8 @@ Please add more langs and frameworks!
 	- [x] Flask
 	- [ ] Django
 - Rust
-	- [ ] Rocket
+	- [x] Rocket
+	- [ ] Actix
 - Javascript
 	- [ ] Express
 - Go
@@ -27,4 +35,5 @@ Please add more langs and frameworks!
 - C++
  	- *Add frameworks*
 - Java
-	- *Add frameworks*
+	- [x] No API
+	- [x] Spark

@@ -2,9 +2,14 @@
 ---
 title: lark
 type: page
+date: 2022-06-17T00:00:00
+tags: ["None"]
+description: "Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/lark/)
+{{< github repo="jakeroggenbuck/lark" >}}
+
+<br>
 
 # Lark - a parsing toolkit for Python
 

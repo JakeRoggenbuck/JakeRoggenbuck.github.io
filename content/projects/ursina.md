@@ -2,9 +2,14 @@
 ---
 title: ursina
 type: page
+date: 2021-03-28T00:00:00
+tags: ["None"]
+description: "A game engine powered by python and panda3d."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/ursina/)
+{{< github repo="jakeroggenbuck/ursina" >}}
+
+<br>
 
 # ursina    ʕ •ᴥ•ʔゝ□
 An easy to use game engine/framework for python.

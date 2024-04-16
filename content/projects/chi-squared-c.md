@@ -2,11 +2,17 @@
 ---
 title: chi-squared-c
 type: page
+date: 2022-05-04T00:00:00
+tags: ["C"]
+description: "Calculate chi squared"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/chi-squared-c/)
+{{< github repo="jakeroggenbuck/chi-squared-c" >}}
+
+<br>
 
 # chi-squared-c
+Calculate chi squared
 
 ### Equation
 ```

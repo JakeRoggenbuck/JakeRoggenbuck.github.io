@@ -2,9 +2,14 @@
 ---
 title: qme-launcher
 type: page
+date: 2021-02-02T00:00:00
+tags: ["Java"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/qme-launcher/)
+{{< github repo="jakeroggenbuck/qme-launcher" >}}
+
+<br>
 
 # Installing QME
 

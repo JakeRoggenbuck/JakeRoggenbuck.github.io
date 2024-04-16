@@ -2,11 +2,16 @@
 ---
 title: link
 type: page
+date: 2021-05-26T00:00:00
+tags: ["Rust"]
+description: "I url shortener using Rocket.rs & Diesel.rs; being used in production"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/link/)
+{{< github repo="jakeroggenbuck/link" >}}
 
-# link ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/link/Rust?style=for-the-badge)
+<br>
+
+# link ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/link/rust.yml?branch=main&style=for-the-badge)
 
 ## Description
 A public mirror of the private development link repository, without the .env and Rocket.toml hosted on heroku

@@ -2,9 +2,14 @@
 ---
 title: f09f-rs
 type: page
+date: 2021-04-22T00:00:00
+tags: ["Rust"]
+description: "pronounced fonf; is a statically typed language with simple but powerful syntax, and an interpreter written in rust"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/f09f-rs/)
+{{< github repo="jakeroggenbuck/f09f-rs" >}}
+
+<br>
 
 # f09f-rs ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/f09f-rs/Rust?style=for-the-badge)
  pronounced fonf; is a statically typed language with simple but powerful syntax, and an interpreter written in rust 

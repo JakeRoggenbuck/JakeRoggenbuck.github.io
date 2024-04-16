@@ -2,9 +2,14 @@
 ---
 title: least-squares-regression
 type: page
+date: 2021-07-17T00:00:00
+tags: ["Jupyter Notebook"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/least-squares-regression/)
+{{< github repo="jakeroggenbuck/least-squares-regression" >}}
+
+<br>
 
 # least-squares-regression
 

@@ -2,9 +2,14 @@
 ---
 title: pogscript
 type: page
+date: 2019-12-31T00:00:00
+tags: ["Python"]
+description: "A simple macro language"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pogscript/)
+{{< github repo="jakeroggenbuck/pogscript" >}}
+
+<br>
 
 # Pogscript
 ### Pogscript, Overtly, Great, Script

@@ -2,11 +2,16 @@
 ---
 title: study-cli
 type: page
+date: 2022-06-13T00:00:00
+tags: ["Go"]
+description: "CLI tool to quiz and learn a question dataset. This can be used for memorizing any sort of multiple choice compliant quizzes."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/study-cli/)
+{{< github repo="jakeroggenbuck/study-cli" >}}
 
-# study-cli ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/study-cli/Go?style=for-the-badge)
+<br>
+
+# study-cli ![Go](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/study-cli/go.yml?branch=main&style=for-the-badge)
 CLI tool to quiz and learn a question dataset. This can be used for memorizing any sort of multiple choice compliant quizzes. Similar to flashcards, except no need to write out flash cards, or carry them with you. Also, study-cli can be set to random ask if you'd like to study at random times.
 
 ## Question Set Schema

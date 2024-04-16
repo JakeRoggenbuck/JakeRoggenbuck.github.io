@@ -2,9 +2,14 @@
 ---
 title: game-design-scoring
 type: page
+date: 2021-02-06T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/game-design-scoring/)
+{{< github repo="jakeroggenbuck/game-design-scoring" >}}
+
+<br>
 
 #  Game Design Scoring Regression Model
 

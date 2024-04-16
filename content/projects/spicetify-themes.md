@@ -2,9 +2,14 @@
 ---
 title: spicetify-themes
 type: page
+date: 2021-03-28T00:00:00
+tags: ["None"]
+description: "A community-driven collection of themes for Spicetify (https://github.com/khanhas/spicetify-cli)"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spicetify-themes/)
+{{< github repo="jakeroggenbuck/spicetify-themes" >}}
+
+<br>
 
 # spicetify community themes
 

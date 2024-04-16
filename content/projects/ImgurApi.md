@@ -2,11 +2,17 @@
 ---
 title: ImgurApi
 type: page
+date: 2020-09-29T00:00:00
+tags: ["Python"]
+description: "Simple Imgur library to interface with the Imgur web API "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/ImgurApi/)
+{{< github repo="jakeroggenbuck/ImgurApi" >}}
+
+<br>
 
 # ImgurApi
+Simple Imgur library to interface with the Imgur web API 
 
 ```py
 from main import Imgur

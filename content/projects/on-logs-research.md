@@ -2,9 +2,14 @@
 ---
 title: on-logs-research
 type: page
+date: 2021-11-03T00:00:00
+tags: ["Jupyter Notebook"]
+description: "Exploration on the decimal places of logs from December 2021 - Present"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/on-logs-research/)
+{{< github repo="jakeroggenbuck/on-logs-research" >}}
+
+<br>
 
 # on-logs-research
 
@@ -21,3 +26,5 @@ Exploration on the decimal places of logs from December 2021 - Present
 ![Screenshot from 2021-02-11 14-01-24](https://user-images.githubusercontent.com/35516367/140437269-6659735d-5117-40be-8367-185dacd94eab.png)
 
 ![fourth_point_close](https://user-images.githubusercontent.com/35516367/140437275-28a18374-f029-491e-9bec-a2fa008fc5fd.png)
+
+![image](https://user-images.githubusercontent.com/35516367/205470035-7490c999-baa5-4bfc-9825-a1aa65c5a61d.png)

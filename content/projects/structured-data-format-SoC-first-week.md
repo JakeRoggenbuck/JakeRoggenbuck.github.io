@@ -2,9 +2,14 @@
 ---
 title: structured-data-format-SoC-first-week
 type: page
+date: 2022-07-25T00:00:00
+tags: ["Rust"]
+description: "Summer Of Code (SoC) First Week - Structured Data Format"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/structured-data-format-SoC-first-week/)
+{{< github repo="jakeroggenbuck/structured-data-format-SoC-first-week" >}}
+
+<br>
 
 # structured-data-format-SoC-first-week
 Summer Of Code (SoC) First Week - Structured Data Format

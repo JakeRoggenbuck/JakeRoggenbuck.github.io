@@ -2,11 +2,16 @@
 ---
 title: BestNextStep
 type: page
+date: 2019-04-28T00:00:00
+tags: ["Go"]
+description: "Keep track of where you are on projects and what your Best Next Step is."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/BestNextStep/)
+{{< github repo="jakeroggenbuck/BestNextStep" >}}
 
-# Best Next Step ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/BestNextStep/Go?style=for-the-badge)
+<br>
+
+# Best Next Step ![Go](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/BestNextStep/go.yml?branch=main&style=for-the-badge)
 Keep track of where you are on projects and what your Best Next Step is.
 
 ## Why

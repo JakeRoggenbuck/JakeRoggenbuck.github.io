@@ -2,9 +2,14 @@
 ---
 title: fastly-py
 type: page
+date: 2020-10-06T00:00:00
+tags: ["None"]
+description: "Fastly Python Client"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/fastly-py/)
+{{< github repo="jakeroggenbuck/fastly-py" >}}
+
+<br>
 
 ## Fastly Python Client
 

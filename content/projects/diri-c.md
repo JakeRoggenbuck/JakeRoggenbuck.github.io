@@ -2,9 +2,14 @@
 ---
 title: diri-c
 type: page
+date: 2022-06-22T00:00:00
+tags: ["C"]
+description: "DIRectory Info tool written in C that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/diri-c/)
+{{< github repo="jakeroggenbuck/diri-c" >}}
+
+<br>
 
 # Diri-c
 **DIR**ectory **I**nfo tool written in C that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system.

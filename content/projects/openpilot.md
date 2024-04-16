@@ -2,9 +2,14 @@
 ---
 title: openpilot
 type: page
+date: 2020-02-27T00:00:00
+tags: ["None"]
+description: "open source driving agent"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/openpilot/)
+{{< github repo="jakeroggenbuck/openpilot" >}}
+
+<br>
 
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 

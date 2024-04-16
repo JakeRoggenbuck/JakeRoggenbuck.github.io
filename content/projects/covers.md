@@ -2,9 +2,14 @@
 ---
 title: covers
 type: page
+date: 2022-06-20T00:00:00
+tags: ["Rust"]
+description: "Code coverage for Rust in Rust :crab:"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/covers/)
+{{< github repo="jakeroggenbuck/covers" >}}
+
+<br>
 
 # CoveRs
 Code coverage for Rust in Rust

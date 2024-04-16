@@ -2,9 +2,14 @@
 ---
 title: xdotool_python_window_util
 type: page
+date: 2020-07-29T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/xdotool_python_window_util/)
+{{< github repo="jakeroggenbuck/xdotool_python_window_util" >}}
+
+<br>
 
 # xdotool_python_window_util
 

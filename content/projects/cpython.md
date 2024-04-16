@@ -2,8 +2,13 @@
 ---
 title: cpython
 type: page
+date: 2021-08-31T00:00:00
+tags: ["None"]
+description: "The Python programming language"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/cpython/)
+{{< github repo="jakeroggenbuck/cpython" >}}
+
+<br>
 
 404: Not Found

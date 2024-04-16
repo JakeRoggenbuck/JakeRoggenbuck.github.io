@@ -2,9 +2,14 @@
 ---
 title: typeschemalib
 type: page
+date: 2020-09-20T00:00:00
+tags: ["Python"]
+description: "A yaml like schema that can be used to check dictionaries for correct schema"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/typeschemalib/)
+{{< github repo="jakeroggenbuck/typeschemalib" >}}
+
+<br>
 
 # typeschemalib
 A yaml like schema that can be used to check dictionaries for correct schema

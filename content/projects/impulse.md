@@ -2,9 +2,14 @@
 ---
 title: impulse
 type: page
+date: 2020-04-17T00:00:00
+tags: ["Python"]
+description: "A simple package manager."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/impulse/)
+{{< github repo="jakeroggenbuck/impulse" >}}
+
+<br>
 
 # impulse
 

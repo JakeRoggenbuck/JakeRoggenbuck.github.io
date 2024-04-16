@@ -2,9 +2,14 @@
 ---
 title: cproc
 type: page
+date: 2021-07-04T00:00:00
+tags: ["C"]
+description: "A small C preprocessor, written in C."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/cproc/)
+{{< github repo="jakeroggenbuck/cproc" >}}
+
+<br>
 
 # cproc ![cmake](https://img.shields.io/github/workflow/status/adamhutchings/cproc/cmake?style=for-the-badge)
 A small C preprocessor, written in C.

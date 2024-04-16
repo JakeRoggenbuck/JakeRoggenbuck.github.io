@@ -2,9 +2,14 @@
 ---
 title: link-cli
 type: page
+date: 2022-05-17T00:00:00
+tags: ["Python"]
+description: "Utility to manage link.jr0.org"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/link-cli/)
+{{< github repo="jakeroggenbuck/link-cli" >}}
+
+<br>
 
 # link-cli
 Utility to manage link.jr0.org

@@ -2,9 +2,14 @@
 ---
 title: position_reader
 type: page
+date: 2020-08-17T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/position_reader/)
+{{< github repo="jakeroggenbuck/position_reader" >}}
+
+<br>
 
 # position_reader
 

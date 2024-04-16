@@ -2,9 +2,14 @@
 ---
 title: JEC-rs
 type: page
+date: 2022-08-03T00:00:00
+tags: ["Rust"]
+description: "  Jabacat's Easy Config "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/JEC-rs/)
+{{< github repo="jakeroggenbuck/JEC-rs" >}}
+
+<br>
 
 # JEC-rs ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-rs/Rust?style=for-the-badge)
 Jabacat's Easy Config

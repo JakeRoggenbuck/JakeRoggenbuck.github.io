@@ -2,9 +2,14 @@
 ---
 title: minecraft_texture_packs
 type: page
+date: 2021-02-24T00:00:00
+tags: ["GLSL"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/minecraft_texture_packs/)
+{{< github repo="jakeroggenbuck/minecraft_texture_packs" >}}
+
+<br>
 
 # minecraft_texture_packs
 

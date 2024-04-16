@@ -2,8 +2,13 @@
 ---
 title: mongodb-login
 type: page
+date: 2020-09-05T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mongodb-login/)
+{{< github repo="jakeroggenbuck/mongodb-login" >}}
+
+<br>
 
 # mongodb-login

@@ -2,11 +2,16 @@
 ---
 title: mongoc-rs
 type: page
+date: 2021-05-09T00:00:00
+tags: ["Rust"]
+description: "Quickly view your mongodb databases, their collections, and their documents from the command line"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mongoc-rs/)
+{{< github repo="jakeroggenbuck/mongoc-rs" >}}
 
-# mongoc-rs ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/mongoc-rs/Rust?style=for-the-badge)
+<br>
+
+# mongoc-rs ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/mongoc-rs/rust.yml?style=for-the-badge)
 Quickly view your mongodb databases, their collections, and their documents from the command line
 
 # Installing

@@ -2,9 +2,14 @@
 ---
 title: sense-rs
 type: page
+date: 2022-06-29T00:00:00
+tags: ["Rust"]
+description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sense-rs/)
+{{< github repo="jakeroggenbuck/sense-rs" >}}
+
+<br>
 
 # sense-rs
 Sense the directories around you, are they git repositories, what language, etc.

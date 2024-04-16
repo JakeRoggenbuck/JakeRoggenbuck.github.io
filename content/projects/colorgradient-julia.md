@@ -2,9 +2,14 @@
 ---
 title: colorgradient-julia
 type: page
+date: 2021-07-14T00:00:00
+tags: ["Julia"]
+description: "A tool in Julia to make color gradients"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/colorgradient-julia/)
+{{< github repo="jakeroggenbuck/colorgradient-julia" >}}
+
+<br>
 
 # colorgradient-julia
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)
@@ -12,6 +17,9 @@ type: page
 - Julia version [colorgradient-julia](https://github.com/JakeRoggenbuck/colorgradient-julia)
 - C version [colorgradient-c](https://github.com/JakeRoggenbuck/colorgradient-c)
 - Go version [colorgradient-go](https://github.com/JakeRoggenbuck/colorgradient-go)
+- Clojure version [colorgradient-clj](https://github.com/JakeRoggenbuck/colorgradient-clj)
+
+<img width="400" alt="color grad" src="https://user-images.githubusercontent.com/35516367/210163818-5f286e55-9b2a-431c-a397-c1a24a37dbb1.png">
 
 ```jl
 # Find the slope of two point

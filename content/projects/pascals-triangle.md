@@ -2,9 +2,14 @@
 ---
 title: pascals-triangle
 type: page
+date: 2022-01-14T00:00:00
+tags: ["Jupyter Notebook"]
+description: "Exploration of pascals triangle"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pascals-triangle/)
+{{< github repo="jakeroggenbuck/pascals-triangle" >}}
+
+<br>
 
 # pascals-triangle
 Exploration of pascals triangle

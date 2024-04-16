@@ -2,9 +2,14 @@
 ---
 title: flowerknight
 type: page
+date: 2021-06-01T00:00:00
+tags: ["Java"]
+description: "A game we're making over the summer to present to the school at the Club Fair."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/flowerknight/)
+{{< github repo="jakeroggenbuck/flowerknight" >}}
+
+<br>
 
 # flowerknight
 

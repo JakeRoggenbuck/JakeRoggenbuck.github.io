@@ -2,9 +2,14 @@
 ---
 title: ocean-game-py
 type: page
+date: 2022-05-23T00:00:00
+tags: ["Python"]
+description: "Simple ocean game demo in Python for DV Game Jam"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/ocean-game-py/)
+{{< github repo="jakeroggenbuck/ocean-game-py" >}}
+
+<br>
 
 # ocean-game-py
 Simple ocean game demo for DV Game Jam

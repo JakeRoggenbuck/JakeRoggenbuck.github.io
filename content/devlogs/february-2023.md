@@ -1,6 +1,7 @@
 ---
 title: Febuary 2023
-type: page
+date: 2023-02-28T00:00:00
+type: post
 ---
 
 This month I was working a lot on school and clubs I am associated with so I didn’t have a bunch of time to work on personal projects, but I do have some highlights to share.

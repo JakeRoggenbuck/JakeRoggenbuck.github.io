@@ -2,9 +2,14 @@
 ---
 title: importlint
 type: page
+date: 2020-11-08T00:00:00
+tags: ["Python"]
+description: "Check and fix your module and package imports in python files"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/importlint/)
+{{< github repo="jakeroggenbuck/importlint" >}}
+
+<br>
 
 # ImportLint
 Check and fix your module and package imports in python files

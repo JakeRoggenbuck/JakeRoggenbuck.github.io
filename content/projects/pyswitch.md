@@ -2,9 +2,14 @@
 ---
 title: pyswitch
 type: page
+date: 2020-09-11T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pyswitch/)
+{{< github repo="jakeroggenbuck/pyswitch" >}}
+
+<br>
 
 ## PySwitch
 # pyswitch

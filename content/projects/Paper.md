@@ -2,9 +2,14 @@
 ---
 title: Paper
 type: page
+date: 2021-01-19T00:00:00
+tags: ["Python"]
+description: "A simple programming language and its interpreter"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Paper/)
+{{< github repo="jakeroggenbuck/Paper" >}}
+
+<br>
 
 # Paper
 

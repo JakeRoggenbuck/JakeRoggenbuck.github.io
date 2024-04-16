@@ -2,11 +2,16 @@
 ---
 title: stow-squid
 type: page
+date: 2021-08-13T00:00:00
+tags: ["Rust"]
+description: "Simple CLI tool written in Rust to stow and deploy your dotfiles."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/stow-squid/)
+{{< github repo="jakeroggenbuck/stow-squid" >}}
 
-# 🦑 stow-squid 0.1.2 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/stow-squid/Rust?style=for-the-badge)
+<br>
+
+# 🦑 stow-squid 0.1.2 ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/stow-squid/rust.yml?branch=main&style=for-the-badge)
 Stow your dotfiles
 
 ![image](https://user-images.githubusercontent.com/35516367/130694893-177cf2d5-eda1-419a-b6f7-1b2eb1f1d4cf.png)

@@ -2,9 +2,14 @@
 ---
 title: reminder-bot
 type: page
+date: 2021-01-02T00:00:00
+tags: ["None"]
+description: "A Discord Bot designed to remind users of custom events"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/reminder-bot/)
+{{< github repo="jakeroggenbuck/reminder-bot" >}}
+
+<br>
 
 # reminder-bot
 A Discord Bot designed to remind users of custom events

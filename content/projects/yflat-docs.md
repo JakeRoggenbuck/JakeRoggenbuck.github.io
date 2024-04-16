@@ -2,9 +2,14 @@
 ---
 title: yflat-docs
 type: page
+date: 2022-02-04T00:00:00
+tags: ["None"]
+description: "Documentation for all parts of Y-flat."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/yflat-docs/)
+{{< github repo="jakeroggenbuck/yflat-docs" >}}
+
+<br>
 
 # yflat-docs
 Documentation for all parts of Y-flat.

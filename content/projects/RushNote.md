@@ -2,9 +2,14 @@
 ---
 title: RushNote
 type: page
+date: 2019-11-23T00:00:00
+tags: ["C++"]
+description: "Take quick notes from command line when in a rush."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/RushNote/)
+{{< github repo="jakeroggenbuck/RushNote" >}}
+
+<br>
 
 # RUSHNOTE
 Take quick notes from command line when in a rush.

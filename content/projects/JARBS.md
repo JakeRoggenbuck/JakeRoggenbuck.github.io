@@ -2,9 +2,14 @@
 ---
 title: JARBS
 type: page
+date: 2019-11-03T00:00:00
+tags: ["Shell"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/JARBS/)
+{{< github repo="jakeroggenbuck/JARBS" >}}
+
+<br>
 
 # Jake's Auto Rice Bash Script
 

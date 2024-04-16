@@ -2,9 +2,14 @@
 ---
 title: spicetify-customapps
 type: page
+date: 2021-01-18T00:00:00
+tags: ["JavaScript"]
+description: "A community-driven collection of custom apps for Spicetify (https://github.com/khanhas/spicetify-cli)"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spicetify-customapps/)
+{{< github repo="jakeroggenbuck/spicetify-customapps" >}}
+
+<br>
 
 <p align="center"><a href="https://github.com/3raxton/spicetify-custom-apps/"
 target="_blank"><br><img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/fire_1f525.png"></a></p>

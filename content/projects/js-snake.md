@@ -2,9 +2,14 @@
 ---
 title: js-snake
 type: page
+date: 2020-08-18T00:00:00
+tags: ["None"]
+description: "Snake game written in p5 JS"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/js-snake/)
+{{< github repo="jakeroggenbuck/js-snake" >}}
+
+<br>
 
 # js-snake
 Snake game written in p5 JS

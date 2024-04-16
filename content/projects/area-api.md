@@ -2,9 +2,14 @@
 ---
 title: area-api
 type: page
+date: 2022-07-12T00:00:00
+tags: ["Go"]
+description: "area-api is a project to teach how to create a rest api using Gin Gonic"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/area-api/)
+{{< github repo="jakeroggenbuck/area-api" >}}
+
+<br>
 
 # Area API (Example Project)
  area-api is a project to teach how to create a rest api using [Gin Gonic](https://github.com/gin-gonic/gin) 

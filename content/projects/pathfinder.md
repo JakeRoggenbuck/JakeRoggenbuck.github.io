@@ -2,9 +2,14 @@
 ---
 title: pathfinder
 type: page
+date: 2021-05-06T00:00:00
+tags: ["Rust"]
+description: "A simple utility to view, edit, and search your $PATH"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pathfinder/)
+{{< github repo="jakeroggenbuck/pathfinder" >}}
+
+<br>
 
 # Pathfinder
 A simple utility to view, edit, and search your $PATH

@@ -2,9 +2,14 @@
 ---
 title: zflat
 type: page
+date: 2021-03-25T00:00:00
+tags: ["C++"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/zflat/)
+{{< github repo="jakeroggenbuck/zflat" >}}
+
+<br>
 
 # Z-Flat ![cmake test](https://img.shields.io/github/workflow/status/adamhutchings/zflat/cmake?style=for-the-badge) <a href="https://discord.gg/UPqeyvzPcq">![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)</a>
 ![logo](https://github.com/adamhutchings/zflat/blob/main/logo.png)

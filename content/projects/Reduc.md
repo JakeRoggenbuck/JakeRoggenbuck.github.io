@@ -2,9 +2,14 @@
 ---
 title: Reduc
 type: page
+date: 2022-01-25T00:00:00
+tags: ["None"]
+description: "A lightweight general purpose window manager written in rust"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Reduc/)
+{{< github repo="jakeroggenbuck/Reduc" >}}
+
+<br>
 
 # Reduc
 A lightweight general purpose window manager written in rust

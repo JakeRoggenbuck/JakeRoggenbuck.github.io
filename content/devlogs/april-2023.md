@@ -1,6 +1,7 @@
 ---
 title: April 2023
-type: page
+type: post
+date: 2023-04-30T00:00:00
 ---
 
 ## Classes

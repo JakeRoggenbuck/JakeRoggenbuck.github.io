@@ -2,9 +2,14 @@
 ---
 title: server-public
 type: page
+date: 2020-04-15T00:00:00
+tags: ["Python"]
+description: "Data processing Python server that interfaces with collection and visualization apps in a FRC scouting system"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/server-public/)
+{{< github repo="jakeroggenbuck/server-public" >}}
+
+<br>
 
 # 1678 Server 2019-2020
 

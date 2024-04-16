@@ -2,9 +2,14 @@
 ---
 title: plrs
 type: page
+date: 2021-07-29T00:00:00
+tags: ["Rust"]
+description: "The multi-tool of lexical analysis and tokenization. Make parsers in less time for many use cases."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/plrs/)
+{{< github repo="jakeroggenbuck/plrs" >}}
+
+<br>
 
 # plrs <a href="https://pypi.org/project/plrs/">![Version](https://img.shields.io/pypi/v/plrs)</a>
 The multi-tool of lexical analysis and tokenization.

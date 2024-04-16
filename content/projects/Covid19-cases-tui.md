@@ -2,9 +2,14 @@
 ---
 title: Covid19-cases-tui
 type: page
+date: 2020-03-20T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Covid19-cases-tui/)
+{{< github repo="jakeroggenbuck/Covid19-cases-tui" >}}
+
+<br>
 
 # Covid19-cases-tui
 

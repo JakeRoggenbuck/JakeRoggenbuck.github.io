@@ -2,9 +2,14 @@
 ---
 title: stackoverflow-search-vim
 type: page
+date: 2022-06-02T00:00:00
+tags: ["Vim script"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/stackoverflow-search-vim/)
+{{< github repo="jakeroggenbuck/stackoverflow-search-vim" >}}
+
+<br>
 
 # Stack Overflow Search Vim
 Inspired by a conversation with [@Shuzhengz](https://github.com/Shuzhengz). Still a work in progress.

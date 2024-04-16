@@ -2,9 +2,14 @@
 ---
 title: vimage.vim
 type: page
+date: 2020-07-26T00:00:00
+tags: ["Vim script"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/vimage.vim/)
+{{< github repo="jakeroggenbuck/vimage.vim" >}}
+
+<br>
 
 # vimage.vim
 vimage.vim - Open image paths in vim

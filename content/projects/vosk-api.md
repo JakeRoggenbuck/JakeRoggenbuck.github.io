@@ -2,9 +2,14 @@
 ---
 title: vosk-api
 type: page
+date: 2022-03-07T00:00:00
+tags: ["None"]
+description: "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/vosk-api/)
+{{< github repo="jakeroggenbuck/vosk-api" >}}
+
+<br>
 
 # Vosk Speech Recognition Toolkit
 

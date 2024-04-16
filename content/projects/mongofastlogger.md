@@ -2,9 +2,14 @@
 ---
 title: mongofastlogger
 type: page
+date: 2020-09-27T00:00:00
+tags: ["Python"]
+description: "A simple and fask logging library that uses the power of mongodb to save and query logs (with built in cli)"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mongofastlogger/)
+{{< github repo="jakeroggenbuck/mongofastlogger" >}}
+
+<br>
 
 <a href="https://pypi.org/project/mongofastlogger/">![Version](https://img.shields.io/pypi/v/mongofastlogger)</a>
 

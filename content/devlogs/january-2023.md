@@ -1,6 +1,7 @@
 ---
 title: January 2023
-type: page
+date: 2023-01-31T00:00:00
+type: post
 ---
 
 I joined AggieWorks as a Technical Product Manager for a new project. I spent a lot of time working on AggieWorks and School. I didn’t do as much for personal projects but I still have some interesting things to share for this month.

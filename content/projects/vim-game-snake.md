@@ -2,9 +2,14 @@
 ---
 title: vim-game-snake
 type: page
+date: 2020-08-02T00:00:00
+tags: ["Vim script"]
+description: "Vim Game : Snake"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/vim-game-snake/)
+{{< github repo="jakeroggenbuck/vim-game-snake" >}}
+
+<br>
 
 # VimGameSnake
 

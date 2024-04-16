@@ -2,9 +2,14 @@
 ---
 title: sense-py
 type: page
+date: 2022-06-29T00:00:00
+tags: ["Python"]
+description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sense-py/)
+{{< github repo="jakeroggenbuck/sense-py" >}}
+
+<br>
 
 # sense-py
 Sense the directories around you, are they git repositories, what language, etc.

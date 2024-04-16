@@ -2,9 +2,14 @@
 ---
 title: sodium
 type: page
+date: 2019-12-27T00:00:00
+tags: ["None"]
+description: "Mirror of https://gitlab.redox-os.org/redox-os/sodium"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sodium/)
+{{< github repo="jakeroggenbuck/sodium" >}}
+
+<br>
 
 
 <img src="https://raw.githubusercontent.com/redox-os/assets/master/logos/sodium/Sodium_logo.png" height="200" />

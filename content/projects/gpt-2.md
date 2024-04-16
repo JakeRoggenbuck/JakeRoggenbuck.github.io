@@ -2,9 +2,14 @@
 ---
 title: gpt-2
 type: page
+date: 2019-06-25T00:00:00
+tags: ["Python"]
+description: "Code for the paper 'Language Models are Unsupervised Multitask Learners'"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/gpt-2/)
+{{< github repo="jakeroggenbuck/gpt-2" >}}
+
+<br>
 
 # gpt-2
 

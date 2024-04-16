@@ -2,9 +2,14 @@
 ---
 title: derive
 type: page
+date: 2022-04-17T00:00:00
+tags: ["C"]
+description: "Calculate the derivative"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/derive/)
+{{< github repo="jakeroggenbuck/derive" >}}
+
+<br>
 
 # derive
 Calculate the derivative of a function non-algebraically

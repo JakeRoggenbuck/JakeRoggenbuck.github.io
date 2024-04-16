@@ -2,9 +2,14 @@
 ---
 title: crystal-colord
 type: page
+date: 2021-01-30T00:00:00
+tags: ["Crystal"]
+description: "A library for colored text in crystal"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/crystal-colord/)
+{{< github repo="jakeroggenbuck/crystal-colord" >}}
+
+<br>
 
 # crystal-colord
 
