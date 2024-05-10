@@ -2,9 +2,13 @@
 ---
 title: BrainF
 type: page
+date: 2020-03-16T00:00:00
+tags: ["Brainf"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/BrainF/)
+
+<br>
 
 # BrainF
 

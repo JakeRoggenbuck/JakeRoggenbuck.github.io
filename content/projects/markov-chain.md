@@ -2,9 +2,13 @@
 ---
 title: markov-chain
 type: page
+date: 2021-04-12T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/markov-chain/)
+
+<br>
 
 # Markov chain
 this is a simple markov chain implementation inspired by a project @nathansolomon1678 made

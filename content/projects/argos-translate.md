@@ -2,9 +2,13 @@
 ---
 title: argos-translate
 type: page
+date: 2021-04-21T00:00:00
+tags: ["None"]
+description: "Open source neural machine translation in Python. Designed to be used either as a Python library or desktop application. Uses OpenNMT for translations and PyQt for GUI."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/argos-translate/)
+
+<br>
 
 # Argos Translate
 [Docs](https://argos-translate.readthedocs.io) | [Website](https://www.argosopentech.com) | [Video intro](https://youtu.be/yn37-CpRzTc)

@@ -2,9 +2,13 @@
 ---
 title: mongodb_schema_check
 type: page
+date: 2020-09-23T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mongodb_schema_check/)
+
+<br>
 
 # mongodb_schema_check
 

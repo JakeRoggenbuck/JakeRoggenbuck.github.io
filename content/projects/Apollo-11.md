@@ -2,9 +2,13 @@
 ---
 title: Apollo-11
 type: page
+date: 2020-02-20T00:00:00
+tags: ["Assembly"]
+description: "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Apollo-11/)
+
+<br>
 
 # Apollo-11
 [![NASA][1]][2]

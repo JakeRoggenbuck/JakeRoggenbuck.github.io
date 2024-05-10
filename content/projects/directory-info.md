@@ -2,9 +2,13 @@
 ---
 title: directory-info
 type: page
+date: 2021-12-21T00:00:00
+tags: ["Python"]
+description: "DIRectory Info tool that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/directory-info/)
+
+<br>
 
 # Diri
 **DIR**ectory **I**nfo tool that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system.

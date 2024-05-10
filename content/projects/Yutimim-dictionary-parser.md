@@ -2,9 +2,13 @@
 ---
 title: Yutimim-dictionary-parser
 type: page
+date: 2021-09-11T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Yutimim-dictionary-parser/)
+
+<br>
 
 # Yutimim-dictionary-parser
 

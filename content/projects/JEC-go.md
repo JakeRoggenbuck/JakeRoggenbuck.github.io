@@ -2,9 +2,13 @@
 ---
 title: JEC-go
 type: page
+date: 2022-08-01T00:00:00
+tags: ["Go"]
+description: "Jabacat's Easy Config"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/JEC-go/)
+
+<br>
 
 # JEC-go ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-go/Go?style=for-the-badge)
 Jabacat's Easy Config

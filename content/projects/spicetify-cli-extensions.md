@@ -2,9 +2,13 @@
 ---
 title: spicetify-cli-extensions
 type: page
+date: 2020-11-26T00:00:00
+tags: ["JavaScript"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spicetify-cli-extensions/)
+
+<br>
 
 # spicetify-cli-extensions
 

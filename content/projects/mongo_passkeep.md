@@ -2,9 +2,13 @@
 ---
 title: mongo_passkeep
 type: page
+date: 2020-09-16T00:00:00
+tags: ["Python"]
+description: "A command line utility for storing passwords"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mongo_passkeep/)
+
+<br>
 
 # mongo_passkeep
 A command line utility for storing passwords

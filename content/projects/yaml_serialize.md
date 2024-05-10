@@ -2,9 +2,13 @@
 ---
 title: yaml_serialize
 type: page
+date: 2020-10-10T00:00:00
+tags: ["Python"]
+description: "A simple way to store python objects in yaml"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/yaml_serialize/)
+
+<br>
 
 # yaml_serialize
 A simple way to store python objects in yaml 

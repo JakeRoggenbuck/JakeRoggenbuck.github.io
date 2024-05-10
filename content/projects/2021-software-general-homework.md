@@ -2,9 +2,13 @@
 ---
 title: 2021-software-general-homework
 type: page
+date: 2021-08-23T00:00:00
+tags: ["None"]
+description: "Master repository for Software General members to fork and clone in order to upload their lessons to Github"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/2021-software-general-homework/)
+
+<br>
 
 # 2021-software-general-homework
 

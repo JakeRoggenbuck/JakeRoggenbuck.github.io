@@ -2,9 +2,13 @@
 ---
 title: pwntools
 type: page
+date: 2020-01-12T00:00:00
+tags: ["None"]
+description: "CTF framework and exploit development library"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pwntools/)
+
+<br>
 
 # pwntools - CTF toolkit
 ![pwntools logo](https://github.com/Gallopsled/pwntools/blob/stable/docs/source/logo.png?raw=true)

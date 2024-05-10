@@ -1,6 +1,7 @@
 ---
 title: September 2022
-type: page
+type: post
+date: 2022-09-30T00:00:00
 ---
 
 # T3 research

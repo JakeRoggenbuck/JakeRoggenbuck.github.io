@@ -2,9 +2,13 @@
 ---
 title: yf-package-example
 type: page
+date: 2021-12-18T00:00:00
+tags: ["None"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/yf-package-example/)
+
+<br>
 
 # yf-package-example
 

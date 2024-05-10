@@ -2,9 +2,13 @@
 ---
 title: Rust
 type: page
+date: 2022-03-31T00:00:00
+tags: ["None"]
+description: " All Algorithms implemented in Rust "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Rust/)
+
+<br>
 
 # The Algorithms - Rust [![Gitter](https://img.shields.io/gitter/room/the-algorithms/rust.svg?style=flat-square)](https://gitter.im/the-algorithms/rust) [![build](https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml/badge.svg)](https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml)
 

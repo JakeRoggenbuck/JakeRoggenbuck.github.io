@@ -2,9 +2,13 @@
 ---
 title: pinter
 type: page
+date: 2020-11-24T00:00:00
+tags: ["C"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pinter/)
+
+<br>
 
 Pinter ![C/C++ CI](https://github.com/plancklang/pinter/workflows/C/C++%20CI/badge.svg)
 ======

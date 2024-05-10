@@ -2,9 +2,13 @@
 ---
 title: BestVimPlugins
 type: page
+date: 2020-10-26T00:00:00
+tags: ["None"]
+description: "A collection of vim plug-ins that I use."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/BestVimPlugins/)
+
+<br>
 
 # Themes
 These are some great themes. I only use gruvbox right now but the rest of these themes are great.

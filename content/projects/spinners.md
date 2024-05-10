@@ -2,9 +2,13 @@
 ---
 title: spinners
 type: page
+date: 2021-12-18T00:00:00
+tags: ["None"]
+description: "🛎 60+ Elegant terminal spinners for Rust"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spinners/)
+
+<br>
 
 # Spinners - 🛎 60+ Elegant terminal spinners for Rust
 

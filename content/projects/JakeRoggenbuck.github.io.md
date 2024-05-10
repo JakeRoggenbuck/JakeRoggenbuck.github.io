@@ -2,9 +2,13 @@
 ---
 title: JakeRoggenbuck.github.io
 type: page
+date: 2019-05-27T00:00:00
+tags: ["CSS"]
+description: "My personal website "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/JakeRoggenbuck.github.io/)
+
+<br>
 
 # jr0.org
 Currently, Hugo to make this static website.

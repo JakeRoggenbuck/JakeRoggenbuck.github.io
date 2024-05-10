@@ -2,9 +2,13 @@
 ---
 title: rock
 type: page
+date: 2021-05-17T00:00:00
+tags: ["Rust"]
+description: "A simple command line utility for manipulating standard in and out, similar to awk"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/rock/)
+
+<br>
 
 # Rock ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/rock/Rust?style=for-the-badge)
 A simple command line utility for manipulating standard in and out, similar to awk

@@ -2,8 +2,12 @@
 ---
 title: SARS-CoV-2_Peplomer_Structure_Analysis
 type: page
+date: 2020-09-14T00:00:00
+tags: ["None"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/SARS-CoV-2_Peplomer_Structure_Analysis/)
+
+<br>
 
 404: Not Found

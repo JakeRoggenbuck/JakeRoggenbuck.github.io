@@ -2,9 +2,13 @@
 ---
 title: firefox-landing-page-1
 type: page
+date: 2020-05-20T00:00:00
+tags: ["JavaScript"]
+description: "A simple epic landing page."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/firefox-landing-page-1/)
+
+<br>
 
 # Landing Page
 Clone the library to your computer

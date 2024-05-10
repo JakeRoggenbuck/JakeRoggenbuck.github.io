@@ -2,9 +2,13 @@
 ---
 title: ice
 type: page
+date: 2020-10-06T00:00:00
+tags: ["Python"]
+description: "Programming language and interpreter"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/ice/)
+
+<br>
 
 # Ice
 Programming language and interpreter

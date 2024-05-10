@@ -2,9 +2,13 @@
 ---
 title: zflat.vim
 type: page
+date: 2021-03-25T00:00:00
+tags: ["Vim script"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/zflat.vim/)
+
+<br>
 
 # zflat.vim
 A syntax highlighting for zflat lang files

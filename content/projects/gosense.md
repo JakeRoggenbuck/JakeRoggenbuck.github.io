@@ -2,9 +2,13 @@
 ---
 title: gosense
 type: page
+date: 2022-06-29T00:00:00
+tags: ["Go"]
+description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/gosense/)
+
+<br>
 
 # sense-go
 Sense the directories around you, are they git repositories, what language, etc.

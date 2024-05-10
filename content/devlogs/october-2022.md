@@ -1,6 +1,7 @@
 ---
 title: October 2022
-type: page
+type: post
+date: 2022-10-31T00:00:00
 ---
 
 ## Update

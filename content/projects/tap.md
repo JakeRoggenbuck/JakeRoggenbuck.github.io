@@ -2,12 +2,16 @@
 ---
 title: tap
 type: page
+date: 2020-08-29T00:00:00
+tags: ["Rust"]
+description: "Quickly tap basic files into existence"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/tap/)
+
+<br>
 
 # Tap ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/tap/Rust?style=for-the-badge)
-Quickly tap basic file into existence
+Quickly tap basic files into existence
 
 ## Help
 ```sh
@@ -18,9 +22,21 @@ tap it py
 tap it pyarg
 ```
 
+## Usage
+```
+tap-it 0.1.0
+
+USAGE:
+    tap it [FLAGS] <given>
+
+FLAGS:
+    -f, --force
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <given>
+```
+
 ## TODO
-- Also have an `--output` option for making `PYTHON_ARG` into anything given as `--output`
-- Add more defaults
-- Add scripts like `cargo init && then copy file`
-- Add name inserting from config or username
-- Add year inserting for copyright or license
+Make a `tap install`

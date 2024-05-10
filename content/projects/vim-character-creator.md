@@ -2,9 +2,13 @@
 ---
 title: vim-character-creator
 type: page
+date: 2020-07-08T00:00:00
+tags: ["Vim script"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/vim-character-creator/)
+
+<br>
 
 # vim-character-creator
 

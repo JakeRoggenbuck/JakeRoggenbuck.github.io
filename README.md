@@ -1,6 +1,9 @@
 # jr0.org
 Currently, Hugo to make this static website.
 
+## New New
+New stuff
+
 ## New
 Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlogs](https://jr0.org/devlogs).
 

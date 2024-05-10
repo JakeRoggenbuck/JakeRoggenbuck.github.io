@@ -2,9 +2,13 @@
 ---
 title: pll
 type: page
+date: 2020-12-01T00:00:00
+tags: ["None"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/pll/)
+
+<br>
 
 # PLL (Planck Lang Library)
 Plank Lang Standard Library

@@ -2,9 +2,13 @@
 ---
 title: onefetch
 type: page
+date: 2022-03-24T00:00:00
+tags: ["Rust"]
+description: "Git repository summary on your terminal"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/onefetch/)
+
+<br>
 
 <h3 align="center"><img src="assets/onefetch.svg" height="130px"></h3>
 

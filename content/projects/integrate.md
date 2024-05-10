@@ -2,9 +2,13 @@
 ---
 title: integrate
 type: page
+date: 2022-04-18T00:00:00
+tags: ["C"]
+description: "Calculate the integral"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/integrate/)
+
+<br>
 
 # integrate
 

@@ -2,9 +2,13 @@
 ---
 title: dark-discord
 type: page
+date: 2022-01-04T00:00:00
+tags: ["None"]
+description: "A dark theme for Discord, need BetterDiscord installed"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/dark-discord/)
+
+<br>
 
 # dark-discord
 An actual dark theme for Discord

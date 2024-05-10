@@ -2,9 +2,13 @@
 ---
 title: cli
 type: page
+date: 2020-09-19T00:00:00
+tags: ["None"]
+description: "GitHub’s official command line tool"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/cli/)
+
+<br>
 
 # GitHub CLI
 

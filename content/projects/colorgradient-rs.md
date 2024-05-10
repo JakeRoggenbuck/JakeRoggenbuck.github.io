@@ -2,9 +2,13 @@
 ---
 title: colorgradient-rs
 type: page
+date: 2021-05-01T00:00:00
+tags: ["Rust"]
+description: "Generate a gradient from selected colors"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/colorgradient-rs/)
+
+<br>
 
 # colorgradient-rs
 ![image](https://user-images.githubusercontent.com/35516367/116793337-1716c680-aa7b-11eb-9c1e-2cda170e2118.png)
@@ -14,6 +18,9 @@ type: page
 - Julia version [colorgradient-julia](https://github.com/JakeRoggenbuck/colorgradient-julia)
 - C version [colorgradient-c](https://github.com/JakeRoggenbuck/colorgradient-c)
 - Go version [colorgradient-go](https://github.com/JakeRoggenbuck/colorgradient-go)
+- Clojure version [colorgradient-clj](https://github.com/JakeRoggenbuck/colorgradient-clj)
+
+<img width="400" alt="color grad" src="https://user-images.githubusercontent.com/35516367/210163818-5f286e55-9b2a-431c-a397-c1a24a37dbb1.png">
 
 # Install 
 ```

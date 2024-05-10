@@ -2,9 +2,13 @@
 ---
 title: planck.vim
 type: page
+date: 2020-11-30T00:00:00
+tags: ["Vim script"]
+description: "A syntax highlighting for planck lang files"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/planck.vim/)
+
+<br>
 
 # planck.vim
 A syntax highlighting for planck lang files

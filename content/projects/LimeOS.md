@@ -2,9 +2,13 @@
 ---
 title: LimeOS
 type: page
+date: 2019-10-31T00:00:00
+tags: ["None"]
+description: "🟢🍋 Backgrounds images for LimeOS"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/LimeOS/)
+
+<br>
 
 # LimeOS
 Backgrounds images for LimeOS

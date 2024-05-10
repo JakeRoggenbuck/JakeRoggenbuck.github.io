@@ -2,11 +2,16 @@
 ---
 title: Dictionary-tui
 type: page
+date: 2020-03-19T00:00:00
+tags: ["Python"]
+description: "A tui for dictionaryapi.com to search for Synonyms and Antonyms"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Dictionary-tui/)
+
+<br>
 
 # Dictionary-tui
+A tui for dictionaryapi.com to search for Synonyms and Antonyms
 
 ### Api Key
 First go to https://dictionaryapi.com/

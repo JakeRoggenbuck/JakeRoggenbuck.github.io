@@ -2,9 +2,13 @@
 ---
 title: bspswallow
 type: page
+date: 2020-07-01T00:00:00
+tags: ["None"]
+description: "dwm-like swallowing for bspwm"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/bspswallow/)
+
+<br>
 
 # bspswallow
 Adds functionality provided by the dwm "swallow" patch to bspwm.

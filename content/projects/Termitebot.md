@@ -2,9 +2,13 @@
 ---
 title: Termitebot
 type: page
+date: 2019-12-18T00:00:00
+tags: ["C++"]
+description: "Copy and update termite configs."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Termitebot/)
+
+<br>
 
 # Termitebot
 

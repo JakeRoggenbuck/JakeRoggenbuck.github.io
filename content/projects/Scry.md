@@ -2,9 +2,13 @@
 ---
 title: Scry
 type: page
+date: 2021-02-15T00:00:00
+tags: ["JavaScript"]
+description: "Scry is a web application that allows users to quickly check open ports, logins, and critical system information about their server from any web browser, anywhere."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Scry/)
+
+<br>
 
 # Scry
 Scry is a web application that allows users to quickly check open ports, logins, and critical system information about their server from any web browser, anywhere. 

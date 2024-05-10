@@ -2,9 +2,13 @@
 ---
 title: spicetify-cli-themes
 type: page
+date: 2020-11-26T00:00:00
+tags: ["CSS"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spicetify-cli-themes/)
+
+<br>
 
 # spicetify-cli-themes
 

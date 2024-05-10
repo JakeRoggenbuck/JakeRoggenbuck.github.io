@@ -2,9 +2,13 @@
 ---
 title: sqlite-cpp
 type: page
+date: 2022-06-16T00:00:00
+tags: ["C++"]
+description: "Part of a learning project for an app with a C++ backend."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sqlite-cpp/)
+
+<br>
 
 # sqlite-cpp
 Part of a learning project for an app with a C++ backend.

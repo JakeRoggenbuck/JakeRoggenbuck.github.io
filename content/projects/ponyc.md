@@ -2,9 +2,13 @@
 ---
 title: ponyc
 type: page
+date: 2021-09-01T00:00:00
+tags: ["None"]
+description: ":horse: Pony is an open-source, actor-model, capabilities-secure, high performance programming language"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/ponyc/)
+
+<br>
 
 # Pony
 

@@ -2,9 +2,13 @@
 ---
 title: daily-tasks
 type: page
+date: 2022-06-16T00:00:00
+tags: ["JavaScript"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/daily-tasks/)
+
+<br>
 
 # Daily Tasks
 Teaching Svelte and FastAPI

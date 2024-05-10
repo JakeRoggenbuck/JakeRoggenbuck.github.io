@@ -2,9 +2,13 @@
 ---
 title: better-scripts
 type: page
+date: 2022-06-07T00:00:00
+tags: ["Go"]
+description: "Scripts that are better than the ones I wrote a long time ago"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/better-scripts/)
+
+<br>
 
 # better-scripts
 Scripts that are better than [the ones](https://github.com/jakeroggenbuck/.scripts) I wrote a long time ago

@@ -2,9 +2,13 @@
 ---
 title: JEC-py
 type: page
+date: 2022-08-02T00:00:00
+tags: ["Python"]
+description: "  Jabacat's Easy Config "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/JEC-py/)
+
+<br>
 
 # JEC-py ![Python](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-py/Py?style=for-the-badge)
 Jabacat's Easy Config

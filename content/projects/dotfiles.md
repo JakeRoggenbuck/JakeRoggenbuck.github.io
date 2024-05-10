@@ -2,9 +2,13 @@
 ---
 title: dotfiles
 type: page
+date: 2020-09-12T00:00:00
+tags: ["Vim Script"]
+description: "A collection of my dotfiles that I use on my GNU/Linux machine"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/dotfiles/)
+
+<br>
 
 # dotfiles
 - A collection of my dotfiles that I use on my GNU/Linux machine
@@ -14,6 +18,8 @@ type: page
 # Tools
 - I use a tool I made called [stow-squid](https://github.com/JakeRoggenbuck/stow-squid) to manage the updating and deplying of my dotfiles
   - The config for that can be found also in the repo [here](https://github.com/JakeRoggenbuck/dotfiles/tree/master/stow-squid)
+
+![image](https://user-images.githubusercontent.com/35516367/199395800-29168c49-4f88-4224-ac68-ae718b251921.png)
 
 ![image](https://user-images.githubusercontent.com/35516367/165446679-a182aad1-f967-4f03-9214-4ae620bf20e5.png)
 

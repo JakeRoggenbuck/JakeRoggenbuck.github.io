@@ -2,9 +2,13 @@
 ---
 title: is_254_or_larger
 type: page
+date: 2020-06-14T00:00:00
+tags: ["JavaScript"]
+description: "first test making an npm package, also a joke"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/is_254_or_larger/)
+
+<br>
 
 # is_254_or_larger
 

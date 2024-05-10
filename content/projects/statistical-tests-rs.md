@@ -2,9 +2,13 @@
 ---
 title: statistical-tests-rs
 type: page
+date: 2022-05-22T00:00:00
+tags: ["Rust"]
+description: "Statistical Tests for Rust"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/statistical-tests-rs/)
+
+<br>
 
 # statistical-tests-rs
 Statistical Tests for Rust

@@ -1,6 +1,7 @@
 ---
 title: November 2022
-type: page
+type: post
+date: 2022-11-30T00:00:00
 ---
 
 This month, I did 191 commits in 37 repos. I also opened 31 pull requests.

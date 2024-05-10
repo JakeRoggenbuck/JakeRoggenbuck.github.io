@@ -2,9 +2,13 @@
 ---
 title: Crypto-Chat
 type: page
+date: 2020-01-25T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Crypto-Chat/)
+
+<br>
 
 # Crypto-Chat
 

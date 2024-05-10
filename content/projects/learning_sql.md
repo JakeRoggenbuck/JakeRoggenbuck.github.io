@@ -2,9 +2,13 @@
 ---
 title: learning_sql
 type: page
+date: 2020-08-04T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/learning_sql/)
+
+<br>
 
 # learning_sql
 

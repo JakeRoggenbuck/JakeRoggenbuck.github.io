@@ -2,9 +2,13 @@
 ---
 title: project-announcements
 type: page
+date: 2021-09-11T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/project-announcements/)
+
+<br>
 
 # project-announcements
 

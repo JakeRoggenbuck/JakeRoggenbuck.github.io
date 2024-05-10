@@ -2,9 +2,13 @@
 ---
 title: mahou
 type: page
+date: 2021-05-20T00:00:00
+tags: ["Rust"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/mahou/)
+
+<br>
 
 # mahou
 

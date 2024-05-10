@@ -2,9 +2,13 @@
 ---
 title: Reddit_Downloader
 type: page
+date: 2020-08-11T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Reddit_Downloader/)
+
+<br>
 
 # Reddit_Downloader
 

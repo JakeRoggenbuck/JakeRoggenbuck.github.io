@@ -2,9 +2,13 @@
 ---
 title: kotlin-todo-app
 type: page
+date: 2021-02-15T00:00:00
+tags: ["Kotlin"]
+description: "A simple kotlin hello world project from a tutorial"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/kotlin-todo-app/)
+
+<br>
 
 # kotlin-todo-app
 

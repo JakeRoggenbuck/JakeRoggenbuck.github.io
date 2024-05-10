@@ -2,9 +2,13 @@
 ---
 title: spaceapp
 type: page
+date: 2019-06-24T00:00:00
+tags: ["Python"]
+description: "Telescope Aiming tool"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/spaceapp/)
+
+<br>
 
 # spaceapp
 Telescope Aiming tool

@@ -2,9 +2,13 @@
 ---
 title: programming-languages
 type: page
+date: 2021-08-28T00:00:00
+tags: ["None"]
+description: "This is list of programming languages I have made for learning"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/programming-languages/)
+
+<br>
 
 # programming-languages
 This is list of programming languages I have made for learning. In each project there were many key takeaways that can be learned from. I will continue to add information and lessons learned from each project. I will also add a description of each project and what it accomplished.

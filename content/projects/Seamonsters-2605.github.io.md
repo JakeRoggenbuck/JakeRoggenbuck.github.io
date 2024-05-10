@@ -2,9 +2,13 @@
 ---
 title: Seamonsters-2605.github.io
 type: page
+date: 2019-11-05T00:00:00
+tags: ["None"]
+description: "Seamonsters team Github Pages site"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Seamonsters-2605.github.io/)
+
+<br>
 
 # Seamonsters-2605.github.io
-Seamonsters team GitHub Pages site
+Seamonsters team Github Pages site

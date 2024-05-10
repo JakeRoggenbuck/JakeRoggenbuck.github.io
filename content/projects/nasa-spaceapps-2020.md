@@ -2,9 +2,13 @@
 ---
 title: nasa-spaceapps-2020
 type: page
+date: 2020-10-06T00:00:00
+tags: ["None"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/nasa-spaceapps-2020/)
+
+<br>
 
 # HEASARC and NEOSSat Data Viewer
 

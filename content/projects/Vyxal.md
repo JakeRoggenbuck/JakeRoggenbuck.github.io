@@ -2,9 +2,13 @@
 ---
 title: Vyxal
 type: page
+date: 2021-08-23T00:00:00
+tags: ["None"]
+description: "A golfing language that has aspects of traditional programming languages."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/Vyxal/)
+
+<br>
 
 # Vyxal - Terse, Elegant and Readable
 

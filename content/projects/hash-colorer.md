@@ -2,9 +2,13 @@
 ---
 title: hash-colorer
 type: page
+date: 2020-04-17T00:00:00
+tags: ["Python"]
+description: "A small util to view hashes as color"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/hash-colorer/)
+
+<br>
 
 # hash-colorer
 ### View hashes as colors

@@ -2,9 +2,13 @@
 ---
 title: rocket-pinball
 type: page
+date: 2021-04-27T00:00:00
+tags: ["Python"]
+description: "Space themed pinball rework, with new game elements"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/rocket-pinball/)
+
+<br>
 
 # rocket-[not]-pinball
 A game that started as pinball, but really isn't, more fun

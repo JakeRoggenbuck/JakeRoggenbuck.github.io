@@ -2,9 +2,13 @@
 ---
 title: lesson-tester
 type: page
+date: 2021-08-27T00:00:00
+tags: ["JavaScript"]
+description: "Test python code in the browser. Wrap code with specific lesson tests for code completeness grading. "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/lesson-tester/)
+
+<br>
 
 # lesson-tester
 Test python code in the browser. Wrap code with specific lesson tests for code completeness grading. 

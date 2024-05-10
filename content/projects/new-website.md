@@ -2,8 +2,12 @@
 ---
 title: new-website
 type: page
+date: 2020-06-15T00:00:00
+tags: ["HTML"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/new-website/)
+
+<br>
 
 # new-website

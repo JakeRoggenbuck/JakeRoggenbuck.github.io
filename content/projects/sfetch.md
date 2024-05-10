@@ -2,9 +2,13 @@
 ---
 title: sfetch
 type: page
+date: 2020-08-22T00:00:00
+tags: ["Python"]
+description: "A simple fetch for testing PKGBUILD"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/sfetch/)
+
+<br>
 
 # sfetch
 A very simple fetch

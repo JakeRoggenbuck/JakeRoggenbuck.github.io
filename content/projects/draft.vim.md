@@ -2,9 +2,13 @@
 ---
 title: draft.vim
 type: page
+date: 2020-12-31T00:00:00
+tags: ["Vim Script"]
+description: "Quickly writeup and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/draft.vim/)
+
+<br>
 
 # Draft.vim
 Quickly writeup and save drafts for messaging apps in your favorite editor [vimawesome.com/plugin/draft-vim](https://vimawesome.com/plugin/draft-vim)
@@ -28,12 +32,12 @@ I often write important messages in a vim buffer before I send it.
 ## Setup and Config
 
 #### Make a drafts directory
-	- Add the command to setup a drafts directory
 ```vim
+" Add the command to setup a drafts directory
 let g:drafts_directory = "/path/to/drafts/"
 ```
 
-#### Optional, create a keybind for the commands
+## Optional, create a keybind for the commands
 
 #### `NewDraft` Keybind
 ```vim
@@ -62,6 +66,7 @@ nnoremap <Leader>z :call OpenDrafts()<CR>
 | DraftExt `"extension"` | Change the file extension of a draft            |
 | Drafts                 | Open the draft directory in a buffer            |
 | DraftCopy              | Copy the contents of the draft to the clipboard |
+| DraftSearch            | Search through drafts by keyword                |
 
 ### More info
 
@@ -74,10 +79,14 @@ nnoremap <Leader>z :call OpenDrafts()<CR>
 
 ## Install
 #### Vim-Plug
-`Plug 'jakeroggenbuck/draft.vim'`
+```vim
+Plug 'jakeroggenbuck/draft.vim'
+```
 
 #### Vundle
-`Plugin 'jakeroggenbuck/draft.vim'`
+```vim
+Plugin 'jakeroggenbuck/draft.vim'
+```
 
 ## Versions
 
@@ -111,8 +120,21 @@ nnoremap <Leader>z :call OpenDrafts()<CR>
 - Add `DraftOpenPDF` for `OpenPDF`
 - Add requirements
 
+#### 0.6 draft.vim - added search
+
+- Add `DraftSearch` by word
+```
+:DraftSearch <term>
+
+:DraftSearch school
+```
+
+#### 0.7 draft.vim - search fixes
+
+- Rank searches
+- Fix parenthesis in filename bug
+
 ## TODO
-- BUG: having certain symbols like `(` or `)` in the title break things like the `DraftCopy`
 - Make md to template pdf correctly do syntax highlight
 
 ## Maybe TODO

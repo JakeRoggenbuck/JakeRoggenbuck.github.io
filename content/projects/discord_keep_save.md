@@ -2,9 +2,13 @@
 ---
 title: discord_keep_save
 type: page
+date: 2020-08-05T00:00:00
+tags: ["Python"]
+description: "Save important discord notes with keep save"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/discord_keep_save/)
+
+<br>
 
 # discord_keep_save
 

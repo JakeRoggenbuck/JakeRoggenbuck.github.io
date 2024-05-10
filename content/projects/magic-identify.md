@@ -2,9 +2,13 @@
 ---
 title: magic-identify
 type: page
+date: 2021-09-08T00:00:00
+tags: ["Python"]
+description: "None"
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/magic-identify/)
+
+<br>
 
 # About
 

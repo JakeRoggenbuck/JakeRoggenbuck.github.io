@@ -2,9 +2,13 @@
 ---
 title: cruz-lang
 type: page
+date: 2020-03-26T00:00:00
+tags: ["Python"]
+description: "Cruz Lang is a simple explicit static typed language. "
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/cruz-lang/)
+
+<br>
 
 # Cruzlang
 

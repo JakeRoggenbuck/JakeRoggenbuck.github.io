@@ -2,9 +2,13 @@
 ---
 title: rocky
 type: page
+date: 2020-12-14T00:00:00
+tags: ["None"]
+description: "Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux created in response to the effective discontinuation of CentOS."
 ---
 
-[See on GitHub](https://github.com/jakeroggenbuck/rocky/)
+
+<br>
 
 <p align="center">
 <img src="https://media.githubusercontent.com/media/rocky-linux/branding/main/logo-text-light%402x.png" alt="Rocky Linux Logo">
