@@ -7,7 +7,6 @@ tags: ["C"]
 description: "lightweight tool to auto mount drives with inotify"
 ---
 
-{{< github repo="jakeroggenbuck/mountain" >}}
 
 <br>
 

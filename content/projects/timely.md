@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Keep track of work hour in the command line"
 ---
 
-{{< github repo="jakeroggenbuck/timely" >}}
 
 <br>
 

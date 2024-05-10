@@ -7,7 +7,6 @@ tags: ["Vala"]
 description: "Clocks applications for GNOME"
 ---
 
-{{< github repo="jakeroggenbuck/gnome-clocks" >}}
 
 <br>
 

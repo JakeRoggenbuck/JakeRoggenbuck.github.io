@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple web API to return critical charts for the game dnd 5e"
 ---
 
-{{< github repo="jakeroggenbuck/fumble_api" >}}
 
 <br>
 

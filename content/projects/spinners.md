@@ -7,7 +7,6 @@ tags: ["None"]
 description: "🛎 60+ Elegant terminal spinners for Rust"
 ---
 
-{{< github repo="jakeroggenbuck/spinners" >}}
 
 <br>
 

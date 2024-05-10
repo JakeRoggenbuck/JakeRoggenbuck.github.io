@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Keep track of where you are on projects and what your Best Next Step is."
 ---
 
-{{< github repo="jakeroggenbuck/BestNextStep" >}}
 
 <br>
 

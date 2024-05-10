@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Holds miscellaneous scripts for Software Scouting"
 ---
 
-{{< github repo="jakeroggenbuck/scouting-scripts" >}}
 
 <br>
 

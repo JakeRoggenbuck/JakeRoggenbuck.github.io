@@ -7,7 +7,6 @@ tags: ["C"]
 description: "The source repository for IntelliSat, the Flight Software of Space & Satellite System Club's REALOP 1 CubeSat."
 ---
 
-{{< github repo="jakeroggenbuck/IntelliSat" >}}
 
 <br>
 

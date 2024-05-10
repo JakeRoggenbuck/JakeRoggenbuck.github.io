@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "A community-driven collection of custom apps for Spicetify (https://github.com/khanhas/spicetify-cli)"
 ---
 
-{{< github repo="jakeroggenbuck/spicetify-customapps" >}}
 
 <br>
 

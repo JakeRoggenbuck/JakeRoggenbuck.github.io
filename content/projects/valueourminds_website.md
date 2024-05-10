@@ -7,7 +7,6 @@ tags: ["CSS"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/valueourminds_website" >}}
 
 <br>
 

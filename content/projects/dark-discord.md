@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A dark theme for Discord, need BetterDiscord installed"
 ---
 
-{{< github repo="jakeroggenbuck/dark-discord" >}}
 
 <br>
 

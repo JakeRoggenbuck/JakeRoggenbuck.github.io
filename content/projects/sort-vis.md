@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/sort-vis" >}}
 
 <br>
 

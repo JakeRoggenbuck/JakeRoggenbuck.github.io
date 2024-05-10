@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "pronounced fonf; is a statically typed language with simple but powerful syntax, and an interpreter written in rust"
 ---
 
-{{< github repo="jakeroggenbuck/f09f-rs" >}}
 
 <br>
 

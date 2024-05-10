@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Colorgradient learning project in Go"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient-go" >}}
 
 <br>
 

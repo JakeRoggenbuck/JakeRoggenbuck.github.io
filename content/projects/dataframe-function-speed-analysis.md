@@ -7,7 +7,6 @@ tags: ["Jupyter Notebook"]
 description: "Testing a bunch of ways to apply a function to each item in a dataframe."
 ---
 
-{{< github repo="jakeroggenbuck/dataframe-function-speed-analysis" >}}
 
 <br>
 

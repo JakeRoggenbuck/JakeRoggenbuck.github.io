@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "area-api is a project to teach how to create a rest api using Gin Gonic"
 ---
 
-{{< github repo="jakeroggenbuck/area-api" >}}
 
 <br>
 

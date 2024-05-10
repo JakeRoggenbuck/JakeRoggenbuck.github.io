@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple build system that does the opposite to building,  irreversibly destroying your executables and source code according to your breakfile"
 ---
 
-{{< github repo="jakeroggenbuck/break" >}}
 
 <br>
 

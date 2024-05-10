@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Programming language and interpreter"
 ---
 
-{{< github repo="jakeroggenbuck/ice" >}}
 
 <br>
 

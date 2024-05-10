@@ -7,7 +7,6 @@ tags: ["None"]
 description: "JABACAT-created machine learning library from scratch."
 ---
 
-{{< github repo="jakeroggenbuck/jml" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["None"]
 description: " All Algorithms implemented in Rust "
 ---
 
-{{< github repo="jakeroggenbuck/Rust" >}}
 
 <br>
 

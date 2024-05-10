@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/wallpaper_downloader" >}}
 
 <br>
 

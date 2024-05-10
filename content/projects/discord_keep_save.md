@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Save important discord notes with keep save"
 ---
 
-{{< github repo="jakeroggenbuck/discord_keep_save" >}}
 
 <br>
 

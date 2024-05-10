@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Given an array of slightly less than half random numbers and slightly more than half of one specific number, find the the number that makes up slightly more than half."
 ---
 
-{{< github repo="jakeroggenbuck/more-than-half" >}}
 
 <br>
 

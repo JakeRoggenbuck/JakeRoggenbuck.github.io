@@ -7,7 +7,6 @@ tags: ["Kotlin"]
 description: "A basic Kotlin app to test out android development with Kotlin."
 ---
 
-{{< github repo="jakeroggenbuck/AgeInMinutes" >}}
 
 <br>
 

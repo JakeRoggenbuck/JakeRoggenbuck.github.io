@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A lightweight compositor for X11"
 ---
 
-{{< github repo="jakeroggenbuck/picom" >}}
 
 <br>
 

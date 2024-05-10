@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "first test making an npm package, also a joke"
 ---
 
-{{< github repo="jakeroggenbuck/is_254_or_larger" >}}
 
 <br>
 

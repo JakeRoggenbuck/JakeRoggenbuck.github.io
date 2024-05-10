@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Salt (Symbol And Lexer Toolkit)"
 ---
 
-{{< github repo="jakeroggenbuck/salt" >}}
 
 <br>
 

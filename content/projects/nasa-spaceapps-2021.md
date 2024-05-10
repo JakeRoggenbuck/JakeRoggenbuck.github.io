@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Project for NASA Spaceapps 2021"
 ---
 
-{{< github repo="jakeroggenbuck/nasa-spaceapps-2021" >}}
 
 <br>
 

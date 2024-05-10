@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Simple CLI tool written in Rust to stow and deploy your dotfiles."
 ---
 
-{{< github repo="jakeroggenbuck/stow-squid" >}}
 
 <br>
 

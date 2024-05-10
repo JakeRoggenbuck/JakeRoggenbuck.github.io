@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/UpLiftAggie-HackDavis-2023" >}}
 
 <br>
 

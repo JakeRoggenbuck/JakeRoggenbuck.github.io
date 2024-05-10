@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Makes your linux computer look generic to the local network"
 ---
 
-{{< github repo="jakeroggenbuck/mac-shifter" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/linear-regression-rs" >}}
 
 <br>
 

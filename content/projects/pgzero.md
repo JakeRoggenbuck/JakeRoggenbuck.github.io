@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A zero-boilerplate games programming framework for Python 3, based on Pygame."
 ---
 
-{{< github repo="jakeroggenbuck/pgzero" >}}
 
 <br>
 

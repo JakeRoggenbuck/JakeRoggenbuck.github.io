@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Format filenames to a command-line friendly format"
 ---
 
-{{< github repo="jakeroggenbuck/format-filename" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Statistical Tests for Rust"
 ---
 
-{{< github repo="jakeroggenbuck/statistical-tests-rs" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Ruby"]
 description: "A simple package manager written in ruby"
 ---
 
-{{< github repo="jakeroggenbuck/amethyst" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A small util to view hashes as color"
 ---
 
-{{< github repo="jakeroggenbuck/hash-colorer" >}}
 
 <br>
 

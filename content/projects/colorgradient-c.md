@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Colorgradient learning project in C"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient-c" >}}
 
 <br>
 

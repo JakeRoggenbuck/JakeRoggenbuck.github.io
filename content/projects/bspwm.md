@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A tiling window manager based on binary space partitioning"
 ---
 
-{{< github repo="jakeroggenbuck/bspwm" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A reworked utility to either guide an Arch Linux install, or a tool to help you learn the commands in order."
 ---
 
-{{< github repo="jakeroggenbuck/arch-installer-whats-next" >}}
 
 <br>
 

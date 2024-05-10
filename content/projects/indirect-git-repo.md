@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Git repo commited as git repo"
 ---
 
-{{< github repo="jakeroggenbuck/indirect-git-repo" >}}
 
 <br>
 

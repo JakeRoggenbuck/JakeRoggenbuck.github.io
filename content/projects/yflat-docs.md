@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Documentation for all parts of Y-flat."
 ---
 
-{{< github repo="jakeroggenbuck/yflat-docs" >}}
 
 <br>
 

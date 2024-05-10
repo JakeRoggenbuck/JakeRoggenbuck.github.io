@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A game engine powered by python and panda3d."
 ---
 
-{{< github repo="jakeroggenbuck/ursina" >}}
 
 <br>
 

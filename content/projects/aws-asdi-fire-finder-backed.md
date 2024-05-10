@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Fire Finder - Amazon Sustainability Data Initiative"
 ---
 
-{{< github repo="jakeroggenbuck/aws-asdi-fire-finder-backed" >}}
 
 <br>
 

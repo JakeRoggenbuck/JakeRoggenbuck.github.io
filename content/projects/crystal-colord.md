@@ -7,7 +7,6 @@ tags: ["Crystal"]
 description: "A library for colored text in crystal"
 ---
 
-{{< github repo="jakeroggenbuck/crystal-colord" >}}
 
 <br>
 

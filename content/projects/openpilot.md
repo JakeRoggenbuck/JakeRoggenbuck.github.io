@@ -7,7 +7,6 @@ tags: ["None"]
 description: "open source driving agent"
 ---
 
-{{< github repo="jakeroggenbuck/openpilot" >}}
 
 <br>
 

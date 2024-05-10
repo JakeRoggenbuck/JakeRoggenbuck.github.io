@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple programming language and its interpreter"
 ---
 
-{{< github repo="jakeroggenbuck/Paper" >}}
 
 <br>
 

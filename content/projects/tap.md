@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Quickly tap basic files into existence"
 ---
 
-{{< github repo="jakeroggenbuck/tap" >}}
 
 <br>
 

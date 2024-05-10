@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A simple utility to view, edit, and search your $PATH"
 ---
 
-{{< github repo="jakeroggenbuck/pathfinder" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["C++"]
 description: "Take quick notes from command line when in a rush."
 ---
 
-{{< github repo="jakeroggenbuck/RushNote" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A bot that sends my spotify playlists to bots to play them"
 ---
 
-{{< github repo="jakeroggenbuck/Vorahk" >}}
 
 <br>
 

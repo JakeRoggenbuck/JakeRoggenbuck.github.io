@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Fetch tool but spooky for hacktoberfest"
 ---
 
-{{< github repo="jakeroggenbuck/spookyfetch" >}}
 
 <br>
 

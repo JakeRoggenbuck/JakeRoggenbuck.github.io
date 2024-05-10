@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Smart home door lock using a raspberry pi"
 ---
 
-{{< github repo="jakeroggenbuck/door-lock" >}}
 
 <br>
 

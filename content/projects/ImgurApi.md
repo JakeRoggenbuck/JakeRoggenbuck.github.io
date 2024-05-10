@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Simple Imgur library to interface with the Imgur web API "
 ---
 
-{{< github repo="jakeroggenbuck/ImgurApi" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "For our language"
 ---
 
-{{< github repo="jakeroggenbuck/inflector" >}}
 
 <br>
 

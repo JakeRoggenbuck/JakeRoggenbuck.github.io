@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/nxyso_definition_bot" >}}
 
 <br>
 

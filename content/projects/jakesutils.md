@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A collection of utils that I use all the time in my projects"
 ---
 
-{{< github repo="jakeroggenbuck/jakesutils" >}}
 
 <br>
 

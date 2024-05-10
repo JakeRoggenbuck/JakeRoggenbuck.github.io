@@ -7,7 +7,6 @@ tags: ["C++"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/project-invent-rube-goldberg-machine" >}}
 
 <br>
 

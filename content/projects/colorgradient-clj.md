@@ -7,7 +7,6 @@ tags: ["Clojure"]
 description: "Make a color gradient in Clojure!"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient-clj" >}}
 
 <br>
 

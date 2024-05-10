@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Mirror of https://gitlab.redox-os.org/redox-os/sodium"
 ---
 
-{{< github repo="jakeroggenbuck/sodium" >}}
 
 <br>
 

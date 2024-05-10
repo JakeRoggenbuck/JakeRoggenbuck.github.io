@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A test of the early stages of plrs"
 ---
 
-{{< github repo="jakeroggenbuck/pylexlite" >}}
 
 <br>
 

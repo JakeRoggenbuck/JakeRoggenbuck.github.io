@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Simple ocean game demo in Python for DV Game Jam"
 ---
 
-{{< github repo="jakeroggenbuck/ocean-game-py" >}}
 
 <br>
 

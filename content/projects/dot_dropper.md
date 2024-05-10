@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Copy dotfiles to a new system"
 ---
 
-{{< github repo="jakeroggenbuck/dot_dropper" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "  Jabacat's Easy Config "
 ---
 
-{{< github repo="jakeroggenbuck/JEC-py" >}}
 
 <br>
 

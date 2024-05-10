@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Practice for writing satellite subsystems in C"
 ---
 
-{{< github repo="jakeroggenbuck/satellite-c" >}}
 
 <br>
 

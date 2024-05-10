@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "Create a visualization of the Sine and Cosine functions on the Unit Circle using p5.js"
 ---
 
-{{< github repo="jakeroggenbuck/trig-function-viewer" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["None"]
 description: "🟢🍋 Backgrounds images for LimeOS"
 ---
 
-{{< github repo="jakeroggenbuck/LimeOS" >}}
 
 <br>
 

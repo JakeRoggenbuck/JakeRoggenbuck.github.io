@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A Discord Bot designed to remind users of custom events"
 ---
 
-{{< github repo="jakeroggenbuck/reminder-bot" >}}
 
 <br>
 

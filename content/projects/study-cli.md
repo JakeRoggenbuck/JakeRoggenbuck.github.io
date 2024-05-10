@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "CLI tool to quiz and learn a question dataset. This can be used for memorizing any sort of multiple choice compliant quizzes."
 ---
 
-{{< github repo="jakeroggenbuck/study-cli" >}}
 
 <br>
 

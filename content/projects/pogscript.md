@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple macro language"
 ---
 
-{{< github repo="jakeroggenbuck/pogscript" >}}
 
 <br>
 

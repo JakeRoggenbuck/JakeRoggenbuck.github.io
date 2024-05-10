@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Create readme files with one command"
 ---
 
-{{< github repo="jakeroggenbuck/readme" >}}
 
 <br>
 

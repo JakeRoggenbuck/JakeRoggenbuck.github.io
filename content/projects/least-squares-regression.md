@@ -7,7 +7,6 @@ tags: ["Jupyter Notebook"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/least-squares-regression" >}}
 
 <br>
 

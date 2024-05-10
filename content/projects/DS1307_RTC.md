@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Get current time with Real Time Clock using the Elegoo DS1307 Module"
 ---
 
-{{< github repo="jakeroggenbuck/DS1307_RTC" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/SignInWebApp" >}}
 
 <br>
 

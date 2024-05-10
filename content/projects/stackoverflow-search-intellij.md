@@ -7,7 +7,6 @@ tags: ["None"]
 description: "IntelliJ plugin to search code on stackoverflow, inspired by https://github.com/JakeRoggenbuck/stackoverflow-search-vim"
 ---
 
-{{< github repo="jakeroggenbuck/stackoverflow-search-intellij" >}}
 
 <br>
 

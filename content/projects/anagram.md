@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Method of finding anagrams"
 ---
 
-{{< github repo="jakeroggenbuck/anagram" >}}
 
 <br>
 

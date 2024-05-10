@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Some shell commands written in C"
 ---
 
-{{< github repo="jakeroggenbuck/cutil" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "A simple epic landing page."
 ---
 
-{{< github repo="jakeroggenbuck/firefox-landing-page-1" >}}
 
 <br>
 

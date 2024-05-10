@@ -7,7 +7,6 @@ tags: ["None"]
 description: "pong in java"
 ---
 
-{{< github repo="jakeroggenbuck/JavaPong" >}}
 
 <br>
 

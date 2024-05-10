@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Discord bot for the e:b:ic server"
 ---
 
-{{< github repo="jakeroggenbuck/n-rus-bot" >}}
 
 <br>
 

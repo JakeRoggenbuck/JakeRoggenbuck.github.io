@@ -7,7 +7,6 @@ tags: ["Assembly"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/one-time-pad-generator-asm" >}}
 
 <br>
 

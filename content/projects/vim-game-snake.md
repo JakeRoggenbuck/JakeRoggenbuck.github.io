@@ -7,7 +7,6 @@ tags: ["Vim script"]
 description: "Vim Game : Snake"
 ---
 
-{{< github repo="jakeroggenbuck/vim-game-snake" >}}
 
 <br>
 

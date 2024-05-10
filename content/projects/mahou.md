@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/mahou" >}}
 
 <br>
 

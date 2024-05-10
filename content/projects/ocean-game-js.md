@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "Simple ocean game demo in Javascript for DV Game Jam"
 ---
 
-{{< github repo="jakeroggenbuck/ocean-game-js" >}}
 
 <br>
 

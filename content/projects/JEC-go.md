@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Jabacat's Easy Config"
 ---
 
-{{< github repo="jakeroggenbuck/JEC-go" >}}
 
 <br>
 

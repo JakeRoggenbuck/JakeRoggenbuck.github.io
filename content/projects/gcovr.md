@@ -7,7 +7,6 @@ tags: ["None"]
 description: "generate code coverage reports with gcc/gcov"
 ---
 
-{{< github repo="jakeroggenbuck/gcovr" >}}
 
 <br>
 

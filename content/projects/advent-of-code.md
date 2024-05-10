@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "My advent of code throughout the years"
 ---
 
-{{< github repo="jakeroggenbuck/advent-of-code" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Calculate the derivative"
 ---
 
-{{< github repo="jakeroggenbuck/derive" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["C"]
 description: "One time pad generator written in C."
 ---
 
-{{< github repo="jakeroggenbuck/one-time-pad-gen" >}}
 
 <br>
 

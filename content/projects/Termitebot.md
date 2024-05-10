@@ -7,7 +7,6 @@ tags: ["C++"]
 description: "Copy and update termite configs."
 ---
 
-{{< github repo="jakeroggenbuck/Termitebot" >}}
 
 <br>
 

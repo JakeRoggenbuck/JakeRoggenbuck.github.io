@@ -7,7 +7,6 @@ tags: ["Vim script"]
 description: "A syntax highlighting for planck lang files"
 ---
 
-{{< github repo="jakeroggenbuck/planck.vim" >}}
 
 <br>
 

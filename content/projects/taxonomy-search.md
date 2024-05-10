@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "Taxonomy search using SolidJS, FastAPI, Tailwind, and the full ITIS database"
 ---
 
-{{< github repo="jakeroggenbuck/taxonomy-search" >}}
 
 <br>
 

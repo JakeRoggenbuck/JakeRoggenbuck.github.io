@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "Test python code in the browser. Wrap code with specific lesson tests for code completeness grading. "
 ---
 
-{{< github repo="jakeroggenbuck/lesson-tester" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "A simple landing page for firefox and searhing"
 ---
 
-{{< github repo="jakeroggenbuck/firefox-landing-page" >}}
 
 <br>
 

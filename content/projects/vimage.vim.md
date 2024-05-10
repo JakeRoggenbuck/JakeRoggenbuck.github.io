@@ -7,7 +7,6 @@ tags: ["Vim script"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/vimage.vim" >}}
 
 <br>
 

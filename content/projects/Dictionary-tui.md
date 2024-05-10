@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A tui for dictionaryapi.com to search for Synonyms and Antonyms"
 ---
 
-{{< github repo="jakeroggenbuck/Dictionary-tui" >}}
 
 <br>
 

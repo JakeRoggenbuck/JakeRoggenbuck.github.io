@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "A modern looking, accessible medical chart application based on a MERN stack."
 ---
 
-{{< github repo="jakeroggenbuck/novus-chart" >}}
 
 <br>
 

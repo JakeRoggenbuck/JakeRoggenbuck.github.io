@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Detect cosmic rays with this program."
 ---
 
-{{< github repo="jakeroggenbuck/cosmic-ray-detector" >}}
 
 <br>
 

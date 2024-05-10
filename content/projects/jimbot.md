@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Discord bot written in C to track milestones"
 ---
 
-{{< github repo="jakeroggenbuck/jimbot" >}}
 
 <br>
 

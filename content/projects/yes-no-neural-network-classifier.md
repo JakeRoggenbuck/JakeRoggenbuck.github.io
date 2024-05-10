@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/yes-no-neural-network-classifier" >}}
 
 <br>
 

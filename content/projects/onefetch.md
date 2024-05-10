@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Git repository summary on your terminal"
 ---
 
-{{< github repo="jakeroggenbuck/onefetch" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A command line utility for storing passwords"
 ---
 
-{{< github repo="jakeroggenbuck/mongo_passkeep" >}}
 
 <br>
 

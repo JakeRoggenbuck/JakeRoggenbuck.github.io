@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Highlight important information from the already great valgrind"
 ---
 
-{{< github repo="jakeroggenbuck/color-valgrind" >}}
 
 <br>
 

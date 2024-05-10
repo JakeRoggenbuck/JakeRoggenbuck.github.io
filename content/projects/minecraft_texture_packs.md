@@ -7,7 +7,6 @@ tags: ["GLSL"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/minecraft_texture_packs" >}}
 
 <br>
 

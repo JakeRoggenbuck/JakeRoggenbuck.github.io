@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "DIRectory Info tool that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system."
 ---
 
-{{< github repo="jakeroggenbuck/directory-info" >}}
 
 <br>
 

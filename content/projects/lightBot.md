@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A Discord bot that controls my lights"
 ---
 
-{{< github repo="jakeroggenbuck/lightBot" >}}
 
 <br>
 

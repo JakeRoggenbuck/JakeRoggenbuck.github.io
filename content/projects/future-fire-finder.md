@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Predict places that will likely have forest fires."
 ---
 
-{{< github repo="jakeroggenbuck/future-fire-finder" >}}
 
 <br>
 

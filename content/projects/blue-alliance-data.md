@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Blue alliance data pull utility."
 ---
 
-{{< github repo="jakeroggenbuck/blue-alliance-data" >}}
 
 <br>
 

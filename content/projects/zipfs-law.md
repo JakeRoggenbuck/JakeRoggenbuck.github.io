@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "An example use of the library plrs"
 ---
 
-{{< github repo="jakeroggenbuck/zipfs-law" >}}
 
 <br>
 

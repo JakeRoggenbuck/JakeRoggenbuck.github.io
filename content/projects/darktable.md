@@ -7,7 +7,6 @@ tags: ["None"]
 description: "darktable is an open source photography workflow application and raw developer"
 ---
 
-{{< github repo="jakeroggenbuck/darktable" >}}
 
 <br>
 

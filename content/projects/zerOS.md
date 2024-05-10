@@ -7,7 +7,6 @@ tags: ["Shell"]
 description: "an os? based on arch"
 ---
 
-{{< github repo="jakeroggenbuck/zerOS" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Open-source, browser-local data exploration using DuckDB-Wasm and PRQL"
 ---
 
-{{< github repo="jakeroggenbuck/pretzelai" >}}
 
 <br>
 

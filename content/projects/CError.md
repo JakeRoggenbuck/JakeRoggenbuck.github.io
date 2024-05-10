@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Run cerror on a source code file of a compiled language to get the length of the outputted error compared to the filesize."
 ---
 
-{{< github repo="jakeroggenbuck/CError" >}}
 
 <br>
 

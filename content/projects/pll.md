@@ -7,7 +7,6 @@ tags: ["None"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/pll" >}}
 
 <br>
 

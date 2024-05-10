@@ -7,7 +7,6 @@ tags: ["None"]
 description: "The official source code for the python-mechanize project"
 ---
 
-{{< github repo="jakeroggenbuck/mechanize" >}}
 
 <br>
 

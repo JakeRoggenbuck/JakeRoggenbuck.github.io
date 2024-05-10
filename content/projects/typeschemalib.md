@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A yaml like schema that can be used to check dictionaries for correct schema"
 ---
 
-{{< github repo="jakeroggenbuck/typeschemalib" >}}
 
 <br>
 

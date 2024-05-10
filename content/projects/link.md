@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "I url shortener using Rocket.rs & Diesel.rs; being used in production"
 ---
 
-{{< github repo="jakeroggenbuck/link" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Vim Script"]
 description: "Quickly writeup and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments."
 ---
 
-{{< github repo="jakeroggenbuck/draft.vim" >}}
 
 <br>
 

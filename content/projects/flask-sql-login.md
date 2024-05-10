@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A super simple login page with flask and sqlite3"
 ---
 
-{{< github repo="jakeroggenbuck/flask-sql-login" >}}
 
 <br>
 

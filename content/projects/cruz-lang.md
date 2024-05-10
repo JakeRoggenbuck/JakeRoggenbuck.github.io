@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Cruz Lang is a simple explicit static typed language. "
 ---
 
-{{< github repo="jakeroggenbuck/cruz-lang" >}}
 
 <br>
 

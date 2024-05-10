@@ -7,7 +7,6 @@ tags: ["Julia"]
 description: "A tool in Julia to make color gradients"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient-julia" >}}
 
 <br>
 

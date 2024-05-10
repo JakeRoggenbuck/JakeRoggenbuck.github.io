@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A very epic CSS front end framework that is slightly not bad."
 ---
 
-{{< github repo="jakeroggenbuck/nitrogen-css" >}}
 
 <br>
 

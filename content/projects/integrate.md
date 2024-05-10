@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Calculate the integral"
 ---
 
-{{< github repo="jakeroggenbuck/integrate" >}}
 
 <br>
 

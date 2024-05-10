@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Implementation of a bloom filter in Rust"
 ---
 
-{{< github repo="jakeroggenbuck/bloom-filter-rs" >}}
 
 <br>
 

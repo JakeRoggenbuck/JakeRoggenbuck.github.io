@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Testing the hyper-minimal-loaders project."
 ---
 
-{{< github repo="jakeroggenbuck/loader-test" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Space themed pinball rework, with new game elements"
 ---
 
-{{< github repo="jakeroggenbuck/rocket-pinball" >}}
 
 <br>
 

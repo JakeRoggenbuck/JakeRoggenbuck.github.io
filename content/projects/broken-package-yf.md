@@ -7,7 +7,6 @@ tags: ["None"]
 description: "An example broken package"
 ---
 
-{{< github repo="jakeroggenbuck/broken-package-yf" >}}
 
 <br>
 

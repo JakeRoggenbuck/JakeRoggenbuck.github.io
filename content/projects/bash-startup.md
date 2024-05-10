@@ -7,7 +7,6 @@ tags: ["C++"]
 description: "A program that runs every time I open a terminal"
 ---
 
-{{< github repo="jakeroggenbuck/bash-startup" >}}
 
 <br>
 

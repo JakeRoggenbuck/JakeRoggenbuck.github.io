@@ -7,7 +7,6 @@ tags: ["C"]
 description: "A rewrite of the standard libraries in C for learning purposes."
 ---
 
-{{< github repo="jakeroggenbuck/clib-redef" >}}
 
 <br>
 

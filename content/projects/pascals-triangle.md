@@ -7,7 +7,6 @@ tags: ["Jupyter Notebook"]
 description: "Exploration of pascals triangle"
 ---
 
-{{< github repo="jakeroggenbuck/pascals-triangle" >}}
 
 <br>
 

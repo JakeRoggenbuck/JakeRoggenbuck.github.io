@@ -7,7 +7,6 @@ tags: ["Python"]
 description: " Jai is a programming language"
 ---
 
-{{< github repo="jakeroggenbuck/jai" >}}
 
 <br>
 

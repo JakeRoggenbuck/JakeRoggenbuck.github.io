@@ -7,7 +7,6 @@ tags: ["C"]
 description: "A small C preprocessor, written in C."
 ---
 
-{{< github repo="jakeroggenbuck/cproc" >}}
 
 <br>
 

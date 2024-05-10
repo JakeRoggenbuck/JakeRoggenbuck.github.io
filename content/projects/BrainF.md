@@ -7,7 +7,6 @@ tags: ["Brainf"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/BrainF" >}}
 
 <br>
 

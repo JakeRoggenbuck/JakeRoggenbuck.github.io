@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Terminal color library for the y-flat language"
 ---
 
-{{< github repo="jakeroggenbuck/termcolor-yf" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Shell"]
 description: "Copy emoji from dmenu by searching their name"
 ---
 
-{{< github repo="jakeroggenbuck/dmenuSpecialCharacterCopier" >}}
 
 <br>
 

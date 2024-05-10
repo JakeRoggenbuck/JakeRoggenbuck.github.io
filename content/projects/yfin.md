@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Yfin is the Official package manager for the Y-flat programming language. Yfin allows the user to install, upgrade, and uninstall packages. It also allows a user to initialize a package with the Y-flat package structure and files automatically generated."
 ---
 
-{{< github repo="jakeroggenbuck/yfin" >}}
 
 <br>
 

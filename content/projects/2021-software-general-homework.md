@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Master repository for Software General members to fork and clone in order to upload their lessons to Github"
 ---
 
-{{< github repo="jakeroggenbuck/2021-software-general-homework" >}}
 
 <br>
 

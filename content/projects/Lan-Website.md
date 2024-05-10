@@ -7,7 +7,6 @@ tags: ["PHP"]
 description: "php is not that scary"
 ---
 
-{{< github repo="jakeroggenbuck/Lan-Website" >}}
 
 <br>
 

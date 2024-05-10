@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A collection of vim plug-ins that I use."
 ---
 
-{{< github repo="jakeroggenbuck/BestVimPlugins" >}}
 
 <br>
 

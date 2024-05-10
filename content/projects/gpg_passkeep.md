@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Store passwords in a GPG encrypted vault"
 ---
 
-{{< github repo="jakeroggenbuck/gpg_passkeep" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Summer Of Code (SoC) First Week - Structured Data Format"
 ---
 
-{{< github repo="jakeroggenbuck/structured-data-format-SoC-first-week" >}}
 
 <br>
 

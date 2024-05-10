@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A test of lexing and yacc in python"
 ---
 
-{{< github repo="jakeroggenbuck/calcLex" >}}
 
 <br>
 

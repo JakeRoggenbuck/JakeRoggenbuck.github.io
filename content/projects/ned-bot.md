@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A discord bot that reacts with 🇩 when any users react with 🇳 and 🇪. It likes spelling its name."
 ---
 
-{{< github repo="jakeroggenbuck/ned-bot" >}}
 
 <br>
 

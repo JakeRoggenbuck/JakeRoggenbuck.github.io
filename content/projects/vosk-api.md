@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node"
 ---
 
-{{< github repo="jakeroggenbuck/vosk-api" >}}
 
 <br>
 

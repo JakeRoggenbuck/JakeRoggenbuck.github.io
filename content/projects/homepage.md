@@ -7,7 +7,6 @@ tags: ["JavaScript"]
 description: "Simple firefox homepage"
 ---
 
-{{< github repo="jakeroggenbuck/homepage" >}}
 
 <br>
 

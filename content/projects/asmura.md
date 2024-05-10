@@ -7,7 +7,6 @@ tags: ["None"]
 description: "An RPG game set in Vaskalli."
 ---
 
-{{< github repo="jakeroggenbuck/asmura" >}}
 
 <br>
 

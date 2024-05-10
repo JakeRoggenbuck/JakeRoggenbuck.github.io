@@ -7,7 +7,6 @@ tags: ["None"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/SARS-CoV-2_Peplomer_Structure_Analysis" >}}
 
 <br>
 

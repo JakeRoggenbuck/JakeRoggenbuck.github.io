@@ -7,7 +7,6 @@ tags: ["TeX"]
 description: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 ---
 
-{{< github repo="jakeroggenbuck/T3-Paper-Code" >}}
 
 <br>
 

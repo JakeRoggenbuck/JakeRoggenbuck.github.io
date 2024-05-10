@@ -7,7 +7,6 @@ tags: ["Assembly"]
 description: "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules."
 ---
 
-{{< github repo="jakeroggenbuck/Apollo-11" >}}
 
 <br>
 

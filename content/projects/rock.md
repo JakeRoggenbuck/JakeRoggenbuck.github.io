@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A simple command line utility for manipulating standard in and out, similar to awk"
 ---
 
-{{< github repo="jakeroggenbuck/rock" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Ruby"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/sapphire" >}}
 
 <br>
 

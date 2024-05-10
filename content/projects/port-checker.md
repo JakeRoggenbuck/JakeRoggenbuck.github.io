@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Check for open tcp and tcp6 ports and their process info for server debugging"
 ---
 
-{{< github repo="jakeroggenbuck/port-checker" >}}
 
 <br>
 

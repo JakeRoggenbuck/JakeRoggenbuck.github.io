@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Fastly Python Client"
 ---
 
-{{< github repo="jakeroggenbuck/fastly-py" >}}
 
 <br>
 

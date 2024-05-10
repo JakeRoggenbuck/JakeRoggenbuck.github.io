@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Check and fix your module and package imports in python files"
 ---
 
-{{< github repo="jakeroggenbuck/importlint" >}}
 
 <br>
 

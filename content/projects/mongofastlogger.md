@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple and fask logging library that uses the power of mongodb to save and query logs (with built in cli)"
 ---
 
-{{< github repo="jakeroggenbuck/mongofastlogger" >}}
 
 <br>
 

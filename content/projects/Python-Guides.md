@@ -7,7 +7,6 @@ tags: ["None"]
 description: "This repository contains the codes for the Python tutorials on statology.org"
 ---
 
-{{< github repo="jakeroggenbuck/Python-Guides" >}}
 
 <br>
 

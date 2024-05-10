@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Utility to manage link.jr0.org"
 ---
 
-{{< github repo="jakeroggenbuck/link-cli" >}}
 
 <br>
 

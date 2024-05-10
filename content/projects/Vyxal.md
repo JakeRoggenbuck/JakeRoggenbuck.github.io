@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A golfing language that has aspects of traditional programming languages."
 ---
 
-{{< github repo="jakeroggenbuck/Vyxal" >}}
 
 <br>
 

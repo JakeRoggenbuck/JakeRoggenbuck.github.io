@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Telescope Aiming tool"
 ---
 
-{{< github repo="jakeroggenbuck/spaceapp" >}}
 
 <br>
 

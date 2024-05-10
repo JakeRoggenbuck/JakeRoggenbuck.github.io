@@ -7,7 +7,6 @@ tags: ["Kotlin"]
 description: "A simple kotlin hello world project from a tutorial"
 ---
 
-{{< github repo="jakeroggenbuck/kotlin-todo-app" >}}
 
 <br>
 

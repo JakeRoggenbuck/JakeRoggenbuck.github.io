@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "The multi-tool of lexical analysis and tokenization. Make parsers in less time for many use cases."
 ---
 
-{{< github repo="jakeroggenbuck/plrs" >}}
 
 <br>
 

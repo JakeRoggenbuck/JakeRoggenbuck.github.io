@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Find the slope at a point of a function with the secant method"
 ---
 
-{{< github repo="jakeroggenbuck/find-slope-with-secant" >}}
 
 <br>
 

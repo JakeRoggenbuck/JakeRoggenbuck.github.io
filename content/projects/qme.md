@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A game written in Java"
 ---
 
-{{< github repo="jakeroggenbuck/qme" >}}
 
 <br>
 

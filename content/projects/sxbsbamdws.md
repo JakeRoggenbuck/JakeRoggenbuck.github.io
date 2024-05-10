@@ -7,7 +7,6 @@ tags: ["C"]
 description: "sxbsbamdws (Simple X Backlight Substitute Because AMD Wasn't Supported)"
 ---
 
-{{< github repo="jakeroggenbuck/sxbsbamdws" >}}
 
 <br>
 

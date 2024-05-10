@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Git(hub) training for Scouting Programmers"
 ---
 
-{{< github repo="jakeroggenbuck/git-training" >}}
 
 <br>
 

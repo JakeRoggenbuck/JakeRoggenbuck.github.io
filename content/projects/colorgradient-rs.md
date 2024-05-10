@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Generate a gradient from selected colors"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient-rs" >}}
 
 <br>
 

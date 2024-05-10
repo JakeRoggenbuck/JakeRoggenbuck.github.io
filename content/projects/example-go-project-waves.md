@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Calculate wavelength from frequency or frequency from wavelength"
 ---
 
-{{< github repo="jakeroggenbuck/example-go-project-waves" >}}
 
 <br>
 

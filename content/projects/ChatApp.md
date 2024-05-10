@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Realtime chat app using pusher"
 ---
 
-{{< github repo="jakeroggenbuck/ChatApp" >}}
 
 <br>
 

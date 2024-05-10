@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A tool to generate gradients in python"
 ---
 
-{{< github repo="jakeroggenbuck/colorgradient" >}}
 
 <br>
 

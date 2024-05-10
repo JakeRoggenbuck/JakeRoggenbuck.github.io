@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "A simple thing to allow you to search your bookmarks better than any browser default bookmark search"
 ---
 
-{{< github repo="jakeroggenbuck/bookmark-search" >}}
 
 <br>
 

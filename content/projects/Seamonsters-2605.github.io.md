@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Seamonsters team Github Pages site"
 ---
 
-{{< github repo="jakeroggenbuck/Seamonsters-2605.github.io" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Profile Readme Repo"
 ---
 
-{{< github repo="jakeroggenbuck/Shuzhengz" >}}
 
 <br>
 

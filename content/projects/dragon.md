@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Drag and drop source/target for X"
 ---
 
-{{< github repo="jakeroggenbuck/dragon" >}}
 
 <br>
 

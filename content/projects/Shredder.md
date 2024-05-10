@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Instead of sredding files normally, replace all of the data with Random Star Wars Quotes."
 ---
 
-{{< github repo="jakeroggenbuck/Shredder" >}}
 
 <br>
 

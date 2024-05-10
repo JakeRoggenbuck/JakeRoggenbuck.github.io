@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "adds numbers together"
 ---
 
-{{< github repo="jakeroggenbuck/claculator" >}}
 
 <br>
 

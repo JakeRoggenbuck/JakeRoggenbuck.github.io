@@ -7,7 +7,6 @@ tags: ["None"]
 description: "GitHub’s official command line tool"
 ---
 
-{{< github repo="jakeroggenbuck/cli" >}}
 
 <br>
 

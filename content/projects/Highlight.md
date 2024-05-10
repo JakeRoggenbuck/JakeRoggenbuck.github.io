@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "A simple social media website for sharing messages"
 ---
 
-{{< github repo="jakeroggenbuck/Highlight" >}}
 
 <br>
 

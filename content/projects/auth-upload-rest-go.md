@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Authenticated REST server written in Go."
 ---
 
-{{< github repo="jakeroggenbuck/auth-upload-rest-go" >}}
 
 <br>
 

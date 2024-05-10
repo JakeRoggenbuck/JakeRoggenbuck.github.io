@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Website for posting encrypted files, encrypted meme exchange."
 ---
 
-{{< github repo="jakeroggenbuck/GPGExchange" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple fetch for testing PKGBUILD"
 ---
 
-{{< github repo="jakeroggenbuck/sfetch" >}}
 
 <br>
 

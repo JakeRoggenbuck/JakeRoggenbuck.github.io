@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Header only library for writing build recipes in C."
 ---
 
-{{< github repo="jakeroggenbuck/nobuild" >}}
 
 <br>
 

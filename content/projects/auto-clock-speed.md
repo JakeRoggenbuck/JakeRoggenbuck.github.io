@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life."
 ---
 
-{{< github repo="jakeroggenbuck/auto-clock-speed" >}}
 
 <br>
 

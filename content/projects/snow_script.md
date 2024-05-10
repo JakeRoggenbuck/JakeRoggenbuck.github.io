@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple and high/low macro lang, similar to pogscript with way nicer syntax"
 ---
 
-{{< github repo="jakeroggenbuck/snow_script" >}}
 
 <br>
 

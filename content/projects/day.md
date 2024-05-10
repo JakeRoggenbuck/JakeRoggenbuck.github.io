@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "A daily screen that shows the date and tasks for the day"
 ---
 
-{{< github repo="jakeroggenbuck/day" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Simple color printing in C"
 ---
 
-{{< github repo="jakeroggenbuck/termcolor-c" >}}
 
 <br>
 

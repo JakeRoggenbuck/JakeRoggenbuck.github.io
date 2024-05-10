@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "The most simple, small, and fast terminal color text library."
 ---
 
-{{< github repo="jakeroggenbuck/efcl" >}}
 
 <br>
 

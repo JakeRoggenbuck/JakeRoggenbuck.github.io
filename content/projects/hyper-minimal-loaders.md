@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A hyper minimal loader bar only 1.62 KB source."
 ---
 
-{{< github repo="jakeroggenbuck/hyper-minimal-loaders" >}}
 
 <br>
 

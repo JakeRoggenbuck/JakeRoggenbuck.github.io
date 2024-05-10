@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "A website written in google app script and javascript using google sheets as a data collector"
 ---
 
-{{< github repo="jakeroggenbuck/Skyometer" >}}
 
 <br>
 

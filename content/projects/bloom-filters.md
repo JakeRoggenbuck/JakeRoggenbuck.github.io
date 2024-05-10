@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Bloom filter written in C"
 ---
 
-{{< github repo="jakeroggenbuck/bloom-filters" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Calculate chi squared"
 ---
 
-{{< github repo="jakeroggenbuck/chi-squared-c" >}}
 
 <br>
 

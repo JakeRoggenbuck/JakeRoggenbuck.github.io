@@ -7,7 +7,6 @@ tags: ["CSS"]
 description: "My personal website "
 ---
 
-{{< github repo="jakeroggenbuck/JakeRoggenbuck.github.io" >}}
 
 <br>
 

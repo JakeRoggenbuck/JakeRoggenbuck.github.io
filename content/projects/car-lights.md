@@ -7,7 +7,6 @@ tags: ["C++"]
 description: "NeoPixel and Arduino code for car underglow."
 ---
 
-{{< github repo="jakeroggenbuck/car-lights" >}}
 
 <br>
 

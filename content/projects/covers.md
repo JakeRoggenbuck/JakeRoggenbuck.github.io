@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Code coverage for Rust in Rust :crab:"
 ---
 
-{{< github repo="jakeroggenbuck/covers" >}}
 
 <br>
 

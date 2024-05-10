@@ -7,7 +7,6 @@ tags: ["None"]
 description: "dwm-like swallowing for bspwm"
 ---
 
-{{< github repo="jakeroggenbuck/bspswallow" >}}
 
 <br>
 

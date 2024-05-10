@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple way to store python objects in yaml"
 ---
 
-{{< github repo="jakeroggenbuck/yaml_serialize" >}}
 
 <br>
 

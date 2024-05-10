@@ -7,7 +7,6 @@ tags: ["None"]
 description: "CTF framework and exploit development library"
 ---
 
-{{< github repo="jakeroggenbuck/pwntools" >}}
 
 <br>
 

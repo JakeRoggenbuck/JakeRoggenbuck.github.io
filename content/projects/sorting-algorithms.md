@@ -7,7 +7,6 @@ tags: ["Java"]
 description: "This repository contains a variety of sorting algorithms written in several programming languages."
 ---
 
-{{< github repo="jakeroggenbuck/sorting-algorithms" >}}
 
 <br>
 

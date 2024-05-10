@@ -7,7 +7,6 @@ tags: ["None"]
 description: ":horse: Pony is an open-source, actor-model, capabilities-secure, high performance programming language"
 ---
 
-{{< github repo="jakeroggenbuck/ponyc" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A definition and search API for a language called Nysjomon made using FastApi"
 ---
 
-{{< github repo="jakeroggenbuck/nxyso_api" >}}
 
 <br>
 

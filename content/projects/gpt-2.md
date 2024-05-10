@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Code for the paper 'Language Models are Unsupervised Multitask Learners'"
 ---
 
-{{< github repo="jakeroggenbuck/gpt-2" >}}
 
 <br>
 

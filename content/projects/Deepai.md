@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Use the deepdream API and other APIs from deepai to convert, upscale, and change images in interesting ways"
 ---
 
-{{< github repo="jakeroggenbuck/Deepai" >}}
 
 <br>
 

@@ -7,7 +7,6 @@ tags: ["Java"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/qme-launcher" >}}
 
 <br>
 

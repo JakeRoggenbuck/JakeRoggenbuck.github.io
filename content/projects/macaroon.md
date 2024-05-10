@@ -7,7 +7,6 @@ tags: ["Go"]
 description: "Add C style macros to code in Go."
 ---
 
-{{< github repo="jakeroggenbuck/macaroon" >}}
 
 <br>
 

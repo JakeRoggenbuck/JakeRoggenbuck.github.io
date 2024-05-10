@@ -7,7 +7,6 @@ tags: ["Shell"]
 description: "None"
 ---
 
-{{< github repo="jakeroggenbuck/jr0-source" >}}
 
 <br>
 

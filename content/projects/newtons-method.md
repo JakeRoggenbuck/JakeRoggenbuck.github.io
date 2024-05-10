@@ -7,7 +7,6 @@ tags: ["C"]
 description: "Implementation of newtons method of zero approximation and more generally equation solution approximation."
 ---
 
-{{< github repo="jakeroggenbuck/newtons-method" >}}
 
 <br>
 

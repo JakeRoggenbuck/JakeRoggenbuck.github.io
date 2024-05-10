@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A simple package manager."
 ---
 
-{{< github repo="jakeroggenbuck/impulse" >}}
 
 <br>
 

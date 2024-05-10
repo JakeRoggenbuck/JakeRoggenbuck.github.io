@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "A math console language with a bunch of useful functions and constants"
 ---
 
-{{< github repo="jakeroggenbuck/basis" >}}
 
 <br>
 

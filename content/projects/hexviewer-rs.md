@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Hexviewer allows you to quickly view the hex representation of a file with vim style keybinds"
 ---
 
-{{< github repo="jakeroggenbuck/hexviewer-rs" >}}
 
 <br>
 

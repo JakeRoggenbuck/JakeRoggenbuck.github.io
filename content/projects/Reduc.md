@@ -7,7 +7,6 @@ tags: ["None"]
 description: "A lightweight general purpose window manager written in rust"
 ---
 
-{{< github repo="jakeroggenbuck/Reduc" >}}
 
 <br>
 

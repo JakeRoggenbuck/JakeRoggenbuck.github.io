@@ -7,7 +7,6 @@ tags: ["Jupyter Notebook"]
 description: "Exploration on the decimal places of logs from December 2021 - Present"
 ---
 
-{{< github repo="jakeroggenbuck/on-logs-research" >}}
 
 <br>
 

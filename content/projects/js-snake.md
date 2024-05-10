@@ -7,7 +7,6 @@ tags: ["None"]
 description: "Snake game written in p5 JS"
 ---
 
-{{< github repo="jakeroggenbuck/js-snake" >}}
 
 <br>
 

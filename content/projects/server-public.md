@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "Data processing Python server that interfaces with collection and visualization apps in a FRC scouting system"
 ---
 
-{{< github repo="jakeroggenbuck/server-public" >}}
 
 <br>
 

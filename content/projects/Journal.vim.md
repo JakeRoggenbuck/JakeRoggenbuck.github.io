@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "This vim plugin lets you organize your daily journal"
 ---
 
-{{< github repo="jakeroggenbuck/Journal.vim" >}}
 
 <br>
 

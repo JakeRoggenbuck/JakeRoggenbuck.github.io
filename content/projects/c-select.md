@@ -7,7 +7,6 @@ tags: ["C"]
 description: "ncurses selection tool for tui based projects"
 ---
 
-{{< github repo="jakeroggenbuck/c-select" >}}
 
 <br>
 

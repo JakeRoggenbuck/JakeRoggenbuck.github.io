@@ -7,7 +7,6 @@ tags: ["Python"]
 description: "A command line viewer for MongoDB. Quickly view documents, collections, and databases stored locally for easy debugging and system maintenance."
 ---
 
-{{< github repo="jakeroggenbuck/mongoc" >}}
 
 <br>
 

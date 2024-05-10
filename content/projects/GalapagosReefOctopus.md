@@ -7,7 +7,6 @@ tags: ["HTML"]
 description: "Galapagos Reef Octopus"
 ---
 
-{{< github repo="jakeroggenbuck/GalapagosReefOctopus" >}}
 
 <br>
 

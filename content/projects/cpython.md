@@ -7,7 +7,6 @@ tags: ["None"]
 description: "The Python programming language"
 ---
 
-{{< github repo="jakeroggenbuck/cpython" >}}
 
 <br>
 

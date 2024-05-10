@@ -7,7 +7,6 @@ tags: ["None"]
 description: "This is list of programming languages I have made for learning"
 ---
 
-{{< github repo="jakeroggenbuck/programming-languages" >}}
 
 <br>
 

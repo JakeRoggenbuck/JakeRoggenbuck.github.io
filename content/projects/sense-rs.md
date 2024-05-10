@@ -7,7 +7,6 @@ tags: ["Rust"]
 description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-{{< github repo="jakeroggenbuck/sense-rs" >}}
 
 <br>
 
