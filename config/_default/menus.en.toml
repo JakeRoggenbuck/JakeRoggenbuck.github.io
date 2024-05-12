@@ -23,7 +23,7 @@
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 10
+  weight = 4
 
 #[[main]]
 #  name = "Parent"

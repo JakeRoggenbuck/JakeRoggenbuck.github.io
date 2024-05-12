@@ -2,8 +2,21 @@
 tags: ["Jake", "Roggenbuck", "projects", "software", "github", "code", "product", "manager", "machine learning"]
 ---
 
-I am currently a student at UC Davis studying Computer Science.<br>
+Student at UC Davis studying Computer Science.<br>
+
 Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
+
+<!--
+<br>
+
+{{< timeline >}}
+
+{{< timelineItem icon="code" header="AggieWorks" badge="UC Davis" subheader="AggieWorks @ UC Davis" >}}
+Currently working as Director of Engineering and helping build <a href="https://clubly.org?source=jr0.org">Clubly.org</a>. View all of our products at <a href="https://aggieworks.org">AggieWorks.org</a>
+{{< /timelineItem >}}
+
+{{< /timeline >}}
+-->
 
 ## Contact
 
