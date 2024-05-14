@@ -9,9 +9,11 @@ type: post
 
 ### What my team built
 
-Make three different OpenCV models for lane detection, human obstacle detection, and driver alertness detection.
+Safe Drive AI - Make three different OpenCV models for lane detection, human obstacle detection, and driver alertness detection.
 
 [Github](https://github.com/JakeRoggenbuck/hackdavis-2024)
+
+Here is our [DevPost](https://devpost.com/software/safe-drive-ai) too.
 
 ## all-the-NaN-floats
 
@@ -55,13 +57,15 @@ int main() {
 }
 ```
 
-## Vector C
-Vector math in C
-
-[Github](https://github.com/JakeRoggenbuck/vector-c)
+This was for fun and to learn more about IEEE floating point numbers.
 
 ## Lots of leetcode!
 
 I got to 400 problems solved!
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/jakeroggenbuck?ext=heatmap)
+
+## Vector C
+Vector math in C
+
+[Github](https://github.com/JakeRoggenbuck/vector-c)
