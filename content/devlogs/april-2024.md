@@ -15,6 +15,86 @@ Safe Drive AI - Make three different OpenCV models for lane detection, human obs
 
 Here is our [DevPost](https://devpost.com/software/safe-drive-ai) too.
 
+## Clubly Speed Improvements
+
+I reduced the amount of data sent on each search and this resulted in a statistically significant speed improvement of 0.02 seconds, so 20 milliseconds on production which is 120% improvement for free.
+
+```
+https://api.clubly.org/api/v1/clubs
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:16<00:00,  3.06it/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:14<00:00,  3.53it/s]
+current.std()=0.0757401695006395
+reduced.std()=0.009859827712916693
+current.mean()=0.24328888000000004
+reduced.mean()=0.20660545999999996
+t_stat=3.361959534140494 p_value=0.001104776517782507
+```
+
+Here is the code to test this.
+
+```py
+# ...
+
+def current_prod_test():
+	data = {
+		"keywords": "",
+		"limit": 100,
+	}
+
+	times = []
+
+	for x in tqdm(range(50)):
+		res = requests.post(URL, data=data)
+
+		time = res.elapsed.total_seconds()
+		times.append(time)
+
+	return times
+
+
+def reduced_prod_test():
+	data = {
+		"keywords": "",
+		"limit": 100,
+		"reduced": True
+	}
+
+	times = []
+
+	for x in tqdm(range(50)):
+		res = requests.post(URL, data=data)
+
+		time = res.elapsed.total_seconds()
+		times.append(time)
+
+	return times
+
+# ...
+
+
+def prod_experiment():
+	print(URL)
+	current_data = current_prod_test()
+	reduced_data = reduced_prod_test()
+
+	current = np.array(current_data)
+	reduced = np.array(reduced_data)
+
+	print(f"{current.std()=}")
+	print(f"{reduced.std()=}")
+
+	print(f"{current.mean()=}")
+	print(f"{reduced.mean()=}")
+
+	t_stat, p_value = stats.ttest_ind(current, reduced)
+
+	print(f"{t_stat=} {p_value=}")
+
+
+if __name__ == "__main__":
+	prod_experiment()
+```
+
 ## all-the-NaN-floats
 
 Write all of the NaN floats from IEEE 754 32 bit floats to disk.
