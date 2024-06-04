@@ -1,4 +1,5 @@
-hugo --minify
+# Use hugo built from source
+~/Build/hugo/hugo --minify
 mkdir /tmp/hugo-tmp
 /bin/cp -fr public/* /tmp/hugo-tmp
 
