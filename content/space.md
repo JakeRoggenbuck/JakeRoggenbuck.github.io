@@ -1,6 +1,7 @@
 ---
 title: Space
 type: page
+date: 2024-06-04T00:00:00
 ---
 
 Space has always interested me. Here are a collection of projects that relate to space.

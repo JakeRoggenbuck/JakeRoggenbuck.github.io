@@ -1,6 +1,7 @@
 ---
 title: Math
 type: page
+date: 2024-06-04T00:00:00
 ---
 
 I enjoy studying and learning math.
