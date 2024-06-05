@@ -6,6 +6,10 @@ Student at UC Davis studying Computer Science.<br>
 
 Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
 
+## Topics of interest
+Here are some pages about topics I am interest in:<br>
+[Math](math), [Space](space), [Computer Science](projects)
+
 <!--
 <br>
 
