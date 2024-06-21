@@ -8,12 +8,14 @@ echo "             /_/                /____/              /____/             "
 # Displays lines
 set -x
 
+# Switch early so untracked files don't break the switch
+git switch gh-pages
+
 # Use hugo built from source
 ~/Build/hugo/hugo --minify
 mkdir /tmp/hugo-tmp
 /bin/cp -fr public/* /tmp/hugo-tmp
 
-git switch gh-pages
 /bin/cp -fr /tmp/hugo-tmp/* .
 
 git add .
