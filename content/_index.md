@@ -8,7 +8,7 @@ Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&ty
 
 ## Topics of interest
 Here are some pages about topics I am interest in:<br>
-[Math](math), [Space](space), [Computer Science](projects)
+[Math](math), [Space](space), [Computer Science](projects), [Machine Learning](ml)
 
 <!--
 <br>

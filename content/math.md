@@ -23,3 +23,19 @@ Github: https://github.com/JakeRoggenbuck/on-logs-research
 ![pascals triangle image](https://user-images.githubusercontent.com/35516367/185814438-df3e1df4-e369-4b14-93ef-4cac4bfb7221.png)
 
 Github: https://github.com/JakeRoggenbuck/pascals-triangle
+
+#### Derivative Solver in C
+
+https://github.com/JakeRoggenbuck/derive
+
+#### Calculate the integral of a function in C
+
+https://github.com/JakeRoggenbuck/integrate
+
+#### Newtons method in C
+
+https://github.com/JakeRoggenbuck/newtons-method
+
+#### Approximate Pi
+
+https://github.com/JakeRoggenbuck/approximate-pi
