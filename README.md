@@ -1,16 +1,13 @@
 # jr0.org
 Currently, Hugo to make this static website.
 
-## New New
-New stuff
-
-## New
-Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlogs](https://jr0.org/devlogs).
-
 ## History
 This website has been up since May 26, 2019 in some form or another.
 
-### Current
+## Current
+![image](https://github.com/user-attachments/assets/d24f47c7-62bd-45df-b914-d182f07b1e98)
+
+### Prior
 ![image](https://user-images.githubusercontent.com/35516367/185334720-facb0b35-f056-47ae-86e9-11243654ad43.png)
 
 ### Prior
