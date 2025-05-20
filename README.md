@@ -1,6 +1,16 @@
 # jr0.org
 Currently, Hugo to make this static website.
 
+## Usage
+
+Use `deploy.sh` in the root dir to deploy.
+
+![image](https://github.com/user-attachments/assets/819a5f95-0caf-4592-9312-53c5720e779a)
+![image](https://github.com/user-attachments/assets/ee506ff4-7506-43ae-9752-28c9b5590ceb)
+
+
+The script still works perfectly long after I wrote it!
+
 ## History
 This website has been up since May 26, 2019 in some form or another.
 
