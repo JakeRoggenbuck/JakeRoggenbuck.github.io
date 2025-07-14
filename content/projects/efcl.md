@@ -8,8 +8,6 @@ description: "The most simple, small, and fast terminal color text library."
 ---
 
 
-<br>
-
 # Efficiency First Color Library (EFCL)
 
 [![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/efcl/rust.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/efcl/actions)
@@ -26,17 +24,20 @@ The most simple, small, and fast terminal color text library.
 ## Quickstart
 
 ```toml
-efcl = "0.1.2"
+efcl = "0.1.3"
 ```
 
 ```rs
 use efcl::{color, Color, bold};
 
 fn main() {
-    println!("{}!", bold!(&color!(Color::RED, "EFCL").to_string()));
     println!("Hello, {}!", color!(Color::BLUE, "world"));
+
+    println!("{}!", bold!(&color!(Color::RED, "EFCL").to_string()));
 }
 ```
+
+![image](https://github.com/user-attachments/assets/01c3f978-cd49-42df-b06b-9abcd40be5c5)
 
 ## Why?
 

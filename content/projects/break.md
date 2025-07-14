@@ -8,8 +8,6 @@ description: "A simple build system that does the opposite to building,  irrever
 ---
 
 
-<br>
-
 # break
 When automating your workflow, build systems and ci are some of the most important parts. Break is analogous to a build system, and test suite. Break, will insure your tests fail by irreversibly destroying your executables and source code according to your breakfile. It will also prepare the source code by breaking the files before tests. Break is blazing fast, and it's unique functionality allows for a streamlined workflow.
 

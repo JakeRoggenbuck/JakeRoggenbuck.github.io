@@ -8,8 +8,6 @@ description: "A golfing language that has aspects of traditional programming lan
 ---
 
 
-<br>
-
 # Vyxal - Terse, Elegant and Readable
 
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)

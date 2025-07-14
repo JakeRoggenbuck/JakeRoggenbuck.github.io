@@ -8,7 +8,5 @@ description: "Blue alliance data pull utility."
 ---
 
 
-<br>
-
 # Blue alliance data
 Blue alliance data pull utility.

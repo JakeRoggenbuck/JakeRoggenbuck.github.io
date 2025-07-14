@@ -8,8 +8,6 @@ description: "A basic Kotlin app to test out android development with Kotlin."
 ---
 
 
-<br>
-
 # AgeInMinutes
 A basic Kotlin app to test out android development with Kotlin.
 

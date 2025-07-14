@@ -8,7 +8,5 @@ description: "A test of lexing and yacc in python"
 ---
 
 
-<br>
-
 # calcLex
 A simple lexer using a yacc.

@@ -8,6 +8,4 @@ description: "None"
 ---
 
 
-<br>
-
 # neural_network

@@ -8,8 +8,6 @@ description: "Testing a bunch of ways to apply a function to each item in a data
 ---
 
 
-<br>
-
 # Dataframe Function Speed Analysis
 Testing a bunch of ways to apply a function to each item in a dataframe.
 

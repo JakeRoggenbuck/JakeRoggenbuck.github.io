@@ -8,8 +8,6 @@ description: "Store passwords in a GPG encrypted vault"
 ---
 
 
-<br>
-
 # gpg_passkeep
 Store passwords in a GPG encrypted vault
 

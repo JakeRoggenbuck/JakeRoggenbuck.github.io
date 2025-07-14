@@ -8,8 +8,6 @@ description: "Snake game written in p5 JS"
 ---
 
 
-<br>
-
 # js-snake
 Snake game written in p5 JS
 Requires a local node server.

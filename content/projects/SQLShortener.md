@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # SQLShortener
 Create short url with `New`, Use short url with `Use`
 

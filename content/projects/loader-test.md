@@ -8,8 +8,6 @@ description: "Testing the hyper-minimal-loaders project."
 ---
 
 
-<br>
-
 # loader-test
 Testing the [hyper-minimal-loaders](https://github.com/jakeroggenbuck/hyper-minimal-loaders) project.
 

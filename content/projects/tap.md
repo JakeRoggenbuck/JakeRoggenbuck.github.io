@@ -8,9 +8,7 @@ description: "Quickly tap basic files into existence"
 ---
 
 
-<br>
-
-# Tap ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/tap/Rust?style=for-the-badge)
+# Tap ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/tap/rust.yml?branch=main&style=for-the-badge)
 Quickly tap basic files into existence
 
 ## Help

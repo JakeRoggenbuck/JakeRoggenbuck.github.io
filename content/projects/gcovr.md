@@ -8,6 +8,4 @@ description: "generate code coverage reports with gcc/gcov"
 ---
 
 
-<br>
-
 404: Not Found

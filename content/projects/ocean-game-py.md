@@ -8,8 +8,6 @@ description: "Simple ocean game demo in Python for DV Game Jam"
 ---
 
 
-<br>
-
 # ocean-game-py
 Simple ocean game demo for DV Game Jam
 

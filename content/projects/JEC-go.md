@@ -8,8 +8,6 @@ description: "Jabacat's Easy Config"
 ---
 
 
-<br>
-
 # JEC-go ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-go/Go?style=for-the-badge)
 Jabacat's Easy Config
 

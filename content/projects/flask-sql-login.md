@@ -8,8 +8,6 @@ description: "A super simple login page with flask and sqlite3"
 ---
 
 
-<br>
-
 # flask-sql-login
 A super simple login page with flask and sqlite3
 

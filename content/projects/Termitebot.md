@@ -8,8 +8,6 @@ description: "Copy and update termite configs."
 ---
 
 
-<br>
-
 # Termitebot
 
 Copy and update termite configs.

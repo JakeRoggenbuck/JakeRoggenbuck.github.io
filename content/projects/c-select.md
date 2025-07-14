@@ -8,8 +8,6 @@ description: "ncurses selection tool for tui based projects"
 ---
 
 
-<br>
-
 # c-select
 ncurses selection tool for tui based projects.
 

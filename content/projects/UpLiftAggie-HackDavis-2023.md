@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # UpLiftAggie
 Send a positive message to an Aggie! Simple can be powerful. It takes no effort to share kindness.
 

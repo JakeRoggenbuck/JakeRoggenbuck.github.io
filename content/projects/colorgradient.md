@@ -8,8 +8,6 @@ description: "A tool to generate gradients in python"
 ---
 
 
-<br>
-
 # colorgradient
 
 ## Implementations

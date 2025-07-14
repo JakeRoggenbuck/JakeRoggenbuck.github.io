@@ -8,7 +8,5 @@ description: "A Discord Bot designed to remind users of custom events"
 ---
 
 
-<br>
-
 # reminder-bot
 A Discord Bot designed to remind users of custom events

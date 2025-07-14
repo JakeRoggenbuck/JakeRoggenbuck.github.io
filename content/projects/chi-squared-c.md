@@ -8,8 +8,6 @@ description: "Calculate chi squared"
 ---
 
 
-<br>
-
 # chi-squared-c
 Calculate chi squared
 

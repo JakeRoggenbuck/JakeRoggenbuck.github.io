@@ -8,8 +8,6 @@ description: "Format filenames to a command-line friendly format"
 ---
 
 
-<br>
-
 # Format filename
 Format filenames to a command-line friendly format
 

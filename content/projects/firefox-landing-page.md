@@ -8,8 +8,6 @@ description: "A simple landing page for firefox and searhing"
 ---
 
 
-<br>
-
 # landing-page
 The most simple landing page possible
 

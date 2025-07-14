@@ -8,8 +8,6 @@ description: "A simple utility to view, edit, and search your $PATH"
 ---
 
 
-<br>
-
 # Pathfinder
 A simple utility to view, edit, and search your $PATH
 

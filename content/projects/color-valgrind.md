@@ -8,8 +8,6 @@ description: "Highlight important information from the already great valgrind"
 ---
 
 
-<br>
-
 # color-valgrind
 Highlight important information from the already great [valgrind](https://valgrind.org/)
 

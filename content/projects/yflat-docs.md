@@ -8,8 +8,6 @@ description: "Documentation for all parts of Y-flat."
 ---
 
 
-<br>
-
 # yflat-docs
 Documentation for all parts of Y-flat.
 

@@ -8,6 +8,4 @@ description: "None"
 ---
 
 
-<br>
-
 # Project Invent: Rube Goldberg Machine

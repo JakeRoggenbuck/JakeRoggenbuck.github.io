@@ -8,6 +8,4 @@ description: "pong in java"
 ---
 
 
-<br>
-
 404: Not Found

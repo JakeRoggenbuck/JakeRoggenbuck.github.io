@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Yutimim-dictionary-parser
 
 ## Usage

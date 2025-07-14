@@ -8,8 +8,6 @@ description: "Practice for writing satellite subsystems in C"
 ---
 
 
-<br>
-
 # satellite-c
 Practice for writing satellite subsystems in C
 

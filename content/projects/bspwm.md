@@ -8,8 +8,6 @@ description: "A tiling window manager based on binary space partitioning"
 ---
 
 
-<br>
-
 ## Description
 
 *bspwm* is a tiling window manager that represents windows as the leaves of a full binary tree.

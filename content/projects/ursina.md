@@ -8,8 +8,6 @@ description: "A game engine powered by python and panda3d."
 ---
 
 
-<br>
-
 # ursina    ʕ •ᴥ•ʔゝ□
 An easy to use game engine/framework for python.
 

@@ -8,8 +8,6 @@ description: "A simple programming language and its interpreter"
 ---
 
 
-<br>
-
 # Paper
 
 ```py

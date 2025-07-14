@@ -8,8 +8,6 @@ description: "Given an array of slightly less than half random numbers and sligh
 ---
 
 
-<br>
-
 # more-than-half
 Given an array of slightly less than half random numbers and slightly more than half of one specific number, find the the number that makes up slightly more than half. Below are the speeds of multiple different algorithms to do this.
 

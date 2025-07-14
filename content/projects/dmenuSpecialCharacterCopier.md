@@ -8,7 +8,5 @@ description: "Copy emoji from dmenu by searching their name"
 ---
 
 
-<br>
-
 # dmenuSpecialCharacterCopier
 Copy emoji from dmenu by searching their name

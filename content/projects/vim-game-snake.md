@@ -8,8 +8,6 @@ description: "Vim Game : Snake"
 ---
 
 
-<br>
-
 # VimGameSnake
 
 version 0.1

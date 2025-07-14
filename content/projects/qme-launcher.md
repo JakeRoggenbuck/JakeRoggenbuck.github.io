@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Installing QME
 
 ## 1. Get Java 15

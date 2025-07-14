@@ -8,8 +8,6 @@ description: "🟢🍋 Backgrounds images for LimeOS"
 ---
 
 
-<br>
-
 # LimeOS
 Backgrounds images for LimeOS
 

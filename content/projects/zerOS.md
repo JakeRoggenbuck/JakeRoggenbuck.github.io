@@ -8,7 +8,5 @@ description: "an os? based on arch"
 ---
 
 
-<br>
-
 # zerOS
 an os? based on arch

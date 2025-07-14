@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # sort-vis
 ## Visualizes sorting alogithims using p5 js
 

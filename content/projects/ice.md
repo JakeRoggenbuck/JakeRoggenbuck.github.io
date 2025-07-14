@@ -8,8 +8,6 @@ description: "Programming language and interpreter"
 ---
 
 
-<br>
-
 # Ice
 Programming language and interpreter
 

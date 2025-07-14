@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 Pinter ![C/C++ CI](https://github.com/plancklang/pinter/workflows/C/C++%20CI/badge.svg)
 ======
 

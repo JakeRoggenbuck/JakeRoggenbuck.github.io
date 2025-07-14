@@ -8,7 +8,5 @@ description: "Project for NASA Spaceapps 2021"
 ---
 
 
-<br>
-
 # nasa-spaceapps-2021
 Project for NASA Spaceapps 2021

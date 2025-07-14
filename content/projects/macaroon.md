@@ -8,8 +8,6 @@ description: "Add C style macros to code in Go."
 ---
 
 
-<br>
-
 # Macaroon - Go Macros & Preprocessor ![Go](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/macaroon/go.yml?branch=main&style=for-the-badge)
 Add C style macros to code in Go. Not to be confused with [go-macaroon/macaroon](https://github.com/go-macaroon/macaroon) about "Cookies with Contextual Caveats for Decentralized Authorization in the Cloud".
 

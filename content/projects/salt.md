@@ -8,7 +8,5 @@ description: "Salt (Symbol And Lexer Toolkit)"
 ---
 
 
-<br>
-
 # Salt (Symbol And Lexer Toolkit)
 ![image](./assets/image.png)

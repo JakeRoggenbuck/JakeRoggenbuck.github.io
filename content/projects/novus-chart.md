@@ -8,7 +8,5 @@ description: "A modern looking, accessible medical chart application based on a 
 ---
 
 
-<br>
-
 # novus-chart
 A modern looking, accessible medical chart application based on a MERN stack.

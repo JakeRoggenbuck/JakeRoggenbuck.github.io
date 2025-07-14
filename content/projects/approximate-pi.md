@@ -8,8 +8,6 @@ description: "This program creates a bunch of points in a square, then draws a c
 ---
 
 
-<br>
-
 # approximate-pi
 This program creates a bunch of points in a square, then draws a circle with the same radius. Then it checks which points are inside the circle. The ratio of inside to out should be around pi/4, therefor multiplying that by 4 should result in an approximation of pi.
 

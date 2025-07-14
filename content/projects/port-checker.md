@@ -8,8 +8,6 @@ description: "Check for open tcp and tcp6 ports and their process info for serve
 ---
 
 
-<br>
-
 # Port Checker ![Go](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/port-checker/go.yml?style=for-the-badge)
 Check for open tcp and tcp6 ports and their process info for server debugging
 

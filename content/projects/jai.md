@@ -8,8 +8,6 @@ description: " Jai is a programming language"
 ---
 
 
-<br>
-
 # Jai ![Pytest](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/jai/pytest.yml?style=for-the-badge)
 Our entry to the [langjam](https://github.com/langjam/jam0001)
 

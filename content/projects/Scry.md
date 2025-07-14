@@ -8,8 +8,6 @@ description: "Scry is a web application that allows users to quickly check open 
 ---
 
 
-<br>
-
 # Scry
 Scry is a web application that allows users to quickly check open ports, logins, and critical system information about their server from any web browser, anywhere. 
 

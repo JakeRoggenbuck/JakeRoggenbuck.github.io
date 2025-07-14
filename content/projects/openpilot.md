@@ -8,8 +8,6 @@ description: "open source driving agent"
 ---
 
 
-<br>
-
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 
 Table of Contents

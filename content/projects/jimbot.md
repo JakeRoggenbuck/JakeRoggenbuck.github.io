@@ -8,7 +8,5 @@ description: "Discord bot written in C to track milestones"
 ---
 
 
-<br>
-
 # jimbot
 Discord bot written in C to track milestones

@@ -8,8 +8,6 @@ description: "Calculate the integral"
 ---
 
 
-<br>
-
 # integrate
 
 ## Build

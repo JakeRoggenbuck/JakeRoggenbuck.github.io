@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Markov chain
 this is a simple markov chain implementation inspired by a project @nathansolomon1678 made
 

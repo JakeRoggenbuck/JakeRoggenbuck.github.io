@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # calplusplus
 The `cal` tool written in C++. Still a work in progress.
 

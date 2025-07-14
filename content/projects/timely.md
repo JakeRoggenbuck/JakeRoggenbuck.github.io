@@ -8,8 +8,6 @@ description: "Keep track of work hour in the command line"
 ---
 
 
-<br>
-
 # Timely ![Go](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/timely/go.yml?style=for-the-badge&branch=main)
 Keep track of work hour in the command line
 

@@ -8,8 +8,6 @@ description: "Mirror of https://gitlab.redox-os.org/redox-os/sodium"
 ---
 
 
-<br>
-
 
 <img src="https://raw.githubusercontent.com/redox-os/assets/master/logos/sodium/Sodium_logo.png" height="200" />
 

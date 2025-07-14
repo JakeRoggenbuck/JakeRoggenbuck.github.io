@@ -8,8 +8,6 @@ description: "Code coverage for Rust in Rust :crab:"
 ---
 
 
-<br>
-
 # CoveRs
 Code coverage for Rust in Rust
 

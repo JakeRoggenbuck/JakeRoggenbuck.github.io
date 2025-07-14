@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Clifford Attractors
 ![](image.png)
 ![](image2.png)

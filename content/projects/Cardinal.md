@@ -8,8 +8,6 @@ description: "Cardinal is a web server that serves data from the frc1678/server 
 ---
 
 
-<br>
-
 # Cardinal
 Cardinal is a web server that serves data from the frc1678/server project to the frc1678/viewer project.
 

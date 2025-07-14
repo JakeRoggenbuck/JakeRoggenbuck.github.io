@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # vim-character-creator
 
 #### character-creator only has dice rolling functionality as of 0.2 with lots more features coming soon.

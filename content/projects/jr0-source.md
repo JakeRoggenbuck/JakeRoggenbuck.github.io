@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # jr0.org
 Currently, Hugo to make this static website.
 

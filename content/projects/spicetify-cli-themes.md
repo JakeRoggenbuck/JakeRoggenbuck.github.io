@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # spicetify-cli-themes
 
 A collection of tweaked and custom themes for spicetify-cli

@@ -8,8 +8,6 @@ description: "🛎 60+ Elegant terminal spinners for Rust"
 ---
 
 
-<br>
-
 # Spinners - 🛎 60+ Elegant terminal spinners for Rust
 
 <!--[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/FGRibreau/spinners) [![codecov](https://codecov.io/gh/FGRibreau/spinners/branch/master/graph/badge.svg)](https://codecov.io/gh/FGRibreau/spinners) -->

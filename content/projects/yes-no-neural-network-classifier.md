@@ -8,6 +8,4 @@ description: "None"
 ---
 
 
-<br>
-
 # yes-no-neural-network-classifier

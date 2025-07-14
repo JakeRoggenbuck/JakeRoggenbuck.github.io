@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Reddit_Downloader
 
 ## Get page

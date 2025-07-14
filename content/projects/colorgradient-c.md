@@ -8,8 +8,6 @@ description: "Colorgradient learning project in C"
 ---
 
 
-<br>
-
 # colorgradient-c
 Colorgradient learning project in C
 

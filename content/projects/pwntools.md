@@ -8,8 +8,6 @@ description: "CTF framework and exploit development library"
 ---
 
 
-<br>
-
 # pwntools - CTF toolkit
 ![pwntools logo](https://github.com/Gallopsled/pwntools/blob/stable/docs/source/logo.png?raw=true)
 

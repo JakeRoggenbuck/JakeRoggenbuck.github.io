@@ -8,8 +8,6 @@ description: "A library for colored text in crystal"
 ---
 
 
-<br>
-
 # crystal-colord
 
  A library for colored text in crystal 

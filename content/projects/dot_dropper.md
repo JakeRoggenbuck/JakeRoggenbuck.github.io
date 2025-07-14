@@ -8,8 +8,6 @@ description: "Copy dotfiles to a new system"
 ---
 
 
-<br>
-
 # dot_dropper
 Copy dotfiles to a new system
 

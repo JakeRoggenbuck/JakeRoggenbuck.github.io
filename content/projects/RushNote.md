@@ -8,8 +8,6 @@ description: "Take quick notes from command line when in a rush."
 ---
 
 
-<br>
-
 # RUSHNOTE
 Take quick notes from command line when in a rush.
 

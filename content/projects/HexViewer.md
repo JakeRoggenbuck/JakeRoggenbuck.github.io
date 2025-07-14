@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # HexViewer
 Read the binary data of a file in hex
 

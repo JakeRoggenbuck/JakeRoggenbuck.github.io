@@ -8,6 +8,4 @@ description: "Clocks applications for GNOME"
 ---
 
 
-<br>
-
 404: Not Found

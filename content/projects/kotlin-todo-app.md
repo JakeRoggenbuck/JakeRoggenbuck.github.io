@@ -8,8 +8,6 @@ description: "A simple kotlin hello world project from a tutorial"
 ---
 
 
-<br>
-
 # kotlin-todo-app
 
 ## First view

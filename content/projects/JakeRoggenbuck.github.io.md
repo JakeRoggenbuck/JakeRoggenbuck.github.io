@@ -3,23 +3,31 @@
 title: JakeRoggenbuck.github.io
 type: page
 date: 2019-05-27T00:00:00
-tags: ["CSS"]
+tags: ["HTML"]
 description: "My personal website "
 ---
 
 
-<br>
-
 # jr0.org
 Currently, Hugo to make this static website.
 
-## New
-Recently (March 2022), I added a page for my new Dev Log, [jr0.org/devlogs](https://jr0.org/devlogs).
+## Usage
+
+Use `deploy.sh` in the root dir to deploy.
+
+![image](https://github.com/user-attachments/assets/819a5f95-0caf-4592-9312-53c5720e779a)
+![image](https://github.com/user-attachments/assets/ee506ff4-7506-43ae-9752-28c9b5590ceb)
+
+
+The script still works perfectly long after I wrote it!
 
 ## History
 This website has been up since May 26, 2019 in some form or another.
 
-### Current
+## Current
+![image](https://github.com/user-attachments/assets/d24f47c7-62bd-45df-b914-d182f07b1e98)
+
+### Prior
 ![image](https://user-images.githubusercontent.com/35516367/185334720-facb0b35-f056-47ae-86e9-11243654ad43.png)
 
 ### Prior

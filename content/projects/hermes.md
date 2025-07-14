@@ -8,7 +8,5 @@ description: "Hermes is a project in C++ to help individuals with ALS communicat
 ---
 
 
-<br>
-
 # Hermes
 Hermes is a project in C++ to help individuals with ALS communicate.

@@ -8,6 +8,4 @@ description: "Galapagos Reef Octopus"
 ---
 
 
-<br>
-
 # GalapagosReefOctopus

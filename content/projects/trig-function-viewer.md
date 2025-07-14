@@ -8,8 +8,6 @@ description: "Create a visualization of the Sine and Cosine functions on the Uni
 ---
 
 
-<br>
-
 # Trig Function Viewer
 Create a visualization of the [Sine and Cosine](https://en.wikipedia.org/wiki/Sine_and_cosine) functions on the [Unit Circle](https://en.wikipedia.org/wiki/Unit_circle) using [p5.js](https://p5js.org/)
 

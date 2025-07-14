@@ -8,8 +8,6 @@ description: "Simple CLI tool written in Rust to stow and deploy your dotfiles."
 ---
 
 
-<br>
-
 # 🦑 stow-squid 0.1.2 ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/stow-squid/rust.yml?branch=main&style=for-the-badge)
 Stow your dotfiles
 

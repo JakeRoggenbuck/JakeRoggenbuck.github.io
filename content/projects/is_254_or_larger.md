@@ -8,8 +8,6 @@ description: "first test making an npm package, also a joke"
 ---
 
 
-<br>
-
 # is_254_or_larger
 
 #### About

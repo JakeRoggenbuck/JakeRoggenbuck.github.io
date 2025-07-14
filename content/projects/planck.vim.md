@@ -8,8 +8,6 @@ description: "A syntax highlighting for planck lang files"
 ---
 
 
-<br>
-
 # planck.vim
 A syntax highlighting for planck lang files
 

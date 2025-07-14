@@ -8,8 +8,6 @@ description: "A command line utility for storing passwords"
 ---
 
 
-<br>
-
 # mongo_passkeep
 A command line utility for storing passwords
 

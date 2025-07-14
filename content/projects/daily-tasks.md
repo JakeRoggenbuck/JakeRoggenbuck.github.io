@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Daily Tasks
 Teaching Svelte and FastAPI
 

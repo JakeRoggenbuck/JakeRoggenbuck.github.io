@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # position_reader
 
 ## Running

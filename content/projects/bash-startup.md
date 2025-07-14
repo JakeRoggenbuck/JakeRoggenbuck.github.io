@@ -8,8 +8,6 @@ description: "A program that runs every time I open a terminal"
 ---
 
 
-<br>
-
 # bash_startup
 A program that runs every time I open a terminal
 

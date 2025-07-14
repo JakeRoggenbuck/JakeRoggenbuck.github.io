@@ -8,10 +8,13 @@ description: "Simple color printing in C"
 ---
 
 
-<br>
-
 # termcolor-c
 Simple color printing in C
+
+[![Compile](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/termcolor-c/c-cpp.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/termcolor-c/actions)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jakeroggenbuck/termcolor-c?style=for-the-badge)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers)
+
 
 # Example
 ```c

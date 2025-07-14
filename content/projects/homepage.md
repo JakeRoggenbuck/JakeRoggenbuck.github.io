@@ -8,8 +8,6 @@ description: "Simple firefox homepage"
 ---
 
 
-<br>
-
 # homepage
 Simple firefox homepage
 

@@ -8,8 +8,6 @@ description: ":horse: Pony is an open-source, actor-model, capabilities-secure, 
 ---
 
 
-<br>
-
 # Pony
 
 Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.

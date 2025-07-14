@@ -8,8 +8,6 @@ description: "A simple macro language"
 ---
 
 
-<br>
-
 # Pogscript
 ### Pogscript, Overtly, Great, Script
 

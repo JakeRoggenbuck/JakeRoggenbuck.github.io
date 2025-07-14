@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # mongodb_schema_check
 
 ```py

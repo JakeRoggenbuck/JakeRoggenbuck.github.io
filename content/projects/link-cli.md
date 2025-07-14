@@ -8,8 +8,6 @@ description: "Utility to manage link.jr0.org"
 ---
 
 
-<br>
-
 # link-cli
 Utility to manage link.jr0.org
 

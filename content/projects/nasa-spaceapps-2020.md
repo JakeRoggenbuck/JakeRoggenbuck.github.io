@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # HEASARC and NEOSSat Data Viewer
 
 nasa-spaceapps-2020

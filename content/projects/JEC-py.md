@@ -8,8 +8,6 @@ description: "  Jabacat's Easy Config "
 ---
 
 
-<br>
-
 # JEC-py ![Python](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-py/Py?style=for-the-badge)
 Jabacat's Easy Config
 

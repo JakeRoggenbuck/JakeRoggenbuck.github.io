@@ -8,7 +8,5 @@ description: "Git(hub) training for Scouting Programmers"
 ---
 
 
-<br>
-
 # git-training
 Git(hub) training for Scouting Programmers

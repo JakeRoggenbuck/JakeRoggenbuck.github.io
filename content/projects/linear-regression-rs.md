@@ -4,11 +4,9 @@ title: linear-regression-rs
 type: page
 date: 2024-03-09T00:00:00
 tags: ["Rust"]
-description: "None"
+description: "Super simple linear regression library in Rust"
 ---
 
-
-<br>
 
 # linear-regression-rs
 Super simple linear regression library in Rust ( :crab: ).

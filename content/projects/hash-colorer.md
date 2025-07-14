@@ -8,8 +8,6 @@ description: "A small util to view hashes as color"
 ---
 
 
-<br>
-
 # hash-colorer
 ### View hashes as colors
 

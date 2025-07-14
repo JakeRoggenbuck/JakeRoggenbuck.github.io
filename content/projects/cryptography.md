@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 ### Cryptography?
 The methodology of concealing the content of messages. Originates from the Greek root word _kryptos_, which means _hidden_. The modern scientific study of crytography is sometimes referred to as _cryptology_[^1].
 

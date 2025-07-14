@@ -8,8 +8,6 @@ description: "Realtime chat app using pusher"
 ---
 
 
-<br>
-
 # ChatApp
 Realtime chat app using pusher
 

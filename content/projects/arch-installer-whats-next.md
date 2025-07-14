@@ -8,8 +8,6 @@ description: "A reworked utility to either guide an Arch Linux install, or a too
 ---
 
 
-<br>
-
 # whats-next
 A reworked utility to either guide an Arch Linux install, or a tool to help you learn the commands in order.
 

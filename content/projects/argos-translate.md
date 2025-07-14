@@ -8,8 +8,6 @@ description: "Open source neural machine translation in Python. Designed to be u
 ---
 
 
-<br>
-
 # Argos Translate
 [Docs](https://argos-translate.readthedocs.io) | [Website](https://www.argosopentech.com) | [Video intro](https://youtu.be/yn37-CpRzTc)
 

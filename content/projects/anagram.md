@@ -8,8 +8,6 @@ description: "Method of finding anagrams"
 ---
 
 
-<br>
-
 # Anagram finder
 Method of finding anagrams 
 

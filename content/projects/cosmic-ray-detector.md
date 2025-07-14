@@ -8,8 +8,6 @@ description: "Detect cosmic rays with this program."
 ---
 
 
-<br>
-
 # Cosmic Ray Detector
 If I find a cosmic ray with this, I will publish a paper about it.
 

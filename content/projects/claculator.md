@@ -8,8 +8,6 @@ description: "adds numbers together"
 ---
 
 
-<br>
-
 # claculator
 adds numbers together
 

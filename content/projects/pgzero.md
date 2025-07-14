@@ -8,6 +8,4 @@ description: "A zero-boilerplate games programming framework for Python 3, based
 ---
 
 
-<br>
-
 404: Not Found

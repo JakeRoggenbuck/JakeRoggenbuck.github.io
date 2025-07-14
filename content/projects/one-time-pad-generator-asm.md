@@ -8,6 +8,4 @@ description: "None"
 ---
 
 
-<br>
-
 # one-time-pad-generator-asm

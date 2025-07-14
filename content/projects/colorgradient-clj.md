@@ -8,8 +8,6 @@ description: "Make a color gradient in Clojure!"
 ---
 
 
-<br>
-
 # colorgradient-clj ![Clojure](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/colorgradient-clj/clojure.yml?style=for-the-badge&branch=main)
 Make a color gradient in Clojure!
 

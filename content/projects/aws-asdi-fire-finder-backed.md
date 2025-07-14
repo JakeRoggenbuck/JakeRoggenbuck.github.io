@@ -8,8 +8,6 @@ description: "Fire Finder - Amazon Sustainability Data Initiative"
 ---
 
 
-<br>
-
 ![Fire Finder Better](https://user-images.githubusercontent.com/35516367/186052224-ffeed24a-71ac-44ed-bf9a-89404fb3406e.png)
 Amazon Sustainability Data Initiative
 

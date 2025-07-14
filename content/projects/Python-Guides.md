@@ -8,6 +8,4 @@ description: "This repository contains the codes for the Python tutorials on sta
 ---
 
 
-<br>
-
 404: Not Found

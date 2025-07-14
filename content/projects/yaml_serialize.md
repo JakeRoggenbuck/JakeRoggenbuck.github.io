@@ -8,8 +8,6 @@ description: "A simple way to store python objects in yaml"
 ---
 
 
-<br>
-
 # yaml_serialize
 A simple way to store python objects in yaml 
 

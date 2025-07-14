@@ -8,8 +8,6 @@ description: "A game written in Java"
 ---
 
 
-<br>
-
 ![Build Status](https://github.com/adamhutchings/qme5/workflows/Run%20tests/badge.svg)
 ![Version](https://img.shields.io/github/v/release/qmegame/qme-releases)
 

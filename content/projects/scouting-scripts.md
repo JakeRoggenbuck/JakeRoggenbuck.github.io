@@ -8,6 +8,4 @@ description: "Holds miscellaneous scripts for Software Scouting"
 ---
 
 
-<br>
-
 404: Not Found

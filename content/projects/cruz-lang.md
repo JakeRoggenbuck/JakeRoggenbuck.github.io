@@ -8,8 +8,6 @@ description: "Cruz Lang is a simple explicit static typed language. "
 ---
 
 
-<br>
-
 # Cruzlang
 
 Cruz Lang is a simple explicit static typed language. <br>

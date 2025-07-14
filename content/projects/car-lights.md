@@ -8,8 +8,6 @@ description: "NeoPixel and Arduino code for car underglow."
 ---
 
 
-<br>
-
 # car-lights
 NeoPixel and Arduino code for car underglow.
 

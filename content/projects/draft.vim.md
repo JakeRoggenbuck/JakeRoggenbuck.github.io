@@ -4,20 +4,23 @@ title: draft.vim
 type: page
 date: 2020-12-31T00:00:00
 tags: ["Vim Script"]
-description: "Quickly writeup and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments."
+description: ":pencil: Quickly write up and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments."
 ---
 
 
-<br>
-
 # Draft.vim
-Quickly writeup and save drafts for messaging apps in your favorite editor [vimawesome.com/plugin/draft-vim](https://vimawesome.com/plugin/draft-vim)
+[![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://vimawesome.com/plugin/draft-vim)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
+[![Version](https://img.shields.io/badge/v0.8-blue?style=for-the-badge)](#)
+[![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/draft.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/draft.vim/actions)
+
+:pencil: Quickly write up and save drafts for messaging apps in your favorite editor [vimawesome.com/plugin/draft-vim](https://vimawesome.com/plugin/draft-vim)
 
 ## Why use Draft.vim
 I often write important messages in a vim buffer before I send it.
 
 - The main reason for this is because it is simply faster.
-- The second reason is you might want syntax highlighting or auto formating. 
+- The second reason is you might want syntax highlighting or auto formatting. 
 - Also, sometimes you want to write a message without worrying about accidentally sending it.
 
 ## Requirements
@@ -26,8 +29,8 @@ I often write important messages in a vim buffer before I send it.
 - Dragon (https://github.com/mwh/dragon)
 
 ## Features
-	- Quickly open a new file, well named
-	- File contains attributes like date, title, and platform that can be searchable
+- Quickly open a new, well named file in a consistent directory
+- Each file automatically contains attributes like the date and title that can be searchable
 
 ## Setup and Config
 
@@ -54,7 +57,7 @@ nnoremap <Leader>ld :call ListDrafts()<CR>
 nnoremap <Leader>z :call OpenDrafts()<CR>
 ```
 
-## Use
+## Usage
 
 
 ### Commands
@@ -70,12 +73,12 @@ nnoremap <Leader>z :call OpenDrafts()<CR>
 
 ### More info
 
-	- New draft: run `:Draft` or `:Draft "<Title>"` to auto name with the date and time
-	- Edit the file extension: run `:DraftExt .md` to change the file to markdown
-	- Open the drafts directory: run `:Drafts`
-	- Copy the contents of the current draft `:DraftCopy`
-	- Draft will open a new file in a specific directory, with a unique name
-	- The file will be based on a template with stuff like the title and datetime
+- New draft: run `:Draft` or `:Draft "<Title>"` to auto name with the date and time
+- Edit the file extension: run `:DraftExt .md` to change the file to markdown
+- Open the drafts directory: run `:Drafts`
+- Copy the contents of the current draft `:DraftCopy`
+- Draft will open a new file in a specific directory, with a unique name
+- The file will be based on a template with stuff like the title and datetime
 
 ## Install
 #### Vim-Plug
@@ -88,7 +91,7 @@ Plug 'jakeroggenbuck/draft.vim'
 Plugin 'jakeroggenbuck/draft.vim'
 ```
 
-## Versions
+## Changelog
 
 #### 0.1 draft.vim - not fully functional, just a concept
 
@@ -102,7 +105,7 @@ Plugin 'jakeroggenbuck/draft.vim'
 
 #### 0.3 draft.vim - more features
 
-- Add `ClipDraft()` or `DraftCopy`
+- Add `ClipDraft()` for `DraftCopy`
 - Add `Buffer reload for DraftExt`
 
 #### 0.4 draft.vim - convert features
@@ -133,6 +136,23 @@ Plugin 'jakeroggenbuck/draft.vim'
 
 - Rank searches
 - Fix parenthesis in filename bug
+
+#### 0.8 draft.vim - date format fix
+
+- Change default date format to `m/d/y`
+- Documentation fixes and additions
+- Fix rename symbols issue
+- Add testing for python
+
+## Testing
+```sh
+pip install -r requirements.txt
+```
+```sh
+cd python
+
+pytest
+```
 
 ## TODO
 - Make md to template pdf correctly do syntax highlight

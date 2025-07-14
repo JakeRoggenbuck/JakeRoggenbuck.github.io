@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Covid19-cases-tui
 
 ### Simple tui for seeing Covid-19 cases

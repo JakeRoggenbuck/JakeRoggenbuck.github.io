@@ -8,8 +8,6 @@ description: "Original Apollo 11 Guidance Computer (AGC) source code for the com
 ---
 
 
-<br>
-
 # Apollo-11
 [![NASA][1]][2]
 [![SWH]][SWH_URL]

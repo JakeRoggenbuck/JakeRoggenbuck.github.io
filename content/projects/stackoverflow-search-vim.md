@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Stack Overflow Search Vim
 Inspired by a conversation with [@Shuzhengz](https://github.com/Shuzhengz). Still a work in progress.
 

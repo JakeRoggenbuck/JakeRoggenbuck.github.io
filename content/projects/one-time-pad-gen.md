@@ -8,8 +8,6 @@ description: "One time pad generator written in C."
 ---
 
 
-<br>
-
 # one-time-pad-gen
 Generate one time pads for use in simple manual ciphers written in C.
 

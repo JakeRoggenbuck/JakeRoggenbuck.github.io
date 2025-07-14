@@ -8,8 +8,6 @@ description: "Check and fix your module and package imports in python files"
 ---
 
 
-<br>
-
 # ImportLint
 Check and fix your module and package imports in python files
 

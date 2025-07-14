@@ -8,8 +8,6 @@ description: "Get current time with Real Time Clock using the Elegoo DS1307 Modu
 ---
 
 
-<br>
-
 # RTC with DS1307
 Get current time with Real Time Clock using the Elegoo DS1307 Module
 

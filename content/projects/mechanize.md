@@ -8,6 +8,4 @@ description: "The official source code for the python-mechanize project"
 ---
 
 
-<br>
-
 404: Not Found

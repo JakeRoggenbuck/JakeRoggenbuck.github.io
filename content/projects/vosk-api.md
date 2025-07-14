@@ -8,8 +8,6 @@ description: "Offline speech recognition API for Android, iOS, Raspberry Pi and 
 ---
 
 
-<br>
-
 # Vosk Speech Recognition Toolkit
 
 Vosk is an offline open source speech recognition toolkit. It enables

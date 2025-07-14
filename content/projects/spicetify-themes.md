@@ -8,8 +8,6 @@ description: "A community-driven collection of themes for Spicetify (https://git
 ---
 
 
-<br>
-
 # spicetify community themes
 
 This is a collection of themes for [spicetify](https://github.com/khanhas/spicetify-cli), a command-line tool to customize Spotify; you can add your own theme simply by opening a Pull Requests (more info in the Contributions section).

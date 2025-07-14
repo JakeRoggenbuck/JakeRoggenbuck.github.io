@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # spicetify-cli-extensions
 
 This is a place for an assortment of small extensions for spicetify

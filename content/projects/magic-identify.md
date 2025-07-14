@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # About
 
 magic-identify implements a wrapper around both the python-magic

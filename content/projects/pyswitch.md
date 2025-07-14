@@ -8,7 +8,5 @@ description: "None"
 ---
 
 
-<br>
-
 ## PySwitch
 # pyswitch

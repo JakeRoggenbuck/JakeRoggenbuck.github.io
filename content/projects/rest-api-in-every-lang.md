@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # REST APIs in every language
 A collection of many REST frameworks in many languages.
 

@@ -8,8 +8,6 @@ description: "dwm-like swallowing for bspwm"
 ---
 
 
-<br>
-
 # bspswallow
 Adds functionality provided by the dwm "swallow" patch to bspwm.
 

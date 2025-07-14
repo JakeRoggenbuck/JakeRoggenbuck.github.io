@@ -8,8 +8,6 @@ description: "Fastly Python Client"
 ---
 
 
-<br>
-
 ## Fastly Python Client
 
 fastly-py is available through `pip` as the [fastly](https://pypi.python.org/pypi/fastly) package

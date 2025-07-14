@@ -8,8 +8,6 @@ description: "A lightweight compositor for X11"
 ---
 
 
-<br>
-
 picom
 =====
 

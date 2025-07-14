@@ -8,8 +8,6 @@ description: "Implementation of a bloom filter in Rust"
 ---
 
 
-<br>
-
 # bloom-filter-rs
 View blog post at [jr0.org/posts/bloom-filters](https://jr0.org/posts/bloom-filters/)
 

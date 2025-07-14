@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Crypto-Chat
 
 # Setup

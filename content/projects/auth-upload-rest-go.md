@@ -8,8 +8,6 @@ description: "Authenticated REST server written in Go."
 ---
 
 
-<br>
-
 # auth-upload-rest-go
 Authenticated REST server written in Go.
 

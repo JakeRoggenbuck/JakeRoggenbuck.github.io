@@ -8,8 +8,6 @@ description: "Smart home door lock using a raspberry pi"
 ---
 
 
-<br>
-
 # door-lock
 Smart home door lock using a raspberry pi
 

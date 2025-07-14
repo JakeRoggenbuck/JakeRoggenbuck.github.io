@@ -8,8 +8,6 @@ description: "A dark theme for Discord, need BetterDiscord installed"
 ---
 
 
-<br>
-
 # dark-discord
 An actual dark theme for Discord
 

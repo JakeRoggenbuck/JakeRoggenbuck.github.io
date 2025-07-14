@@ -8,8 +8,6 @@ description: "A simple and fask logging library that uses the power of mongodb t
 ---
 
 
-<br>
-
 <a href="https://pypi.org/project/mongofastlogger/">![Version](https://img.shields.io/pypi/v/mongofastlogger)</a>
 
 # Logger

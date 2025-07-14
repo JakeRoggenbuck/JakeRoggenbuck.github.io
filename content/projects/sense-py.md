@@ -8,8 +8,6 @@ description: "Sense the directories around you, are they git repositories, what 
 ---
 
 
-<br>
-
 # sense-py
 Sense the directories around you, are they git repositories, what language, etc.
 

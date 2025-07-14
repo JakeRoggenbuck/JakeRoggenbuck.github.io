@@ -8,8 +8,6 @@ description: "Space themed pinball rework, with new game elements"
 ---
 
 
-<br>
-
 # rocket-[not]-pinball
 A game that started as pinball, but really isn't, more fun
 

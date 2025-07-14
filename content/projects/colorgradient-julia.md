@@ -8,8 +8,6 @@ description: "A tool in Julia to make color gradients"
 ---
 
 
-<br>
-
 # colorgradient-julia
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)
 - Rust version [colorgradient-rs](https://github.com/JakeRoggenbuck/colorgradient-rs)

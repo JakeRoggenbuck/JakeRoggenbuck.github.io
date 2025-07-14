@@ -8,8 +8,6 @@ description: "A tui for dictionaryapi.com to search for Synonyms and Antonyms"
 ---
 
 
-<br>
-
 # Dictionary-tui
 A tui for dictionaryapi.com to search for Synonyms and Antonyms
 

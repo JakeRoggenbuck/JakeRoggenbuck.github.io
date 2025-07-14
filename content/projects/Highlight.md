@@ -8,6 +8,4 @@ description: "A simple social media website for sharing messages"
 ---
 
 
-<br>
-
 404: Not Found

@@ -8,8 +8,6 @@ description: "An example use of the library plrs"
 ---
 
 
-<br>
-
 # zipfs-law
 
 ```py

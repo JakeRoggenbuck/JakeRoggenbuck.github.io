@@ -8,7 +8,5 @@ description: "php is not that scary"
 ---
 
 
-<br>
-
 # Lan-Website
 A simple website for my local network to share files

@@ -8,8 +8,6 @@ description: "A hyper minimal loader bar only 1.62 KB source."
 ---
 
 
-<br>
-
 # hyper-minimal-loaders
 
 [![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/hyper-minimal-loaders/rust.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/hyper-minimal-loaders/actions)

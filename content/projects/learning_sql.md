@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # learning_sql
 
 ## Connecting

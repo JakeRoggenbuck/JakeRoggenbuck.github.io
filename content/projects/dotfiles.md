@@ -8,8 +8,6 @@ description: "A collection of my dotfiles that I use on my GNU/Linux machine"
 ---
 
 
-<br>
-
 # dotfiles
 - A collection of my dotfiles that I use on my GNU/Linux machine
   - Both Arch (current Laptop and Desktop) and Ubuntu (Old Desktop).

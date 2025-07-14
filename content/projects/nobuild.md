@@ -8,8 +8,6 @@ description: "Header only library for writing build recipes in C."
 ---
 
 
-<br>
-
 # nobuild
 
 Header only library for writing build recipes in C.

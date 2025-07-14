@@ -8,8 +8,6 @@ description: "A bot that sends my spotify playlists to bots to play them"
 ---
 
 
-<br>
-
 # Galrux
 
 A Discord bot designed for adding music to a queue. This was specifically requested for a server.

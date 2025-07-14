@@ -8,8 +8,6 @@ description: "Colorgradient learning project in Go"
 ---
 
 
-<br>
-
 # colorgradient-go
 Colorgradient learning project in Go
 

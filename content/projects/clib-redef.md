@@ -8,8 +8,6 @@ description: "A rewrite of the standard libraries in C for learning purposes."
 ---
 
 
-<br>
-
 # clib-redef
 A rewrite of the standard libraries in C for learning purposes.
 

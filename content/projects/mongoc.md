@@ -8,8 +8,6 @@ description: "A command line viewer for MongoDB. Quickly view documents, collect
 ---
 
 
-<br>
-
 [![Version](https://img.shields.io/pypi/v/mongoc)](https://pypi.org/project/mongoc)
 
 # mongoc

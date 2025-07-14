@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 #  Game Design Scoring Regression Model
 
 

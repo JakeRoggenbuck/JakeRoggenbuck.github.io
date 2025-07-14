@@ -8,8 +8,6 @@ description: "Exploration of pascals triangle"
 ---
 
 
-<br>
-
 # pascals-triangle
 Exploration of pascals triangle
 

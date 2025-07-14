@@ -8,8 +8,6 @@ description: "Save important discord notes with keep save"
 ---
 
 
-<br>
-
 # discord_keep_save
 
 ## Running

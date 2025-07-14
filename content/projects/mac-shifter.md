@@ -8,6 +8,4 @@ description: "Makes your linux computer look generic to the local network"
 ---
 
 
-<br>
-
 # mac-shifter

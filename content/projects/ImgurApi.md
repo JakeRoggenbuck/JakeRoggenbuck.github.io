@@ -8,8 +8,6 @@ description: "Simple Imgur library to interface with the Imgur web API "
 ---
 
 
-<br>
-
 # ImgurApi
 Simple Imgur library to interface with the Imgur web API 
 

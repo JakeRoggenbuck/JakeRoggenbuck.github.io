@@ -8,8 +8,6 @@ description: "Master repository for Software General members to fork and clone i
 ---
 
 
-<br>
-
 # 2021-software-general-homework
 
 1. Assignments that crash immediately when run cannot be made up.

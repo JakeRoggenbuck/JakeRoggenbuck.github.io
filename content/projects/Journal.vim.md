@@ -8,8 +8,6 @@ description: "This vim plugin lets you organize your daily journal"
 ---
 
 
-<br>
-
 # Journal.vim
 
 ## What it does

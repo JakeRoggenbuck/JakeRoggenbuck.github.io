@@ -8,8 +8,6 @@ description: "Implementation of newtons method of zero approximation and more ge
 ---
 
 
-<br>
-
 # newtons-method
 Implementation of newtons method of zero approximation and more generally equation solution approximation.
 

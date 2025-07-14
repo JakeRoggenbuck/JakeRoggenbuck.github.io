@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 # Jake's Auto Rice Bash Script
 
 ## Configs for

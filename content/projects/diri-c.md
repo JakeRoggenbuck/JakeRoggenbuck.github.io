@@ -8,8 +8,6 @@ description: "DIRectory Info tool written in C that lets you look at a summary o
 ---
 
 
-<br>
-
 # Diri-c
 **DIR**ectory **I**nfo tool written in C that lets you look at a summary of a directory and which projects are using a version control system and if they are connected to a remote control system.
 

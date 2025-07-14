@@ -8,8 +8,6 @@ description: "Data processing Python server that interfaces with collection and 
 ---
 
 
-<br>
-
 # 1678 Server 2019-2020
 
 Run `setup_environment.py` when you clone the repository.

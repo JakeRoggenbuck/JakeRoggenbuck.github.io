@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 <img src="frontend/images/NewLogo.png" width="250px"/>
 
 # Plant Here!

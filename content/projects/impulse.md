@@ -8,8 +8,6 @@ description: "A simple package manager."
 ---
 
 
-<br>
-
 # impulse
 
 # Install

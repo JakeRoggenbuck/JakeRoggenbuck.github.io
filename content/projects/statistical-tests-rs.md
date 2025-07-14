@@ -8,8 +8,6 @@ description: "Statistical Tests for Rust"
 ---
 
 
-<br>
-
 # statistical-tests-rs
 Statistical Tests for Rust
 

@@ -8,8 +8,6 @@ description: "Rocky Linux is a community enterprise Operating System designed to
 ---
 
 
-<br>
-
 <p align="center">
 <img src="https://media.githubusercontent.com/media/rocky-linux/branding/main/logo-text-light%402x.png" alt="Rocky Linux Logo">
 </p>

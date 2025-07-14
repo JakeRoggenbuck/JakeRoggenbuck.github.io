@@ -8,8 +8,6 @@ description: "Terminal color library for the y-flat language"
 ---
 
 
-<br>
-
 # termcolor-yf
 Terminal color library for the [y-flat](https://github.com/y-flat/) language
 

@@ -8,8 +8,6 @@ description: "Yfin is the Official package manager for the Y-flat programming la
 ---
 
 
-<br>
-
 # yfin 0.1.2 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/yfin/Rust?style=for-the-badge)
 
 Yfin is the Official package manager for the Y-flat programming language.

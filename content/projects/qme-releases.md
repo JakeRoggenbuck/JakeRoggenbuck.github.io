@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 ## QME Releases
 
 ### How to install QME unsing the QME Installer (Recommended)

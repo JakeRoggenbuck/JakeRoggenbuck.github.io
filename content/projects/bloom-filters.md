@@ -8,8 +8,6 @@ description: "Bloom filter written in C"
 ---
 
 
-<br>
-
 # bloom-filters
 Bloom filter written in C
 

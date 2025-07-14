@@ -8,8 +8,6 @@ description: "A collection of vim plug-ins that I use."
 ---
 
 
-<br>
-
 # Themes
 These are some great themes. I only use gruvbox right now but the rest of these themes are great.
 <br><br>

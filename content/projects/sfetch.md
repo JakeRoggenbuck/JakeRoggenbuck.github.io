@@ -8,8 +8,6 @@ description: "A simple fetch for testing PKGBUILD"
 ---
 
 
-<br>
-
 # sfetch
 A very simple fetch
 

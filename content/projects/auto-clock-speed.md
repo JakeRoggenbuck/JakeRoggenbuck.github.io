@@ -8,13 +8,12 @@ description: "A utility to check stats about your CPU, and auto regulate clock s
 ---
 
 
-<br>
-
 ![Auto Clock Speed Banner Logo](https://user-images.githubusercontent.com/35516367/169680198-99d02746-22f7-433d-a9a1-d8858edef512.png)
 [![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/auto-clock-speed/rust.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/auto-clock-speed/actions)
 [![Crates Version](https://img.shields.io/crates/v/autoclockspeed?style=for-the-badge)](https://crates.io/crates/autoclockspeed)
 [![Downloads](https://img.shields.io/crates/d/autoclockspeed?style=for-the-badge)](https://crates.io/crates/autoclockspeed)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jakeroggenbuck/auto-clock-speed?style=for-the-badge)
+![Commits since last release](https://img.shields.io/github/commits-since/jakeroggenbuck/auto-clock-speed/latest?style=for-the-badge)
 
 #### [ACS Upstream](https://github.com/jakeroggenbuck/auto-clock-speed) - [autoclockspeed.org](https://autoclockspeed.org) - [Our crates.io](https://crates.io/crates/autoclockspeed) - [ACS Github Org](https://github.com/autoclockspeed)
 
@@ -23,6 +22,15 @@ This program is designed for Linux and Intel laptops, although it should theoret
 If you encounter any issues or bugs, please refer to the [wiki](https://github.com/JakeRoggenbuck/auto-clock-speed/wiki) to see if there is a solution.
 
 ![acs](https://user-images.githubusercontent.com/35516367/199084229-aee15ac5-bd86-41e9-b7fc-22517e21e6f0.png)
+
+## Quickstart
+```
+cargo install autoclockspeed
+```
+
+Now you can run `acs monit`.
+
+View [#install-latest-release](https://github.com/JakeRoggenbuck/auto-clock-speed?tab=readme-ov-file#install-latest-release) for more info.
 
 ## Goals
 - First and foremost, this is a project to learn about Rust and Linux
@@ -57,7 +65,7 @@ If you have cargo on your machine, skip to step 3
    sudo cp ~/.cargo/bin/acs /usr/bin/acs
    ```
    
-   Note: If you recieve error `linker 'cc' not found`, then you need to install a C compiler (gcc, cmake, etc.) first.
+   Note: If you receive error `linker 'cc' not found`, then you need to install a C compiler (gcc, cmake, etc.) first.
    
 <hr>
 
@@ -81,17 +89,18 @@ Auto clock speed has been tested to work on the following devices. If you have a
 | ----------- | ------------- | ----- |
 | Dell XPS 13 9360 | Working | |
 | Dell Latitude 7480 | Working | |
-| Steam Deck | Working | Edit mode not neccessary (use built in governor switcher) |
+| Steam Deck | Working | Edit mode not necessary (use built in governor switcher) |
 | Thinkpad T400 | Working | |
 | Thinkpad T460 | Working | |
 | Thinkpad X230 | Working | |
 | Thinkpad X301 | Working | |
 | Thinkpad W540 | Working | |
+| ThinkPad X1 Carbon Gen 1 | Working | |
 | ThinkPad X1 Extreme Gen 1 | Working | |
 | Thinkpad P1 Gen 4 (Intel Core) | Working | |
 | Thinkpad P14 Gen 2 (AMD) | Mostly Working | See [#443](https://github.com/JakeRoggenbuck/auto-clock-speed/issues/443) |
 | OnePlus 9 Pro (Snapdragon 888 SoC) | Partially Working | Needs root access; compile from source through termux |
-| iPad Pro Gen 6 | Barely Working | Compiles with iSH, but cannot access any data |
+| iPad Pro Gen 6 | Borked | Compiles with iSH, but cannot access any data |
 
 
 ## In Action

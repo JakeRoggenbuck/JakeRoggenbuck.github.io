@@ -8,8 +8,6 @@ description: "A math console language with a bunch of useful functions and const
 ---
 
 
-<br>
-
 # Basis (math language)
 A math console language with a bunch of useful functions and constants
 

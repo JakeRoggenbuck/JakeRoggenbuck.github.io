@@ -8,8 +8,6 @@ description: "A simple epic landing page."
 ---
 
 
-<br>
-
 # Landing Page
 Clone the library to your computer
 

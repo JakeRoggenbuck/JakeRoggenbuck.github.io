@@ -8,6 +8,4 @@ description: "Drag and drop source/target for X"
 ---
 
 
-<br>
-
 404: Not Found

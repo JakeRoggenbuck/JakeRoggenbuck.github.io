@@ -8,7 +8,5 @@ description: "A lightweight general purpose window manager written in rust"
 ---
 
 
-<br>
-
 # Reduc
 A lightweight general purpose window manager written in rust

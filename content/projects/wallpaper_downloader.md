@@ -8,6 +8,4 @@ description: "None"
 ---
 
 
-<br>
-
 # wallpaper_downloader

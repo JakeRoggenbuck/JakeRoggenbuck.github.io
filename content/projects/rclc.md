@@ -8,8 +8,6 @@ description: "None"
 ---
 
 
-<br>
-
 <div align="center">
 
   # Rust Command Line Chat (RCLC) ![Rust](https://img.shields.io/github/workflow/status/jabacat/rclc/Rust?style=for-the-badge)

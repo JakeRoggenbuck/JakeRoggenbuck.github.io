@@ -8,8 +8,6 @@ description: "A simple web API to return critical charts for the game dnd 5e"
 ---
 
 
-<br>
-
 # fumble_api
 A simple web API to return critical charts for the game dnd 5e
 

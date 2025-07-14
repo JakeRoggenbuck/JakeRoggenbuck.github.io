@@ -8,8 +8,6 @@ description: "I url shortener using Rocket.rs & Diesel.rs; being used in product
 ---
 
 
-<br>
-
 # link ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/link/rust.yml?branch=main&style=for-the-badge)
 
 ## Description
