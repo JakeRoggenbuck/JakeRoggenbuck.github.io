@@ -1,7 +1,7 @@
 ---
 title: Preventing ReDoS Attacks with Regolith
 date: 2025-07-03T00:00:00
-tags: ["rust", "regex", "redos"]
+tags: ["rust", "regex", "redos", "javascript", "typescript"]
 type: post
 showTableOfContents: true
 ---
