@@ -1,3 +1,11 @@
+---
+title: Preventing ReDoS Attacks with Regolith
+date: 2025-07-03T00:00:00
+tags: ["rust", "regex", "redos"]
+type: post
+showTableOfContents: true
+---
+
 [![Start using Regolith](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ub3g0kp2ot9rowhezrno.png)](https://github.com/JakeRoggenbuck/regolith)
 
 ### Description
