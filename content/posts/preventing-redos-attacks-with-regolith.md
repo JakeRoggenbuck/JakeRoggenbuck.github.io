@@ -6,7 +6,7 @@ type: post
 showTableOfContents: true
 ---
 
-[![Start using Regolith](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ub3g0kp2ot9rowhezrno.png)](https://github.com/JakeRoggenbuck/regolith)
+{{< github repo="jakeroggenbuck/regolith" showThumbnail=true >}}
 
 ### Description
 

@@ -1,6 +1,6 @@
 {{ $id := delimit (slice "github" .Ordinal now.UnixNano) "-" }}
 {{- $githubURL := print "https://api.github.com/repos/" (.Get "repo") -}}
-{{ $opts := dict "Authorization" "Bearer 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" }}
+{{ $opts := "" }}
 {{- $githubData := getJSON ($githubURL) $opts -}}
 {{- $githubColors := .Site.Data.githubColors -}}
 {{- with $githubData -}}
@@ -51,9 +51,6 @@
   </div>
   <script>
     fetch({{ $githubURL }}, {
-      headers: new Headers({
-		'Authorization': "token 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"
-      })
     })
       .then(response => response.json())
       .then(data => {
