@@ -16,8 +16,8 @@ title = "Jake Roggenbuck"
 [author]
   name = "Jake Roggenbuck"
   image = "jake-profile-2.jpg"
-  headline = "Software Developer & Student"
-  bio = "I am currently studying Computer Science"
+  headline = "SWE Intern @ Capital One & CS @ UC Davis"
+  bio = "Working at Capital One as a SWE Intern as well as Programming Language Research during the school year."
   links = [
     { email = "mailto:me@jr0.org" },
 #     { link = "https://link-to-some-website.com/" },
