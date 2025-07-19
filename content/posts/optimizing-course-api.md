@@ -7,7 +7,7 @@ type: post
 showTableOfContents: true
 ---
 
-This is a overview of optimizations done to a course search app. I noticed that as our traffic increased and we added more computationally expensive features like vector search, our API got slower. After noticing this, I started running optimization tests and found places for improvements. Here are a few of those improvements.
+This is an overview of optimizations done to a course search app. I noticed that as our traffic increased and we added more computationally expensive features like vector search, our API got slower. After noticing this, I started running optimization tests and found places for improvements. Here are a few of those improvements.
 
 ![speed optimization graph](../../images/newest_speed_test_all_courses.png)
 
@@ -15,11 +15,11 @@ The initial time of the API to send the 2.2MB of data was `5.209` seconds.
 
 ### Optimization 1.
 
-This first optimization was to write it in Rust (opposed to Python), and the first thing I thought of was to actually load then entire JSON entire a global string to save load time later. We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)]. In future, I would like to separate all of these changes to test them individually like use the `Json` type as a return and see how much different it is than `RawJson`.
+This first optimization was to write it in Rust (as opposed to Python), and the first thing I thought of was to actually load the entire JSON into a global string to save load time later. We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)]. In the future, I would like to separate all of these changes to test them individually, like use the `Json` type as a return and see how different it is than `RawJson`.
 
-This version is also running on a Linode VPS in US West opposed to running on Render.
+This version is also running on a Linode VPS in US West as opposed to running on Render.
 
-At a high level, we are loading the file into memory as a string on startup and saving it globally. When the route is hit, we send by the data *as is* in a `RawJson` struct that doesn't do serialization. This is faster than doing serialization with the `Json` struct. Further benchmarks can be done to show how much faster that is.
+At a high level, we are loading the file into memory as a string on startup and saving it globally. When the route is hit, we send the data *as is* in a `RawJson` struct that doesn't do serialization. This is faster than doing serialization with the `Json` struct. Further benchmarks can be done to show how much faster that is.
 
 ```rs
 static GLOBAL_STRING: OnceCell<String> = OnceCell::new();
@@ -47,9 +47,9 @@ It took `0.951` seconds to run. This results in a 5.48x speed up from the Python
 
 ### Optimization 2.
 
-The next optimization is to use gzip to compress the file before it gets sent. Because it's sending less data, we can expect some amount of time improvement. Furthermore, we can compress the data at startup and save it as a file and just load from a file and return it. I also optimized for the compression ratio compared to speed of compression. I previously found that using `gzip -6` was optimal and thus picked it for this experiment. More experimentation can be done for this specific use case, but I think it's rather optimal and any change won't have significant difference, but that's just speculation and needs to be tested.
+The next optimization is to use gzip to compress the file before it gets sent. Because it's sending less data, we can expect some amount of time improvement. Furthermore, we can compress the data at startup and save it as a file and just load from a file and return it. I also optimized for the compression ratio compared to speed of compression. I previously found that using `gzip -6` was optimal and thus picked it for this experiment. More experimentation can be done for this specific use case, but I think it's rather optimal and any change won't have a significant difference, but that's just speculation and needs to be tested.
 
-At a high level, when the route gets hit, we are loading the gzipped version of our data into memory as a `Vec<u8>`, which is how you can represent bytes in Rust. We then use our Responder to return the bytes as well as setting the Header `Content-Encoding` to `gzip` so the service that fetches this data knows that it needs to be decompressed before it can be used. It's important to test the time it takes to decompress the data as well as the time it takes to send the data, as both impact real world performance.
+At a high level, when the route gets hit, we are loading the gzipped version of our data into memory as a `Vec<u8>`, which is how you can represent bytes in Rust. We then use our Responder to return the bytes as well as setting the Header `Content-Encoding` to `gzip` so the service that fetches this data knows that it needs to be decompressed before it can be used. It's important to test the time it takes to decompress the data as well as the time it takes to send the data, as both impact real-world performance.
 
 ```rs
 struct GzippedJson(Vec<u8>);
