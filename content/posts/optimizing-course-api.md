@@ -11,6 +11,8 @@ This is a overview of optimizations done to a course search app. We noticed that
 
 ![speed optimization graph](../../images/newest_speed_test_all_courses.png)
 
+The initial time of the API to send the 2.2MB of data was `5.209` seconds.
+
 ### Optimization 1.
 
 This first optimization was to write it in Rust (opposed to Python), and the first thing I thought of was to actually load then entire JSON entire a global string to save load time later. We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)]. In future, I would like to separate all of these changes to test them individually like use the `Json` type as a return and see how much different it is than `RawJson`.
@@ -41,7 +43,7 @@ async fn startup() {
 
 There are also a few free optimizations with Rust like building with `--release` that give a big speed improvement. I benchmarked this speed improvement in [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL?tab=readme-ov-file#using-maturin-in-release-mode).
 
-This results in a 5.48x speed up from the Python version.
+It took `0.951` seconds to run. This results in a 5.48x speed up from the Python version.
 
 ### Optimization 2.
 
@@ -78,7 +80,7 @@ async fn get_all_courses_gzip_six() -> Result<GzippedJson, Status> {
 }
 ```
 
-This resulted in a 7.79x speedup from the original, but we can do better!
+It took `0.669` seconds to run. This resulted in a 7.79x speedup from the original, but we can do better!
 
 ### Optimization 3.
 
@@ -114,7 +116,7 @@ async fn startup() {
 }
 ```
 
-This results in an 8x speed improvement overall.
+It took `0.651` to run. This results in an 8x speed improvement overall.
 
 ### Attempt 1.
 
@@ -147,4 +149,19 @@ opt-level = 3
 
 ### Conclusion
 
-By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x.
+By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`.
+
+### Appendix
+
+Raw runtime using `time curl` and sending to `/dev/null`:
+
+```python
+times = {
+    "Render Python (All Courses)": 5.209,
+    "Linode Rust (All Courses)": 0.951,
+    "Linode Rust (All Courses) GZIP-6": 0.669,
+    "Linode Rust (All Courses) GZIP-6 Preload": 0.651,
+}
+```
+
+The first time is the "before" and each subsequent time is each optimization applied.
