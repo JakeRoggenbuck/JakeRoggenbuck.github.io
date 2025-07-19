@@ -7,7 +7,7 @@ type: post
 showTableOfContents: true
 ---
 
-This is a overview of optimizations done to a course search app. We noticed that as our traffic increased and we added more computationally expensive features like vector search, our API got slower. After noticing this, we started running optimization tests and found places for improvements. Here are a few of those improvements.
+This is a overview of optimizations done to a course search app. I noticed that as our traffic increased and we added more computationally expensive features like vector search, our API got slower. After noticing this, I started running optimization tests and found places for improvements. Here are a few of those improvements.
 
 ![speed optimization graph](../../images/newest_speed_test_all_courses.png)
 
