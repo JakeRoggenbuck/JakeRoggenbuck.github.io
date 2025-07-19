@@ -1,5 +1,5 @@
 ---
-title: Optimizing Course Search by 8x
+title: Optimizing Course Search by 8x - DRAFT
 description: An overview of optimizations I did to a course search app that resulted in 8x speed improvements.
 date: 2025-07-19T00:00:00
 tags: ["optimization", "rust", "api"]
