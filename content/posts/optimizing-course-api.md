@@ -1,4 +1,11 @@
-# Optimizing Course Search
+---
+title: Optimizing Course Search
+description: An overview of optimizations I did to a course search app that resulted in 8x speed improvements.
+date: 2025-07-19T00:00:00
+tags: ["optimization", "rust", "api"]
+type: post
+showTableOfContents: true
+---
 
 This is a overview of optimizations done to a course search app. We noticed that as our traffic increased and we added more computationally expensive features like vector search, our API got slower. After noticing this, we started running optimization tests and found places for improvements. Here are a few of those improvements.
 
