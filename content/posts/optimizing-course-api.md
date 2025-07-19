@@ -15,7 +15,7 @@ The initial time of the API to send the 2.2MB of data was `5.209` seconds.
 
 ### Optimization 1.
 
-This first optimization was to write it in Rust (as opposed to Python), and the first thing I thought of was to actually load the entire JSON into a global string to save load time later. We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)]. In the future, I would like to separate all of these changes to test them individually, like use the `Json` type as a return and see how different it is than `RawJson`.
+This first optimization was to write it in Rust (as opposed to Python), and the first thing I thought of was to actually load the entire JSON into a global string to save load time. We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)]. In the future, I would like to separate all of these changes to test them individually, like use the `Json` type as a return and see how different it is than `RawJson`.
 
 This version is also running on a Linode VPS in US West as opposed to running on Render.
 
@@ -43,7 +43,7 @@ async fn startup() {
 
 There are also a few free optimizations with Rust like building with `--release` that give a big speed improvement. I benchmarked this speed improvement in [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL?tab=readme-ov-file#using-maturin-in-release-mode).
 
-It took `0.951` seconds to run. This results in a 5.48x speed up from the Python version.
+With all of those changes combined, it took `0.951` seconds to run. This results in a 5.48x speed up from the Python version.
 
 ### Optimization 2.
 
@@ -149,7 +149,7 @@ opt-level = 3
 
 ### Conclusion
 
-By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`.
+By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`. Changing to a compiled language like Rust, sending gzipped data, and preloading everything caused these improvements. In context, `5.2` seconds to load a page is significantly too long to wait for any user, and reducing that to `0.65` seconds will significantly improve the experience for our users.
 
 ### Appendix
 
