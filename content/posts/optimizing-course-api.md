@@ -27,7 +27,7 @@ Outline:
 -->
 
 {{< alert >}}
-**Early Access:** This is a post is a work in progress! If you have feedback, please send me feedback at [me@jr0.org](mailto:me@jr0.org)
+**Early Access:** This post is a work in progress! If you have feedback, please send me feedback at [me@jr0.org](mailto:me@jr0.org)
 {{< /alert >}}
 
 {{< lead >}}
@@ -162,9 +162,9 @@ const meanValues = [6.369174861059873, 1.4560875743400903, 0.7445368937799867];
 
 In late October of 2024, my team and I started building a course recommendation system that shows grade distributions for UC Davis. Our initial rough version was launched 4 days later on November 2nd. A school year after that, it's been used by 8,200 students, has over 257,000 page views, and our backend has handled over 850,000 requests.
 
-Our first versions of the product (weeks 1-2) were objectively slow, taking upwards of 10 seconds to send and load 4MB of data on the frontend. As soon as we built it, we decided to optimize it because our initial users said they liked the content but it too long to load on their phone, especially when they were in the library. Those optimizations involved pagination, prefecthing data before it was needed, and upgrading our hosting above the free tier of Render. Having the higher tier meant we also didn't have a cold start problem if the product wasn't used every hour. That being said, we still had only 0.5 CPUs and a 512MB of memory.
+Our first versions of the product (weeks 1-2) were objectively slow, taking upwards of 10 seconds to send and load 4MB of data on the frontend. As soon as we built it, we decided to optimize it because our initial users said they liked the content but it took too long to load on their phone, especially when they were in the library. Those optimizations involved pagination, prefetching data before it was needed, and upgrading our hosting above the free tier of Render. Having the higher tier meant we also didn't have a cold start problem if the product wasn't used every hour. That being said, we still had only 0.5 CPUs and a 512MB of memory.
 
-Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backed written in Python and running on a server that was not powerful enough. Often the backend would run out of memory and would force a restart. These initial patch optimizations were enough to keep our users happy, who said they didn't notice the issue and liked how it had all of the grade data they wanted.
+Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backend written in Python and running on a server that was not powerful enough. Often the backend would run out of memory and would force a restart. These initial patch optimizations were enough to keep our users happy, who said they didn't notice the issue and liked how it had all of the grade data they wanted.
 
 That was until recently. Our traffic has increased substantially and we added a vector search. The addition of the search has meant that both our memory and CPU are not enough to handle the traffic. This leads us to the most recent optimizations to reduce the amount of memory needed, as well as increase the speed of the endpoints.
 
@@ -174,7 +174,7 @@ We initially wrote our backend in Python and FastAPI to quickly validate our pro
 
 ### Optimization 1. Moving to Rust
 
-The route that severed data for all courses on the old backend was called `all_courses`. The initial time of the route to send the 4MB of data was `6.369` seconds. This was calculated as an average of 50 total runs (see [methods section](#methods)).
+The route that served data for all courses on the old backend was called `all_courses`. The initial time of the route to send the 4MB of data was `6.369` seconds. This was calculated as an average of 50 total runs (see [methods section](#methods)).
 
 <!-- TODO: Host Rust backend on Render and get time it takes to run -->
 
@@ -414,7 +414,7 @@ The resulting speed was `1.425` with a `4.469x` speed increase.
 
 Now with loading our file on startup, we can think about how we send the data back to the caller.
 
-### Optimization 3. Usign RawJson
+### Optimization 3. Using RawJson
 
 We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)].
 
@@ -572,7 +572,7 @@ print(t_stat, p_value)
 
 Since out p-value, is `0.351`, and greater than `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using RawJSON instead of the normal JSON.
 
-We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of much data we are sending, because right now, it's still 4MBs of data.
+We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of how much data we are sending, because right now, it's still 4MBs of data.
 
 ### Optimization 4. Gzip Data
 
@@ -1068,7 +1068,7 @@ async fn get_all_courses_gzip_six_preload_own() -> Result<GzippedJson, Status> {
 }
 ```
 
-This route swaps `contents.clone()` with `contents.to_owned()`, which should cause it speed up because it does not have to copy memory, but copying memory is so quick, it's lost in the noise of the speed tests and is not significant here.
+This route swaps `contents.clone()` with `contents.to_owned()`, which should cause it to speed up because it does not have to copy memory, but copying memory is so quick, it's lost in the noise of the speed tests and is not significant here.
 
 Not all hypothetical optimizations show scientific results.
 
@@ -1217,11 +1217,11 @@ I ran a Python get request with the requests library for each of the routes 50 t
 
 <!-- TODO: Add data after significant test is run
 
-By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`. Changing to a compiled language like Rust, sending gzipped data, and preloading everything caused these improvements. In context, `5.2` seconds to load a page is significantly too long to wait for any user, and reducing that to `0.65` seconds will significantly improve the experience for our users. -->
+By changing how you solve a problem, you get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`. Changing to a compiled language like Rust, sending gzipped data, and preloading everything caused these improvements. In context, `5.2` seconds to load a page is significantly too long to wait for any user, and reducing that to `0.65` seconds will significantly improve the experience for our users. -->
 
-By changing how you solve a problem, you get get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `6.369` seconds to `0.743` seconds. `6.369 / 0.743 = 8.572`.
+By changing how you solve a problem, you get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `6.369` seconds to `0.743` seconds. `6.369 / 0.743 = 8.572`.
 
-Gzipping the data was the most effective optimization, while using RawJson wasn't affective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques likes prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[2](#notes)\].
+Gzipping the data was the most effective optimization, while using RawJson wasn't effective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques like prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[2](#notes)\].
 
 The top 5 routes are listed here:
 
@@ -1241,7 +1241,7 @@ The top 5 routes are listed here:
 
 2. Exploring methods of loading like prefetching and pagination was out of scope for this analysis, but I would like to write about other experiments I have conducted involving those topics.
 
-3. I experimented with [Zopfli](https://github.com/google/zopfli) at the tail end of this experiment. It ended up getting second place! The content about Zopfli was very expansive and could be it's own writeup. For now I'll leave it as a mention, but I plan to make an entire post about the different compression methods.
+3. I experimented with [Zopfli](https://github.com/google/zopfli) at the tail end of this experiment. It ended up getting second place! The content about Zopfli was very expansive and could be its own writeup. For now I'll leave it as a mention, but I plan to make an entire post about the different compression methods.
 
 ## Appendix
 
