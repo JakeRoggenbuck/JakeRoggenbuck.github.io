@@ -34,24 +34,22 @@ Outline:
 How I rewrote a Python API with over 100,000 weekly endpoint requests (during peak usage) resulting in over an 8x speed improvement.
 {{< /lead >}}
 
-Here is a snapshot into what the results are. Left being the old version, middle is an intermediate step, and the right side is on of the fastest versions.
+Here is a snapshot into the end results. The left bar shows execution time of the old backend. The right bar shows one of the fastest result of the optimizations presented here.
 
 {{< chart >}}
 type: 'bar',
 data: {
-labels: ['Render', 'File Load', 'GZIP own 9'],
+labels: ['Render', 'GZIP own 9'],
 datasets: [{
 label: 'Mean Execution Time (seconds)',
-data: [6.369174861059873, 1.4560875743400903, 0.7445368937799867],
+data: [6.369174861059873, 0.7445368937799867],
 backgroundColor: [
 'rgba(255, 99, 132, 0.8)',
 'rgba(54, 162, 235, 0.8)',
-'rgba(75, 192, 192, 0.8)'
 ],
 borderColor: [
 'rgba(255, 99, 132, 1)',
 'rgba(54, 162, 235, 1)',
-'rgba(75, 192, 192, 1)'
 ],
 borderWidth: 2
 }]
@@ -87,7 +85,7 @@ borderColor: '#666666',
 borderWidth: 1,
 callbacks: {
 afterLabel: function(context) {
-const errorBars = [0.2591171410731346, 0.6346429647144839, 0.11279561023598754];
+const errorBars = [0.2591171410731346, 0.11279561023598754];
 const stdDev = errorBars[context.dataIndex];
 return `Std Dev: ±${stdDev.toFixed(3)} seconds`;
 }
@@ -134,8 +132,8 @@ plugins: [{
 afterDatasetsDraw: function(chart) {
 const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
-const errorBars = [0.2591171410731346, 0.6346429647144839, 0.11279561023598754];
-const meanValues = [6.369174861059873, 1.4560875743400903, 0.7445368937799867];
+const errorBars = [0.2591171410731346, 0.11279561023598754];
+const meanValues = [6.369174861059873, 0.7445368937799867];
     meta.data.forEach((bar, index) => {
       const stdDev = errorBars[index];
       const mean = meanValues[index];
@@ -169,11 +167,11 @@ const meanValues = [6.369174861059873, 1.4560875743400903, 0.7445368937799867];
 
 ## Background & Problem
 
-In late October of 2024, my team and I started building a course recommendation system that shows grade distributions for UC Davis. Our initial rough version was launched 4 days later on November 2nd. A school year after that, it's been used by 8,200 students, has over 257,000 page views, and our backend has handled over 850,000 requests.
+In late October of 2024, my team and I started building a course recommendation system that shows grade distributions for UC Davis. Our initial rough version was launched 4 days later on November 2nd. A school year after that, it's been used by 8,500 students, has over 267,000 page views, and our backend has handled over 850,000 requests as of writing.
 
-Our first versions of the product (weeks 1-2) were objectively slow, taking upwards of 10 seconds to send and load 4MB of data on the frontend. As soon as we built it, we decided to optimize it because our initial users said they liked the content but it took too long to load on their phone, especially when they were in the library. Those optimizations involved pagination, prefetching data before it was needed, and upgrading our hosting above the free tier of Render. Having the higher tier meant we also didn't have a cold start problem if the product wasn't used every hour. That being said, we still had only 0.5 CPUs and a 512MB of memory.
+Our first versions of the product (weeks 1-2) were objectively slow, taking upwards of 10 seconds to send 4MB of data to the frontend. As soon as we built it, we decided to optimize it because our initial users said they liked the content but it took too long to load on their phones. Those optimizations involved pagination, prefetching data, and upgrading our hosting above the free tier of Render. Having the higher tier also meant our backend would have zero downtime. That being said, we still had only 0.5 CPUs and a 512MB of memory.
 
-Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backend written in Python and running on a server that was not powerful enough. The backend was memory constrained, thus often forcing a restart. The initial optimizations to the Python backend (not listed here) were enough to keep our users happy, who said they didn't notice the issue and liked how it had all of the grade data they wanted.
+Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backend written in Python and running on a server that was not powerful enough. The backend was memory constrained, thus often forcing a restart. The initial optimizations to the Python backend (not listed here) were enough to keep our users happy, who said they didn't notice the issues and liked how it had all of the grade data they wanted.
 
 That was until recently. Our traffic has increased substantially and we added a vector search. The addition of the search has meant that both our memory and CPU are not enough to handle the traffic. This leads us to the most recent optimizations to reduce the amount of memory needed, as well as increase the speed of the endpoints.
 
@@ -436,7 +434,7 @@ Now with loading our file on startup, we can think about how we send the data ba
 
 ### Optimization 3: Using RawJson
 
-We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)].
+For this optimization, we just return the JSON as `RawJson` instead of the `Json` struct, so no serialization has to be done [[2](#notes)].
 
 ```rust
 #[get("/courses")]
@@ -449,7 +447,7 @@ async fn get_all_courses() -> RawJson<String> {
 }
 ```
 
-Now the route runs in `1.550` seconds. An `4.109x` improvement from the original but not an improvement from the previous route.
+Now the route runs in `1.550` seconds. A `4.109x` improvement from the original but not an improvement from the previous route.
 
 {{< chart >}}
 type: 'bar',
@@ -599,7 +597,7 @@ print(t_stat, p_value)
 -0.9368941557046255 0.35120718054235234
 ```
 
-Since our p-value is `0.351` and greater than `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using RawJSON instead of the normal JSON.
+Since our p-value is `0.351` and greater than an alpha value of `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using `RawJson` instead of the normal `Json`.
 
 We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of how much data we are sending. Right now, it's still 4MBs of data.
 
@@ -1299,7 +1297,7 @@ By changing how you solve a problem, you get significant speed improvements. We 
 
 We improved the speed of fetching all courses by 8x. Going from `6.369` seconds to `0.743` seconds. `6.369 / 0.743 = 8.572`.
 
-Gzipping the data was the most effective optimization, while using RawJson wasn't effective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques like prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[2](#notes)\].
+Gzipping the data was the most effective optimization, while using RawJson wasn't effective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques like prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[3](#notes)\].
 
 The top 5 routes are listed here:
 
@@ -1308,18 +1306,24 @@ The top 5 routes are listed here:
 | Rank | Endpoint                     | Mean Time (seconds) | Speedup vs Original |
 |------|------------------------------|---------------------|--------------------|
 | 1    | Gzip Inline Clone 8          | 0.743               | 8.57x              |
-| 2    | Zopfli Clone \[[3](#notes)\] | 0.744               | 8.56x              |
+| 2    | Zopfli Clone \[[4](#notes)\] | 0.744               | 8.56x              |
 | 3    | Gzip Own 9                   | 0.745               | 8.55x              |
 | 4    | Gzip Inline Clone 6          | 0.745               | 8.55x              |
 | 5    | Gzip Own 4                   | 0.751               | 8.48x              |
+
+## Acknowledgments
+
+Thanks to Miles Kerr, Adam Hutchings, and Jamie Z Fox for proofreading drafts of this post.
 
 ## Notes
 
 1. I didn't test the difference here, but you can refer to [experiments](https://github.com/JakeRoggenbuck/RedoxQL?tab=readme-ov-file#using-maturin-in-release-mode) done for [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) to learn more about how release mode affects execution time.
 
-2. Exploring methods of loading like prefetching and pagination was out of scope for this analysis, but I would like to write about other experiments I have conducted involving those topics.
+2. The `RawJson` struct does not serialize the JSON but the `Json` struct does. "Unlike types like Json and MsgPack, this type does not serialize data in any way." - [Rocket Docs](https://api.rocket.rs/master/rocket/response/content/struct.RawJson).
 
-3. I experimented with [Zopfli](https://github.com/google/zopfli) at the tail end of this experiment. It ended up getting second place! The content about Zopfli was very expansive and could be its own writeup. For now I'll leave it as a mention, but I plan to make an entire post about the different compression methods.
+3. Exploring methods of loading like prefetching and pagination was out of scope for this analysis, but I would like to write about other experiments I have conducted involving those topics.
+
+4. I experimented with [Zopfli](https://github.com/google/zopfli) at the tail end of this experiment. It ended up getting second place! The content about Zopfli was very expansive and could be its own writeup. For now I'll leave it as a mention, but I plan to make an entire post about the different compression methods.
 
 ## Appendix
 
