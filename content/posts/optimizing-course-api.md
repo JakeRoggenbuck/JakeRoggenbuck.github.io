@@ -1220,6 +1220,21 @@ If compilation speed is not a concern, I'd recommend using these compiler flags 
 
 I ran a Python get request with the requests library for each of the routes 50 times to get a bunch of [raw data](../../cdn/api-benchmark-results.json).
 
+Here is exactly how those requests were made:
+
+```python
+def make_request(url: str) -> float:
+    start_time = time.perf_counter()
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        end_time = time.perf_counter()
+        return end_time - start_time
+    except Exception as e:
+        print(f"Error making request to {url}: {e}")
+        return float("inf")
+```
+
 ## Conclusion
 
 <!-- TODO: Add data after significant test is run
@@ -1232,9 +1247,9 @@ Gzipping the data was the most effective optimization, while using RawJson wasn'
 
 The top 5 routes are listed here:
 
-# Performance Rankings with Speedup Data
+# Final Performance Rankings
 
-| Rank | Endpoint                     | Mean Time (seconds) | Speedup vs Slowest |
+| Rank | Endpoint                     | Mean Time (seconds) | Speedup vs Original |
 |------|------------------------------|---------------------|--------------------|
 | 1    | Gzip Inline Clone 8          | 0.743               | 8.57x              |
 | 2    | Zopfli Clone \[[3](#notes)\] | 0.744               | 8.56x              |
