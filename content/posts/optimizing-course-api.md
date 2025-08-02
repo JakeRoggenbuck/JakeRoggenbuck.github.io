@@ -1301,9 +1301,9 @@ We improved the speed of fetching all courses by 8x. Going from `6.369` seconds 
 
 Gzipping the data was the most effective optimization, while using RawJson wasn't effective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques like prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[3](#notes)\].
 
-The top 5 routes are listed here:
+If you have any questions or feedback, please send me an email at [me@jr0.org](mailto:me@jr0.org).
 
-# Final Performance Rankings
+## Final Performance Rankings
 
 | Rank | Endpoint                     | Mean Time (seconds) | Speedup vs Original |
 |------|------------------------------|---------------------|--------------------|
