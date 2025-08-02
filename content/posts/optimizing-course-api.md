@@ -67,7 +67,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -267,7 +268,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -460,7 +462,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -663,7 +666,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -785,7 +789,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -957,7 +962,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
@@ -1105,7 +1111,8 @@ color: '#e0e0e0'
 legend: {
 onClick: null,
 labels: {
-color: '#e0e0e0'
+color: '#e0e0e0',
+boxWidth: 0,
 }
 },
 tooltip: {
