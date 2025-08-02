@@ -26,9 +26,11 @@ Outline:
 
 -->
 
+<!--
 {{< alert >}}
 **Early Access:** This post is a work in progress! If you have feedback, please send me feedback at [me@jr0.org](mailto:me@jr0.org)
 {{< /alert >}}
+-->
 
 {{< lead >}}
 How I rewrote a Python API with over 100,000 weekly endpoint requests (during peak usage) resulting in over an 8x speed improvement.
