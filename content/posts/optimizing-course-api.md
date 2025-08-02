@@ -245,7 +245,7 @@ async fn main() -> Result<(), rocket::Error> {
 
 Note: All Rust code was run in release mode with `--release` \[[1](#notes)\].
 
-After hosting on the Linode VPS, the route served the same data in `1.456` seconds. That's an `4.374x` increase in speed.
+After hosting on the Linode VPS, the route served the same data in `1.456` seconds. That's a `4.374x` increase in speed.
 
 {{< chart >}}
 type: 'bar',
@@ -599,7 +599,7 @@ print(t_stat, p_value)
 
 Since out p-value, is `0.351`, and greater than `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using RawJSON instead of the normal JSON.
 
-We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of how much data we are sending, because right now, it's still 4MBs of data.
+We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of how much data we are sending. Right now, it's still 4MBs of data.
 
 ### Optimization 4. Gzip Data
 
@@ -1102,7 +1102,7 @@ const meanValues = [0.8160195315601232, 0.8156704822000029, 0.7998635946800278, 
 }]
 {{< /chart >}}
 
-You can also see here that there isn't a significant difference in the execution time by Gzip level.
+You can see here that there still isn't a significant difference in the execution time by Gzip level.
 
 ## Bonus Optimization Attempts
 
@@ -1123,8 +1123,6 @@ async fn get_all_courses_gzip_six_preload_own() -> Result<GzippedJson, Status> {
 ```
 
 This route swaps `contents.clone()` with `contents.to_owned()`, which should cause it to speed up because it does not have to copy memory, but copying memory is so quick, it's lost in the noise of the speed tests and is not significant here.
-
-Not all hypothetical optimizations show scientific results.
 
 Here is a comparison of the best from optimization 3, optimization 4, and this attempt. The values are not significantly different.
 
@@ -1297,7 +1295,7 @@ def make_request(url: str) -> float:
 
 By changing how you solve a problem, you get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `5.209` seconds to `0.651` seconds. `5.209 / 0.651 = 8.002`. Changing to a compiled language like Rust, sending gzipped data, and preloading everything caused these improvements. In context, `5.2` seconds to load a page is significantly too long to wait for any user, and reducing that to `0.65` seconds will significantly improve the experience for our users. -->
 
-By changing how you solve a problem, you get significant speed improvements. We improved the speed of fetching all courses by 8x. Going from `6.369` seconds to `0.743` seconds. `6.369 / 0.743 = 8.572`.
+We improved the speed of fetching all courses by 8x. Going from `6.369` seconds to `0.743` seconds. `6.369 / 0.743 = 8.572`.
 
 Gzipping the data was the most effective optimization, while using RawJson wasn't effective. My recommendation is to Gzip large data to get pretty impactful results. Going from over 6 seconds to less than 1 second is pretty impactful from a users perspective. Combine this with loading techniques like prefetching, and you have a categorically different user experience. One where a user is stuck watching a loading bar, and another where the page loads before you notice it started loading \[[2](#notes)\].
 
