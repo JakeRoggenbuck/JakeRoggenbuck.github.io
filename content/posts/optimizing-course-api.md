@@ -173,15 +173,17 @@ In late October of 2024, my team and I started building a course recommendation 
 
 Our first versions of the product (weeks 1-2) were objectively slow, taking upwards of 10 seconds to send and load 4MB of data on the frontend. As soon as we built it, we decided to optimize it because our initial users said they liked the content but it took too long to load on their phone, especially when they were in the library. Those optimizations involved pagination, prefetching data before it was needed, and upgrading our hosting above the free tier of Render. Having the higher tier meant we also didn't have a cold start problem if the product wasn't used every hour. That being said, we still had only 0.5 CPUs and a 512MB of memory.
 
-Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backend written in Python and running on a server that was not powerful enough. Often the backend would run out of memory and would force a restart. These initial patch optimizations were enough to keep our users happy, who said they didn't notice the issue and liked how it had all of the grade data they wanted.
+Many optimizations were done that patched the problem, but none addressed the underlying issue, which was an unoptimized backend written in Python and running on a server that was not powerful enough. The backend was memory constrained, thus often forcing a restart. The initial optimizations to the Python backend (not listed here) were enough to keep our users happy, who said they didn't notice the issue and liked how it had all of the grade data they wanted.
 
 That was until recently. Our traffic has increased substantially and we added a vector search. The addition of the search has meant that both our memory and CPU are not enough to handle the traffic. This leads us to the most recent optimizations to reduce the amount of memory needed, as well as increase the speed of the endpoints.
 
-We initially wrote our backend in Python and FastAPI to quickly validate our product with our target market. We actually didn't realize that students wanted grade data to begin with. We only discovered this after speaking with our users who were already enjoying the early version of our class search. Repositioning our product to focus on grade data was a huge success and we have gained significant traction since then. Both the traction and the addition of computationally complex features like vector search, meant that we have outgrown our original solution.
+We initially wrote our backend in Python and FastAPI to quickly validate our product with our target market. We actually didn't realize that students wanted grade data to begin with. We only discovered this after speaking with our users who were already enjoying the early version of our class search.
+
+Repositioning our product to focus on grade data was a huge success and we have gained significant traction since then. Both the traction and the addition of computationally complex features like vector search, meant that we have outgrown our original solution.
 
 ## The Optimizations
 
-### Optimization 1. Moving to Rust
+### Optimization 1: Moving to Rust
 
 The route that served data for all courses on the old backend was called `all_courses`. The initial time of the route to send the 4MB of data was `6.369` seconds. This was calculated as an average of 50 total runs (see [methods section](#methods)).
 
@@ -378,7 +380,7 @@ const meanValues = [6.369174861059873, 1.4560875743400903];
 
 Rust is obviously very fast, but actual execution speed of the code isn't the only limiting factor. We also need to be mindful of how and when we load this data from disk into memory.
 
-### Optimization 2. Loading JSON to memory at startup
+### Optimization 2: Loading JSON to memory at startup
 
 This startup function loads the JSON data into a global string once at the start of the execution of the server.
 
@@ -426,13 +428,13 @@ async fn main() -> Result<(), rocket::Error> {
 }
 ```
 
-Loading the JSON to memory once at the start of the server, saves us from doing it each time the route is called.
+Loading the JSON to memory at start saves us from doing it each time the route is called.
 
 The resulting speed was `1.425` with a `4.469x` speed increase.
 
 Now with loading our file on startup, we can think about how we send the data back to the caller.
 
-### Optimization 3. Using RawJson
+### Optimization 3: Using RawJson
 
 We just return the JSON as `RawJson`, so no serialization has to be done [[1](https://api.rocket.rs/master/rocket/response/content/struct.RawJson)].
 
@@ -597,11 +599,11 @@ print(t_stat, p_value)
 -0.9368941557046255 0.35120718054235234
 ```
 
-Since out p-value, is `0.351`, and greater than `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using RawJSON instead of the normal JSON.
+Since our p-value is `0.351` and greater than `0.05`, we can tell that these two execution times are not significantly different. It didn't significantly speed up or slow down execution time by using RawJSON instead of the normal JSON.
 
 We've figured out how to optimize by loading data into memory at startup, but we still need to be mindful of how much data we are sending. Right now, it's still 4MBs of data.
 
-### Optimization 4. Gzip Data
+### Optimization 4: Gzip Data
 
 <!-- The next optimization is to use gzip to compress the file before it gets sent. Because it's sending less data, we can expect some amount of time improvement. Furthermore, we can compress the data at startup and save it as a file and just load from a file and return it. I also optimized for the compression ratio compared to speed of compression.
 
@@ -921,7 +923,7 @@ const meanValues = [1.5500796356199862, 0.7432830796599592];
 }]
 {{< /chart >}}
 
-### Optimization 5. Preloading Data Into Memory
+### Optimization 5: Preloading Data Into Memory
 
 We can use the technique developed in [Optimization 2.](#optimization-2-loading-json-to-memory-at-startup) to preload data into memory at startup. This time, we are loading the gzip data into memory, instead of JSON data. The reason here is the same; to save time by not needing to load a file when the route gets called.
 
@@ -1108,7 +1110,7 @@ You can see here that there still isn't a significant difference in the executio
 
 These are attempted optimizations that had no significant effect for this use case, but I still wanted to mention them.
 
-### Attempt 1. Using Owned Data
+### Attempt 1: Using Owned Data
 
 I tried to improve the speed by not cloning the data, but this didn't have any significant speedup.
 
@@ -1122,7 +1124,7 @@ async fn get_all_courses_gzip_six_preload_own() -> Result<GzippedJson, Status> {
 }
 ```
 
-This route swaps `contents.clone()` with `contents.to_owned()`, which should cause it to speed up because it does not have to copy memory, but copying memory is so quick, it's lost in the noise of the speed tests and is not significant here.
+This route swaps `contents.clone()` with `contents.to_owned()`, and we expect it to speed up because it avoids copying memory. However, copying memory is so quick, it's lost in the noise of the speed tests and is not significant here.
 
 Here is a comparison of the best from optimization 3, optimization 4, and this attempt. The values are not significantly different.
 
@@ -1257,7 +1259,7 @@ const meanValues = [0.7590478010600782, 0.7432830796599592, 0.7445368937799867];
 }]
 {{< /chart >}}
 
-### Attempt 2. Compiler Flags
+### Attempt 2: Compiler Flags
 
 Using compiler flags can optimize Rust and was effective in [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL?tab=readme-ov-file#using-rust-compilation-flags) but when the performance of an API has a lot of noise due to sending the data over the wire, the optimizations have to be rather large to show significant and consistent results. I couldn't find any speed improvements with better compiler flags, but there also wasn't any regression.
 
