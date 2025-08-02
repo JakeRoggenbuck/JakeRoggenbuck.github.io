@@ -58,6 +58,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -259,6 +267,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -453,6 +469,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -657,6 +681,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -780,6 +812,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -953,6 +993,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
@@ -1102,6 +1150,14 @@ borderWidth: 2
 },
 options: {
 responsive: true,
+maintainAspectRatio: false,
+onResize: function(chart, size) {
+if (window.innerWidth <= 768) {
+  chart.canvas.parentNode.style.height = '300px';
+} else {
+  chart.canvas.parentNode.style.height = '400px';
+}
+},
 plugins: {
 title: {
 display: true,
