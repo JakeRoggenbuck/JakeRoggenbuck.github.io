@@ -1,7 +1,7 @@
 ---
 title: Optimizing Course Search by over 8x
 description: An overview of optimizations I did to a course search app that resulted in over an 8x speed improvement.
-date: 2025-07-24T00:00:00
+date: 2025-08-02T00:00:00
 tags: ["optimization", "rust", "api"]
 type: post
 showTableOfContents: true
@@ -1308,3 +1308,15 @@ Result:
 ```Python
 -0.9368941557046255 0.35120718054235234
 ```
+
+### API Routes Requested by Week
+
+Here is a graph of the endpoints hit from January 2025 - August 2025 by week.
+
+![endspoint requests](../../images/endspoint-requests.png)
+
+### Analytics of the Course Search
+
+Here is a graph of the unique users from January 2025 - August 2025 by week.
+
+![Analytics](../../images/analytics.png)
