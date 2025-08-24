@@ -1,8 +1,15 @@
-# Exackta Lens on a Modern Sony Camera
+---
+title: Exakta Lens on a Modern Sony Camera
+description: Attaching a vintage Exakta lens to a modern Sony a6400 camera
+date: 2025-08-23T00:00:00
+tags: ["photography", "camera", "build"]
+type: post
+showTableOfContents: true
+---
 
 ## Introduction
 
-I had the crazy idea of attaching a vintage Exackta lens to my modern Sony a6400.
+I had the crazy idea of attaching a vintage Exakta lens to my modern Sony a6400.
 
 I first wanted to see how I could non-permanently yet securely attach something to the body of my camera. I figured there must be some sort of camera body cover, and sure enough I found a two pack on Amazon for $7. Sweet!
 
@@ -58,7 +65,7 @@ I also sanded down the spacer with two grits of sandpaper.
 
 ### 6. Glue the space to the lens
 
-I used hot glue to glue the spacer to the lens of the Exackta.
+I used hot glue to glue the spacer to the lens of the Exakta.
 
 <img src="../../images/img_2388.jpg.avif" height="720">
 
