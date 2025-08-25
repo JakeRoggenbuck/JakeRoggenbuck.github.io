@@ -6,7 +6,9 @@ type: post
 showTableOfContents: true
 ---
 
+{{< lead >}}
 Finding an unexpected SQL injection accessible via an API. The issue was reported and resolved.
+{{< /lead >}}
 
 Often I read code from open source projects and projects created by clubs I am a member of. This example is derived from a PR I read where I found an SQL injection issue.
 
