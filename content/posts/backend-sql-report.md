@@ -6,6 +6,10 @@ type: post
 showTableOfContents: true
 ---
 
+{{< alert >}}
+**Early Access!** This post is still in development.
+{{< /alert >}}
+
 {{< lead >}}
 Finding an unexpected SQL injection accessible via an API. The issue was reported and resolved.
 {{< /lead >}}
@@ -361,5 +365,3 @@ async updateProfile(
 ## Conclusion
 
 I told the developers that there might be issues with the recent PR. I told them before I was completely sure, so I just had to hint at where the issue might be. They acknowledged the possible SQL Injection and switched to a different ORM because they had been meaning to anyway. The issue was fixed during that process. This issue has now been completely resolved.
-
-© 2025 Jake Roggenbuck
