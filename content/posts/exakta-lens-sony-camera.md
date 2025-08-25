@@ -11,6 +11,8 @@ showTableOfContents: true
 
 I had the crazy idea of attaching a vintage Exakta lens to my modern Sony a6400.
 
+<img src="../../images/rotated_img_2398_720.avif" height="720">
+
 I first wanted to see how I could non-permanently yet securely attach something to the body of my camera. I figured there must be some sort of camera body cover, and sure enough I found a two pack on Amazon for $7. Sweet!
 
 Before starting, I wanted to figure out spacing of the lens. I held the lens up to the camera without attaching it, and I found that the lens needed to be a centimeter or two away from the camera body. This meant I would need to make a spacer somehow.
@@ -114,3 +116,29 @@ I used hot glue to attach the spacer to the camera body cover to complete the bu
 ## Result
 
 <img src="../../images/result.avif" height="720">
+
+### Night Photos
+
+{{< gallery >}}
+  <img src="../../images/DSC09059.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09062.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09071.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09075.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09079.jpg.avif" class="grid-w33" />
+{{< /gallery >}}
+
+### Nature Photos
+
+{{< gallery >}}
+  <img src="../../images/DSC09116.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09088.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09101.jpg.avif" class="grid-w33" />
+{{< /gallery >}}
+
+### Gnome Photos
+
+{{< gallery >}}
+  <img src="../../images/DSC09124.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09125.jpg.avif" class="grid-w33" />
+  <img src="../../images/DSC09127.jpg.avif" class="grid-w33" />
+{{< /gallery >}}
