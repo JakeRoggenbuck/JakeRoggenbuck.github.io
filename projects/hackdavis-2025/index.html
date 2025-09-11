@@ -20,13 +20,13 @@
     B --&gt;|Library Call| C[Compiler - Rust]
     C --&gt;|IR| D[Code Generation]
     C --&gt;|C++| E[Arduino Code]
-    
+
     subgraph Frontend
     A --&gt;|Monaco Editor| F[Code Editor]
     A --&gt;|XTerm.js| G[Terminal]
     A --&gt;|Three.js| H[3D Preview]
     end
-    
+
     subgraph Backend
     B --&gt;|/api/compile| I[IR Compilation]
     B --&gt;|/api/compile/arduino| J[Arduino Compilation]
@@ -49,22 +49,22 @@
 </span></span></span><span class=line><span class=cl><span class=err>    }
 </span></span></span><span class=line><span class=cl><span class=err>}
 </span></span></span></code></pre></div><p><strong>Response:</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=nt>&#34;output&#34;</span><span class=p>:</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;ir&#34;</span><span class=p>:</span> <span class=s2>&#34;compiled IR in JSON format&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;metadata&#34;</span><span class=p>:</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=nt>&#34;executionTime&#34;</span><span class=p>:</span> <span class=s2>&#34;0.123s&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=nt>&#34;optimizationLevel&#34;</span><span class=p>:</span> <span class=s2>&#34;high&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=nt>&#34;warnings&#34;</span><span class=p>:</span> <span class=p>[]</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=nt>&#34;output&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;ir&#34;</span><span class=p>:</span> <span class=s2>&#34;compiled IR in JSON format&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;metadata&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nt>&#34;executionTime&#34;</span><span class=p>:</span> <span class=s2>&#34;0.123s&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=nt>&#34;optimizationLevel&#34;</span><span class=p>:</span> <span class=s2>&#34;high&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=nt>&#34;warnings&#34;</span><span class=p>:</span> <span class=p>[]</span>
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></div><p><strong>Error Response:</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=nt>&#34;error&#34;</span><span class=p>:</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;message&#34;</span><span class=p>:</span> <span class=s2>&#34;error message&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;line&#34;</span><span class=p>:</span> <span class=mi>42</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;column&#34;</span><span class=p>:</span> <span class=mi>10</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;suggestion&#34;</span><span class=p>:</span> <span class=s2>&#34;Did you mean &#39;forward&#39; instead of &#39;foward&#39;?&#34;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=nt>&#34;error&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;message&#34;</span><span class=p>:</span> <span class=s2>&#34;error message&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;line&#34;</span><span class=p>:</span> <span class=mi>42</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;column&#34;</span><span class=p>:</span> <span class=mi>10</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;suggestion&#34;</span><span class=p>:</span> <span class=s2>&#34;Did you mean &#39;forward&#39; instead of &#39;foward&#39;?&#34;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></div><div id=2-compile-to-arduino class=anchor></div><h4 class="relative group">2. Compile to Arduino
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#2-compile-to-arduino aria-label=Anchor>#</a></span></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-http data-lang=http><span class=line><span class=cl><span class=err>POST /api/compile/arduino
@@ -78,14 +78,14 @@
 </span></span></span><span class=line><span class=cl><span class=err>    }
 </span></span></span><span class=line><span class=cl><span class=err>}
 </span></span></span></code></pre></div><p><strong>Response:</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=nt>&#34;output&#34;</span><span class=p>:</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;code&#34;</span><span class=p>:</span> <span class=s2>&#34;generated Arduino C++ code&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;dependencies&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;Servo.h&#34;</span><span class=p>,</span> <span class=s2>&#34;Wire.h&#34;</span><span class=p>],</span>
-</span></span><span class=line><span class=cl>        <span class=nt>&#34;memoryUsage&#34;</span><span class=p>:</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=nt>&#34;flash&#34;</span><span class=p>:</span> <span class=s2>&#34;1234 bytes&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=nt>&#34;sram&#34;</span><span class=p>:</span> <span class=s2>&#34;567 bytes&#34;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=nt>&#34;output&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;code&#34;</span><span class=p>:</span> <span class=s2>&#34;generated Arduino C++ code&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;dependencies&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;Servo.h&#34;</span><span class=p>,</span> <span class=s2>&#34;Wire.h&#34;</span><span class=p>],</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&#34;memoryUsage&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nt>&#34;flash&#34;</span><span class=p>:</span> <span class=s2>&#34;1234 bytes&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=nt>&#34;sram&#34;</span><span class=p>:</span> <span class=s2>&#34;567 bytes&#34;</span>
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></div><div id=assembly-language-syntax class=anchor></div><h3 class="relative group">Assembly Language Syntax
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#assembly-language-syntax aria-label=Anchor>#</a></span></h3><div id=basic-syntax class=anchor></div><h4 class="relative group">Basic Syntax
@@ -120,7 +120,7 @@ draw_pattern:
     param size
     param angle
     var i = 0
-    
+
     pattern_loop:
         mov forward, size
         mov direction, angle
@@ -140,7 +140,7 @@ main:
 spiral:
     var radius = 1
     var angle = 0
-    
+
     spiral_loop:
         mov forward, radius
         mov direction, 1
@@ -163,14 +163,14 @@ avoid_obstacle:
 
 main:
     var obstacle_detected = 0
-    
+
     loop:
         mov forward, 1
         # Simulate obstacle detection
         add obstacle_detected, 1
         beq obstacle_detected, 5, avoid
         j loop
-    
+
     avoid:
         jal avoid_obstacle
         mov obstacle_detected, 0
@@ -180,7 +180,7 @@ main:
 zigzag:
     var steps = 5
     var i = 0
-    
+
     zigzag_loop:
         mov forward, 10
         mov direction, 1

@@ -99,18 +99,18 @@ component:</p><div class=highlight><pre tabindex=0 class=chroma><code class=lang
 </span></span><span class=line><span class=cl>rustup override <span class=nb>set</span> nightly
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>cargo miri <span class=nb>test</span>
-</span></span></code></pre></div><p>Here is an example job for GitHub Actions:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=w>  </span><span class=nt>miri</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;Miri&#34;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-latest</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>steps</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@v4</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Install Miri</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
-</span></span></span><span class=line><span class=cl><span class=sd>          rustup toolchain install nightly --component miri
-</span></span></span><span class=line><span class=cl><span class=sd>          rustup override set nightly
-</span></span></span><span class=line><span class=cl><span class=sd>          cargo miri setup</span><span class=w>          
-</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Test with Miri</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>cargo miri test</span><span class=w>
+</span></span></code></pre></div><p>Here is an example job for GitHub Actions:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>miri</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;Miri&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-latest</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>steps</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@v4</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Install Miri</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
+</span></span></span><span class=line><span class=cl><span class=sd>        rustup toolchain install nightly --component miri
+</span></span></span><span class=line><span class=cl><span class=sd>        rustup override set nightly
+</span></span></span><span class=line><span class=cl><span class=sd>        cargo miri setup</span><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Test with Miri</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>cargo miri test</span><span class=w>
 </span></span></span></code></pre></div><p>The explicit <code>cargo miri setup</code> helps to keep the output of the actual test step
 clean.</p><div id=supported-targets class=anchor></div><h3 class="relative group">Supported targets
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#supported-targets aria-label=Anchor>#</a></span></h3><p>Miri does not support all targets supported by Rust. The good news, however, is
