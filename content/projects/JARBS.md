@@ -1,4 +1,3 @@
-
 ---
 title: JARBS
 type: page
@@ -7,25 +6,25 @@ tags: ["Shell"]
 description: "None"
 ---
 
-
 # Jake's Auto Rice Bash Script
 
 ## Configs for
-* bspwm
-* sxhkd
-* polybar
-* dunst
 
-* nvim
-* vim
+- bspwm
+- sxhkd
+- polybar
+- dunst
 
-* rofi
+- nvim
+- vim
 
-* termite
-* alacritty
+- rofi
 
-* bash aliases
+- termite
+- alacritty
 
-* wallpapers
+- bash aliases
+
+- wallpapers
 
 and more

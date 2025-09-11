@@ -1,4 +1,3 @@
-
 ---
 title: Clifford
 type: page
@@ -7,7 +6,7 @@ tags: ["C++"]
 description: "None"
 ---
 
-
 # Clifford Attractors
+
 ![](image.png)
 ![](image2.png)

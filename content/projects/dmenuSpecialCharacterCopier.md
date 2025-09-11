@@ -1,4 +1,3 @@
-
 ---
 title: dmenuSpecialCharacterCopier
 type: page
@@ -7,6 +6,6 @@ tags: ["Shell"]
 description: "Copy emoji from dmenu by searching their name"
 ---
 
-
 # dmenuSpecialCharacterCopier
+
 Copy emoji from dmenu by searching their name

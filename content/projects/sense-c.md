@@ -1,4 +1,3 @@
-
 ---
 title: sense-c
 type: page
@@ -7,16 +6,19 @@ tags: ["C"]
 description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-
 # sense-c
+
 Sense the directories around you, are they git repositories, what language, etc.
 
 ## Languages
-[ :snake: sense-py](https://github.com/JakeRoggenbuck/sense-py) || [:crab: sense-rs](https://github.com/JakeRoggenbuck/sense-rs) || 
+
+[ :snake: sense-py](https://github.com/JakeRoggenbuck/sense-py) || [:crab: sense-rs](https://github.com/JakeRoggenbuck/sense-rs) ||
 [:hamster: gosense](https://github.com/JakeRoggenbuck/gosense) || [🇨 sense-c](https://github.com/JakeRoggenbuck/sense-c)
 
 ## Why?
+
 #### Why so many langs?
+
 Because I write projects pretty regularly in all of these languages and want a consistent API and available library support for all of them.
 
 ## API
@@ -31,11 +33,13 @@ int is_local_git(char *path);
 [git.h](https://github.com/JakeRoggenbuck/sense-c/blob/main/src/git.h)
 
 ### Language
+
 ```c
 enum LANG get_lang(char *path);
 ```
 
 ## Example
+
 ```c
 int main() {
     int lang = get_lang("./");
@@ -60,6 +64,7 @@ int main() {
 ```
 
 ## Supported langs
+
 - [x] Python
 - [x] JavaScript
 - [x] Rust
@@ -70,4 +75,5 @@ int main() {
 - [ ] CPP
 
 ## Contributing
+
 If you would like to add features or language support, that would be amazing!

@@ -7,12 +7,14 @@ showTableOfContents: true
 ---
 
 ## Preface
+
 [React](https://react.dev/) is extremely popular and has become ubiquitous in frontend development. There are many reasons you would want to learn React. It's used in industry, it's a required skill in many applications for job, and it's a great tool to use to build amazing projects. Here is a simple list of tips and resources to help you understand React. If you've used the terminal before, you can safely jump into [Starting my project](#starting-my-project) otherwise the next section will guide you threw it.
 
 ## First steps
+
 The first step is to jump right in an make a project! For this, you're going to have to use the terminal. When you first open your terminal, you should be in your "home" folder. It's usually named after your username.
 
-1. Open your terminal and navigate (using [cd](https://en.wikipedia.org/wiki/Cd_(command)) and [ls](https://linux.die.net/man/1/ls)) to the place where you keep all of your code. If you don't have a specific place, make a folder in your Documents folder, and call it Code. You can do this by running `cd Documents` then running `mkdir Code`
+1. Open your terminal and navigate (using [cd](<https://en.wikipedia.org/wiki/Cd_(command)>) and [ls](https://linux.die.net/man/1/ls)) to the place where you keep all of your code. If you don't have a specific place, make a folder in your Documents folder, and call it Code. You can do this by running `cd Documents` then running `mkdir Code`
 
 2. Navigate into the Code folder using `cd Code`
 
@@ -33,6 +35,7 @@ Now that it's done, `cd my-app` into the project to start coding!
 Run the command `cd src` to see the main source code for your new project.
 
 If you run `ls`, you should see the following files.
+
 ```
 App.css
 App.js
@@ -51,8 +54,8 @@ Open `App.js` in your favorite text editor.
 You should see the following.
 
 ```js
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -80,11 +83,11 @@ export default App;
 
 This is the basic source code. There are three main parts to it.
 
-First, the imports. These tell the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) where resources are located, like our CSS files and images, but also other javascript files.
+First, the imports. These tell the [interpreter](<https://en.wikipedia.org/wiki/Interpreter_(computing)>) where resources are located, like our CSS files and images, but also other javascript files.
 
 ```js
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 ```
 
 Secondly, the function in [jsx](https://legacy.reactjs.org/docs/introducing-jsx.html). Here I have removed all of the html-like code and just kept the function. These two parts are the basis for all of it.
@@ -103,9 +106,7 @@ Before we look at the third part, let's add a simple text field.
 
 ```js
 function App() {
-  return (
-    <p>Hello!</p>
-  );
+  return <p>Hello!</p>;
 }
 
 export default App;

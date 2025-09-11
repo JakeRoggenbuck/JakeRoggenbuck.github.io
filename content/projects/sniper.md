@@ -1,4 +1,3 @@
-
 ---
 title: sniper
 type: page
@@ -6,7 +5,6 @@ date: 2022-12-31T00:00:00
 tags: ["C"]
 description: "None"
 ---
-
 
 # Sniper
 

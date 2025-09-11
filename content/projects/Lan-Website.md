@@ -1,4 +1,3 @@
-
 ---
 title: Lan-Website
 type: page
@@ -7,6 +6,6 @@ tags: ["PHP"]
 description: "php is not that scary"
 ---
 
-
 # Lan-Website
+
 A simple website for my local network to share files

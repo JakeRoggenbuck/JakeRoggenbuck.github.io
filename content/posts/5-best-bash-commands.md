@@ -37,6 +37,7 @@ git push origin $(git symbolic-ref --short HEAD)
 ```
 
 I have this aliases to `pusho` in my .bashrc with
+
 ```sh
 alias pusho='git push origin $(git symbolic-ref --short HEAD)'
 ```
@@ -66,9 +67,10 @@ Have you ever been looking at a git diff and it just tells you the whole line is
 ![Git diff before](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x4tjb10fja5u0lyulmnz.png)
 
 ### After
+
 ![Git diff after](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axns1o114ho5d73ahhhf.png)
 
-This is a simple example and it's easy to see what has changed, but if you had a really complicated line with a few different changes in different places, it can be hard to catch. Say an SQL command or similar. 
+This is a simple example and it's easy to see what has changed, but if you had a really complicated line with a few different changes in different places, it can be hard to catch. Say an SQL command or similar.
 
 Here is how to do it!
 
@@ -95,9 +97,11 @@ git remote && git log --pretty=oneline --abbrev-commit \
 ```
 
 I have this aliased to `lookz` with
+
 ```sh
 alias lookz='git remote && git log --pretty=oneline --abbrev-commit | awk '"'"'{print $1}'"'"' | xargs -I {} git show {} | fzf'
 ```
+
 Note the single quotes having to be escaped with `'"'"'` in the bash alias version but not the one directly for the shell.
 
 I need help making this command more useful. It lets you find a specific name of something that can then be used to search, but once it's selected, you can't find the commit. If anyone knows how to do this, please leave a comment!

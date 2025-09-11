@@ -16,11 +16,12 @@ This is an updated version of the original article from April of 2023 found [her
 
 1. Fork the project
 2. Clone the fork
-    - Use `git clone git@github.com:JakeRoggenbuck/clubly.git`
+   - Use `git clone git@github.com:JakeRoggenbuck/clubly.git`
 3. Add the upstream remote
-    - Use `git remote add upstream git@github.com:aggieworks/clubly.git`
+   - Use `git remote add upstream git@github.com:aggieworks/clubly.git`
 
 ## What your setup should look like (git remote -v)
+
 ```
 origin	git@github.com:JakeRoggenbuck/clubly.git (fetch)
 origin	git@github.com:JakeRoggenbuck/clubly.git (push)
@@ -29,6 +30,7 @@ upstream	git@github.com:aggieworks/clubly.git (push)
 ```
 
 ## Getting information
+
 ```sh
 # list the remotes
 git remote -v
@@ -45,6 +47,7 @@ git log
 ```
 
 ## Update from latest
+
 ```sh
 # make sure you are on your own main and don't have any current changes
 git switch main
@@ -65,6 +68,7 @@ git switch -c feature-name
 ```
 
 ## Submitting a feature/assignment/change
+
 ```sh
 # add all changed but prevously staged files
 git add -u
@@ -73,4 +77,3 @@ git commit
 
 git push origin feature-name
 ```
-

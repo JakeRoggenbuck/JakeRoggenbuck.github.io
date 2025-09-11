@@ -1,4 +1,3 @@
-
 ---
 title: draft.vim
 type: page
@@ -7,8 +6,8 @@ tags: ["Vim Script"]
 description: ":pencil: Quickly write up and save drafts for messaging apps in your favorite editor. Save notes, code examples, or homework assignments."
 ---
 
-
 # Draft.vim
+
 [![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://vimawesome.com/plugin/draft-vim)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
 [![Version](https://img.shields.io/badge/v0.8-blue?style=for-the-badge)](#)
@@ -17,24 +16,28 @@ description: ":pencil: Quickly write up and save drafts for messaging apps in yo
 :pencil: Quickly write up and save drafts for messaging apps in your favorite editor [vimawesome.com/plugin/draft-vim](https://vimawesome.com/plugin/draft-vim)
 
 ## Why use Draft.vim
+
 I often write important messages in a vim buffer before I send it.
 
 - The main reason for this is because it is simply faster.
-- The second reason is you might want syntax highlighting or auto formatting. 
+- The second reason is you might want syntax highlighting or auto formatting.
 - Also, sometimes you want to write a message without worrying about accidentally sending it.
 
 ## Requirements
+
 - Pandoc
 - wkhtmltopdf
 - Dragon (https://github.com/mwh/dragon)
 
 ## Features
+
 - Quickly open a new, well named file in a consistent directory
 - Each file automatically contains attributes like the date and title that can be searchable
 
 ## Setup and Config
 
 #### Make a drafts directory
+
 ```vim
 " Add the command to setup a drafts directory
 let g:drafts_directory = "/path/to/drafts/"
@@ -43,27 +46,29 @@ let g:drafts_directory = "/path/to/drafts/"
 ## Optional, create a keybind for the commands
 
 #### `NewDraft` Keybind
+
 ```vim
 nnoremap <Leader>nd :call NewDraft()<CR>
 ```
 
 #### `ListDrafts` Keybind
+
 ```vim
 nnoremap <Leader>ld :call ListDrafts()<CR>
 ```
 
 #### `OpenDrafts` Keybind
+
 ```vim
 nnoremap <Leader>z :call OpenDrafts()<CR>
 ```
 
 ## Usage
 
-
 ### Commands
 
 | Command                | Description                                     |
-|------------------------|-------------------------------------------------|
+| ---------------------- | ----------------------------------------------- |
 | Draft                  | Open a blanck new draft                         |
 | Draft `"title"`        | Open a draft with a title                       |
 | DraftExt `"extension"` | Change the file extension of a draft            |
@@ -81,12 +86,15 @@ nnoremap <Leader>z :call OpenDrafts()<CR>
 - The file will be based on a template with stuff like the title and datetime
 
 ## Install
+
 #### Vim-Plug
+
 ```vim
 Plug 'jakeroggenbuck/draft.vim'
 ```
 
 #### Vundle
+
 ```vim
 Plugin 'jakeroggenbuck/draft.vim'
 ```
@@ -126,6 +134,7 @@ Plugin 'jakeroggenbuck/draft.vim'
 #### 0.6 draft.vim - added search
 
 - Add `DraftSearch` by word
+
 ```
 :DraftSearch <term>
 
@@ -145,9 +154,11 @@ Plugin 'jakeroggenbuck/draft.vim'
 - Add testing for python
 
 ## Testing
+
 ```sh
 pip install -r requirements.txt
 ```
+
 ```sh
 cd python
 
@@ -155,7 +166,9 @@ pytest
 ```
 
 ## TODO
+
 - Make md to template pdf correctly do syntax highlight
 
 ## Maybe TODO
+
 - Make a draft file type with metadata and parse out the metadata when opened in vim, then use this data to search for notes better and stuff, like have raw data for python to search better with

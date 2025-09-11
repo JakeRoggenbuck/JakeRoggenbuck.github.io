@@ -1,4 +1,3 @@
-
 ---
 title: anagram
 type: page
@@ -7,9 +6,9 @@ tags: ["Rust"]
 description: "Method of finding anagrams"
 ---
 
-
 # Anagram finder
-Method of finding anagrams 
+
+Method of finding anagrams
 
 ```
 Tested with wordlist of 172787 lines long from

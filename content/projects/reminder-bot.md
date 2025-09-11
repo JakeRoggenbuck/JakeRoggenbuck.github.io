@@ -1,4 +1,3 @@
-
 ---
 title: reminder-bot
 type: page
@@ -7,6 +6,6 @@ tags: ["None"]
 description: "A Discord Bot designed to remind users of custom events"
 ---
 
-
 # reminder-bot
+
 A Discord Bot designed to remind users of custom events

@@ -1,4 +1,3 @@
-
 ---
 title: novus-chart
 type: page
@@ -7,6 +6,6 @@ tags: ["JavaScript"]
 description: "A modern looking, accessible medical chart application based on a MERN stack."
 ---
 
-
 # novus-chart
+
 A modern looking, accessible medical chart application based on a MERN stack.

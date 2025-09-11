@@ -1,4 +1,3 @@
-
 ---
 title: rest-api-in-every-lang
 type: page
@@ -7,30 +6,30 @@ tags: ["Java"]
 description: "None"
 ---
 
-
 # REST APIs in every language
+
 A collection of many REST frameworks in many languages.
 
 Please add more langs and frameworks!
 
 - Python
-	- [x] Fast API
-	- [x] Flask
-	- [ ] Django
+  - [x] Fast API
+  - [x] Flask
+  - [ ] Django
 - Rust
-	- [x] Rocket
-	- [ ] Actix
+  - [x] Rocket
+  - [ ] Actix
 - Javascript
-	- [ ] Express
+  - [ ] Express
 - Go
-	- [x] net/http
-	- [x] gin
+  - [x] net/http
+  - [x] gin
 - Ruby
-	- [x] Sinatra 
+  - [x] Sinatra
 - C
-	- *Add frameworks*
+  - _Add frameworks_
 - C++
- 	- *Add frameworks*
+  - _Add frameworks_
 - Java
-	- [x] No API
-	- [x] Spark
+  - [x] No API
+  - [x] Spark

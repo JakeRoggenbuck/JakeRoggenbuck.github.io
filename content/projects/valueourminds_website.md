@@ -1,4 +1,3 @@
-
 ---
 title: valueourminds_website
 type: page
@@ -6,7 +5,6 @@ date: 2020-07-07T00:00:00
 tags: ["CSS"]
 description: "None"
 ---
-
 
 # valueourminds_website
 

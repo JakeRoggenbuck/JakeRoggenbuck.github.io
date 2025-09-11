@@ -1,4 +1,3 @@
-
 ---
 title: ChatApp
 type: page
@@ -7,11 +6,12 @@ tags: ["Python"]
 description: "Realtime chat app using pusher"
 ---
 
-
 # ChatApp
+
 Realtime chat app using pusher
 
 # Running
+
 ```
 cd src/
 python3 app.py

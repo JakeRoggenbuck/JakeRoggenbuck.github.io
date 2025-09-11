@@ -1,4 +1,3 @@
-
 ---
 title: today
 type: page
@@ -7,17 +6,18 @@ tags: ["Rust"]
 description: "Create a new file with today's date"
 ---
 
-
 # today
 
 Create a new file with today's date
 
 ## Setup & Install
+
 ```sh
 ./install.sh
 ```
 
 ## Usage
+
 ```
 today
 ```
@@ -33,5 +33,6 @@ Date: 10-11-2024
 ```
 
 ## Why
+
 I often take notes in markdown and I want a standard filename and file template.
 This allows me to just write `today` in the command line and start editing notes.

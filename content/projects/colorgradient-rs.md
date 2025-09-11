@@ -1,4 +1,3 @@
-
 ---
 title: colorgradient-rs
 type: page
@@ -7,8 +6,8 @@ tags: ["Rust"]
 description: "Generate a gradient from selected colors"
 ---
 
-
 # colorgradient-rs
+
 ![image](https://user-images.githubusercontent.com/35516367/116793337-1716c680-aa7b-11eb-9c1e-2cda170e2118.png)
 
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)
@@ -20,18 +19,21 @@ description: "Generate a gradient from selected colors"
 
 <img width="400" alt="color grad" src="https://user-images.githubusercontent.com/35516367/210163818-5f286e55-9b2a-431c-a397-c1a24a37dbb1.png">
 
-# Install 
+# Install
+
 ```
 git clone https://github.com/JakeRoggenbuck/colorgradient-rs
 cargo install --path colorgradient-rs
 ```
 
 # Test
+
 ```
 cargo test
 ```
 
 # Code
+
 ```rs
 fn calculate_gradient(num: i64, original_colors: Vec<RGB>) -> Vec<RGB> {
     // Get the needed step value to fit the num of iterations in the original_colors length

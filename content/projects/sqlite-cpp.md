@@ -1,4 +1,3 @@
-
 ---
 title: sqlite-cpp
 type: page
@@ -7,6 +6,6 @@ tags: ["C++"]
 description: "Part of a learning project for an app with a C++ backend."
 ---
 
-
 # sqlite-cpp
+
 Part of a learning project for an app with a C++ backend.

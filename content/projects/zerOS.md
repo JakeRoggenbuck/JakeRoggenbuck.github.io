@@ -1,4 +1,3 @@
-
 ---
 title: zerOS
 type: page
@@ -7,6 +6,6 @@ tags: ["Shell"]
 description: "an os? based on arch"
 ---
 
-
 # zerOS
+
 an os? based on arch

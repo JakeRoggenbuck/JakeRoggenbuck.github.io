@@ -1,4 +1,3 @@
-
 ---
 title: Dictionary-tui
 type: page
@@ -7,17 +6,18 @@ tags: ["Python"]
 description: "A tui for dictionaryapi.com to search for Synonyms and Antonyms"
 ---
 
-
 # Dictionary-tui
+
 A tui for dictionaryapi.com to search for Synonyms and Antonyms
 
 ### Api Key
+
 First go to https://dictionaryapi.com/
 Then follow their instructions to get an api key
 
 ### Setup
-Create a file named `api_key.py` and in it make a var called `key`, set it to "your api key"
 
+Create a file named `api_key.py` and in it make a var called `key`, set it to "your api key"
 
 ### Output example
 

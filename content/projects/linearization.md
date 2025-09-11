@@ -1,4 +1,3 @@
-
 ---
 title: linearization
 type: page
@@ -6,7 +5,6 @@ date: 2022-12-08T00:00:00
 tags: ["C"]
 description: "None"
 ---
-
 
 # linearization
 

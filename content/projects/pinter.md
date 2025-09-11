@@ -1,4 +1,3 @@
-
 ---
 title: pinter
 type: page
@@ -7,23 +6,21 @@ tags: ["C"]
 description: "None"
 ---
 
-
-Pinter ![C/C++ CI](https://github.com/plancklang/pinter/workflows/C/C++%20CI/badge.svg)
-======
+# Pinter ![C/C++ CI](https://github.com/plancklang/pinter/workflows/C/C++%20CI/badge.svg)
 
 This repository houses the codebase for pinter (**P**lanck **inter**preter), an
 interpreter for Planck bytecodes.
 
-Requirements
-------------
+## Requirements
+
 - GNU make
 - clang
 
-Build
------
+## Build
+
 `make`
 
-Run
----
+## Run
+
 `./bin/pinter [file]` to execute a file
 `./bin/pinter --help` for help

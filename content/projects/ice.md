@@ -1,4 +1,3 @@
-
 ---
 title: ice
 type: page
@@ -7,8 +6,8 @@ tags: ["Python"]
 description: "Programming language and interpreter"
 ---
 
-
 # Ice
+
 Programming language and interpreter
 
 ```

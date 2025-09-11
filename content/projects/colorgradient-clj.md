@@ -1,4 +1,3 @@
-
 ---
 title: colorgradient-clj
 type: page
@@ -7,8 +6,8 @@ tags: ["Clojure"]
 description: "Make a color gradient in Clojure!"
 ---
 
-
 # colorgradient-clj ![Clojure](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/colorgradient-clj/clojure.yml?style=for-the-badge&branch=main)
+
 Make a color gradient in Clojure!
 
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

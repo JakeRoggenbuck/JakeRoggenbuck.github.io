@@ -1,4 +1,3 @@
-
 ---
 title: ursina-platform-game
 type: page
@@ -6,7 +5,6 @@ date: 2021-03-29T00:00:00
 tags: ["Python"]
 description: "None"
 ---
-
 
 # ursina-platform-game
 

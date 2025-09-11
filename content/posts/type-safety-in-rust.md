@@ -9,6 +9,7 @@ showTableOfContents: true
 Here is an interesting thing that shows why compiled languages are good, specifically why Rust is great.
 
 Take this code example that checks an enum.
+
 ```py
 from enum import Enum
 
@@ -46,7 +47,8 @@ We make invalid types unrepresentable.
 Here is a Rust example no more complex than the Python example, yet it insures safety that Python does not.
 
 This code compiles because mode can only be Easy or Hard. The evaluation is between the same types.
-`mode == Mode::EASY` => `<Mode> == <Mode>`  => type valid.
+`mode == Mode::EASY` => `<Mode> == <Mode>` => type valid.
+
 ```rs
 #[derive(PartialEq)]
 enum Mode {
@@ -66,6 +68,7 @@ fn main() {
 ```
 
 However, if you accidentally what mode out for a string...
+
 ```rs
 let mode = "This is a string";
 
@@ -79,6 +82,7 @@ if mode == Mode::EASY {
 You get many helpful compiler errors, like `can't compare '&str' with 'Mode'` so you know exactly what is wrong.
 
 Any even when C/C++ would fail, Rust gives an error letting you know what is wrong early.
+
 ```rs
 let mode = 3;
 
@@ -88,4 +92,5 @@ if mode == Mode::EASY {
     println!("Hard mode.")
 }
 ```
+
 => `can't compare '{integer}' with 'Mode'`

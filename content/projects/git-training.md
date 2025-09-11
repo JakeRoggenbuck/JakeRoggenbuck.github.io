@@ -1,4 +1,3 @@
-
 ---
 title: git-training
 type: page
@@ -7,6 +6,6 @@ tags: ["Python"]
 description: "Git(hub) training for Scouting Programmers"
 ---
 
-
 # git-training
+
 Git(hub) training for Scouting Programmers

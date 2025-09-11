@@ -21,12 +21,12 @@ npm i @regolithjs/regolith
 ### Try it out
 
 ```ts
-import { Regolith } from '@regolithjs/regolith';
+import { Regolith } from "@regolithjs/regolith";
 
 const pattern = new Regolith("^\\d+$");
 
-pattern.test("12345");  // true
-pattern.test("Hello");  // false
+pattern.test("12345"); // true
+pattern.test("Hello"); // false
 ```
 
 ### What are ReDoS attacks?

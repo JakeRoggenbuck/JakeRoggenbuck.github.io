@@ -1,4 +1,3 @@
-
 ---
 title: sense-rs
 type: page
@@ -7,18 +6,21 @@ tags: ["Rust"]
 description: "Sense the directories around you, are they git repositories, what language, etc."
 ---
 
-
 # sense-rs
+
 Sense the directories around you, are they git repositories, what language, etc.
 
 ![Rust](https://img.shields.io/github/workflow/status/jakeroggenbuck/sense-rs/Rust?style=for-the-badge)
 
 ## Languages
-[ :snake: sense-py](https://github.com/JakeRoggenbuck/sense-py) || [:crab: sense-rs](https://github.com/JakeRoggenbuck/sense-rs) || 
+
+[ :snake: sense-py](https://github.com/JakeRoggenbuck/sense-py) || [:crab: sense-rs](https://github.com/JakeRoggenbuck/sense-rs) ||
 [:hamster: gosense](https://github.com/JakeRoggenbuck/gosense) || [🇨 sense-c](https://github.com/JakeRoggenbuck/sense-c)
 
 ## Why?
+
 #### Why so many langs?
+
 Because I write projects pretty regularly in all of these languages and want a consistent API and available library support for all of them.
 
 ## API
@@ -31,11 +33,13 @@ is_local_git(path: String) -> bool;
 ```
 
 ### Language
+
 ```rs
 get_lang(path: String) -> Lang;
 ```
 
 ## Example
+
 ```rs
 fn main() {
     let language = get_lang("./".to_string());
@@ -58,6 +62,7 @@ fn main() {
 ```
 
 ## Supported langs
+
 - [x] Python
 - [x] JavaScript
 - [x] Rust
@@ -68,4 +73,5 @@ fn main() {
 - [ ] CPP
 
 ## Contributing
+
 If you would like to add features or language support, that would be amazing!

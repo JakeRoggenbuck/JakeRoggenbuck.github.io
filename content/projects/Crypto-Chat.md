@@ -1,4 +1,3 @@
-
 ---
 title: Crypto-Chat
 type: page
@@ -7,14 +6,15 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # Crypto-Chat
 
 # Setup
+
 To get started with cryptochat you first need to have firebase installed
 To do so just run `pip install --user firebase`
 
 # Use
+
 The chat will prompt you with `Mode de/en:`
 This is asking if you are decrypting a message or encrypting a message
 Then if you are encrypting it will ask you for your `message` then a `key`

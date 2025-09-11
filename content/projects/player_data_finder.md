@@ -1,4 +1,3 @@
-
 ---
 title: player_data_finder
 type: page
@@ -7,15 +6,17 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # player_data_finder
 
 ## Install
+
 `pip3 install -r requirements.txt`
 
 ## Setup
+
 Make a file called `config.py`
 Add this class and your ftp credentials
+
 ```py
 class Config:
 	host = "ftp.example.com"
@@ -25,4 +26,5 @@ class Config:
 ```
 
 ## Running
+
 `python3 main.py`

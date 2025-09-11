@@ -1,4 +1,3 @@
-
 ---
 title: HexViewer
 type: page
@@ -7,14 +6,16 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # HexViewer
+
 Read the binary data of a file in hex
 
 # Updated Rust Version
+
 Better rust version: https://github.com/JakeRoggenbuck/hexviewer-rs
 
 # Usage
+
 ```
 python3 main.py -i video.mp4
 ```

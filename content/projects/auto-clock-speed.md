@@ -1,4 +1,3 @@
-
 ---
 title: auto-clock-speed
 type: page
@@ -6,7 +5,6 @@ date: 2021-07-07T00:00:00
 tags: ["Rust"]
 description: "A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life."
 ---
-
 
 ![Auto Clock Speed Banner Logo](https://user-images.githubusercontent.com/35516367/169680198-99d02746-22f7-433d-a9a1-d8858edef512.png)
 [![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/auto-clock-speed/rust.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/auto-clock-speed/actions)
@@ -24,6 +22,7 @@ If you encounter any issues or bugs, please refer to the [wiki](https://github.c
 ![acs](https://user-images.githubusercontent.com/35516367/199084229-aee15ac5-bd86-41e9-b7fc-22517e21e6f0.png)
 
 ## Quickstart
+
 ```
 cargo install autoclockspeed
 ```
@@ -33,18 +32,19 @@ Now you can run `acs monit`.
 View [#install-latest-release](https://github.com/JakeRoggenbuck/auto-clock-speed?tab=readme-ov-file#install-latest-release) for more info.
 
 ## Goals
+
 - First and foremost, this is a project to learn about Rust and Linux
 - Secondly, try to improve upon AdnanHodzic's already amazing [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq)
 - Add options to display raw output of governors, clockspeed, turbo, battery, etc. for use in scripts or display panels like polybar.
 
-
 ## Want to help? Yay! Welcome!
+
 - Read our [CONTRIBUTING.md](CONTRIBUTING.md) for some helpful tips
 - Find an issue - ["good first issue"](https://github.com/JakeRoggenbuck/auto-clock-speed/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) recommended
 - Feel free to ask questions!
 
-
 ## Install Latest Release
+
 If you have cargo on your machine, skip to step 3
 
 1. Go to [`rustup.rs`](https://rustup.rs/) to install rust.
@@ -54,8 +54,8 @@ If you have cargo on your machine, skip to step 3
    rustup override set stable
    rustup update stable
    ```
-   
 3. Clone the project and install
+
    ```sh
    git clone https://github.com/JakeRoggenbuck/auto-clock-speed
 
@@ -64,56 +64,61 @@ If you have cargo on your machine, skip to step 3
    # This is needed to have the root version of acs match the local installed version
    sudo cp ~/.cargo/bin/acs /usr/bin/acs
    ```
-   
+
    Note: If you receive error `linker 'cc' not found`, then you need to install a C compiler (gcc, cmake, etc.) first.
-   
+
 <hr>
 
 Note: The latest release of acs can also be installed locally with the following
+
 ```sh
 cargo install autoclockspeed
 ```
 
 ## Tested Devices
+
 Auto clock speed has been tested to work on the following devices. If you have a device that is not listed please submit a pull request.
 
-| Functionality | Description |
-| ------------- | ----------- |
-| Working | All parts of ACS are fully functional, the computer has enough data to make decisions on governor changes and can be run in edit mode |
-| Mostly Working | ACS is unable to understand some data from the computer however certain data (like battery life, battery condition, temperature etc) which is non essential in making governor decisions, is missing |
-| Partially Working | ACS is able to mostly work, although with one or more significant caveat (i.e. jailbreak on Apple devices or root access on Android) |
-| Barely Working | ACS is unable to be run in edit mode due to missing data from the system, monit mode may still work however functionality is limited. If you have a system that falls under this category please open an issue |
-| Borked | ACS cannot find any useful data. Please open an issue |
+| Functionality     | Description                                                                                                                                                                                                    |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Working           | All parts of ACS are fully functional, the computer has enough data to make decisions on governor changes and can be run in edit mode                                                                          |
+| Mostly Working    | ACS is unable to understand some data from the computer however certain data (like battery life, battery condition, temperature etc) which is non essential in making governor decisions, is missing           |
+| Partially Working | ACS is able to mostly work, although with one or more significant caveat (i.e. jailbreak on Apple devices or root access on Android)                                                                           |
+| Barely Working    | ACS is unable to be run in edit mode due to missing data from the system, monit mode may still work however functionality is limited. If you have a system that falls under this category please open an issue |
+| Borked            | ACS cannot find any useful data. Please open an issue                                                                                                                                                          |
 
-| Device Name | Functionality | Notes |
-| ----------- | ------------- | ----- |
-| Dell XPS 13 9360 | Working | |
-| Dell Latitude 7480 | Working | |
-| Steam Deck | Working | Edit mode not necessary (use built in governor switcher) |
-| Thinkpad T400 | Working | |
-| Thinkpad T460 | Working | |
-| Thinkpad X230 | Working | |
-| Thinkpad X301 | Working | |
-| Thinkpad W540 | Working | |
-| ThinkPad X1 Carbon Gen 1 | Working | |
-| ThinkPad X1 Extreme Gen 1 | Working | |
-| Thinkpad P1 Gen 4 (Intel Core) | Working | |
-| Thinkpad P14 Gen 2 (AMD) | Mostly Working | See [#443](https://github.com/JakeRoggenbuck/auto-clock-speed/issues/443) |
-| OnePlus 9 Pro (Snapdragon 888 SoC) | Partially Working | Needs root access; compile from source through termux |
-| iPad Pro Gen 6 | Borked | Compiles with iSH, but cannot access any data |
-
+| Device Name                        | Functionality     | Notes                                                                     |
+| ---------------------------------- | ----------------- | ------------------------------------------------------------------------- |
+| Dell XPS 13 9360                   | Working           |                                                                           |
+| Dell Latitude 7480                 | Working           |                                                                           |
+| Steam Deck                         | Working           | Edit mode not necessary (use built in governor switcher)                  |
+| Thinkpad T400                      | Working           |                                                                           |
+| Thinkpad T460                      | Working           |                                                                           |
+| Thinkpad X230                      | Working           |                                                                           |
+| Thinkpad X301                      | Working           |                                                                           |
+| Thinkpad W540                      | Working           |                                                                           |
+| ThinkPad X1 Carbon Gen 1           | Working           |                                                                           |
+| ThinkPad X1 Extreme Gen 1          | Working           |                                                                           |
+| Thinkpad P1 Gen 4 (Intel Core)     | Working           |                                                                           |
+| Thinkpad P14 Gen 2 (AMD)           | Mostly Working    | See [#443](https://github.com/JakeRoggenbuck/auto-clock-speed/issues/443) |
+| OnePlus 9 Pro (Snapdragon 888 SoC) | Partially Working | Needs root access; compile from source through termux                     |
+| iPad Pro Gen 6                     | Borked            | Compiles with iSH, but cannot access any data                             |
 
 ## In Action
+
 [![image](https://user-images.githubusercontent.com/35516367/170888770-cf20411e-2b21-43a5-9636-bf6a6b545346.png)](https://www.youtube.com/watch?v=QTnv4pommN4)
 
 ## New Interactive Mode
+
 ![image](https://user-images.githubusercontent.com/35516367/170414026-2466ee6b-fd6c-48f0-bec8-127237116baf.png)
 
 ## Systemd
+
 In order to have auto-clock-speed start when you restart your computer you must follow these instructions
+
 ```sh
 # IMPORTANT: Modify the service file (acs.service) in the
-# project directory to include the path to the binary file 
+# project directory to include the path to the binary file
 # (usually /home/username/.cargo/bin/acs)
 ```
 
@@ -131,8 +136,11 @@ sudo systemctl enable acs
 # Check service is up and running
 systemctl status acs
 ```
+
 ## Systemctl command
+
 The line after `[Service]` in `acs.service` is the command that will be run. You may want to add or remove arguments, mainly `--quiet`.
+
 ```
 [Unit]
 Description=Manages Clock Speed
@@ -145,10 +153,13 @@ WantedBy=multi-user.target
 ```
 
 ## Config
+
 ### Using default config
+
 ```sh
 WARN: Using default config. Create file '/etc/acs/acs.toml' for custom config or run 'acs initconfig' to setup default config automatically.
 ```
+
 This warning recommends creating a config file, use the initconfig command to automatically create one for you!
 
 ```sh
@@ -156,6 +167,7 @@ sudo acs initconfig
 ```
 
 ### This is an example config
+
 also the default settings if no config is provided
 
 ```toml
@@ -166,8 +178,10 @@ active_rules = [ "battery_percent_rule", "lid_open_rule", "ac_charging_rule", "c
 ```
 
 ## Turn Off
+
 If you would like to turn off auto-clock-speed, here are the steps.<br>
 Note: This should be done during testing of acs run mode.
+
 ```sh
 # Temporarily stop (only lasts until reboot)
 sudo systemctl stop acs
@@ -177,7 +191,9 @@ sudo systemctl disable acs
 ```
 
 ## Uninstall
+
 Here is how to uninstall the binary and the systemctl service.
+
 ```sh
 # Remove local binary
 cargo uninstall acs
@@ -190,7 +206,9 @@ rm /etc/systemd/system/acs.service
 ```
 
 ## Example Usage
+
 Here are some examples of how acs can be used.
+
 ```sh
 # Monitor mode
 acs monitor
@@ -206,9 +224,11 @@ sudo acs set gov $(acs get available-govs --raw | dmenu)
 ```
 
 ## Detailed usage
-Detailed usage can be found on our [wiki](https://github.com/JakeRoggenbuck/auto-clock-speed/wiki/Detailed-Usage)  
+
+Detailed usage can be found on our [wiki](https://github.com/JakeRoggenbuck/auto-clock-speed/wiki/Detailed-Usage)
 
 ## Help
+
 ```
 Automatic CPU frequency scaler and power saver
 
@@ -233,5 +253,5 @@ SUBCOMMANDS:
 
 <!--       _
        .__(.)< (qwak)
-        \___)   
+        \___)
  ~~~~~~~~~~~~~~~~~~-->

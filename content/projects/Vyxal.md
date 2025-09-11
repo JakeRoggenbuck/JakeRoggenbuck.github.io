@@ -1,4 +1,3 @@
-
 ---
 title: Vyxal
 type: page
@@ -6,7 +5,6 @@ date: 2021-08-23T00:00:00
 tags: ["None"]
 description: "A golfing language that has aspects of traditional programming languages."
 ---
-
 
 # Vyxal - Terse, Elegant and Readable
 
@@ -41,6 +39,7 @@ There are 5 data types supported by Vyxal:
 - `!` pushes the length of the stack
 
 ## Syntax Constructs
+
 ### If statements
 
 ```
@@ -135,11 +134,13 @@ Vyxal has so many commands that it is impractical to list them all here. [Here i
 ```
 `Hello, World!`
 ```
+
 [Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=%60Hello%2C%20World!%60&inputs=&header=&footer=)
 
 ```
 `ƈṡ, ƛ€!
 ```
+
 [Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=%60%C6%88%E1%B9%A1%2C%20%C6%9B%E2%82%AC!&inputs=&header=&footer=)
 
 The above program uses dictionary compression: words in a predefined list are indexed using a subjective base-162 literal.
@@ -147,6 +148,7 @@ The above program uses dictionary compression: words in a predefined list are in
 ```
 kH
 ```
+
 [Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=kH&inputs=&header=&footer=)
 
 ### Fizzbuzz
@@ -154,6 +156,7 @@ kH
 ```
 ₁ƛ₍₃₅kF½*∑⟇
 ```
+
 [Try it Online!](http://lyxal.pythonanywhere.com/?flags=j&code=%E2%82%81%C6%9B%E2%82%8D%E2%82%83%E2%82%85kF%C2%BD*%E2%88%91%E2%9F%87&inputs=&header=&footer=)
 [Explanation](https://codegolf.stackexchange.com/a/210307/78850)
 
@@ -162,12 +165,13 @@ kH
 ```
 æ
 ```
-[Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=%C3%A6&inputs=31&header=&footer=)
 
+[Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=%C3%A6&inputs=31&header=&footer=)
 
 ```
 KL2=
 ```
+
 [Try it Online!](http://lyxal.pythonanywhere.com?flags=&code=KL2%3D&inputs=10&header=&footer=)
 
 ## Links

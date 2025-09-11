@@ -1,4 +1,3 @@
-
 ---
 title: one-time-pad-gen
 type: page
@@ -7,8 +6,8 @@ tags: ["C"]
 description: "One time pad generator written in C."
 ---
 
-
 # one-time-pad-gen
+
 Generate one time pads for use in simple manual ciphers written in C.
 
 ```

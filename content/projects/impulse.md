@@ -1,4 +1,3 @@
-
 ---
 title: impulse
 type: page
@@ -7,11 +6,12 @@ tags: ["Python"]
 description: "A simple package manager."
 ---
 
-
 # impulse
 
 # Install
+
 Run `./impulse.build` with root permissions
 
 # Use
+
 Read the man page

@@ -1,4 +1,3 @@
-
 ---
 title: advent-of-code
 type: page
@@ -7,7 +6,7 @@ tags: ["Python"]
 description: "My advent of code throughout the years"
 ---
 
-
 # advent-of-code
+
 My advent of code throughout the years
 https://adventofcode.com/

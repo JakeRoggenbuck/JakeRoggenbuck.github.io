@@ -1,4 +1,3 @@
-
 ---
 title: Yutimim-dictionary-parser
 type: page
@@ -7,10 +6,10 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # Yutimim-dictionary-parser
 
 ## Usage
+
 ```
 # Output to screen
 python3 main.py -i dict.txt -v
@@ -24,6 +23,7 @@ python3 main.py -i dict.txt -o dict.json
 # Example
 
 #### Input (Fake words)
+
 ```
 auau-
    1. te de (v.)
@@ -42,6 +42,7 @@ uueu-
 ```
 
 #### Output
+
 ```
 [
   { "word": "auau-", "defs": ["te de (v.)"] },

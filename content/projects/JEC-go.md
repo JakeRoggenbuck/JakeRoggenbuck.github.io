@@ -1,4 +1,3 @@
-
 ---
 title: JEC-go
 type: page
@@ -7,8 +6,8 @@ tags: ["Go"]
 description: "Jabacat's Easy Config"
 ---
 
-
 # JEC-go ![Go](https://img.shields.io/github/workflow/status/jakeroggenbuck/JEC-go/Go?style=for-the-badge)
+
 Jabacat's Easy Config
 
 [JEC-py](https://github.com/jabacat/JEC-py) |
@@ -21,13 +20,14 @@ JEC-zig |
 JEC-ts
 
 ## API
+
 ```go
 ConfigFile
   - Exists
   - Remove
   - Create
   - FromHome
-  
+
 ConfigDir
   - Exists
   - Remove
@@ -36,6 +36,7 @@ ConfigDir
 ```
 
 ## Usage
+
 ```go
 conf := ConfigFile{"./test.conf"}
 

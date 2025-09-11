@@ -1,4 +1,3 @@
-
 ---
 title: cowculator-v2
 type: page
@@ -7,8 +6,8 @@ tags: ["TypeScript"]
 description: "🐮 Calculate the enteric methane emissions from cows based on their food"
 ---
 
-
 # Cowculator - v2
+
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=typescript)
 
 🐮 Calculate the enteric methane emissions from cows based on their food

@@ -1,4 +1,3 @@
-
 ---
 title: pyswitch
 type: page
@@ -7,6 +6,6 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 ## PySwitch
+
 # pyswitch

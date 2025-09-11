@@ -1,7 +1,17 @@
 ---
 title: Using Regex with Express
 date: 2025-07-12T00:00:00
-tags: ["backend", "express", "frontend", "regex", "regolith", "rust", "typescript", "javascript"]
+tags:
+  [
+    "backend",
+    "express",
+    "frontend",
+    "regex",
+    "regolith",
+    "rust",
+    "typescript",
+    "javascript",
+  ]
 type: post
 showTableOfContents: true
 ---
@@ -102,7 +112,7 @@ const port = 3000;
 console.log("Show Regolith is installed correctly:", Regolith);
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -129,7 +139,7 @@ const intPattern = new Regolith("^\\d+$");
 const floatPattern = new Regolith("^\\d*\\.\\d+$");
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -153,7 +163,7 @@ console.log("Should be false:", intPattern.test("hello"));
 console.log("Should be false:", floatPattern.test("world"));
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -173,15 +183,15 @@ We can trade the logging code with a route, that will allow us to call our backe
 
 ```javascript
 app.get("/check", (req, res) => {
-    // Get the input value that we will test
-    const value = req.query.value;
+  // Get the input value that we will test
+  const value = req.query.value;
 
-    // Run the test with Regolith pattern
-    const isInt = intPattern.test(value);
-    const isFloat = floatPattern.test(value);
+  // Run the test with Regolith pattern
+  const isInt = intPattern.test(value);
+  const isFloat = floatPattern.test(value);
 
-    // Return out test output
-    res.json({isInt, isFloat});
+  // Return out test output
+  res.json({ isInt, isFloat });
 });
 ```
 
@@ -205,19 +215,19 @@ const intPattern = new Regolith("^\\d+$");
 const floatPattern = new Regolith("^\\d*\\.\\d+$");
 
 app.get("/check", (req, res) => {
-    // Get the input value that we will test
-    const value = req.query.value;
+  // Get the input value that we will test
+  const value = req.query.value;
 
-    // Run the test with Regolith pattern
-    const isInt = intPattern.test(value);
-    const isFloat = floatPattern.test(value);
+  // Run the test with Regolith pattern
+  const isInt = intPattern.test(value);
+  const isFloat = floatPattern.test(value);
 
-    // Return out test output
-    res.json({isInt, isFloat});
+  // Return out test output
+  res.json({ isInt, isFloat });
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -226,7 +236,7 @@ We can add input validation to check that we provided the `value` URL parameter:
 ```javascript
 // Make sure that we provide a `value` in the request
 if (!value) {
-    return res.status(400).send("Please provide a value query parameter");
+  return res.status(400).send("Please provide a value query parameter");
 }
 ```
 
@@ -234,9 +244,9 @@ We can also include the input value in the final output:
 
 ```javascript
 res.json({
-    value,
-    isInt,
-    isFloat,
+  value,
+  isInt,
+  isFloat,
 });
 ```
 
@@ -254,28 +264,28 @@ const intPattern = new Regolith("^\\d+$");
 const floatPattern = new Regolith("^\\d*\\.\\d+$");
 
 app.get("/check", (req, res) => {
-    // Get the input value that we will test
-    const value = req.query.value;
+  // Get the input value that we will test
+  const value = req.query.value;
 
-    // Make sure that we provide a `value` in the request
-    if (!value) {
-        return res.status(400).send("Please provide a value query parameter");
-    }
+  // Make sure that we provide a `value` in the request
+  if (!value) {
+    return res.status(400).send("Please provide a value query parameter");
+  }
 
-    // Run the test with Regolith pattern
-    const isInt = intPattern.test(value);
-    const isFloat = floatPattern.test(value);
+  // Run the test with Regolith pattern
+  const isInt = intPattern.test(value);
+  const isFloat = floatPattern.test(value);
 
-    // Return out test output
-    res.json({
-        value,
-        isInt,
-        isFloat,
-    });
+  // Return out test output
+  res.json({
+    value,
+    isInt,
+    isFloat,
+  });
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -290,7 +300,7 @@ curl http://localhost:3000/check?value=10.2
 Output from float test
 
 ```json
-{"value":"10.2","isInt":false,"isFloat":true}
+{ "value": "10.2", "isInt": false, "isFloat": true }
 ```
 
 Check with an int value
@@ -302,7 +312,7 @@ curl http://localhost:3000/check?value=10
 Output from int test
 
 ```json
-{"value":"10","isInt":true,"isFloat":false}
+{ "value": "10", "isInt": true, "isFloat": false }
 ```
 
 ### What are ReDoS attacks?

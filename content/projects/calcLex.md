@@ -1,4 +1,3 @@
-
 ---
 title: calcLex
 type: page
@@ -7,6 +6,6 @@ tags: ["Python"]
 description: "A test of lexing and yacc in python"
 ---
 
-
 # calcLex
+
 A simple lexer using a yacc.

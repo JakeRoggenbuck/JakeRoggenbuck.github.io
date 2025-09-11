@@ -1,4 +1,3 @@
-
 ---
 title: statistical-tests-rs
 type: page
@@ -7,11 +6,12 @@ tags: ["Rust"]
 description: "Statistical Tests for Rust"
 ---
 
-
 # statistical-tests-rs
+
 Statistical Tests for Rust
 
 ## Examples
+
 ```rs
 use statistical_tests_rs::mean;
 

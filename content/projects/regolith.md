@@ -1,4 +1,3 @@
-
 ---
 title: regolith
 type: page
@@ -6,7 +5,6 @@ date: 2025-06-16T00:00:00
 tags: ["JavaScript"]
 description: "A server-side TypeScript and JavaScript library immune to Regular Expression Denial of Service (ReDoS) attacks by using Rust and linear RegEx under the hood. Regolith has a linear worst case time complexity, compared to the default RegExp found in TypeScript and JavaScript, which has an exponential worst case."
 ---
-
 
 # Regolith
 
@@ -47,7 +45,7 @@ This is the same case for TypeScript and JavaScript. Both having `RegExp`, which
 
 ### Linear vs Exponential Regex Libraries
 
-This table shows popular languages and if their Regex library has a linear worst case or an exponential worst case. It also includes experimental results for how long execution took for a vulnerable Regex pattern that can be attacked with ReDoS and an input of size 30. 
+This table shows popular languages and if their Regex library has a linear worst case or an exponential worst case. It also includes experimental results for how long execution took for a vulnerable Regex pattern that can be attacked with ReDoS and an input of size 30.
 
 <img src="https://github.com/user-attachments/assets/e3e3fd36-35de-4958-b092-80ee04a590ec" width="700" />
 
@@ -89,6 +87,7 @@ Explain specifically what backreferences and look-around are.
 -->
 
 ### Results
+
 <!-- TODO
 - Talk about all the different CVEs that happen and how they can be avoided
 -->
@@ -122,12 +121,12 @@ npm i @regolithjs/regolith
 #### 2. Try it out
 
 ```ts
-import { Regolith } from '@regolithjs/regolith';
+import { Regolith } from "@regolithjs/regolith";
 
 const pattern = new Regolith("^\\d+$");
 
-pattern.test("12345");  // true
-pattern.test("Hello");  // false
+pattern.test("12345"); // true
+pattern.test("Hello"); // false
 ```
 
 ## Examples
@@ -135,10 +134,10 @@ pattern.test("Hello");  // false
 Simple pattern matching example to match `crab` in our sentence `my crab ferris`.
 
 ```js
-import { Regolith } from '@regolithjs/regolith';
+import { Regolith } from "@regolithjs/regolith";
 
-const pattern = new Regolith('crab', 'g');
-console.log(pattern.test('my crab ferris')); // true
+const pattern = new Regolith("crab", "g");
+console.log(pattern.test("my crab ferris")); // true
 ```
 
 Here we use 'g' in the `Regolith` constructor to mean a global.
@@ -146,31 +145,31 @@ Here we use 'g' in the `Regolith` constructor to mean a global.
 #### Match method
 
 ```js
-const sentence = 'crab, snail, crab';
-const crabPattern = new Regolith('crab', 'g');
+const sentence = "crab, snail, crab";
+const crabPattern = new Regolith("crab", "g");
 
 // Find all matches
 console.log(crabPattern.match(sentence));
 // Output: ['crab', 'crab']
-````
+```
 
 #### Replace method
 
 ```js
-const sentence = 'crab, snail, crab';
-const crabPattern = new Regolith('crab', 'g');
+const sentence = "crab, snail, crab";
+const crabPattern = new Regolith("crab", "g");
 
 // Replace all occurrences
-console.log(crabPattern.replace(sentence, 'snake'));
+console.log(crabPattern.replace(sentence, "snake"));
 // Output: 'snake, snail, snake'
 ```
 
 #### Search method
 
 ```js
-const sentence = 'crab, snail, crab';
+const sentence = "crab, snail, crab";
 
-const snailPattern = new Regolith('snail');
+const snailPattern = new Regolith("snail");
 console.log(snailPattern.search(sentence));
 // Output: 6 (index where 'snail' is found)
 ```
@@ -178,8 +177,8 @@ console.log(snailPattern.search(sentence));
 #### Split method
 
 ```js
-const splitPattern = new Regolith('[,\\|]');
-console.log(splitPattern.split('apple,banana|orange'));
+const splitPattern = new Regolith("[,\\|]");
+console.log(splitPattern.split("apple,banana|orange"));
 // Output: ['apple', 'banana', 'orange']
 ```
 
@@ -199,25 +198,25 @@ const intPattern = new Regolith("^\\d+$");
 const floatPattern = new Regolith("^\\d*\\.\\d+$");
 
 app.get("/check", (req, res) => {
-    const value = req.query.value;
+  const value = req.query.value;
 
-    if (!value) {
-        return res.status(400).send("Please provide a value query parameter");
-    }
+  if (!value) {
+    return res.status(400).send("Please provide a value query parameter");
+  }
 
-    // Run the test with Regolith pattern
-    const isInt = intPattern.test(value);
-    const isFloat = floatPattern.test(value);
+  // Run the test with Regolith pattern
+  const isInt = intPattern.test(value);
+  const isFloat = floatPattern.test(value);
 
-    res.json({
-        value,
-        isInt,
-        isFloat,
-    });
+  res.json({
+    value,
+    isInt,
+    isFloat,
+  });
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${port}`);
 });
 ```
 
@@ -265,7 +264,6 @@ Here is an example of running Regolith in the REPL to test if it built correctly
 
 ![image](https://github.com/user-attachments/assets/4282491b-4f2e-4e88-ad6e-7e49f0958164)
 
-
 ### Testing
 
 #### Testing the TS/JS library
@@ -305,7 +303,7 @@ These tests can be found in the source files in [`src/lib.rs`](./src/lib.rs).
 #### 1. Important Files
 
 | name           | purpose                                                                                                               | docs                                                                                          |
-|----------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| -------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | `build.rs`     | Runs the setup for [napi-rs](https://github.com/napi-rs/napi-rs)                                                      |                                                                                               |
 | `Cargo.lock`   | Automatically generated by Cargo to keep track of Rust package versions                                               |                                                                                               |
 | `Cargo.toml`   | Contains information about the Rust crate; like the name, version, and dependencies                                   |                                                                                               |
@@ -313,7 +311,7 @@ These tests can be found in the source files in [`src/lib.rs`](./src/lib.rs).
 | `index.js`     | The main entry point for the library that is automatically generated by [napi-rs](https://github.com/napi-rs/napi-rs) |                                                                                               |
 | `package.json` | Information about the Regolith package                                                                                |                                                                                               |
 | `rustfmt.toml` | A config for the Rust formatter                                                                                       |                                                                                               |
-| `yarn.lock`    | Keeps track of the dependency version for yarn and it is automatically generated                                       |                                                                                               |
+| `yarn.lock`    | Keeps track of the dependency version for yarn and it is automatically generated                                      |                                                                                               |
 | `.npmignore`   | Keeps files and directories out of what is shipped in the library                                                     | [Link](https://docs.npmjs.com/cli/v10/using-npm/developers#keeping-files-out-of-your-package) |
 | `.yarnrc.yml`  | Configure yarn settings                                                                                               |                                                                                               |
 
@@ -336,7 +334,7 @@ The source code for the Regolith website can be found at [github.com/JakeRoggenb
 These are the platforms that Regolith has been tested on. These checks happen automatically in the [CI](https://github.com/JakeRoggenbuck/regolith/blob/main/.github/workflows/CI.yml).
 
 | Platform               | Status     |
-|------------------------|------------|
+| ---------------------- | ---------- |
 | Arm 64 Apple Darwin    | Working    |
 | Arm 64 Linux Android   | Working    |
 | Arm 64 Linux GNU       | Working    |

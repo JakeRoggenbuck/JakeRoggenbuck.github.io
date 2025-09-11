@@ -1,4 +1,3 @@
-
 ---
 title: tap
 type: page
@@ -7,11 +6,12 @@ tags: ["Rust"]
 description: "Quickly tap basic files into existence"
 ---
 
-
 # Tap ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/tap/rust.yml?branch=main&style=for-the-badge)
+
 Quickly tap basic files into existence
 
 ## Help
+
 ```sh
 # create an empty python file
 tap it py
@@ -21,6 +21,7 @@ tap it pyarg
 ```
 
 ## Usage
+
 ```
 tap-it 0.1.0
 
@@ -37,4 +38,5 @@ ARGS:
 ```
 
 ## TODO
+
 Make a `tap install`

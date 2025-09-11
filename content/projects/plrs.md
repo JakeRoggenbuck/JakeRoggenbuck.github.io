@@ -1,4 +1,3 @@
-
 ---
 title: plrs
 type: page
@@ -7,29 +6,36 @@ tags: ["Rust"]
 description: "The multi-tool of lexical analysis and tokenization. Make parsers in less time for many use cases."
 ---
 
-
 # plrs <a href="https://pypi.org/project/plrs/">![Version](https://img.shields.io/pypi/v/plrs)</a>
+
 The multi-tool of lexical analysis and tokenization.
 
 # Install
+
 ```
 pip install plrs
 ```
 
 # Build
+
 ```
 maturin build
 ```
+
 # Examples
+
 - [zipfs-law](https://github.com/JakeRoggenbuck/zipfs-law)
 
 # API
+
 #### Global variables
+
 ```
 EOF_TOKEN
 ```
 
 #### Classes
+
 ```
 Tokens
 Settings
@@ -49,6 +55,7 @@ Lexer
 ```
 
 #### Functions
+
 ```
 is_char_symbol
 is_char_operator

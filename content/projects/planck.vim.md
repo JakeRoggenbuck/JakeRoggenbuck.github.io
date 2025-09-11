@@ -1,4 +1,3 @@
-
 ---
 title: planck.vim
 type: page
@@ -7,8 +6,8 @@ tags: ["Vim script"]
 description: "A syntax highlighting for planck lang files"
 ---
 
-
 # planck.vim
+
 A syntax highlighting for planck lang files
 
 # Install

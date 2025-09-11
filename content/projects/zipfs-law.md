@@ -1,4 +1,3 @@
-
 ---
 title: zipfs-law
 type: page
@@ -6,7 +5,6 @@ date: 2021-08-31T00:00:00
 tags: ["Python"]
 description: "An example use of the library plrs"
 ---
-
 
 # zipfs-law
 

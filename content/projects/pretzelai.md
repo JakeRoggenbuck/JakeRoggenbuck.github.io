@@ -1,4 +1,3 @@
-
 ---
 title: pretzelai
 type: page
@@ -6,7 +5,6 @@ date: 2024-03-23T00:00:00
 tags: ["TypeScript"]
 description: "Open-source, browser-local data exploration using DuckDB-Wasm and PRQL"
 ---
-
 
 <p align="center">
   <h3 align="center">Pretzel 🥨</h3>
@@ -234,12 +232,10 @@ Our hosted server is free to use. However, we will delete your data and your acc
 **A.** Pretzel uses different AI models for various tasks:
 
 1. Default model: GPT-4o
-
    - Offers a good balance between speed and quality
    - Can be changed in Pretzel Settings if you're using your own API key
 
 2. Inline completions: [Mistral's Codestral model](https://mistral.ai/news/codestral/)
-
    - Excellent for code completion
    - Very fast performance (22B parameter model)
 

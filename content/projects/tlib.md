@@ -1,4 +1,3 @@
-
 ---
 title: tlib
 type: page
@@ -6,7 +5,6 @@ date: 2019-12-13T00:00:00
 tags: ["Python"]
 description: "None"
 ---
-
 
 # tlib
 

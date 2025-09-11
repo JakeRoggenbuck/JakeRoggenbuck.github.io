@@ -1,4 +1,3 @@
-
 ---
 title: Deepai
 type: page
@@ -7,13 +6,14 @@ tags: ["Python"]
 description: "Use the deepdream API and other APIs from deepai to convert, upscale, and change images in interesting ways"
 ---
 
-
 # Deepai
+
 Use the deepdream API and other APIs from deepai to convert, upscale, and change images in interesting ways
 
 ## Use
 
 #### Use as CLI
+
 ```
 python3 main.py -i ~/Downloads/input_image.jpg -o image.png -n NeuralStyle -s ~/Downloads/vangohg.png
 
@@ -21,6 +21,7 @@ python3 main.py -i ~/Downloads/input_image.jpg -o image.png -n DeepDream
 ```
 
 #### Use as library
+
 ```py
 from main import DeepImage
 
@@ -43,8 +44,10 @@ deep.download()
 ```
 
 ## Config
+
 Make the config and get an api key at [deepai.org](https://deepai.org)
 `config.py`
+
 ```py
 KEY = "API-KEY"
 urls:
@@ -55,5 +58,6 @@ urls:
 ```
 
 ## Example
+
 ![Example image](https://github.com/JakeRoggenbuck/Deepai/blob/master/images/34d5700d-73e2-4d2c-99f7-9ecbd125e68c.jpg?raw=true)
 ![Example image](https://github.com/JakeRoggenbuck/Deepai/blob/master/images/clones.png?raw=true)

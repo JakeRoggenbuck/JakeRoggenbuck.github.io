@@ -1,4 +1,3 @@
-
 ---
 title: jccc
 type: page
@@ -7,8 +6,8 @@ tags: ["C"]
 description: "None"
 ---
 
-
 # JCCC (JabaCat C Compiler)
+
 A C compiler and preprocessor written from scratch in C that targets x86-64 assembly
 
 ![CMake GitHub Workflow](https://img.shields.io/github/actions/workflow/status/jabacat/jccc/cmake.yml?style=for-the-badge)
@@ -51,7 +50,7 @@ For errors, no news is good news because `tassert`s that fail will show the fail
 
 ### 1.3 Writing tests
 
-Here is an example usage of the testing. This is from "lexer/test_lexer.c". For each module of code, create a test_{module_name} file. This file should include a test_{module_name} function that includes the testing_setup and the testing_cleanup functions.
+Here is an example usage of the testing. This is from "lexer/test*lexer.c". For each module of code, create a test*{module*name} file. This file should include a test*{module_name} function that includes the testing_setup and the testing_cleanup functions.
 
 ```c
 #include "lex.h"
@@ -96,4 +95,3 @@ int test_ttype_from_string() {
     return 0;
 }
 ```
-

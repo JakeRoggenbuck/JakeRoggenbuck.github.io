@@ -1,4 +1,3 @@
-
 ---
 title: Rust
 type: page
@@ -6,7 +5,6 @@ date: 2022-03-31T00:00:00
 tags: ["Rust"]
 description: " All Algorithms implemented in Rust "
 ---
-
 
 <div align="center">
 <!-- Title: -->
@@ -36,7 +34,9 @@ description: " All Algorithms implemented in Rust "
 </div>
 
 ### List of Algorithms
+
 See our [directory](DIRECTORY.md) for easier navigation and a better overview of the project.
 
 ### Contributing
+
 Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.

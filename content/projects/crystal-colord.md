@@ -1,4 +1,3 @@
-
 ---
 title: crystal-colord
 type: page
@@ -7,10 +6,9 @@ tags: ["Crystal"]
 description: "A library for colored text in crystal"
 ---
 
-
 # crystal-colord
 
- A library for colored text in crystal 
+A library for colored text in crystal
 
 ## Installation
 

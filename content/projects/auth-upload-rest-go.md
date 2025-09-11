@@ -1,4 +1,3 @@
-
 ---
 title: auth-upload-rest-go
 type: page
@@ -7,14 +6,16 @@ tags: ["Go"]
 description: "Authenticated REST server written in Go."
 ---
 
-
 # auth-upload-rest-go
+
 Authenticated REST server written in Go.
 
 ## Usage
+
 Upload files to a dedicated server for file sharing, etc.
 
 ## Running
+
 ```sh
 # Run the server
 cd backend

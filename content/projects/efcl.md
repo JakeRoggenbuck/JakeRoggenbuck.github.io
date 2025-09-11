@@ -1,4 +1,3 @@
-
 ---
 title: efcl
 type: page
@@ -6,7 +5,6 @@ date: 2022-11-11T00:00:00
 tags: ["Rust"]
 description: "The most simple, small, and fast terminal color text library."
 ---
-
 
 # Efficiency First Color Library (EFCL)
 
@@ -18,6 +16,7 @@ description: "The most simple, small, and fast terminal color text library."
 The most simple, small, and fast terminal color text library.
 
 ## Priorities
+
 - Runtime speed
 - Dependency size
 

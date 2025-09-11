@@ -5,6 +5,7 @@ date: 2023-04-30T00:00:00
 ---
 
 ## Classes
+
 Classes have been very great. I am currently taking an Assembly class, Discrete math, Calculus, and another student lead CS course about linux.
 These classes have been super helpful and fun and I'm learning a lot!
 
@@ -41,7 +42,9 @@ In the last two months especially, we have been moving really quickly, getting t
 We have been deploying and testing since we started but our first publicly facing deployment will be on [Clubly.dev](https://clubly.dev) and [Clubly.org](https://clubly.org) in the next few weeks. (Now released!)
 
 ## Using Git Post
+
 I wrote a [post](/posts/helpful-git-commands/) about Git for my AggieWorks/Clubly team to reference. I may turn some of these ideas into a full post.
 
 ## Future projects
+
 I got the domain [afternow.dev](https://afternow.dev) for a project I have been thinking about for a few weeks. So far, it's a landing page with a simple design I made, but expect some updates sometime in the next few months. I think this will be a tool I use all of the time. I will start to [pretotype](https://www.pretotyping.org/) this to see if it's something I will use and if it's something other people will use. I don't foresee this being super popular with the general public, but it may be a tool for the people who use tools like notion to keep themselves organized.

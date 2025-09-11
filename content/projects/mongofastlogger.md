@@ -1,4 +1,3 @@
-
 ---
 title: mongofastlogger
 type: page
@@ -7,13 +6,14 @@ tags: ["Python"]
 description: "A simple and fask logging library that uses the power of mongodb to save and query logs (with built in cli)"
 ---
 
-
 <a href="https://pypi.org/project/mongofastlogger/">![Version](https://img.shields.io/pypi/v/mongofastlogger)</a>
 
 # Logger
+
 A simple and fask logging library that uses the power of mongodb to save and query logs (with built in cli)
 
 ## Cli
+
 ```sh
 # search
 search <tag> <logger_name>
@@ -51,6 +51,7 @@ mongofastlogger command --help
 ```
 
 ## Library
+
 ```py
 from mongofastlogger import LogViewer, Logger
 
@@ -86,6 +87,7 @@ production_viewer.view_log()
 ```
 
 ### Todo
+
 Make readme more easy to read, especially comments in code and command line instructions<br>
 Make last use "amount metric" format because it is more intuitive<br>
 Make last have more time metrics, like month and year<br>

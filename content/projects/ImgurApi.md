@@ -1,4 +1,3 @@
-
 ---
 title: ImgurApi
 type: page
@@ -7,9 +6,9 @@ tags: ["Python"]
 description: "Simple Imgur library to interface with the Imgur web API "
 ---
 
-
 # ImgurApi
-Simple Imgur library to interface with the Imgur web API 
+
+Simple Imgur library to interface with the Imgur web API
 
 ```py
 from main import Imgur

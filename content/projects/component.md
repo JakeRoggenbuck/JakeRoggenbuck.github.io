@@ -1,4 +1,3 @@
-
 ---
 title: component
 type: page
@@ -6,7 +5,6 @@ date: 2024-09-04T00:00:00
 tags: ["Rust"]
 description: "A programming language that compiles to x86-64 assembly for math using postfix notation"
 ---
-
 
 ![Component Logo](./images/Component_dark_mode.png#gh-dark-mode-only)
 ![Component Logo](./images/Component_light_mode.png#gh-light-mode-only)
@@ -35,6 +33,7 @@ Component is the follow-up language to [Basis](https://github.com/JakeRoggenbuck
 The code for Component and Basis use the same lexer. Component is mainly different because it has a different syntax. The lexer for basis was written generally enough that this code can be shared. It also helps that Basis is a math language inspired by postfix notation but not exclusively postfix notation.
 
 ## Interactive interpreter
+
 ![image](https://github.com/user-attachments/assets/3d1978d6-c3b7-4954-9ba5-6b8958e396b1)
 
 Note that the symbol `>` is used in code example to show that these expressions are being put into a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) and evaluated. These symbols at the start of the expression are not a part of the syntax.
@@ -63,16 +62,20 @@ Component uses Postfix Notation.
 Postfix Notation has the arguments first, and then the function or operation.
 In the below example, we are adding 1 and 2 with the + operator to get 3.
 Try typing the following into the interactive prompt:
+
 ```
 1 2 +
 ```
+
 It should look like this once it's been typed in and you press enter:
+
 ```
 > 1 2 +
 -> 3
 ```
 
 Component has a lot of the operators you would expect from math and other languages:
+
 ```
 + addition
 - subtraction
@@ -82,21 +85,25 @@ Component has a lot of the operators you would expect from math and other langua
 ```
 
 Some that may be familiar from other languages:
+
 ```
 ! logical not
 ```
 
 And some that may not be as familiar:
+
 ```
 ? conditional assignment
 ```
 
 Component also has functions that can be called in the same way as operators:
+
 ```
 sqrt square root
 ```
 
 And built-in constants:
+
 ```
 e Euler's number
 C Speed of light (in m/s)
@@ -113,6 +120,7 @@ true and false
 - `stack` prints the current stack
 
 ## Constants
+
 - `e` Euler's number
 - `pi` Pi
 - `C` Speed of light (in m/s)
@@ -120,9 +128,11 @@ true and false
 - `false` Boolean false
 
 ## Built-in Functions
+
 - `sqrt` Square root
 
 ## Operations
+
 - `+` addition
 - `-` subtraction
 - `*` multiplication
@@ -132,6 +142,7 @@ true and false
 - `?` conditional assignment
 
 ## Basic Math Operations
+
 Add two numbers together.
 
 ```
@@ -158,6 +169,7 @@ Assign the value 2 to variable `a`.
 ```
 
 Use the variable `a`.
+
 ```
 a 4 *
 -> 8
@@ -178,6 +190,7 @@ Variables are statically typed in Component. Here is an example usage of a varia
 ![image](https://github.com/user-attachments/assets/f20443c1-3a83-4336-9b01-2309e2bc0af9)
 
 ## Function
+
 Create an addition function called `foo`. Note that to start a function you do in fact need to use the `>` again to tell the interpreter that the following is a function and should not be evaluated.
 
 ```
@@ -277,6 +290,7 @@ a int
 ```
 
 #### Stack Empty [E4]
+
 The Stack Empty error happens when the function or operation that has been called requires more arguments than are currently on the stack. This is an indication that not enough variables where provided. In the example below, a single NumericIntLiteral has been added to the stack and then the Addition operation has been called. This gives an error because the Addition operation requires two arguments.
 
 ```
@@ -302,8 +316,8 @@ Here is an example of what this might look like in the interactive interpreter.
 
 ![image](https://github.com/user-attachments/assets/993e8eb3-0ca2-4a20-8b30-37dd405992bd)
 
-
 ## More About Component
 
 #### Why is it called Component
+
 Component is named after vectors, where a single scalar in a vector is called a "component" of that vector (e.g. < 1 2 3 > where 1, 2, and 3 are all components. This is also in reference to the name [Basis](https://github.com/JakeRoggenbuck/basis), where a basis vector is a subset of a vector space where the vectors are linearly independent.

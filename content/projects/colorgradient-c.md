@@ -1,4 +1,3 @@
-
 ---
 title: colorgradient-c
 type: page
@@ -7,8 +6,8 @@ tags: ["C"]
 description: "Colorgradient learning project in C"
 ---
 
-
 # colorgradient-c
+
 Colorgradient learning project in C
 
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

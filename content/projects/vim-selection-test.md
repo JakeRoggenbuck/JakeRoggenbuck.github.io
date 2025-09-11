@@ -1,4 +1,3 @@
-
 ---
 title: vim-selection-test
 type: page
@@ -7,6 +6,6 @@ tags: ["Vim script"]
 description: "None"
 ---
 
-
 # vim-selection-test
+
 vim-selection-test.vim - A test of calling a function with selected text

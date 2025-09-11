@@ -1,4 +1,3 @@
-
 ---
 title: GPGExchange
 type: page
@@ -7,6 +6,6 @@ tags: ["Python"]
 description: "Website for posting encrypted files, encrypted meme exchange."
 ---
 
-
 # GPGExchange
+
 Website for posting encrypted files, encrypted meme exchange.

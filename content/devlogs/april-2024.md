@@ -5,6 +5,7 @@ type: post
 ---
 
 ## HackDavis - Hackathon
+
 [HackDavis](https://hackdavis.io/) is hosts a yearly hackathon at UC Davis.
 
 ### What my team built
@@ -146,6 +147,7 @@ I got to 400 problems solved!
 ![Leetcode Stats](https://leetcard.jacoblin.cool/jakeroggenbuck?ext=heatmap)
 
 ## Vector C
+
 Vector math in C
 
 [Github](https://github.com/JakeRoggenbuck/vector-c)
