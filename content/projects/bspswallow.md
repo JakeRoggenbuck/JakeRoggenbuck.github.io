@@ -1,4 +1,3 @@
-
 ---
 title: bspswallow
 type: page
@@ -7,21 +6,22 @@ tags: ["None"]
 description: "dwm-like swallowing for bspwm"
 ---
 
-
 # bspswallow
+
 Adds functionality provided by the dwm "swallow" patch to bspwm.
 
 # Dependencies
 
-* bspwm (obviously)
-* xprop
+- bspwm (obviously)
+- xprop
 
 # Installation
+
 Add two files to ~/.config/bspwm
 
-* noswallow - list of classes of windows that you don't want to swallow the terminal
+- noswallow - list of classes of windows that you don't want to swallow the terminal
 
-* terminals - list of classes of terminals that you want to be swallowed
+- terminals - list of classes of terminals that you want to be swallowed
 
 If a class isn't available (such as with xev) then the command of origin can be used.
 
@@ -37,4 +37,4 @@ Now just restart bspwm and you're good to go.
 
 # Known Issues
 
-* Incompatability with LibreOffice due to it having a splash screen and spawning multiple windows, use --no-logo when launching and turn off "Tip of the day" in order to avoid this issue.
+- Incompatability with LibreOffice due to it having a splash screen and spawning multiple windows, use --no-logo when launching and turn off "Tip of the day" in order to avoid this issue.

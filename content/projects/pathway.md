@@ -1,4 +1,3 @@
-
 ---
 title: pathway
 type: page
@@ -6,7 +5,6 @@ date: 2024-11-06T00:00:00
 tags: ["None"]
 description: "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG."
 ---
-
 
 <div align="center">
   <a href="https://pathway.com/">
@@ -42,7 +40,6 @@ description: "Python ETL framework for stream processing, real-time analytics, L
     <a href="https://pathway.com/blog/">Blog</a> |
     <a href="#license">License</a>
 
-  
 </p>
 
 # Pathway<a id="pathway"></a>
@@ -58,6 +55,7 @@ Your Pathway code, despite being written in Python, is run by the Rust engine, e
 All the pipeline is kept in memory and can be easily deployed with **Docker and Kubernetes**.
 
 You can install Pathway with pip:
+
 ```
 pip install -U pathway
 ```
@@ -73,14 +71,13 @@ Ready to see what Pathway can do?
 Available in both notebook and docker formats, these ready-to-launch examples can be launched in just a few clicks. Pick one and start your hands-on experience with Pathway today!
 
 ### Event processing and real-time analytics pipelines
+
 With its unified engine for batch and streaming and its full Python compatibility, Pathway makes data processing as easy as possible. It's the ideal solution for a wide range of data processing pipelines, including:
 
 - [Showcase: Real-time ETL.](https://pathway.com/developers/templates/kafka-etl)
 - [Showcase: Event-driven pipelines with alerting.](https://pathway.com/developers/templates/realtime-log-monitoring)
 - [Showcase: Realtime analytics.](https://pathway.com/developers/templates/linear_regression_with_kafka/)
 - [Docs: Switch from batch to streaming.](https://pathway.com/developers/user-guide/connecting-to-data/switch-from-batch-to-streaming)
-
-
 
 ### Live LLM and RAG pipelines
 
@@ -89,10 +86,10 @@ Pathway provides dedicated LLM tooling to build LLM and RAG pipelines. Wrappers 
 Don't hesitate to try one of our runnable examples featuring LLM tooling.
 You can find such examples [here](https://pathway.com/developers/user-guide/llm-xpack/llm-examples).
 
-  - [Template: Unstructured data to SQL on-the-fly.](https://pathway.com/developers/templates/unstructured-to-structured/)
-  - [Template: Private RAG with Ollama and Mistral AI](https://pathway.com/developers/templates/private-rag-ollama-mistral)
-  - [Template: Adaptive RAG](https://pathway.com/developers/templates/adaptive-rag)
-  - [Template: Multimodal RAG with gpt-4o](https://pathway.com/developers/templates/multimodal-rag)
+- [Template: Unstructured data to SQL on-the-fly.](https://pathway.com/developers/templates/unstructured-to-structured/)
+- [Template: Private RAG with Ollama and Mistral AI](https://pathway.com/developers/templates/private-rag-ollama-mistral)
+- [Template: Adaptive RAG](https://pathway.com/developers/templates/adaptive-rag)
+- [Template: Multimodal RAG with gpt-4o](https://pathway.com/developers/templates/multimodal-rag)
 
 ## Features
 
@@ -102,7 +99,6 @@ You can find such examples [here](https://pathway.com/developers/user-guide/llm-
 - **Consistency**: Pathway handles the time for you, making your all your computations are consistent. In particular, Pathway manages late and out-of-order points by updating its results whenever new (or late, in this case) data points come into the system. The free version of Pathway gives the "at least once" consistency while the enterprise version provides the "exactly once" consistency.
 - **Scalable Rust engine**: with Pathway Rust engine, you are free from the usual limits imposed by Python. You can easily do multithreading, multiprocessing, and distributed computations.
 - **LLM helpers**: Pathway provides an LLM extension with all the utilities to integrate LLMs with your data pipelines (LLM wrappers, parsers, embedders, splitters), including an in-memory real-time Vector Index, and integrations with LLamaIndex and LangChain. You can quickly build and deploy RAG applications with your live documents.
-
 
 ## Getting started<a id="getting-started"></a>
 
@@ -117,7 +113,6 @@ $ pip install -U pathway
 ```
 
 ⚠️ Pathway is available on MacOS and Linux. Users of other systems should run Pathway on a Virtual Machine.
-
 
 ### Example: computing the sum of positive values in real time.<a id="example"></a>
 
@@ -151,7 +146,6 @@ Run Pathway [in Google Colab](https://colab.research.google.com/drive/1aBIJ2HCng
 
 You can find more examples [here](https://github.com/pathwaycom/pathway/tree/main/examples).
 
-
 ## Deployment<a id="deployment"></a>
 
 ### Locally<a id="running-pathway-locally"></a>
@@ -169,7 +163,7 @@ pw.run()
 ```
 
 You can then run your Pathway project (say, `main.py`) just like a normal Python script: `$ python main.py`.
-Pathway comes with a monitoring dashboard that allows you to keep track of the number of messages sent by each connector and the latency of the system. The dashboard also includes log messages. 
+Pathway comes with a monitoring dashboard that allows you to keep track of the number of messages sent by each connector and the latency of the system. The dashboard also includes log messages.
 
 <img src="https://d14l3brkh44201.cloudfront.net/pathway-dashboard.png" width="1326" alt="Pathway dashboard"/>
 
@@ -181,12 +175,12 @@ $ pathway spawn python main.py
 
 Pathway natively supports multithreading.
 To launch your application with 3 threads, you can do as follows:
+
 ```
 $ pathway spawn --threads 3 python main.py
 ```
 
 To jumpstart a Pathway project, you can use our [cookiecutter template](https://github.com/pathwaycom/cookiecutter-pathway).
-
 
 ### Docker<a id="docker"></a>
 
@@ -268,9 +262,8 @@ If you have any question, don't hesitate to [open an issue on GitHub](https://gi
 
 Pathway is distributed on a [BSL 1.1 License](https://github.com/pathwaycom/pathway/blob/main/LICENSE.txt) which allows for unlimited non-commercial use, as well as use of the Pathway package [for most commercial purposes](https://pathway.com/license/), free of charge. Code in this repository automatically converts to Open Source (Apache 2.0 License) after 4 years. Some [public repos](https://github.com/pathwaycom) which are complementary to this one (examples, libraries, connectors, etc.) are licensed as Open Source, under the MIT license.
 
-
 ## Contribution guidelines<a id="contribution-guidelines"></a>
 
-If you develop a library or connector which you would like to integrate with this repo, we suggest releasing it first as a separate repo on a MIT/Apache 2.0 license. 
+If you develop a library or connector which you would like to integrate with this repo, we suggest releasing it first as a separate repo on a MIT/Apache 2.0 license.
 
 For all concerns regarding core Pathway functionalities, Issues are encouraged. For further information, don't hesitate to engage with Pathway's [Discord community](https://discord.gg/pathway).

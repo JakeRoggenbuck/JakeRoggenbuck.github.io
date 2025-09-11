@@ -1,4 +1,3 @@
-
 ---
 title: broken-package-yf
 type: page
@@ -7,11 +6,12 @@ tags: ["None"]
 description: "An example broken package"
 ---
 
-
 # broken-package-yf
-An example broken package 
+
+An example broken package
 
 ## Install
+
 ```
 yfin install jakeroggenbuck/broken-package-yf
 ```

@@ -1,4 +1,3 @@
-
 ---
 title: door-lock
 type: page
@@ -7,9 +6,10 @@ tags: ["Python"]
 description: "Smart home door lock using a raspberry pi"
 ---
 
-
 # door-lock
+
 Smart home door lock using a raspberry pi
 
 ## TODOS
+
 Add an example and running info

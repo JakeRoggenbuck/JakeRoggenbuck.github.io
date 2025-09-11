@@ -1,4 +1,3 @@
-
 ---
 title: yaml_serialize
 type: page
@@ -7,11 +6,12 @@ tags: ["Python"]
 description: "A simple way to store python objects in yaml"
 ---
 
-
 # yaml_serialize
-A simple way to store python objects in yaml 
+
+A simple way to store python objects in yaml
 
 ## Use
+
 ```py
 from src import yaml_serialize
 
@@ -42,14 +42,15 @@ print(new)
 ```
 
 ## Output
+
 ```yml
 _object: !!python/object:__main__.MyObject
   age: 16
   favorite_color: Green
   mylist:
-  - hey
-  - this
-  - is
-  - cool
+    - hey
+    - this
+    - is
+    - cool
   name: Jake
 ```

@@ -1,4 +1,3 @@
-
 ---
 title: pascals-triangle
 type: page
@@ -7,8 +6,8 @@ tags: ["Jupyter Notebook"]
 description: "Exploration of pascals triangle"
 ---
 
-
 # pascals-triangle
+
 Exploration of pascals triangle
 
 ![image](https://user-images.githubusercontent.com/35516367/185814434-5bb34b1d-bb62-4ac0-aa74-f435bf7bb753.png)

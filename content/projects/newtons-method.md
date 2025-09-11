@@ -1,4 +1,3 @@
-
 ---
 title: newtons-method
 type: page
@@ -7,8 +6,8 @@ tags: ["C"]
 description: "Implementation of newtons method of zero approximation and more generally equation solution approximation."
 ---
 
-
 # newtons-method
+
 Implementation of newtons method of zero approximation and more generally equation solution approximation.
 
 <img width="676" alt="newtons method" src="https://user-images.githubusercontent.com/35516367/210165782-5b459eb8-0933-4a78-8dd8-d5bb521e8997.png">
@@ -33,4 +32,3 @@ double newtons_method(double (*func)(double), double n) {
     }
 }
 ```
-

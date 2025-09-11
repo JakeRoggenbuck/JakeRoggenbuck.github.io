@@ -1,4 +1,3 @@
-
 ---
 title: colorgradient-go
 type: page
@@ -7,8 +6,8 @@ tags: ["Go"]
 description: "Colorgradient learning project in Go"
 ---
 
-
 # colorgradient-go
+
 Colorgradient learning project in Go
 
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)

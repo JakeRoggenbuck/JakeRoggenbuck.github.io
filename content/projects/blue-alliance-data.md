@@ -1,4 +1,3 @@
-
 ---
 title: blue-alliance-data
 type: page
@@ -7,6 +6,6 @@ tags: ["Python"]
 description: "Blue alliance data pull utility."
 ---
 
-
 # Blue alliance data
+
 Blue alliance data pull utility.

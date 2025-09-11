@@ -1,4 +1,3 @@
-
 ---
 title: dark-discord
 type: page
@@ -7,8 +6,8 @@ tags: ["None"]
 description: "A dark theme for Discord, need BetterDiscord installed"
 ---
 
-
 # dark-discord
+
 An actual dark theme for Discord
 
 ## Requirements
@@ -36,7 +35,6 @@ To use this option,
 - Copy the content in `dark-discord.scss` ([here](https://raw.githubusercontent.com/Shuzhengz/dark-discord/main/dark-discord.scss))
 - Paste in the textbox
 - Click on the save button, then the update button to apply
-
 
 ## Customize
 

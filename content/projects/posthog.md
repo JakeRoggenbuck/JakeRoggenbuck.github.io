@@ -1,4 +1,3 @@
-
 ---
 title: posthog
 type: page
@@ -6,7 +5,6 @@ date: 2025-06-06T00:00:00
 tags: ["None"]
 description: "🦔 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free."
 ---
-
 
 <p align="center">
   <img alt="posthoglogo" src="https://user-images.githubusercontent.com/65415371/205059737-c8a4f836-4889-4654-902e-f302b187b6a0.png">
@@ -35,14 +33,14 @@ description: "🦔 PostHog provides open-source web & product analytics, session
 
 - [Product analytics](https://posthog.com/product-analytics): Autocapture or manually instrument event-based analytics to understand user behavior and analyze data with visualization or SQL.
 - [Web analytics](https://posthog.com/web-analytics): Monitor web traffic and user sessions with a GA-like dashboard. Easily monitor conversion, web vitals, and revenue.
-- [Session replays](https://posthog.com/session-replay): Watch real user sessions of interactions with your website or mobile app to diagnose issues and understand user behavior. 
+- [Session replays](https://posthog.com/session-replay): Watch real user sessions of interactions with your website or mobile app to diagnose issues and understand user behavior.
 - [Feature flags](https://posthog.com/feature-flags): Safely roll out features to select users or cohorts with feature flags.
 - [Experiments](https://posthog.com/experiments): Test changes and measure their statistical impact on goal metrics. Set up experiments with no-code too.
 - [Error tracking](https://posthog.com/error-tracking): Track errors, get alerts, and resolve issues to improve your product.
 - [Surveys](https://posthog.com/surveys): Ask anything with our collection of no-code survey templates, or build custom surveys with our survey builder.
 - [Data warehouse](https://posthog.com/data-warehouse): Sync data from external tools like Stripe, Hubspot, your data warehouse, and more. Query it alongside your product data.
 - [Data pipelines](https://posthog.com/cdp): Run custom filters and transformations on your incoming data. Send it to 25+ tools or any webhook in real time or batch export large amounts to your warehouse.
-- [LLM observability](https://posthog.com/docs/ai-engineering): Capture traces, generations, latency, and cost for your LLM-powered app. 
+- [LLM observability](https://posthog.com/docs/ai-engineering): Capture traces, generations, latency, and cost for your LLM-powered app.
 
 Best of all, all of this is free to use with a [generous monthly free tier](https://posthog.com/pricing) for each product. Get started by signing up for [PostHog Cloud US](https://us.posthog.com/signup) or [PostHog Cloud EU](https://eu.posthog.com/signup).
 
@@ -63,13 +61,13 @@ The fastest and most reliable way to get started with PostHog is signing up for 
 
 If you want to self-host PostHog, you can deploy a hobby instance in one line on Linux with Docker (recommended 4GB memory):
 
-```bash 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/posthog/posthog/HEAD/bin/deploy-hobby)" 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/posthog/posthog/HEAD/bin/deploy-hobby)"
 ```
 
-Open source deployments should scale to approximately 100k events per month, after which we recommend [migrating to a PostHog Cloud](https://posthog.com/docs/migrate/migrate-to-cloud). 
+Open source deployments should scale to approximately 100k events per month, after which we recommend [migrating to a PostHog Cloud](https://posthog.com/docs/migrate/migrate-to-cloud).
 
-We *do not* provide customer support or offer guarantees for open source deployments. See our [self-hosting docs](https://posthog.com/docs/self-host), [troubleshooting guide](https://posthog.com/docs/self-host/deploy/troubleshooting), and [disclaimer](https://posthog.com/docs/self-host/open-source/disclaimer) for more info.
+We _do not_ provide customer support or offer guarantees for open source deployments. See our [self-hosting docs](https://posthog.com/docs/self-host), [troubleshooting guide](https://posthog.com/docs/self-host/deploy/troubleshooting), and [disclaimer](https://posthog.com/docs/self-host/open-source/disclaimer) for more info.
 
 ## Setting up PostHog
 
@@ -104,15 +102,15 @@ We <3 contributions big and small:
 
 ## Open-source vs. paid
 
-This repo is available under the [MIT expat license](https://github.com/PostHog/posthog/blob/master/LICENSE), except for the `ee` directory (which has its [license here](https://github.com/PostHog/posthog/blob/master/ee/LICENSE)) if applicable. 
+This repo is available under the [MIT expat license](https://github.com/PostHog/posthog/blob/master/LICENSE), except for the `ee` directory (which has its [license here](https://github.com/PostHog/posthog/blob/master/ee/LICENSE)) if applicable.
 
-Need *absolutely 💯% FOSS*? Check out our [posthog-foss](https://github.com/PostHog/posthog-foss) repository, which is purged of all proprietary code and features.
+Need _absolutely 💯% FOSS_? Check out our [posthog-foss](https://github.com/PostHog/posthog-foss) repository, which is purged of all proprietary code and features.
 
-The pricing for our paid plan is completely transparent and available on [our pricing page](https://posthog.com/pricing). 
+The pricing for our paid plan is completely transparent and available on [our pricing page](https://posthog.com/pricing).
 
 ## We’re hiring!
 
-Hey! If you're reading this, you've proven yourself as a dedicated README reader. 
+Hey! If you're reading this, you've proven yourself as a dedicated README reader.
 
 You might also make a great addition to our team. We're growing fast [and would love for you to join us](https://posthog.com/careers).
 

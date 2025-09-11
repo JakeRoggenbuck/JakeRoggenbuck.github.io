@@ -1,4 +1,3 @@
-
 ---
 title: ml-compression
 type: page
@@ -6,7 +5,6 @@ date: 2024-12-27T00:00:00
 tags: ["Python"]
 description: "Automatically create compression schemes convolutional neural networks"
 ---
-
 
 # ml-compression
 
@@ -19,11 +17,13 @@ Train a neural network to have its output reproduce the exact input. Why is this
 These types of models can help us generate optimal compression schemes.
 
 ## Setup
+
 ```
 pip install -r requirements.txt
 ```
 
 ## Running
+
 ```
 python3 main.py
 ```
@@ -35,4 +35,5 @@ python3 main.py
 ![ml_compression](https://github.com/user-attachments/assets/6fb1696b-4d7a-466c-be76-0b2768cbd645)
 
 ## TODO:
+
 - Restrict pixels instead of just channels in the convolutions

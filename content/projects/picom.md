@@ -1,4 +1,3 @@
-
 ---
 title: picom
 type: page
@@ -7,11 +6,9 @@ tags: ["None"]
 description: "A lightweight compositor for X11"
 ---
 
+# picom
 
-picom
-=====
-
-__picom__ is a compositor for X, and a [fork of Compton](History.md).
+**picom** is a compositor for X, and a [fork of Compton](History.md).
 
 **This is a development branch, bugs to be expected**
 
@@ -27,29 +24,29 @@ See [Releases](https://github.com/yshui/picom/releases)
 
 Assuming you already have all the usual building tools installed (e.g. gcc, python, meson, ninja, etc.), you still need:
 
-* libx11
-* libx11-xcb
-* libXext
-* xproto
-* xcb
-* xcb-damage
-* xcb-xfixes
-* xcb-shape
-* xcb-renderutil
-* xcb-render
-* xcb-randr
-* xcb-composite
-* xcb-image
-* xcb-present
-* xcb-xinerama
-* xcb-glx
-* pixman
-* libdbus (optional, disable with the `-Ddbus=false` meson configure flag)
-* libconfig (optional, disable with the `-Dconfig_file=false` meson configure flag)
-* libGL, libEGL (optional, disable with the `-Dopengl=false` meson configure flag)
-* libpcre (optional, disable with the `-Dregex=false` meson configure flag)
-* libev
-* uthash
+- libx11
+- libx11-xcb
+- libXext
+- xproto
+- xcb
+- xcb-damage
+- xcb-xfixes
+- xcb-shape
+- xcb-renderutil
+- xcb-render
+- xcb-randr
+- xcb-composite
+- xcb-image
+- xcb-present
+- xcb-xinerama
+- xcb-glx
+- pixman
+- libdbus (optional, disable with the `-Ddbus=false` meson configure flag)
+- libconfig (optional, disable with the `-Dconfig_file=false` meson configure flag)
+- libGL, libEGL (optional, disable with the `-Dopengl=false` meson configure flag)
+- libpcre (optional, disable with the `-Dregex=false` meson configure flag)
+- libev
+- uthash
 
 On Debian based distributions (e.g. Ubuntu), the needed packages are
 
@@ -85,6 +82,7 @@ $ LDFLAGS="-L/path/to/libraries" CPPFLAGS="-I/path/to/headers" meson --buildtype
 ```
 
 As an example, on FreeBSD, you might have to run meson with:
+
 ```bash
 $ LDFLAGS="-L/usr/local/lib" CPPFLAGS="-I/usr/local/include" meson --buildtype=release . build
 $ ninja -C build
@@ -92,7 +90,7 @@ $ ninja -C build
 
 ### To install
 
-``` bash
+```bash
 $ ninja -C build install
 ```
 

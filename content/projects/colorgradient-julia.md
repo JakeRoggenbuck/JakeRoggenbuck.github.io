@@ -1,4 +1,3 @@
-
 ---
 title: colorgradient-julia
 type: page
@@ -7,8 +6,8 @@ tags: ["Julia"]
 description: "A tool in Julia to make color gradients"
 ---
 
-
 # colorgradient-julia
+
 - Python version [colorgradient](https://github.com/JakeRoggenbuck/colorgradient)
 - Rust version [colorgradient-rs](https://github.com/JakeRoggenbuck/colorgradient-rs)
 - Julia version [colorgradient-julia](https://github.com/JakeRoggenbuck/colorgradient-julia)

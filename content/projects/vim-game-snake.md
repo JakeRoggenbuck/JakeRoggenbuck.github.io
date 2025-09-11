@@ -1,4 +1,3 @@
-
 ---
 title: vim-game-snake
 type: page
@@ -6,7 +5,6 @@ date: 2020-08-02T00:00:00
 tags: ["Vim script"]
 description: "Vim Game : Snake"
 ---
-
 
 # VimGameSnake
 
@@ -19,9 +17,9 @@ version 0.1
 `:VimGameSnake` to Start
 `:echo g:VimSnakeScore` to view score
 
-h   | j   | k   | l   | c        | q
---- | --- | --- | --- | ---      | ---
-←   |↓    |↑    |→    | end game | quit
+| h   | j   | k   | l   | c        | q    |
+| --- | --- | --- | --- | -------- | ---- |
+| ←   | ↓   | ↑   | →   | end game | quit |
 
 ## Installation
 
@@ -36,4 +34,3 @@ Then run the following in Vim:
 > :source %
 
 > :PlugInstall
-

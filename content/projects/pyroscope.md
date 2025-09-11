@@ -1,4 +1,3 @@
-
 ---
 title: pyroscope
 type: page
@@ -7,9 +6,7 @@ tags: ["None"]
 description: "Continuous Profiling Platform. Debug performance issues down to a single line of code"
 ---
 
-
 <p align="center"><img alt="Pyroscope" src="https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb" width="100%"/></p>
-
 
 [![ci](https://github.com/grafana/pyroscope/actions/workflows/test.yml/badge.svg)](https://github.com/grafana/pyroscope/actions/workflows/test.yml)
 [![JS Tests Status](https://github.com/grafana/pyroscope/workflows/JS%20Tests/badge.svg)](https://github.com/grafana/pyroscope/actions?query=workflow%3AJS%20Tests)
@@ -42,6 +39,7 @@ Pyroscope provides powerful tools to give you a comprehensive view of your appli
 ![deployment_diagram](https://grafana.com/media/docs/pyroscope/pyroscope_client_server_diagram_09_18_2024.png)
 
 Pyroscope consists of three main components:
+
 - **Pyroscope Server:** The server component that stores and processes profiling data.
 - **Pyroscope SDKs(push) or Grafana alloy(pull) :** The client-side part of Pyroscope that collects profiling data from your applications and sends it to the server.
 - **Explore Profiles UI:** A queryless, intuitive UI for visualizing and analyzing profiling data.
@@ -52,18 +50,19 @@ Pyroscope consists of three main components:
 
 [![Pyroscope GIF Demo](https://github.com/user-attachments/assets/2faeb985-f2b6-4311-ad29-e318e850c025)](https://play.grafana.org/a/grafana-pyroscope-app/)
 
-
 ---
 
 ## **Quick Start: Run Pyroscope server locally**
 
 ### Homebrew
+
 ```sh
 brew install pyroscope-io/brew/pyroscope
 brew services start pyroscope
 ```
 
 ### Docker
+
 ```sh
 docker run -it -p 4040:4040 grafana/pyroscope
 ```
@@ -75,10 +74,12 @@ For more documentation on how to configure Pyroscope server, see [our server doc
 <img width="1728" alt="image" src="https://github.com/user-attachments/assets/67691443-6450-45b9-8064-f41056c88ade">
 
 ### Grafana Cloud
+
 The app UI and server are both installed and running auomatically -- just start sending data!
 
 ### Grafana OSS
-You can run the Explore profiles UI in Grafana by installing the plugin from the [Grafana Plugin Directory](https://grafana.com/grafana/plugins/grafana-pyroscope-app/) 
+
+You can run the Explore profiles UI in Grafana by installing the plugin from the [Grafana Plugin Directory](https://grafana.com/grafana/plugins/grafana-pyroscope-app/)
 
 For more information, check out the [Explore Profiles README](https://github.com/grafana/explore-profiles)
 
@@ -86,13 +87,14 @@ For more information, check out the [Explore Profiles README](https://github.com
 
 For more information on how to use Pyroscope with other programming languages, install it on Linux, or use it in production environment, check out our documentation:
 
-* [Getting Started](https://grafana.com/docs/pyroscope/latest/get-started/)
-* [Deployment Guide](https://grafana.com/docs/pyroscope/latest/deploy-kubernetes/)
-* [Pyroscope Architecture](https://grafana.com/docs/pyroscope/latest/reference-pyroscope-architecture/)
+- [Getting Started](https://grafana.com/docs/pyroscope/latest/get-started/)
+- [Deployment Guide](https://grafana.com/docs/pyroscope/latest/deploy-kubernetes/)
+- [Pyroscope Architecture](https://grafana.com/docs/pyroscope/latest/reference-pyroscope-architecture/)
 
 ## Send data to server via Pyroscope agent (language specific)
 
 For more documentation on how to add the Pyroscope agent to your code, see the [agent documentation](https://grafana.com/docs/pyroscope/latest/configure-client/) on our website or find language specific examples and documentation below:
+
 <table>
    <tr>
       <td align="center"><a href="https://grafana.com/docs/pyroscope/latest/configure-client/language-sdks/go_push/"><img src="https://user-images.githubusercontent.com/23323466/178160549-2d69a325-56ec-4e19-bca7-d460d400b163.png" width="100px;" alt=""/><br />
@@ -153,22 +155,22 @@ Let us know what other integrations you want to see in [our issues](https://gith
 
 Pyroscope is possible thanks to the excellent work of many people, including but not limited to:
 
-* Brendan Gregg — inventor of Flame Graphs
-* Julia Evans — creator of rbspy — sampling profiler for Ruby
-* Vladimir Agafonkin — creator of flamebearer — fast flame graph renderer
-* Ben Frederickson — creator of py-spy — sampling profiler for Python
-* Adam Saponara — creator of phpspy — sampling profiler for PHP
-* Alexei Starovoitov, Brendan Gregg, and many others who made BPF based profiling in Linux kernel possible
-* Jamie Wong — creator of speedscope — interactive flame graph visualizer
+- Brendan Gregg — inventor of Flame Graphs
+- Julia Evans — creator of rbspy — sampling profiler for Ruby
+- Vladimir Agafonkin — creator of flamebearer — fast flame graph renderer
+- Ben Frederickson — creator of py-spy — sampling profiler for Python
+- Adam Saponara — creator of phpspy — sampling profiler for PHP
+- Alexei Starovoitov, Brendan Gregg, and many others who made BPF based profiling in Linux kernel possible
+- Jamie Wong — creator of speedscope — interactive flame graph visualizer
 
 ## Contributing
 
 To start contributing, check out our [Contributing Guide](docs/internal/contributing/README.md)
 
-
 ### Thanks to the contributors of Pyroscope!
 
 [//]: contributor-faces
+
 <a href="https://github.com/simonswine"><img src="https://avatars.githubusercontent.com/u/223048?v=4" title="simonswine" width="80" height="80"></a>
 <a href="https://github.com/petethepig"><img src="https://avatars.githubusercontent.com/u/662636?v=4" title="petethepig" width="80" height="80"></a>
 <a href="https://github.com/cyriltovena"><img src="https://avatars.githubusercontent.com/u/1053421?v=4" title="cyriltovena" width="80" height="80"></a>

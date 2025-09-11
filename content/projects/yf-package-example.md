@@ -1,4 +1,3 @@
-
 ---
 title: yf-package-example
 type: page
@@ -7,10 +6,10 @@ tags: ["None"]
 description: "None"
 ---
 
-
 # yf-package-example
 
 ## Install
+
 ```
 yfin install jakeroggenbuck/yf-package-example
 ```

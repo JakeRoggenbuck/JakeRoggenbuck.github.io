@@ -1,4 +1,3 @@
-
 ---
 title: Reddit_Downloader
 type: page
@@ -7,13 +6,14 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # Reddit_Downloader
 
 ## Get page
+
 Because Reddit requires authentication, it's easier to go to the website and get the page source to parse the image urls
 
 ## Config
+
 ```py
 element = "classname or elecment id"
 filename = "example.txt"
@@ -21,6 +21,7 @@ directory = "example"
 ```
 
 ## Running
+
 ```py
 # Get filename and directory from config
 FILENAME = config.filename

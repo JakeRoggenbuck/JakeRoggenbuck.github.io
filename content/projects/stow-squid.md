@@ -1,4 +1,3 @@
-
 ---
 title: stow-squid
 type: page
@@ -7,13 +6,14 @@ tags: ["Rust"]
 description: "Simple CLI tool written in Rust to stow and deploy your dotfiles."
 ---
 
-
 # 🦑 stow-squid 0.1.2 ![Rust](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/stow-squid/rust.yml?branch=main&style=for-the-badge)
+
 Stow your dotfiles
 
 ![image](https://user-images.githubusercontent.com/35516367/130694893-177cf2d5-eda1-419a-b6f7-1b2eb1f1d4cf.png)
 
 ## Install
+
 ```sh
 git clone https://github.com/JakeRoggenbuck/stow-squid.git
 cd stow-squid
@@ -24,10 +24,13 @@ mkdir -p ~/.config/stow-squid/ && cp example-config.toml ~/.config/stow-squid/st
 ```
 
 ## Verbs
+
 For all verbs, the name is of a specific dotfile and is optional. Including a name will only run the verb on that dotfile. Without a name, it will run the verb on all the dots in the config.
 
 ### Save
-This is to update your dotfiles (that are scattered around your machine) to your git repo 
+
+This is to update your dotfiles (that are scattered around your machine) to your git repo
+
 ```
 stow-squid save <name>
 ```
@@ -37,7 +40,9 @@ stow-squid save <name>
 ![image](https://user-images.githubusercontent.com/35516367/130696302-607159a2-2a69-42d4-9f20-505827e32cb1.png)
 
 ### Deploy
+
 This is to place all your dotfiles from your git repo to all the various places they might go
+
 ```
 stow-squid deploy <name>
 ```
@@ -47,11 +52,13 @@ stow-squid deploy <name>
 ![image](https://user-images.githubusercontent.com/35516367/130696199-2c57623d-c6b1-4d79-98f3-f0f4b6ae9286.png)
 
 ### List
+
 ```
 stow-squid list
 ```
 
 ## Config
+
 ```toml
 # Git path
 gitpath = "/path/to/git/dir"
@@ -80,6 +87,7 @@ deployed = ""
 ```
 
 ## Config Example
+
 ```toml
 gitpath = "/home/jake/Build/dotfiles/"
 
@@ -106,6 +114,7 @@ deployed = "/home/jake/.config/sxhkd/sxhkdrc"
 ```
 
 ## Help
+
 ```
 USAGE:
     drop <verb> [dot]

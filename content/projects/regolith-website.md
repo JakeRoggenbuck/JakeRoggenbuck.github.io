@@ -1,4 +1,3 @@
-
 ---
 title: regolith-website
 type: page
@@ -6,7 +5,6 @@ date: 2025-07-02T00:00:00
 tags: ["TypeScript"]
 description: "A modern, responsive landing page for Regolith - a secure, Rust-backed regex engine for JavaScript and TypeScript."
 ---
-
 
 # Regolith Landing Page
 
@@ -37,11 +35,13 @@ Regolith is a drop-in RegExp replacement that's immune to ReDoS (Regular Express
 ## Getting Started
 
 1. **Install dependencies:**
+
    ```bash
    bun install
    ```
 
 2. **Run the development server:**
+
    ```bash
    bun run dev
    ```
@@ -85,6 +85,7 @@ The landing page includes the following sections:
 ## Contributing
 
 This is the landing page for the Regolith project. For contributing to the core Regolith library, visit:
+
 - [Regolith GitHub Repository](https://github.com/jakeroggenbuck/regolith)
 - [Contributing Guidelines](https://github.com/jakeroggenbuck/regolith/blob/main/CONTRIBUTING.md)
 

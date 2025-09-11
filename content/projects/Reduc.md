@@ -1,4 +1,3 @@
-
 ---
 title: Reduc
 type: page
@@ -7,6 +6,6 @@ tags: ["None"]
 description: "A lightweight general purpose window manager written in rust"
 ---
 
-
 # Reduc
+
 A lightweight general purpose window manager written in rust

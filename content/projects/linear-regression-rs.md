@@ -1,4 +1,3 @@
-
 ---
 title: linear-regression-rs
 type: page
@@ -7,8 +6,8 @@ tags: ["Rust"]
 description: "Super simple linear regression library in Rust"
 ---
 
-
 # linear-regression-rs
+
 Super simple linear regression library in Rust ( :crab: ).
 
 ## Installation
@@ -41,6 +40,7 @@ fn main() {
 ```
 
 ## API
+
 ```rust
 fn squared_error(&mut self, f: &dyn Fn(f64) -> f64) -> f64;
 fn mean_squared_error(&mut self, f: &dyn Fn(f64) -> f64) -> f64;

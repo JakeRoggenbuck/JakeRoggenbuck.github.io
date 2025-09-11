@@ -1,4 +1,3 @@
-
 ---
 title: vector-c
 type: page
@@ -6,7 +5,6 @@ date: 2024-02-11T00:00:00
 tags: ["C"]
 description: "Vector math in C"
 ---
-
 
 # Vectors-c
 

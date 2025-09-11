@@ -5,7 +5,6 @@ type: page
 
 A collection of monthly summaries comprised of particular projects, progress, and discoveries I've found to be noteworthy.
 
-
 <!--
 # 2023
 - [January 2023](/devlogs/january-2023) - **AggieWorks, Data Structures, and tools in C**

@@ -1,4 +1,3 @@
-
 ---
 title: Seamonsters-2605.github.io
 type: page
@@ -7,6 +6,6 @@ tags: ["None"]
 description: "Seamonsters team Github Pages site"
 ---
 
-
 # Seamonsters-2605.github.io
+
 Seamonsters team Github Pages site

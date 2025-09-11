@@ -1,4 +1,3 @@
-
 ---
 title: firefox-landing-page-1
 type: page
@@ -7,8 +6,8 @@ tags: ["JavaScript"]
 description: "A simple epic landing page."
 ---
 
-
 # Landing Page
+
 Clone the library to your computer
 
     git clone git@github.com:Camerooooon/landing-page.git

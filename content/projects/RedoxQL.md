@@ -1,4 +1,3 @@
-
 ---
 title: RedoxQL
 type: page
@@ -6,8 +5,6 @@ date: 2025-01-13T00:00:00
 tags: ["Rust"]
 description: "🦀 RedoxQL is an L-Store database written in Rust and Python 🚀 and 🥇 Fastest database speed in the class for milestone 2 (ECS165A Winter 2025) ⚡"
 ---
-
-
 
 ![RedoxQL-darkmode](https://github.com/user-attachments/assets/ad60c31a-ff64-47b0-b50f-2d161c9e9f96#gh-dark-mode-only)
 ![RedoxQL-lightmode](https://github.com/user-attachments/assets/8f38e31e-163a-4f49-aa43-34484ad361ed#gh-light-mode-only)
@@ -27,33 +24,41 @@ RedoxQL is our implementation of an [L-Store](https://openproceedings.org/2018/c
 > Read the Structure section — We use both Rust and Python and they go in different places
 
 ## Setup
+
 Create a virtual environment
+
 ```
 python3 -m venv venv
 ```
 
 Source the virtual environment
+
 ```
 source venv/bin/activate
 ```
 
 Install maturin
+
 ```
 pip install -r requirements.txt
 ```
 
 ## Running
+
 Build the Rust code
+
 ```
 maturin build --release
 ```
 
 Install the module (Note: the version will change so check the exact filename in `target/wheels/`)
+
 ```
 pip install target/wheels/lstore* --force-reinstall
 ```
 
 Run the database benchmark
+
 ```
 python3 __main__.py
 ```
@@ -71,9 +76,10 @@ Deleting 10k records took:  			 0.002314741000000009
 ```
 
 ## Attribution
+
 - Keanu - Secondary indexes, page.rs and all the page stuff, index.rs and all of the index stuff
 - Lucas & Andrew - update
-- Lucas - Merge, select_version, sum_version, matching 
+- Lucas - Merge, select_version, sum_version, matching
 - Abdulrasol - Merge, BaseContainer, TailContainer, PageDirectory, insert into containers, RecordAddress and Record
 - Jake - Persistence, RTable, RDatabase, RQuery, new RIndex, python bindings, inserts and reads for all props
 
@@ -128,9 +134,11 @@ Deleting 10k records took:  			 0.002314741000000009
 ```
 
 #### lstore
+
 The lstore (`./lstore`) directory is where the Python code goes. This is what gets called by the tests in `__main__.py`. The lstore directory can be referred to as a Python module.
 
 #### src
+
 The src (`./src`) directory is where the Rust code goes. This gets called by the code in the lstore module.
 
 `system.rs` - all the functions and structs related to getting information from the system machine
@@ -218,6 +226,7 @@ Rust unit tests are located in each Rust file and can be found in `./src`
 The integration tests are located at `./tests` and are also run with `cargo test`
 
 ### Python testing
+
 ```
 pytest
 ```
@@ -279,7 +288,8 @@ Data for both graphs can be found [here](./python/benchmarks/speedtests.py)
 
 ### Using release build settings
 
-With compiler options 
+With compiler options
+
 ```
 (venv) redoxql (main) λ p __main__.py
 Inserting 10k records took:                      0.006803145
@@ -305,6 +315,7 @@ sys     0m0.010s
 ```
 
 Without compiler options
+
 ```
 (venv) redoxql (main) λ p __main__.py
 Inserting 10k records took:                      0.007401888000000002
@@ -340,6 +351,7 @@ Docs: https://docs.rs/env_logger/latest/env_logger/.
 We started to try using Pypy which is a runtime for Python that is supposedly faster. Because of [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law), we actually can't get all that much performance out of it. We also found that the newest version of Pypy cannot use the newest version of Pyo3, so future work is needed to get them to run together.
 
 Future questions:
+
 - [ ] How much time does the Python part take up?
 - [x] How do we measure the improvement from Python to Pypy
 - [x] How do we downgrade Pypy to work with Py03

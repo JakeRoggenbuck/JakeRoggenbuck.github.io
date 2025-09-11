@@ -1,4 +1,3 @@
-
 ---
 title: calplusplus
 type: page
@@ -7,8 +6,8 @@ tags: ["C++"]
 description: "None"
 ---
 
-
 # calplusplus
+
 The `cal` tool written in C++. Still a work in progress.
 
 ![image](https://github.com/JakeRoggenbuck/calplusplus/assets/35516367/eb5da3cb-0b64-4e2c-a125-28d67acb9a70)

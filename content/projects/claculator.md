@@ -1,4 +1,3 @@
-
 ---
 title: claculator
 type: page
@@ -7,8 +6,8 @@ tags: ["Python"]
 description: "adds numbers together"
 ---
 
-
 # claculator
+
 adds numbers together
 
-*A joke if you couldn't tell*
+_A joke if you couldn't tell_

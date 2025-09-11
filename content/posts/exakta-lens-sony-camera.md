@@ -120,25 +120,25 @@ I used hot glue to attach the spacer to the camera body cover to complete the bu
 ### Night Photos
 
 {{< gallery >}}
-  <img src="../../images/DSC09059.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09062.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09071.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09075.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09079.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09059.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09062.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09071.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09075.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09079.jpg.avif" class="grid-w33" />
 {{< /gallery >}}
 
 ### Nature Photos
 
 {{< gallery >}}
-  <img src="../../images/DSC09116.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09088.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09101.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09116.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09088.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09101.jpg.avif" class="grid-w33" />
 {{< /gallery >}}
 
 ### Gnome Photos
 
 {{< gallery >}}
-  <img src="../../images/DSC09124.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09125.jpg.avif" class="grid-w33" />
-  <img src="../../images/DSC09127.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09124.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09125.jpg.avif" class="grid-w33" />
+<img src="../../images/DSC09127.jpg.avif" class="grid-w33" />
 {{< /gallery >}}

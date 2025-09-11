@@ -1,4 +1,3 @@
-
 ---
 title: jimbot
 type: page
@@ -7,6 +6,6 @@ tags: ["C"]
 description: "Discord bot written in C to track milestones"
 ---
 
-
 # jimbot
+
 Discord bot written in C to track milestones

@@ -1,4 +1,3 @@
-
 ---
 title: cruz-lang
 type: page
@@ -7,7 +6,6 @@ tags: ["Python"]
 description: "Cruz Lang is a simple explicit static typed language. "
 ---
 
-
 # Cruzlang
 
 Cruz Lang is a simple explicit static typed language. <br>
@@ -15,6 +13,7 @@ The compiler written in python is called shark and uses ply.lex for lexical anal
 It has 5 primitive data types:
 
 ### Data types
+
 - `byte` one byte of data
 - `char` one ASCII character
 - `int` a 32 bit integer
@@ -22,6 +21,7 @@ It has 5 primitive data types:
 - `ptr` a 4 byte pointer address
 
 ### Other key words
+
 - `fun` the function key word
 - `while` a while loop
 - `write` output as stdout

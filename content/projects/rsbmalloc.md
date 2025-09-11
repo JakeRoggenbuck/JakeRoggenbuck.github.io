@@ -1,4 +1,3 @@
-
 ---
 title: rsbmalloc
 type: page
@@ -6,7 +5,6 @@ date: 2024-04-19T00:00:00
 tags: ["None"]
 description: "A simple but fast binned allocator for Rust. Single-threaded for no_std, multi-threaded and concurrent otherwise."
 ---
-
 
 # rsbmalloc
 

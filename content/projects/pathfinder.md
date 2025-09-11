@@ -1,4 +1,3 @@
-
 ---
 title: pathfinder
 type: page
@@ -7,15 +6,16 @@ tags: ["Rust"]
 description: "A simple utility to view, edit, and search your $PATH"
 ---
 
-
 # Pathfinder
+
 A simple utility to view, edit, and search your $PATH
 
--------
+---
 
 ## Usage
+
 | Shorthand | Flag        | Description                                                |
-|-----------|-------------|------------------------------------------------------------|
+| --------- | ----------- | ---------------------------------------------------------- |
 | `h`       | `--help`    | Display this page and exit                                 |
 | `v`       | `--version` | Display the version and exit                               |
 | `l`       | `--list`    | List all locations in $PATH (same as find with no keyword) |
@@ -25,6 +25,7 @@ A simple utility to view, edit, and search your $PATH
 | `n`       | `--number`  | List locations in $PATH with numbers on side               |
 
 # Install
+
 ```
 git clone https://github.com/JakeRoggenbuck/pathfinder
 cargo install --path pathfinder

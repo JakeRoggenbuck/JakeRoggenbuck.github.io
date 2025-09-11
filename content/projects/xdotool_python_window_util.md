@@ -1,4 +1,3 @@
-
 ---
 title: xdotool_python_window_util
 type: page
@@ -7,12 +6,12 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # xdotool_python_window_util
 
 ## Use
 
 ### Size
+
 ```py
 from main import Size
 
@@ -21,6 +20,7 @@ a.size_win()
 ```
 
 ### Move
+
 ```py
 from main import Move
 
@@ -34,10 +34,9 @@ a.move_win()
 PYTHONPATH=./src pytest
 ```
 
-
 ## Future Features
+
 - Something to name windows<br>
 - Something to use move and size with window by name<br>
 - Something to get the size and position of a window by name<br>
 - Something that uses the size and position of two windows by name and calculates distance between<br>
-

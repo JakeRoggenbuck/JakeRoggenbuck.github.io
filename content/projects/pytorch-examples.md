@@ -1,4 +1,3 @@
-
 ---
 title: pytorch-examples
 type: page
@@ -6,7 +5,6 @@ date: 2024-11-30T00:00:00
 tags: ["None"]
 description: "A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc."
 ---
-
 
 # PyTorch Examples
 
@@ -41,8 +39,6 @@ https://pytorch.org/examples/
 - [Several examples illustrating the C++ Frontend](cpp)
 - [Image Classification Using Forward-Forward](./mnist_forward_forward/README.md)
 - [Language Translation using Transformers](./language_translation/README.md)
-
-
 
 Additionally, a list of good examples hosted in their own repositories:
 

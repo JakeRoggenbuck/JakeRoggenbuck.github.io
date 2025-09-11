@@ -1,4 +1,3 @@
-
 ---
 title: on-logs-research
 type: page
@@ -6,7 +5,6 @@ date: 2021-11-03T00:00:00
 tags: ["Jupyter Notebook"]
 description: "Exploration on the decimal places of logs from December 2021 - Present"
 ---
-
 
 # on-logs-research
 

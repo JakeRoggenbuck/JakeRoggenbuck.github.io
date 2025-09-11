@@ -1,4 +1,3 @@
-
 ---
 title: mahou
 type: page
@@ -7,7 +6,6 @@ tags: ["Rust"]
 description: "None"
 ---
 
-
 # mahou
 
 Mahou is my AP Computer Science create task for the 2020-21 year. Mahou is a source-to-source compiler, from a custom language to python.
@@ -15,6 +13,7 @@ Mahou is my AP Computer Science create task for the 2020-21 year. Mahou is a sou
 Mahou uses a lexer to find all of the tokens in the original source, then uses a parser to convert the source code into python.
 
 # First language
+
 ```
 set a = 0;
 a += 1;
@@ -22,6 +21,7 @@ print a;
 ```
 
 # Tokens parsed
+
 ```
 Type          Part      Line
 ----------------------------
@@ -41,6 +41,7 @@ Semi          ;         3:27
 ```
 
 # Outputted python
+
 ```py
 a = 0
 a+=1

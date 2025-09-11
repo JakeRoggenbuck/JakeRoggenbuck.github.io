@@ -1,4 +1,3 @@
-
 ---
 title: hermes
 type: page
@@ -7,6 +6,6 @@ tags: ["C++"]
 description: "Hermes is a project in C++ to help individuals with ALS communicate."
 ---
 
-
 # Hermes
+
 Hermes is a project in C++ to help individuals with ALS communicate.

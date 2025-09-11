@@ -1,4 +1,3 @@
-
 ---
 title: all-the-NaN-floats
 type: page
@@ -7,11 +6,10 @@ tags: ["C"]
 description: "Write all of the NaN floats from IEEE 754 32 bit floats to disk."
 ---
 
-
 # all-the-NaN-floats
+
 ![Build](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/all-the-NaN-floats/c-cpp.yml?branch=main&style=for-the-badge)
 [![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers)
-
 
 Write all of the [NaN](https://en.wikipedia.org/wiki/NaN) floats from [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) 32 bit floats to disk.
 
@@ -28,10 +26,10 @@ unsigned int end = 1 << 31;
 
 Helpful visualization: https://www.h-schmidt.net/FloatConverter/IEEE754.html
 
-The resulting file size is ((2 ^ (32 - 8)) - 2) * 4, where 4 is the amount of bytes a float 32 takes up. This results in ~67.11 Megabytes of disk space. If we compress this with something like xz with the highest level of compression, we get a file size of ~4.16 Megabytes.
+The resulting file size is ((2 ^ (32 - 8)) - 2) \* 4, where 4 is the amount of bytes a float 32 takes up. This results in ~67.11 Megabytes of disk space. If we compress this with something like xz with the highest level of compression, we get a file size of ~4.16 Megabytes.
 
 That [file](https://github.com/JakeRoggenbuck/all-the-NaN-floats/blob/main/all-the-nan-floats.xz) was small enough to include in the git project.
 
-This also means that a 64 bit IEEE float would have (2 ^ (64 - 11)) - 2 or 9007199254740990 different NaNs. This means a file with all of the NaNs would be ((2 ^ (64 - 11)) - 2) * 4 bytes or about 36,028TB and that's not realistically feasible to create.
+This also means that a 64 bit IEEE float would have (2 ^ (64 - 11)) - 2 or 9007199254740990 different NaNs. This means a file with all of the NaNs would be ((2 ^ (64 - 11)) - 2) \* 4 bytes or about 36,028TB and that's not realistically feasible to create.
 
 Also, a 128 bit float would have 36028797018963970 Exbibytes of NaN floats.

@@ -1,4 +1,3 @@
-
 ---
 title: clib-redef
 type: page
@@ -7,10 +6,11 @@ tags: ["C"]
 description: "A rewrite of the standard libraries in C for learning purposes."
 ---
 
-
 # clib-redef
+
 A rewrite of the standard libraries in C for learning purposes.
 
 ## Functions
+
 - strcmp
 - strcpy

@@ -7,6 +7,7 @@ showTableOfContents: true
 ---
 
 ## What your setup should look like (git remote -v)
+
 ```
 origin	git@github.com:JakeRoggenbuck/ClubApp.git (fetch)
 origin	git@github.com:JakeRoggenbuck/ClubApp.git (push)
@@ -15,6 +16,7 @@ upstream	git@github.com:aggieworks/ClubApp.git (push)
 ```
 
 ## Getting information
+
 ```sh
 # list the remotes
 git remote -v
@@ -31,6 +33,7 @@ git log
 ```
 
 ## Update from latest
+
 ```sh
 # make sure you are on your own main and don't have any current changes
 git switch main
@@ -51,6 +54,7 @@ git switch -c feature-name
 ```
 
 ## Submitting a feature/assignment/change
+
 ```sh
 # add all changed but prevously staged files
 git add -u
@@ -59,4 +63,3 @@ git commit
 
 git push origin feature-name
 ```
-

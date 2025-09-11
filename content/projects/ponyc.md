@@ -1,4 +1,3 @@
-
 ---
 title: ponyc
 type: page
@@ -6,7 +5,6 @@ date: 2021-09-01T00:00:00
 tags: ["None"]
 description: ":horse: Pony is an open-source, actor-model, capabilities-secure, high performance programming language"
 ---
-
 
 # Pony
 
@@ -20,34 +18,34 @@ Pony is still pre-1.0 and as such, semi-regularly introduces breaking changes. T
 
 ### Operating Systems
 
-* FreeBSD
-* Linux
-* macOS
-* Windows 10
+- FreeBSD
+- Linux
+- macOS
+- Windows 10
 
 ### CPUs
 
-* Full support for 64-bit platforms
-  * x86 and ARM CPUs only
-* Partial support for 32-bit platforms
-  * The `arm` and `armhf` architectures are tested via CI (Continuous
+- Full support for 64-bit platforms
+  - x86 and ARM CPUs only
+- Partial support for 32-bit platforms
+  - The `arm` and `armhf` architectures are tested via CI (Continuous
     Integration testing)
 
 ## More Information
 
-* [Installation](INSTALL.md)
-* [Building from source](BUILD.md)
-* [Docker images](INSTALL_DOCKER.md)
-* [Editor support](EDITORS.md)
+- [Installation](INSTALL.md)
+- [Building from source](BUILD.md)
+- [Docker images](INSTALL_DOCKER.md)
+- [Editor support](EDITORS.md)
 
 ## Resources
 
-* [Learn more about Pony](https://www.ponylang.io/discover/)
-* [Start learning Pony](https://www.ponylang.io/learn/)
-  * [Getting help](https://www.ponylang.io/learn/#getting-help)
-* [Try Pony online](https://playground.ponylang.io)
-* [Frequently Asked Questions](https://www.ponylang.io/faq/)
-* [Community](https://www.ponylang.io/community/)
+- [Learn more about Pony](https://www.ponylang.io/discover/)
+- [Start learning Pony](https://www.ponylang.io/learn/)
+  - [Getting help](https://www.ponylang.io/learn/#getting-help)
+- [Try Pony online](https://playground.ponylang.io)
+- [Frequently Asked Questions](https://www.ponylang.io/faq/)
+- [Community](https://www.ponylang.io/community/)
 
 ## Contributing
 

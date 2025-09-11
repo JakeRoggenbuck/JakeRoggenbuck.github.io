@@ -35,7 +35,7 @@ async updateProfile(id: string, updateData: UpdateProfileDto): Promise<any> {
     const values = [id, ...Object.values(updateData)];
 
     const updateQuery = `
-      UPDATE profiles 
+      UPDATE profiles
       SET ${setClause}
       WHERE id = $1
       RETURNING *
@@ -70,14 +70,13 @@ const client = await this.pool.connect();
 
 Inside a big `try / finally`, we have a few steps that update the database.
 
-
 First, we build a query dynamically to update the database.
 
 ```ts
 // Build dynamic update query
 const setClause = Object.keys(updateData)
   .map((key, index) => `${key} = $${index + 2}`)
-  .join(', ');
+  .join(", ");
 ```
 
 Second, we collect the values from the new data:
@@ -107,7 +106,7 @@ There also is some validation afterwards, as well as a return statement:
 
 ```ts
 if (result.rows.length === 0) {
-  throw new NotFoundException('Profile not found');
+  throw new NotFoundException("Profile not found");
 }
 
 return result.rows[0];
@@ -118,7 +117,7 @@ After a first pass, it didn't seem right. You can clearly see that there is some
 ```ts
 const setClause = Object.keys(updateData)
   .map((key, index) => `${key} = $${index + 2}`)
-  .join(', ');
+  .join(", ");
 
 const values = [id, ...Object.values(updateData)];
 
@@ -138,10 +137,10 @@ I wanted to start by testing an SQL injection by changing the input values (And 
 class mockClient {
   // Log the query that would have been executed
   query = (text: string, values: [any]) => {
-    console.log('Execute: ', text, '\nWith Values: ', values);
+    console.log("Execute: ", text, "\nWith Values: ", values);
 
     // Return an object similar to the one expected
-    return { rows: ['test'] };
+    return { rows: ["test"] };
   };
 
   // Needed to be defined
@@ -161,10 +160,10 @@ An injection with just the value looks like this:
 ```ts
 // SQL Injection
 const updatedProfileInject: UpdateProfileDto = {
-  first_name: 'first_name = FOO WHERE id = $1 RETURNING * --'
+  first_name: "first_name = FOO WHERE id = $1 RETURNING * --",
 };
 
-sql.updateProfile('0', updatedProfileInject);
+sql.updateProfile("0", updatedProfileInject);
 ```
 
 But this just parameterises the values correctly:
@@ -189,24 +188,24 @@ In JavaScript and TypeScript, you can have objects with named keys:
 
 ```ts
 const myObject = {
-    myKey: "My Value",
-}
+  myKey: "My Value",
+};
 ```
 
 And you can also have Strings be the keys!
 
 ```ts
 const myObject = {
-    "This is my key!": "And this is my value!"
-}
+  "This is my key!": "And this is my value!",
+};
 ```
 
 Okay, we are back in business! If we could only edit the key, we'd maybe be able to inject some SQL. This is because we do actually use the key in the SQL command in the original code.
 
 ```ts
 const setClause = Object.keys(updateData)
-    .map((key, index) => `${key} = $${index + 2}`)
-    .join(', ');
+  .map((key, index) => `${key} = $${index + 2}`)
+  .join(", ");
 ```
 
 We use `Object.keys` and then we have `${key}` in the string.
@@ -214,12 +213,12 @@ We use `Object.keys` and then we have `${key}` in the string.
 An attack would involve adding SQL to the key of the object, instead of the value:
 
 ```ts
-  // SQL Injection
-  const updatedProfileInject: UpdateProfileDto = {
-    'first_name = FOO WHERE id = $1 RETURNING * --': '',
-  };
+// SQL Injection
+const updatedProfileInject: UpdateProfileDto = {
+  "first_name = FOO WHERE id = $1 RETURNING * --": "",
+};
 
-  sql.updateProfile('0', updatedProfileInject);
+sql.updateProfile("0", updatedProfileInject);
 ```
 
 This outputs a query where we can clearly see the SQL got added directly to the command opposed to as a parameterised value.
@@ -260,10 +259,10 @@ Here is the data to send:
 
 ```json
 {
-    "firstName": "Jake",
-    "lastInitial": "R",
-    "phoneNumber": "500-123-4567",
-    "first_name = 'FOO' WHERE id = $1 RETURNING * --": "email"
+  "firstName": "Jake",
+  "lastInitial": "R",
+  "phoneNumber": "500-123-4567",
+  "first_name = 'FOO' WHERE id = $1 RETURNING * --": "email"
 }
 ```
 
@@ -317,7 +316,7 @@ Don't do this:
 
 ```ts
 function makeQuery(editFirstName: string): string {
-    return `UPDATE profiles SET id = ?, ${editFirstName} WHERE id = ?`;
+  return `UPDATE profiles SET id = ?, ${editFirstName} WHERE id = ?`;
 }
 ```
 
@@ -325,13 +324,12 @@ Instead do this:
 
 ```ts
 function makeQuery(editFirstName: boolean): string {
-    
-    // We only sometimes want to update the first name
-    if (editFirstName) {
-        return "UPDATE profiles SET id = ?, first_name = ? WHERE id = ?";
-    } else {
-        return "UPDATE profiles SET id = ? WHERE id = ?";
-    }
+  // We only sometimes want to update the first name
+  if (editFirstName) {
+    return "UPDATE profiles SET id = ?, first_name = ? WHERE id = ?";
+  } else {
+    return "UPDATE profiles SET id = ? WHERE id = ?";
+  }
 }
 ```
 

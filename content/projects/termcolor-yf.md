@@ -1,4 +1,3 @@
-
 ---
 title: termcolor-yf
 type: page
@@ -7,11 +6,12 @@ tags: ["None"]
 description: "Terminal color library for the y-flat language"
 ---
 
-
 # termcolor-yf
+
 Terminal color library for the [y-flat](https://github.com/y-flat/) language
 
 ## Install
+
 ```
 yfin install jakeroggenbuck/termcolor-yf
 ```

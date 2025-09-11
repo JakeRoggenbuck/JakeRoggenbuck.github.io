@@ -1,4 +1,3 @@
-
 ---
 title: lark
 type: page
@@ -6,7 +5,6 @@ date: 2022-06-17T00:00:00
 tags: ["None"]
 description: "Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity."
 ---
-
 
 # Lark - a parsing toolkit for Python
 
@@ -16,17 +14,17 @@ Lark can parse all context-free languages. To put it simply, it means that it is
 
 **Who is it for?**
 
-   - **Beginners**: Lark is very friendly for experimentation. It can parse any grammar you throw at it, no matter how complicated or ambiguous, and do so efficiently. It also constructs an annotated parse-tree for you, using only the grammar and an input, and it gives you convienient and flexible tools to process that parse-tree.
+- **Beginners**: Lark is very friendly for experimentation. It can parse any grammar you throw at it, no matter how complicated or ambiguous, and do so efficiently. It also constructs an annotated parse-tree for you, using only the grammar and an input, and it gives you convienient and flexible tools to process that parse-tree.
 
-   - **Experts**: Lark implements both Earley(SPPF) and LALR(1), and several different lexers, so you can trade-off power and speed, according to your requirements. It also provides a variety of sophisticated features and utilities.
+- **Experts**: Lark implements both Earley(SPPF) and LALR(1), and several different lexers, so you can trade-off power and speed, according to your requirements. It also provides a variety of sophisticated features and utilities.
 
 **What can it do?**
 
- - Parse all context-free grammars, and handle any ambiguity gracefully
- - Build an annotated parse-tree automagically, no construction code required.
- - Provide first-rate performance in terms of both Big-O complexity and measured run-time (considering that this is Python ;)
- - Run on every Python interpreter (it's pure-python)
- - Generate a stand-alone parser (for LALR(1) grammars)
+- Parse all context-free grammars, and handle any ambiguity gracefully
+- Build an annotated parse-tree automagically, no construction code required.
+- Provide first-rate performance in terms of both Big-O complexity and measured run-time (considering that this is Python ;)
+- Run on every Python interpreter (it's pure-python)
+- Generate a stand-alone parser (for LALR(1) grammars)
 
 And many more features. Read ahead and find out!
 
@@ -98,29 +96,27 @@ Lark is great at handling ambiguity. Here is the result of parsing the phrase "f
 
 [Read the code here](https://github.com/lark-parser/lark/tree/master/examples/fruitflies.py), and see [more examples here](https://lark-parser.readthedocs.io/en/latest/examples/index.html).
 
-
 ## List of main features
 
- - Builds a parse-tree (AST) automagically, based on the structure of the grammar
- - **Earley** parser
-    - Can parse all context-free grammars
-    - Full support for ambiguous grammars
- - **LALR(1)** parser
-    - Fast and light, competitive with PLY
-    - Can generate a stand-alone parser ([read more](docs/tools.md#stand-alone-parser))
- - **EBNF** grammar
- - **Unicode** fully supported
- - Automatic line & column tracking
- - Interactive parser for advanced parsing flows and debugging
- - Grammar composition - Import terminals and rules from other grammars
- - Standard library of terminals (strings, numbers, names, etc.)
- - Import grammars from Nearley.js ([read more](/docs/tools.md#importing-grammars-from-nearleyjs))
- - Extensive test suite [![codecov](https://codecov.io/gh/lark-parser/lark/branch/master/graph/badge.svg?token=lPxgVhCVPK)](https://codecov.io/gh/lark-parser/lark) 
- - Type annotations (MyPy support)
- - And much more!
+- Builds a parse-tree (AST) automagically, based on the structure of the grammar
+- **Earley** parser
+  - Can parse all context-free grammars
+  - Full support for ambiguous grammars
+- **LALR(1)** parser
+  - Fast and light, competitive with PLY
+  - Can generate a stand-alone parser ([read more](docs/tools.md#stand-alone-parser))
+- **EBNF** grammar
+- **Unicode** fully supported
+- Automatic line & column tracking
+- Interactive parser for advanced parsing flows and debugging
+- Grammar composition - Import terminals and rules from other grammars
+- Standard library of terminals (strings, numbers, names, etc.)
+- Import grammars from Nearley.js ([read more](/docs/tools.md#importing-grammars-from-nearleyjs))
+- Extensive test suite [![codecov](https://codecov.io/gh/lark-parser/lark/branch/master/graph/badge.svg?token=lPxgVhCVPK)](https://codecov.io/gh/lark-parser/lark)
+- Type annotations (MyPy support)
+- And much more!
 
 See the full list of [features here](https://lark-parser.readthedocs.io/en/latest/features.html)
-
 
 ### Comparison to other libraries
 
@@ -132,47 +128,44 @@ Lark is fast and light (lower is better)
 
 ![Memory Usage Comparison](docs/_static/comparison_memory.png)
 
-
 Check out the [JSON tutorial](/docs/json_tutorial.md#conclusion) for more details on how the comparison was made.
 
 For a more thorough and objective comparison, checkout the [Python Parsing Benchmarks](https://github.com/goodmami/python-parsing-benchmarks) repo.
 
 #### Feature comparison
 
-| Library | Algorithm | Grammar | Builds tree? | Supports ambiguity? | Can handle every CFG? | Line/Column tracking | Generates Stand-alone
-|:--------|:----------|:----|:--------|:------------|:------------|:----------|:----------
-| **Lark** | Earley/LALR(1) | EBNF | Yes! | Yes! | Yes! | Yes! | Yes! (LALR only) |
-| [PLY](http://www.dabeaz.com/ply/) | LALR(1) | BNF | No | No | No | No | No |
-| [PyParsing](https://github.com/pyparsing/pyparsing) | PEG | Combinators | No | No | No\* | No | No |
-| [Parsley](https://pypi.python.org/pypi/Parsley) | PEG | EBNF | No | No | No\* | No | No |
-| [Parsimonious](https://github.com/erikrose/parsimonious) | PEG | EBNF | Yes | No | No\* | No | No |
-| [ANTLR](https://github.com/antlr/antlr4) | LL(*) | EBNF | Yes | No | Yes? | Yes | No |
+| Library                                                  | Algorithm      | Grammar     | Builds tree? | Supports ambiguity? | Can handle every CFG? | Line/Column tracking | Generates Stand-alone |
+| :------------------------------------------------------- | :------------- | :---------- | :----------- | :------------------ | :-------------------- | :------------------- | :-------------------- |
+| **Lark**                                                 | Earley/LALR(1) | EBNF        | Yes!         | Yes!                | Yes!                  | Yes!                 | Yes! (LALR only)      |
+| [PLY](http://www.dabeaz.com/ply/)                        | LALR(1)        | BNF         | No           | No                  | No                    | No                   | No                    |
+| [PyParsing](https://github.com/pyparsing/pyparsing)      | PEG            | Combinators | No           | No                  | No\*                  | No                   | No                    |
+| [Parsley](https://pypi.python.org/pypi/Parsley)          | PEG            | EBNF        | No           | No                  | No\*                  | No                   | No                    |
+| [Parsimonious](https://github.com/erikrose/parsimonious) | PEG            | EBNF        | Yes          | No                  | No\*                  | No                   | No                    |
+| [ANTLR](https://github.com/antlr/antlr4)                 | LL(\*)         | EBNF        | Yes          | No                  | Yes?                  | Yes                  | No                    |
 
-
-(\* *PEGs cannot handle non-deterministic grammars. Also, according to Wikipedia, it remains unanswered whether PEGs can really parse all deterministic CFGs*)
-
+(\* _PEGs cannot handle non-deterministic grammars. Also, according to Wikipedia, it remains unanswered whether PEGs can really parse all deterministic CFGs_)
 
 ### Projects using Lark
 
- - [Poetry](https://github.com/python-poetry/poetry-core) - A utility for dependency management and packaging
- - [tartiflette](https://github.com/dailymotion/tartiflette) - a GraphQL server by Dailymotion
- - [PyQuil](https://github.com/rigetti/pyquil) - Python library for quantum programming using Quil
- - [Preql](https://github.com/erezsh/preql) - An interpreted relational query language that compiles to SQL
- - [Hypothesis](https://github.com/HypothesisWorks/hypothesis) - Library for property-based testing
- - [mappyfile](https://github.com/geographika/mappyfile) - a MapFile parser for working with MapServer configuration
- - [synapse](https://github.com/vertexproject/synapse) - an intelligence analysis platform
- - [Datacube-core](https://github.com/opendatacube/datacube-core) - Open Data Cube analyses continental scale Earth Observation data through time
- - [SPFlow](https://github.com/SPFlow/SPFlow) - Library for Sum-Product Networks
- - [Torchani](https://github.com/aiqm/torchani) - Accurate Neural Network Potential on PyTorch
- - [Command-Block-Assembly](https://github.com/simon816/Command-Block-Assembly) - An assembly language, and C compiler, for Minecraft commands
- - [EQL](https://github.com/endgameinc/eql) - Event Query Language
- - [Fabric-SDK-Py](https://github.com/hyperledger/fabric-sdk-py) - Hyperledger fabric SDK with Python 3.x
- - [required](https://github.com/shezadkhan137/required) - multi-field validation using docstrings
- - [miniwdl](https://github.com/chanzuckerberg/miniwdl) - A static analysis toolkit for the Workflow Description Language
- - [pytreeview](https://gitlab.com/parmenti/pytreeview) - a lightweight tree-based grammar explorer
- - [harmalysis](https://github.com/napulen/harmalysis) - A language for harmonic analysis and music theory
- - [gersemi](https://github.com/BlankSpruce/gersemi) - A CMake code formatter
- - [MistQL](https://github.com/evinism/mistql) - A query language for JSON-like structures
+- [Poetry](https://github.com/python-poetry/poetry-core) - A utility for dependency management and packaging
+- [tartiflette](https://github.com/dailymotion/tartiflette) - a GraphQL server by Dailymotion
+- [PyQuil](https://github.com/rigetti/pyquil) - Python library for quantum programming using Quil
+- [Preql](https://github.com/erezsh/preql) - An interpreted relational query language that compiles to SQL
+- [Hypothesis](https://github.com/HypothesisWorks/hypothesis) - Library for property-based testing
+- [mappyfile](https://github.com/geographika/mappyfile) - a MapFile parser for working with MapServer configuration
+- [synapse](https://github.com/vertexproject/synapse) - an intelligence analysis platform
+- [Datacube-core](https://github.com/opendatacube/datacube-core) - Open Data Cube analyses continental scale Earth Observation data through time
+- [SPFlow](https://github.com/SPFlow/SPFlow) - Library for Sum-Product Networks
+- [Torchani](https://github.com/aiqm/torchani) - Accurate Neural Network Potential on PyTorch
+- [Command-Block-Assembly](https://github.com/simon816/Command-Block-Assembly) - An assembly language, and C compiler, for Minecraft commands
+- [EQL](https://github.com/endgameinc/eql) - Event Query Language
+- [Fabric-SDK-Py](https://github.com/hyperledger/fabric-sdk-py) - Hyperledger fabric SDK with Python 3.x
+- [required](https://github.com/shezadkhan137/required) - multi-field validation using docstrings
+- [miniwdl](https://github.com/chanzuckerberg/miniwdl) - A static analysis toolkit for the Workflow Description Language
+- [pytreeview](https://gitlab.com/parmenti/pytreeview) - a lightweight tree-based grammar explorer
+- [harmalysis](https://github.com/napulen/harmalysis) - A language for harmonic analysis and music theory
+- [gersemi](https://github.com/BlankSpruce/gersemi) - A CMake code formatter
+- [MistQL](https://github.com/evinism/mistql) - A query language for JSON-like structures
 
 [Full list](https://github.com/lark-parser/lark/network/dependents?package_id=UGFja2FnZS01MjI1OTE0NQ%3D%3D)
 
@@ -202,5 +195,4 @@ Questions about code are best asked on [gitter](https://gitter.im/lark-parser/Lo
 
 For anything else, I can be reached by email at erezshin at gmail com.
 
- -- [Erez](https://github.com/erezsh)
-
+-- [Erez](https://github.com/erezsh)

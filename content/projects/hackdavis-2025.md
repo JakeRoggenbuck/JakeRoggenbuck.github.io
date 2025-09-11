@@ -1,4 +1,3 @@
-
 ---
 title: hackdavis-2025
 type: page
@@ -7,9 +6,7 @@ tags: ["TypeScript"]
 description: "None"
 ---
 
-
 # 🚀 Assemblr - HackDavis 2025
-
 
 <div align="center">
 
@@ -30,6 +27,7 @@ description: "None"
 Assemblr is a cutting-edge development environment that combines the power of modern web technologies with a custom-built compiler for robotics programming. Whether you're a robotics enthusiast, student, or professional developer, our platform provides an intuitive interface for writing and executing robot control code.
 
 ### Key Features
+
 - 🎯 **Real-time Compilation**: Instant feedback on your code
 - 🔄 **Live Preview**: See your robot's movements in a simulated environment
 - 📝 **Intelligent Code Editor**: Syntax highlighting and autocompletion
@@ -40,18 +38,21 @@ Assemblr is a cutting-edge development environment that combines the power of mo
 ## 💡 Pro Tips & Tricks
 
 ### Code Organization
+
 - Use meaningful labels and variable names
 - Group related code into functions
 - Add comments to explain complex logic
 - Keep functions small and focused
 
 ### Performance Optimization
+
 - Use variables for repeated values
 - Minimize wait times between movements
 - Optimize movement patterns
 - Use loops for repetitive actions
 
 ### Debugging Techniques
+
 - Add strategic `mov wait` commands to slow down execution
 - Use variables to track state
 - Print debug information to the terminal
@@ -65,13 +66,13 @@ graph TD
     B -->|Library Call| C[Compiler - Rust]
     C -->|IR| D[Code Generation]
     C -->|C++| E[Arduino Code]
-    
+
     subgraph Frontend
     A -->|Monaco Editor| F[Code Editor]
     A -->|XTerm.js| G[Terminal]
     A -->|Three.js| H[3D Preview]
     end
-    
+
     subgraph Backend
     B -->|/api/compile| I[IR Compilation]
     B -->|/api/compile/arduino| J[Arduino Compilation]
@@ -82,6 +83,7 @@ graph TD
 ## 🛠️ Tech Stack
 
 ### Frontend Powerhouse
+
 - ⚛️ **Next.js 15** - React framework for production
 - 📝 **TypeScript** - Type-safe development
 - 🎨 **Tailwind CSS** - Utility-first styling
@@ -92,6 +94,7 @@ graph TD
 - 📱 **Responsive Design** - Mobile-first approach
 
 ### Robust Backend
+
 - 🦀 **Rust** - Systems programming language
 - 🔧 **Custom Compiler** - Purpose-built for robotics
 - 🌐 **Unicode Support** - International character compatibility
@@ -104,6 +107,7 @@ graph TD
 ### Compilation Endpoints
 
 #### 1. Compile to IR
+
 ```http
 POST /api/compile
 Content-Type: application/json
@@ -118,32 +122,35 @@ Content-Type: application/json
 ```
 
 **Response:**
+
 ```json
 {
-    "output": {
-        "ir": "compiled IR in JSON format",
-        "metadata": {
-            "executionTime": "0.123s",
-            "optimizationLevel": "high",
-            "warnings": []
-        }
+  "output": {
+    "ir": "compiled IR in JSON format",
+    "metadata": {
+      "executionTime": "0.123s",
+      "optimizationLevel": "high",
+      "warnings": []
     }
+  }
 }
 ```
 
 **Error Response:**
+
 ```json
 {
-    "error": {
-        "message": "error message",
-        "line": 42,
-        "column": 10,
-        "suggestion": "Did you mean 'forward' instead of 'foward'?"
-    }
+  "error": {
+    "message": "error message",
+    "line": 42,
+    "column": 10,
+    "suggestion": "Did you mean 'forward' instead of 'foward'?"
+  }
 }
 ```
 
 #### 2. Compile to Arduino
+
 ```http
 POST /api/compile/arduino
 Content-Type: application/json
@@ -158,22 +165,24 @@ Content-Type: application/json
 ```
 
 **Response:**
+
 ```json
 {
-    "output": {
-        "code": "generated Arduino C++ code",
-        "dependencies": ["Servo.h", "Wire.h"],
-        "memoryUsage": {
-            "flash": "1234 bytes",
-            "sram": "567 bytes"
-        }
+  "output": {
+    "code": "generated Arduino C++ code",
+    "dependencies": ["Servo.h", "Wire.h"],
+    "memoryUsage": {
+      "flash": "1234 bytes",
+      "sram": "567 bytes"
     }
+  }
 }
 ```
 
 ### Assembly Language Syntax
 
 #### Basic Syntax
+
 ```assembly
 # Comments start with #
 # Labels end with :
@@ -198,6 +207,7 @@ main:
 ```
 
 #### Advanced Features
+
 ```assembly
 # Example: Complex Pattern with Variables and Loops
 var speed = 5
@@ -209,7 +219,7 @@ draw_pattern:
     param size
     param angle
     var i = 0
-    
+
     pattern_loop:
         mov forward, size
         mov direction, angle
@@ -228,12 +238,13 @@ main:
 #### More Examples
 
 ##### 1. Spiral Pattern
+
 ```assembly
 # Draw a spiral pattern
 spiral:
     var radius = 1
     var angle = 0
-    
+
     spiral_loop:
         mov forward, radius
         mov direction, 1
@@ -247,6 +258,7 @@ main:
 ```
 
 ##### 2. Obstacle Avoidance
+
 ```assembly
 # Simple obstacle avoidance routine
 avoid_obstacle:
@@ -259,14 +271,14 @@ avoid_obstacle:
 
 main:
     var obstacle_detected = 0
-    
+
     loop:
         mov forward, 1
         # Simulate obstacle detection
         add obstacle_detected, 1
         beq obstacle_detected, 5, avoid
         j loop
-    
+
     avoid:
         jal avoid_obstacle
         mov obstacle_detected, 0
@@ -274,12 +286,13 @@ main:
 ```
 
 ##### 3. Zigzag Pattern
+
 ```assembly
 # Create a zigzag pattern
 zigzag:
     var steps = 5
     var i = 0
-    
+
     zigzag_loop:
         mov forward, 10
         mov direction, 1
@@ -295,26 +308,27 @@ main:
 
 ### Available Commands
 
-| Command | Description | Example | Notes |
-|---------|-------------|---------|-------|
-| `mov direction, N` | Set movement direction | `mov direction, 1` | 0=straight, 1=left, 2=right |
-| `mov forward, N` | Move forward N units | `mov forward, 4` | Units are in centimeters |
-| `mov backward, N` | Move backward N units | `mov backward, 2` | Negative values not allowed |
-| `mov wait, N` | Wait N seconds | `mov wait, 1` | Supports decimal values |
-| `jal label` | Jump to label | `jal circle` | Supports nested calls |
-| `ret` | Return from subroutine | `ret` | Must be in function |
-| `var name = value` | Declare variable | `var speed = 5` | Global scope |
-| `param name` | Function parameter | `param distance` | Must be in function |
-| `add var, value` | Add to variable | `add counter, 1` | Supports variables |
-| `sub var, value` | Subtract from variable | `sub counter, 1` | Supports variables |
-| `blt var, value, label` | Branch if less than | `blt i, 10, loop` | Supports variables |
-| `beq var, value, label` | Branch if equal | `beq x, 0, end` | Supports variables |
-| `j label` | Unconditional jump | `j loop` | Direct jump |
-| `print var` | Print variable value | `print counter` | Debugging tool |
+| Command                 | Description            | Example            | Notes                       |
+| ----------------------- | ---------------------- | ------------------ | --------------------------- |
+| `mov direction, N`      | Set movement direction | `mov direction, 1` | 0=straight, 1=left, 2=right |
+| `mov forward, N`        | Move forward N units   | `mov forward, 4`   | Units are in centimeters    |
+| `mov backward, N`       | Move backward N units  | `mov backward, 2`  | Negative values not allowed |
+| `mov wait, N`           | Wait N seconds         | `mov wait, 1`      | Supports decimal values     |
+| `jal label`             | Jump to label          | `jal circle`       | Supports nested calls       |
+| `ret`                   | Return from subroutine | `ret`              | Must be in function         |
+| `var name = value`      | Declare variable       | `var speed = 5`    | Global scope                |
+| `param name`            | Function parameter     | `param distance`   | Must be in function         |
+| `add var, value`        | Add to variable        | `add counter, 1`   | Supports variables          |
+| `sub var, value`        | Subtract from variable | `sub counter, 1`   | Supports variables          |
+| `blt var, value, label` | Branch if less than    | `blt i, 10, loop`  | Supports variables          |
+| `beq var, value, label` | Branch if equal        | `beq x, 0, end`    | Supports variables          |
+| `j label`               | Unconditional jump     | `j loop`           | Direct jump                 |
+| `print var`             | Print variable value   | `print counter`    | Debugging tool              |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - Rust and Cargo
 - Git
@@ -323,12 +337,14 @@ main:
 ### Quick Start
 
 1. **Clone & Install**
+
    ```bash
    git clone https://github.com/yourusername/hackdavis-2025.git
    cd hackdavis-2025
    ```
 
 2. **Frontend Setup**
+
    ```bash
    cd client
    npm install
@@ -336,6 +352,7 @@ main:
    ```
 
 3. **Backend Setup**
+
    ```bash
    cd server
    cargo run
@@ -402,18 +419,21 @@ hackdavis-2025/
 ## 🧪 Testing
 
 ### Frontend Tests
+
 ```bash
 cd client
 npm test
 ```
 
 ### Backend Tests
+
 ```bash
 cd server
 cargo test
 ```
 
 ### Compiler Tests
+
 ```bash
 cd compiler
 cargo test
@@ -430,6 +450,7 @@ We welcome contributions! Here's how you can help:
 5. Open a Pull Request
 
 ### Development Guidelines
+
 - Follow the Rust style guide for backend code
 - Use TypeScript for all frontend code
 - Write tests for new features

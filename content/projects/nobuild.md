@@ -1,4 +1,3 @@
-
 ---
 title: nobuild
 type: page
@@ -6,7 +5,6 @@ date: 2023-03-15T00:00:00
 tags: ["None"]
 description: "Header only library for writing build recipes in C."
 ---
-
 
 # nobuild
 

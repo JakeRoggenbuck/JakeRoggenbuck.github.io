@@ -1,4 +1,3 @@
-
 ---
 title: salt
 type: page
@@ -7,6 +6,6 @@ tags: ["C"]
 description: "Salt (Symbol And Lexer Toolkit)"
 ---
 
-
 # Salt (Symbol And Lexer Toolkit)
+
 ![image](./assets/image.png)

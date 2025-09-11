@@ -22,7 +22,7 @@ We build acustom IDE that lowers the barrier to learning assembly to help you le
 
 Learning low-level programming languages like assembly is often intimidating and abstract, with a steep learning curve that students typically face later in their college years. But we believe that understanding assembly builds stronger, more powerful coders- and that it shouldn't be reserved for the few who make it that far.
 
-We set out to democratize the learning experience by creating an interactive and engaging way to explore assembly through something tangible: controlling the movement of a RC car. 
+We set out to democratize the learning experience by creating an interactive and engaging way to explore assembly through something tangible: controlling the movement of a RC car.
 
 <br/>
 <br/>
@@ -41,7 +41,7 @@ GitHub
 
 <br/>
 
-  {{< github repo="jakeroggenbuck/hackdavis-2025" showThumbnail=true >}}
+{{< github repo="jakeroggenbuck/hackdavis-2025" showThumbnail=true >}}
 
 {{< /timelineItem >}}
 
@@ -50,9 +50,9 @@ GitHub
 We built a short-form content app for buying take-out food with the goal of reducing user dropoff from analysis paralysis.
 
 {{< gallery >}}
-  <img src="../images/vibe-working-1.jpeg" class="grid-w50" />
-  <img src="../images/vibe-working-2.jpeg" class="grid-w50" />
-  <img src="../images/vibe-win.jpeg" class="grid-w50" />
+<img src="../images/vibe-working-1.jpeg" class="grid-w50" />
+<img src="../images/vibe-working-2.jpeg" class="grid-w50" />
+<img src="../images/vibe-win.jpeg" class="grid-w50" />
 <img src="../images/chomp.png" class="grid-w50" />
 
 {{< /gallery >}}
@@ -61,11 +61,11 @@ We built a short-form content app for buying take-out food with the goal of redu
 
 {{< timelineItem icon="code" header="Hack Davis 2024" subheader="Safe Drive AI">}}
 
- Mission: Use OpenCV, PyTorch and Intel Developer Cloud to reduce car related injuries and deaths.
+Mission: Use OpenCV, PyTorch and Intel Developer Cloud to reduce car related injuries and deaths.
 
   <img src="../images/lane-detection.png"  />
 
-  {{< github repo="jakeroggenbuck/hackdavis-2024" showThumbnail=true >}}
+{{< github repo="jakeroggenbuck/hackdavis-2024" showThumbnail=true >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="ProdCon 2025" subheader="🏆 3rd Place Winner - Sid">}}
@@ -74,7 +74,7 @@ The core issue we are solving is that the education technology is set up for log
 
   <img src="../images/sid-slides.png" />
 
-  Shouldn't EdTech work for students and professors?
+Shouldn't EdTech work for students and professors?
 
   <img src="../images/sid-slides-2.png" />
 
@@ -104,10 +104,8 @@ GitHub
 
   <br/>
 
-  {{< github repo="jakeroggenbuck/asdi-global-hackathon" showThumbnail=true >}}
+{{< github repo="jakeroggenbuck/asdi-global-hackathon" showThumbnail=true >}}
 
 {{< /timelineItem >}}
 
-
 {{< /timeline >}}
-

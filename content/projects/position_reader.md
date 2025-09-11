@@ -1,4 +1,3 @@
-
 ---
 title: position_reader
 type: page
@@ -7,10 +6,10 @@ tags: ["Python"]
 description: "None"
 ---
 
-
 # position_reader
 
 ## Running
+
 ```
 python3 main.py nbtdatafile.dat
 

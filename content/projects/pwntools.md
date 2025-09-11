@@ -1,4 +1,3 @@
-
 ---
 title: pwntools
 type: page
@@ -7,8 +6,8 @@ tags: ["None"]
 description: "CTF framework and exploit development library"
 ---
 
-
 # pwntools - CTF toolkit
+
 ![pwntools logo](https://github.com/Gallopsled/pwntools/blob/stable/docs/source/logo.png?raw=true)
 
 [![Docs](https://readthedocs.org/projects/pwntools/badge/?version=stable)](https://docs.pwntools.com/)
@@ -42,9 +41,9 @@ To get you started, we've provided some example solutions for past CTF challenge
 
 # Installation
 
-Pwntools is best supported on 64-bit Ubuntu LTE releases (12.04, 14.04, 16.04 and 18.04).  Most functionality should work on any Posix-like distribution (Debian, Arch, FreeBSD, OSX, etc.).  Python >= 2.7 is required (Python 3 suggested as best).
+Pwntools is best supported on 64-bit Ubuntu LTE releases (12.04, 14.04, 16.04 and 18.04). Most functionality should work on any Posix-like distribution (Debian, Arch, FreeBSD, OSX, etc.). Python >= 2.7 is required (Python 3 suggested as best).
 
-Most of the functionality of pwntools is self-contained and Python-only.  You should be able to get running quickly with
+Most of the functionality of pwntools is self-contained and Python-only. You should be able to get running quickly with
 
 ```sh
 apt-get update
@@ -53,14 +52,14 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade git+https://github.com/Gallopsled/pwntools.git@dev3
 ```
 
-However, some of the features (assembling/disassembling foreign architectures) require non-Python dependencies.  For more information, see the [complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
-
+However, some of the features (assembling/disassembling foreign architectures) require non-Python dependencies. For more information, see the [complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
 # Contribution
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 # Contact
+
 If you have any questions not worthy of a [bug report](https://github.com/Gallopsled/pwntools/issues), feel free to ping us
 at [`#pwntools` on Freenode](irc://irc.freenode.net/pwntools) and ask away.
 Click [here](https://kiwiirc.com/client/irc.freenode.net/pwntools) to connect.

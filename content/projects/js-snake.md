@@ -1,4 +1,3 @@
-
 ---
 title: js-snake
 type: page
@@ -7,8 +6,8 @@ tags: ["None"]
 description: "Snake game written in p5 JS"
 ---
 
-
 # js-snake
+
 Snake game written in p5 JS
 Requires a local node server.
 install http-server by running "npm install http-server",

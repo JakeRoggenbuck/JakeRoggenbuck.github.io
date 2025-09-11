@@ -1,4 +1,3 @@
-
 ---
 title: bspwm
 type: page
@@ -7,16 +6,15 @@ tags: ["None"]
 description: "A tiling window manager based on binary space partitioning"
 ---
 
-
 ## Description
 
-*bspwm* is a tiling window manager that represents windows as the leaves of a full binary tree.
+_bspwm_ is a tiling window manager that represents windows as the leaves of a full binary tree.
 
 It only responds to X events, and the messages it receives on a dedicated socket.
 
-*bspc* is a program that writes messages on *bspwm*'s socket.
+_bspc_ is a program that writes messages on _bspwm_'s socket.
 
-*bspwm* doesn't handle any keyboard or pointer inputs: a third party program (e.g. *sxhkd*) is needed in order to translate keyboard and pointer events to *bspc* invocations.
+_bspwm_ doesn't handle any keyboard or pointer inputs: a third party program (e.g. _sxhkd_) is needed in order to translate keyboard and pointer events to _bspc_ invocations.
 
 The outlined architecture is the following:
 
@@ -27,7 +25,7 @@ sxhkd  -------->  bspc  <------>  bspwm
 
 ## Configuration
 
-The default configuration file is `$XDG_CONFIG_HOME/bspwm/bspwmrc`: this is simply a shell script that calls *bspc*.
+The default configuration file is `$XDG_CONFIG_HOME/bspwm/bspwmrc`: this is simply a shell script that calls _bspc_.
 
 An argument is passed to that script to indicate whether is was executed after a restart (`$1 -gt 0`) or not (`$1 -eq 0`).
 
@@ -37,7 +35,7 @@ Example configuration files can be found in the [examples](examples) directory.
 
 ## Monitors, desktops and windows
 
-*bspwm* holds a list of monitors.
+_bspwm_ holds a list of monitors.
 
 A monitor is just a rectangle that contains desktops.
 
@@ -51,25 +49,25 @@ Each node in a tree either has zero or two children.
 
 Each internal node is responsible for splitting a rectangle in half.
 
-A split is defined by two parameters: the type (horizontal or vertical) and the ratio (a real number *r* such that *0 < r < 1*).
+A split is defined by two parameters: the type (horizontal or vertical) and the ratio (a real number _r_ such that _0 < r < 1_).
 
 Each leaf node holds exactly one window.
 
 ## Insertion modes
 
-When *bspwm* receives a new window, it inserts it into a window tree at the specified insertion point (a leaf) using the insertion mode specified for that insertion point.
+When _bspwm_ receives a new window, it inserts it into a window tree at the specified insertion point (a leaf) using the insertion mode specified for that insertion point.
 
-The insertion mode tells *bspwm* how it should alter the tree in order to insert new windows on a given insertion point.
+The insertion mode tells _bspwm_ how it should alter the tree in order to insert new windows on a given insertion point.
 
-By default the insertion point is the focused window and its insertion mode is *automatic*.
+By default the insertion point is the focused window and its insertion mode is _automatic_.
 
 ### Manual mode
 
-The user can specify a region in the insertion point where the next new window should appear by sending a *node -p|--presel-dir DIR* message to *bspwm*.
+The user can specify a region in the insertion point where the next new window should appear by sending a _node -p|--presel-dir DIR_ message to _bspwm_.
 
-The *DIR* argument allows to specify how the insertion point should be split (horizontally or vertically) and if the new window should be the first or the second child of the new internal node (the insertion point will become its *brother*).
+The _DIR_ argument allows to specify how the insertion point should be split (horizontally or vertically) and if the new window should be the first or the second child of the new internal node (the insertion point will become its _brother_).
 
-After doing so the insertion point goes into *manual* mode.
+After doing so the insertion point goes into _manual_ mode.
 
 Let's consider the following scenario:
 
@@ -93,22 +91,22 @@ Let's consider the following scenario:
 |           |           |  |           |           |  |           |           |
 +-----------------------+  +-----------------------+  +-----------------------+
 
-            X                          Y                          Z 
+            X                          Y                          Z
 ```
 
-In state *X*, the insertion point is *1*.
+In state _X_, the insertion point is _1_.
 
-We send the following message to *bspwm*: *node -p north*.
+We send the following message to _bspwm_: _node -p north_.
 
-Then add a new window: *4*, this leads to state *Y*: the new internal node, *c* becomes *a*'s first child.
+Then add a new window: _4_, this leads to state _Y_: the new internal node, _c_ becomes _a_'s first child.
 
-Finally we send another message: *node -p west* and add window *5*.
+Finally we send another message: _node -p west_ and add window _5_.
 
-The ratio of the preselection (that ends up being the ratio of the split of the new internal node) can be changed with the *node -o|--presel-ratio* message.
+The ratio of the preselection (that ends up being the ratio of the split of the new internal node) can be changed with the _node -o|--presel-ratio_ message.
 
 ### Automatic mode
 
-The *automatic* mode, as opposed to the *manual* mode, doesn't require any user choice. The way the new window is inserted is determined by the value of the automatic scheme and the initial polarity settings.
+The _automatic_ mode, as opposed to the _manual_ mode, doesn't require any user choice. The way the new window is inserted is determined by the value of the automatic scheme and the initial polarity settings.
 
 #### Longest side scheme
 
@@ -137,11 +135,11 @@ Let's consider the following scenario, where the initial polarity is set to `sec
              X                          Y                          Z
 ```
 
-In state *X*, a new window is added.
+In state _X_, a new window is added.
 
-Since *1* is wide, it gets split vertically and *2* is added as *a*'s second child given the initial polarity.
+Since _1_ is wide, it gets split vertically and _2_ is added as _a_'s second child given the initial polarity.
 
-This leads to *Y* where we insert window *3*. *2* is tall and is therefore split horizontally. *3* is once again added as *b*'s second child.
+This leads to _Y_ where we insert window _3_. _2_ is tall and is therefore split horizontally. _3_ is once again added as _b_'s second child.
 
 #### Alternate scheme
 
@@ -149,7 +147,7 @@ When the value of the automatic scheme is `alternate`, the window will be attach
 
 #### Spiral scheme
 
-When the value of the automatic scheme is `spiral`, the window will *take the space* of the insertion point.
+When the value of the automatic scheme is `spiral`, the window will _take the space_ of the insertion point.
 
 Let's dive into the details with the following scenario:
 
@@ -177,18 +175,17 @@ Let's dive into the details with the following scenario:
              X                          Y                          Z
 ```
 
-In state *X*, the insertion point, *2* is in automatic mode.
+In state _X_, the insertion point, _2_ is in automatic mode.
 
-When we add a new window, *4*, the whole tree rooted at *b* is reattached, as the second child of a new internal node, *c*.
+When we add a new window, _4_, the whole tree rooted at _b_ is reattached, as the second child of a new internal node, _c_.
 
-The splitting parameters of *b* (type: *horizontal*, ratio: *½*) are copied to *c* and *b* is rotated by 90° clockwise.
+The splitting parameters of _b_ (type: _horizontal_, ratio: _½_) are copied to _c_ and _b_ is rotated by 90° clockwise.
 
-The tiling rectangle of *4* in state *Y* is equal to the tiling rectangle of *2* in state *X*.
+The tiling rectangle of _4_ in state _Y_ is equal to the tiling rectangle of _2_ in state _X_.
 
-Then the insertion of *5*, with *4* as insertion point, leads to *Z*.
+Then the insertion of _5_, with _4_ as insertion point, leads to _Z_.
 
-The *spiral* automatic scheme generates window spirals that rotate clockwise (resp. anti-clockwise) if the insertion point is the first (resp. second) child of its parent.
-
+The _spiral_ automatic scheme generates window spirals that rotate clockwise (resp. anti-clockwise) if the insertion point is the first (resp. second) child of its parent.
 
 ## Supported protocols and standards
 
@@ -197,7 +194,7 @@ The *spiral* automatic scheme generates window spirals that rotate clockwise (re
 
 ## Community
 
-Want to get in touch with other *bspwm* users or you need help? Join us on our:
+Want to get in touch with other _bspwm_ users or you need help? Join us on our:
 
 - Subreddit at [r/bspwm](https://www.reddit.com/r/bspwm/).
 - IRC channel at `#bspwm` on `irc.libera.chat` (maintained by [@dannycolin](https://github.com/dannycolin) / sdk on IRC).

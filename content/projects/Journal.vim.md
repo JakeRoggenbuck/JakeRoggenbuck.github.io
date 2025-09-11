@@ -1,4 +1,3 @@
-
 ---
 title: Journal.vim
 type: page
@@ -7,14 +6,15 @@ tags: ["Python"]
 description: "This vim plugin lets you organize your daily journal"
 ---
 
-
 # Journal.vim
 
 ## What it does
+
 This plugin lets you organize your daily journal.<br>
 It lets you open a day specific journal and manages the files all behind the scenes.
 
 ## Setup and Config
+
 ```vim
 let g:journals_directory = "/path/to/journals_directory"
 
@@ -26,10 +26,12 @@ let g:journals_title_template = 'Journal entry {date}'
 ```
 
 ## Commands
-| Command               | Description                 |
-|-----------------------|-----------------------------|
+
+| Command              | Description                 |
+| -------------------- | --------------------------- |
 | Journal              | Open the journal for today  |
 | JournalSearch <word> | Keyword search for journals |
 
 ## Future features
+
 - A search by date or relative date (ex. "last friday")

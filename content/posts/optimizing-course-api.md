@@ -61,9 +61,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -136,33 +136,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.2591171410731346, 0.11279561023598754];
 const meanValues = [6.369174861059873, 0.7445368937799867];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -272,9 +272,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -347,33 +347,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.2591171410731346, 0.6346429647144839];
 const meanValues = [6.369174861059873, 1.4560875743400903];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -474,9 +474,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -549,33 +549,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.08349626759118409, 0.10216213479459138];
 const meanValues = [1.4252088000000003, 1.5500796356199862];
-    meta.data.forEach((bar, index) => {
-      const stdError = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdError);
-      const yBottom = yScale.getPixelForValue(mean - stdError);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdError = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdError);
+const yBottom = yScale.getPixelForValue(mean - stdError);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -686,9 +686,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -761,33 +761,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.21327256608237583, 0.14640932449901906, 0.13508388551989717, 0.12879601537363955, 0.1590585490140576, 0.12866482693516748, 0.08742206467629585, 0.098992305811364, 0.09742097404424784];
 const meanValues = [0.8368181653398278, 0.7810885166600565, 0.7824843093800155, 0.7765849953799989, 0.7773541713599843, 0.7633252797201203, 0.7555291458401189, 0.7452488209999137, 0.7432830796599592];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -817,9 +817,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -892,33 +892,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.722395382937497, 0.09742097404424784];
 const meanValues = [1.5500796356199862, 0.7432830796599592];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -998,9 +998,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -1073,33 +1073,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.17127265854588763, 0.1996684951847336, 0.15271013845577763, 0.17403583257200395, 0.14202914245318102, 0.13397251071996905, 0.12246670577815581, 0.17856005247325293, 0.12213095194280894];
 const meanValues = [0.8160195315601232, 0.8156704822000029, 0.7998635946800278, 0.7973412051801279, 0.778301530739991, 0.7686760814599984, 0.7653455096598555, 0.7635946762201639, 0.7590478010600782];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -1153,9 +1153,9 @@ responsive: true,
 maintainAspectRatio: false,
 onResize: function(chart, size) {
 if (window.innerWidth <= 768) {
-  chart.canvas.parentNode.style.height = '300px';
+chart.canvas.parentNode.style.height = '300px';
 } else {
-  chart.canvas.parentNode.style.height = '400px';
+chart.canvas.parentNode.style.height = '400px';
 }
 },
 plugins: {
@@ -1228,33 +1228,33 @@ const ctx = chart.ctx;
 const meta = chart.getDatasetMeta(0);
 const errorBars = [0.12213095194280894, 0.09742097404424784, 0.11279561023598754];
 const meanValues = [0.7590478010600782, 0.7432830796599592, 0.7445368937799867];
-    meta.data.forEach((bar, index) => {
-      const stdDev = errorBars[index];
-      const mean = meanValues[index];
-      const x = bar.x;
-      const yScale = chart.scales.y;
-      const yTop = yScale.getPixelForValue(mean + stdDev);
-      const yBottom = yScale.getPixelForValue(mean - stdDev);
-      ctx.save();
-      ctx.strokeStyle = '#cccccc';
-      ctx.lineWidth = 2;
-      // Vertical line
-      ctx.beginPath();
-      ctx.moveTo(x, yTop);
-      ctx.lineTo(x, yBottom);
-      ctx.stroke();
-      // Top cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yTop);
-      ctx.lineTo(x + 8, yTop);
-      ctx.stroke();
-      // Bottom cap
-      ctx.beginPath();
-      ctx.moveTo(x - 8, yBottom);
-      ctx.lineTo(x + 8, yBottom);
-      ctx.stroke();
-      ctx.restore();
-    });
+meta.data.forEach((bar, index) => {
+const stdDev = errorBars[index];
+const mean = meanValues[index];
+const x = bar.x;
+const yScale = chart.scales.y;
+const yTop = yScale.getPixelForValue(mean + stdDev);
+const yBottom = yScale.getPixelForValue(mean - stdDev);
+ctx.save();
+ctx.strokeStyle = '#cccccc';
+ctx.lineWidth = 2;
+// Vertical line
+ctx.beginPath();
+ctx.moveTo(x, yTop);
+ctx.lineTo(x, yBottom);
+ctx.stroke();
+// Top cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yTop);
+ctx.lineTo(x + 8, yTop);
+ctx.stroke();
+// Bottom cap
+ctx.beginPath();
+ctx.moveTo(x - 8, yBottom);
+ctx.lineTo(x + 8, yBottom);
+ctx.stroke();
+ctx.restore();
+});
 }
 }]
 {{< /chart >}}
@@ -1306,12 +1306,12 @@ If you have any questions or feedback, please send me an email at [me@jr0.org](m
 ## Final Performance Rankings
 
 | Rank | Endpoint                     | Mean Time (seconds) | Speedup vs Original |
-|------|------------------------------|---------------------|--------------------|
-| 1    | Gzip Inline Clone 8          | 0.743               | 8.57x              |
-| 2    | Zopfli Clone \[[4](#notes)\] | 0.744               | 8.56x              |
-| 3    | Gzip Own 9                   | 0.745               | 8.55x              |
-| 4    | Gzip Inline Clone 6          | 0.745               | 8.55x              |
-| 5    | Gzip Own 4                   | 0.751               | 8.48x              |
+| ---- | ---------------------------- | ------------------- | ------------------- |
+| 1    | Gzip Inline Clone 8          | 0.743               | 8.57x               |
+| 2    | Zopfli Clone \[[4](#notes)\] | 0.744               | 8.56x               |
+| 3    | Gzip Own 9                   | 0.745               | 8.55x               |
+| 4    | Gzip Inline Clone 6          | 0.745               | 8.55x               |
+| 5    | Gzip Own 4                   | 0.751               | 8.48x               |
 
 ## Acknowledgments
 
