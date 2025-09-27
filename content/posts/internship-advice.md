@@ -48,7 +48,7 @@ Notice how only one out of fourty people have it watched? It's not super widely 
 
 #### The LinkedIn Recent Postings
 
-![recent jobs](../../images/recent-jobs)
+![recent jobs](../../images/recent-jobs.png)
 
 When you use the LinkedIn jobs search, you can sort by last 24 hours as most recent. You can then edit the URL to make that time frame shorter. Here I changed it from "r86400" which is 24 hours in seconds, to "r1000" seconds, which is 16 minutes.
 
