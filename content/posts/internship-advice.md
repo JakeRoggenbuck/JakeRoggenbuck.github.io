@@ -11,8 +11,10 @@ showTableOfContents: true
 {{< /alert >}}
 
 {{< lead >}}
-I'm far from the best person to ask about this, but had I found just this information when I was a sophomore or junior, I would have had a head start.
+Tips and tricks I learned from my own experience and the experiences of friends
 {{< /lead >}}
+
+I'm far from the best person to ask about this, but had I found just this information when I was a sophomore or junior, I would have had a head start.
 
 ## Why I wrote this
 
