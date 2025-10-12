@@ -15,9 +15,13 @@ tags:
 
 <div style="text-align: left; max-width: 700px; margin: 0 auto; line-height: 1.6;">
 
-Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
+## Quick Links:
+
+Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers), [TypeScript](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=typescript&sort=stargazers)
 
 Topics of interest: [Math](math), [Space](space), [Computer Science](projects), [Machine Learning](ml)
+
+Projects: [Regolith](https://github.com/JakeRoggenbuck/regolith), [Kronicler](https://github.com/JakeRoggenbuck/kronicler), [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL), [AlgoBoard](https://github.com/JakeRoggenbuck/algoboard), [Auto Clock Speed](https://github.com/JakeRoggenbuck/auto-clock-speed).
 
 ## Current Research:
 
