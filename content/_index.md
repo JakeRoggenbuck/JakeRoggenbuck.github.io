@@ -25,13 +25,13 @@ Projects: [Regolith](https://github.com/JakeRoggenbuck/regolith), [Kronicler](ht
 
 ## Current Research:
 
-I'm currently conducting programming language research. Broadly programming language research focuses on security and safety of how programming languages are designed and implemented, as well as theoretical ideas that can be applied to change what traits languages can grantee.
+I'm currently conducting programming language research. Broadly programming language research focuses on security and safety of how programming languages are designed and implemented, as well as theoretical ideas that can be applied to change what traits languages can guarantee.
 
 Recently, my research involves testing and improving regular expression libraries. My initial investigation into RegEx runtime resulted in a poster submission to the Undergraduate Research Conference at UC Davis.
 
 <img width="1875" height="2500" alt="Image" src="https://github.com/user-attachments/assets/de218535-e614-4a73-ad46-0baaaaa69b58" />
 
-Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), which protects JavaScript and TypeScript backend applications from catastrophic backtracking by wrapping Rust's linear time engine as a JavaScript package. This projects landed on the front page of Y Combinator's Hacker News.
+Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), which protects JavaScript and TypeScript backend applications from catastrophic backtracking by wrapping Rust's linear time engine as a JavaScript package. This project landed on the front page of Y Combinator's Hacker News.
 
 {{< github repo="jakeroggenbuck/regolith" showThumbnail=true >}}
 
@@ -43,7 +43,7 @@ One of my many interests includes creating database systems. My prior fascinatio
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
-Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to insure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler). 
+Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler). 
 
 <img width="1904" height="944" alt="Image" src="https://github.com/user-attachments/assets/5e8d0992-2f0e-474c-80a0-d4c15fd1b009" />
 
@@ -53,7 +53,7 @@ Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler
 
 ### AlgoBoard.org
 
-Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your fiends, clubs, and other organizations.
+Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your friends, clubs, and other organizations.
 
 <img width="1904" height="944" alt="Image" src="https://github.com/user-attachments/assets/77c51414-0bc8-4104-a5ec-cf9dd1e7fb58" />
 
