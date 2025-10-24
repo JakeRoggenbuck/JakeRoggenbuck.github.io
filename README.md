@@ -15,6 +15,9 @@ The script still works perfectly long after I wrote it!
 This website has been up since May 26, 2019 in some form or another.
 
 ## Current
+<img width="1175" height="931" alt="image" src="https://github.com/user-attachments/assets/6d65f639-b791-4af0-aa90-b3ae3719dcb4" />
+
+### Prior
 ![image](https://github.com/user-attachments/assets/d24f47c7-62bd-45df-b914-d182f07b1e98)
 
 ### Prior
