@@ -29,7 +29,7 @@ I'm currently conducting programming language research. Broadly programming lang
 
 Recently, my research involves testing and improving regular expression libraries. My initial investigation into RegEx runtime resulted in a poster submission to the Undergraduate Research Conference at UC Davis.
 
-<img width="1875" height="2500" alt="Image" src="https://github.com/user-attachments/assets/de218535-e614-4a73-ad46-0baaaaa69b58" />
+<img src="../../images/redos-research.avif">
 
 Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), which protects JavaScript and TypeScript backend applications from catastrophic backtracking by wrapping Rust's linear time engine as a JavaScript package. This project landed on the front page of Y Combinator's Hacker News.
 
@@ -39,13 +39,13 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraps, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
-<img width="1068" height="718" alt="Image" src="https://github.com/user-attachments/assets/653e3ac7-7148-4a99-aa4d-b4848a1e3eb7" />
+<img src="../../images/redox-ql.avif">
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
 Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler). 
 
-<img width="1904" height="944" alt="Image" src="https://github.com/user-attachments/assets/5e8d0992-2f0e-474c-80a0-d4c15fd1b009" />
+<img src="../../images/kr.avif">
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
 
@@ -55,13 +55,13 @@ Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler
 
 Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your friends, clubs, and other organizations.
 
-<img width="1904" height="944" alt="Image" src="https://github.com/user-attachments/assets/77c51414-0bc8-4104-a5ec-cf9dd1e7fb58" />
+<img src="../../images/algoboard.avif">
 
 ### Auto Clock Speed
 
 A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.
 
-![acs](https://user-images.githubusercontent.com/35516367/199084229-aee15ac5-bd86-41e9-b7fc-22517e21e6f0.png)
+<img src="../../images/acs.avif">
 
 {{< github repo="jakeroggenbuck/auto-clock-speed" showThumbnail=true >}}
 
@@ -69,7 +69,7 @@ A utility to check stats about your CPU, and auto regulate clock speeds to help 
 
 A programming language that compiles to x86-64 assembly for math using postfix notation
 
-![image](https://github.com/user-attachments/assets/ea784519-74b4-4f44-9a7d-e15a2e91b44a)
+<img src="../../images/component.avif">
 
 {{< github repo="jakeroggenbuck/component" showThumbnail=true >}}
 
@@ -77,7 +77,7 @@ A programming language that compiles to x86-64 assembly for math using postfix n
 
 This was an entry to a "Lang Jam" where I had only a few days to make an entire interpreter. These were the types of programming languages that led me to programming language research.
 
-![image](https://user-images.githubusercontent.com/35516367/130336716-99aa86e5-3f79-4081-b8fa-6a133ca90e87.png)
+<img src="../../images/jai.avif">
 
 {{< github repo="jakeroggenbuck/jai" showThumbnail=true >}}
 
@@ -87,7 +87,7 @@ Before college, I was involved in two different research projects. This first, w
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 
-<img width="704" height="858" alt="Image" src="https://github.com/user-attachments/assets/f16fc988-66dd-41f4-b6ab-9e565d712447" />
+<img src="../../images/t3.avif">
 
 </div>
 
