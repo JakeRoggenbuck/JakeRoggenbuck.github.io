@@ -43,11 +43,13 @@ One of my many interests includes creating database systems. My prior fascinatio
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
-Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler). 
+Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
 
 <img src="../../images/kr.avif">
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
+
+Recently, I started reading [Database Internal](https://www.oreilly.com/library/view/database-internals/9781492040330/) by Alex Petrov. I highly recommend this book for learning more about building databases.
 
 ## Notable Projects:
 
@@ -57,6 +59,10 @@ Algo Board is a website to promote friendly competition for solving algorithmic 
 
 <img src="../../images/algoboard.avif">
 
+{{< github repo="jakeroggenbuck/algoboard" showThumbnail=true >}}
+
+AlgoBoard and the weekly competitions I ran, greatly helped me prepare for technical interviews.
+
 ### Auto Clock Speed
 
 A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.
@@ -64,6 +70,8 @@ A utility to check stats about your CPU, and auto regulate clock speeds to help 
 <img src="../../images/acs.avif">
 
 {{< github repo="jakeroggenbuck/auto-clock-speed" showThumbnail=true >}}
+
+Auto Clock Speed now has over 13 thousand downloads on [crates.io](https://crates.io/crates/autoclockspeed).
 
 ### Component
 
@@ -89,7 +97,9 @@ Abstract: "We investigate some interesting properties of the sequence made up of
 
 <img src="../../images/t3.avif">
 
-</div>
+The full paper and code example can be found on the GitHub project.
+
+{{< github repo="jakeroggenbuck/T3-Paper-Code" showThumbnail=true >}}
 
 ## Recent Projects
 
@@ -110,6 +120,7 @@ Abstract: "We investigate some interesting properties of the sequence made up of
 [**argosopentech/argos-translate**](https://github.com/argosopentech/argos-translate),
 [**python-mechanize/mechanize**](https://github.com/python-mechanize/mechanize), and [**more**](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=&sort=stargazers)
 
+
 <!--
 <br>
 
@@ -124,6 +135,6 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 ## Contact
 
-Email: [me@jr0.org](mailto:me@jr0.org)<br>
-Bug Reports: [bug@jr0.org](mailto:bug@jr0.org)<br>
-Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
+Email: [me@jr0.org](mailto:me@jr0.org) - Bug Reports: [bug@jr0.org](mailto:bug@jr0.org) - Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
+
+</div>
