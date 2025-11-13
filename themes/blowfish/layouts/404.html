@@ -1,9 +1,10 @@
 {{ define "main" }}
-  <h1 class="mb-3 text-4xl font-extrabold">{{ i18n "error.404_title" | emojify }}</h1>
+  <h1 class="mb-3 text-4xl font-extrabold">Page Not Found!</h1>
+
   <p class="mt-8 mb-12 text-neutral-400 dark:text-neutral-500">
     {{ i18n "error.404_error" | emojify }}
   </p>
-  <div class="prose dark:prose-invert">
-    <p>{{ i18n "error.404_description" | emojify }}</p>
-  </div>
+
+  If you think this is an error, please send me an email at <a href="mailto:bug@jr0.org" class="text-neutral-500">bug@jr0.org</a>.
+
 {{ end }}
