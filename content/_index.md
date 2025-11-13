@@ -37,17 +37,19 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 ## Database Systems:
 
-One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraps, benchmarks, compiler settings, and performant data structures (Like B-Trees).
+One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraphs, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
 <img src="../../images/redox-ql.avif">
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
-Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler). 
+Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
 
 <img src="../../images/kr.avif">
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
+
+Recently, I started reading [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/) by Alex Petrov. I highly recommend this book for learning more about building databases.
 
 ## Notable Projects:
 
@@ -57,6 +59,10 @@ Algo Board is a website to promote friendly competition for solving algorithmic 
 
 <img src="../../images/algoboard.avif">
 
+{{< github repo="jakeroggenbuck/algoboard" showThumbnail=true >}}
+
+AlgoBoard and the weekly competitions I ran, greatly helped me prepare for technical interviews.
+
 ### Auto Clock Speed
 
 A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.
@@ -64,6 +70,8 @@ A utility to check stats about your CPU, and auto regulate clock speeds to help 
 <img src="../../images/acs.avif">
 
 {{< github repo="jakeroggenbuck/auto-clock-speed" showThumbnail=true >}}
+
+Auto Clock Speed now has over 13 thousand downloads on [crates.io](https://crates.io/crates/autoclockspeed).
 
 ### Component
 
@@ -83,13 +91,15 @@ This was an entry to a "Lang Jam" where I had only a few days to make an entire 
 
 ## Previous Research
 
-Before college, I was involved in two different research projects. This first, was a math paper I wrote with my friends Adam and Henry.
+Before college, I was involved in two different research projects. This first was a math paper I wrote with my friends Adam and Henry.
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 
 <img src="../../images/t3.avif">
 
-</div>
+The full paper and code example can be found on the GitHub project.
+
+{{< github repo="jakeroggenbuck/T3-Paper-Code" showThumbnail=true >}}
 
 ## Recent Projects
 
@@ -103,12 +113,13 @@ Abstract: "We investigate some interesting properties of the sequence made up of
 [**pretzelai/pretzelai (YC W24)**](https://github.com/pretzelai/pretzelai),
 [**microsoft/RD-Agent**](https://github.com/microsoft/RD-Agent),
 [**rocky-linux/rocky**](https://github.com/rocky-linux/rocky),
-[**rust-lang/miri**](https://github.com/rust-lang/miri/commit/6fee850a46872b39a92df4a1deb0c5a60cd60dc1), <!-- the changes to squash merged so they don't appear as a seperate commit -->
+[**rust-lang/miri**](https://github.com/rust-lang/miri/commit/6fee850a46872b39a92df4a1deb0c5a60cd60dc1),
 [**grafana/pyroscope**](https://github.com/grafana/pyroscope),
 [**fastly/fastly-py**](https://github.com/fastly/fastly-py),
 [**pathwaycom/pathway**](https://github.com/pathwaycom/pathway),
 [**argosopentech/argos-translate**](https://github.com/argosopentech/argos-translate),
 [**python-mechanize/mechanize**](https://github.com/python-mechanize/mechanize), and [**more**](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=&sort=stargazers)
+
 
 <!--
 <br>
@@ -124,6 +135,6 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 ## Contact
 
-Email: [me@jr0.org](mailto:me@jr0.org)<br>
-Bug Reports: [bug@jr0.org](mailto:bug@jr0.org)<br>
-Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
+Email: [me@jr0.org](mailto:me@jr0.org) - Bug Reports: [bug@jr0.org](mailto:bug@jr0.org) - Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
+
+</div>
