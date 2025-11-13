@@ -37,7 +37,7 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 ## Database Systems:
 
-One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraps, benchmarks, compiler settings, and performant data structures (Like B-Trees).
+One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraphs, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
 <img src="../../images/redox-ql.avif">
 
@@ -49,7 +49,7 @@ Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
 
-Recently, I started reading [Database Internal](https://www.oreilly.com/library/view/database-internals/9781492040330/) by Alex Petrov. I highly recommend this book for learning more about building databases.
+Recently, I started reading [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/) by Alex Petrov. I highly recommend this book for learning more about building databases.
 
 ## Notable Projects:
 
@@ -91,7 +91,7 @@ This was an entry to a "Lang Jam" where I had only a few days to make an entire 
 
 ## Previous Research
 
-Before college, I was involved in two different research projects. This first, was a math paper I wrote with my friends Adam and Henry.
+Before college, I was involved in two different research projects. This first was a math paper I wrote with my friends Adam and Henry.
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 
@@ -113,7 +113,7 @@ The full paper and code example can be found on the GitHub project.
 [**pretzelai/pretzelai (YC W24)**](https://github.com/pretzelai/pretzelai),
 [**microsoft/RD-Agent**](https://github.com/microsoft/RD-Agent),
 [**rocky-linux/rocky**](https://github.com/rocky-linux/rocky),
-[**rust-lang/miri**](https://github.com/rust-lang/miri/commit/6fee850a46872b39a92df4a1deb0c5a60cd60dc1), <!-- the changes to squash merged so they don't appear as a seperate commit -->
+[**rust-lang/miri**](https://github.com/rust-lang/miri/commit/6fee850a46872b39a92df4a1deb0c5a60cd60dc1),
 [**grafana/pyroscope**](https://github.com/grafana/pyroscope),
 [**fastly/fastly-py**](https://github.com/fastly/fastly-py),
 [**pathwaycom/pathway**](https://github.com/pathwaycom/pathway),
