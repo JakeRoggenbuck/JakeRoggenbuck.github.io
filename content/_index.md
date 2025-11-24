@@ -23,6 +23,8 @@ Topics of interest: [Math](math), [Space](space), [Computer Science](projects), 
 
 Projects: [Regolith](https://github.com/JakeRoggenbuck/regolith), [Kronicler](https://github.com/JakeRoggenbuck/kronicler), [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL), [AlgoBoard](https://github.com/JakeRoggenbuck/algoboard), [Auto Clock Speed](https://github.com/JakeRoggenbuck/auto-clock-speed).
 
+Highlighted posts: [Optimizing Course Search by over 8x](https://jr0.org/posts/optimizing-course-api/), [Backend SQL Injection Research](https://jr0.org/posts/backend-sql-report/). 
+
 ## Overview
 
 I'm currently conducting research in programming languages and security at [Prof. Stanford's Davis PL Lab](https://web.cs.ucdavis.edu/~cdstanford/group/), as well as research in database systems. Notable projects for both include [Regolith](https://github.com/JakeRoggenbuck/regolith), a secure Regex library for JavaScript, and [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL), a database that won first place in UC Davis' database competition. My research with Regex led me to present a [poster](https://jr0.org/#current-research) about linear-time regex engines. My Regex project [Regolith](https://github.com/JakeRoggenbuck/regolith) recently appeared on the front page of Hacker News, receiving attention from the community.
