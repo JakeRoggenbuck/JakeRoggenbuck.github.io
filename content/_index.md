@@ -23,6 +23,18 @@ Topics of interest: [Math](math), [Space](space), [Computer Science](projects), 
 
 Projects: [Regolith](https://github.com/JakeRoggenbuck/regolith), [Kronicler](https://github.com/JakeRoggenbuck/kronicler), [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL), [AlgoBoard](https://github.com/JakeRoggenbuck/algoboard), [Auto Clock Speed](https://github.com/JakeRoggenbuck/auto-clock-speed).
 
+## Overview
+
+I'm currently conducting research in programming languages and security at [Prof. Stanford's Davis PL Lab](https://web.cs.ucdavis.edu/~cdstanford/group/), as well as research in database systems. Notable projects for both include [Regolith](https://github.com/JakeRoggenbuck/regolith), a secure Regex library for JavaScript, and [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL), a database that won first place in UC Davis' database competition. My research with Regex led me to present a [poster](https://jr0.org/#current-research) about linear-time regex engines. My Regex project [Regolith](https://github.com/JakeRoggenbuck/regolith) recently appeared on the front page of Hacker News, receiving attention from the community.
+
+Notable hackathon wins include Hack Davis, UC Davis' annual hackathon, YC Agent Mail hackathon, receiving over $5k in awards, 1st place in climate pitch competition, Vibe Code by Transpose Platform receiving over $400 in awards, and placed 3rd for ProductCon 2025.
+
+I also maintain a few libraries in Rust, Python, and JavaScript totaling over 170k downloads across the three languages. Those include auto-clock-speed, efcl, kronicler, regolith, and statistical-tests-rs. View these packages on my [crates.io](https://crates.io/users/JakeRoggenbuck), [pypi.org](https://pypi.org/user/jakeroggenbuck/), and [npmjs](https://www.npmjs.com/~jakeroggenbuck).
+
+I'm passionate about building useful products which led me to found and scale a club search product to 10k students and a course recommendation product to 20k students. The latter handling over 1 million endpoint visits over tens of thousands of sessions from users.
+
+The best way to view my work is on my [GitHub](https://github.com/JakeRoggenbuck) and this website.
+
 ## Current Research:
 
 I'm currently conducting programming language research. Broadly programming language research focuses on security and safety of how programming languages are designed and implemented, as well as theoretical ideas that can be applied to change what traits languages can guarantee.
