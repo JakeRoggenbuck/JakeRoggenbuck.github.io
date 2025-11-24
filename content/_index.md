@@ -105,6 +105,8 @@ This was an entry to a "Lang Jam" where I had only a few days to make an entire 
 
 ## Previous Research
 
+#### Math Research - T3
+
 Before college, I was involved in two different research projects. This first was a math paper I wrote with my friends Adam and Henry.
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
@@ -114,6 +116,10 @@ Abstract: "We investigate some interesting properties of the sequence made up of
 The full paper and code example can be found on the GitHub project.
 
 {{< github repo="jakeroggenbuck/T3-Paper-Code" showThumbnail=true >}}
+
+#### Bio Research - TMBL
+
+I was also involved with research in [Topological Molecular Biology](/tmbl).
 
 ## Recent Projects
 
