@@ -43,7 +43,7 @@ I'm currently conducting programming language research. Broadly programming lang
 
 Recently, my research involves testing and improving regular expression libraries. My initial investigation into RegEx runtime resulted in a poster submission to the Undergraduate Research Conference at UC Davis.
 
-<img src="../../images/redos-research.avif">
+<img alt="Jake Roggenbuck Research at UC Davis Programming Language Lab on Preventing ReDoS Attacks and Analyzing eval times of Regex engines" src="../../images/redos-research.avif">
 
 Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), which protects JavaScript and TypeScript backend applications from catastrophic backtracking by wrapping Rust's linear time engine as a JavaScript package. This project landed on the front page of Y Combinator's Hacker News.
 
@@ -53,13 +53,13 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraphs, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
-<img src="../../images/redox-ql.avif">
+<img alt="Jake Roggenbuck UC Davis Database Systems Competition Winner RedoxQL" src="../../images/redox-ql.avif">
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
 Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
 
-<img src="../../images/kr.avif">
+<img alt="Jake Roggenbuck Software for Performance Monitoring in Python Called Kronicler" src="../../images/kr.avif">
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
 
@@ -71,7 +71,7 @@ Recently, I started reading [Database Internals](https://www.oreilly.com/library
 
 Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your friends, clubs, and other organizations.
 
-<img src="../../images/algoboard.avif">
+<img alt="Jake Roggenbuck Software AlgoBoard" src="../../images/algoboard.avif">
 
 {{< github repo="jakeroggenbuck/algoboard" showThumbnail=true >}}
 
@@ -81,7 +81,7 @@ AlgoBoard and the weekly competitions I ran, greatly helped me prepare for techn
 
 A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.
 
-<img src="../../images/acs.avif">
+<img alt="Jake Roggenbuck Auto Clock Speed Software Written in Rust" src="../../images/acs.avif">
 
 {{< github repo="jakeroggenbuck/auto-clock-speed" showThumbnail=true >}}
 
@@ -111,7 +111,7 @@ Before college, I was involved in two different research projects. This first wa
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 
-<img src="../../images/t3.avif">
+<img alt="Jake Roggenbuck Author of Observations on Every Third Digit of the Thue-Morse Sequence Math Research Paper" src="../../images/t3.avif">
 
 The full paper and code example can be found on the GitHub project.
 
@@ -119,7 +119,7 @@ The full paper and code example can be found on the GitHub project.
 
 #### Bio Research - TMBL
 
-I was also involved with research in [Topological Molecular Biology](/tmbl).
+I was also involved with research in [Topological Molecular Biology](/tmbl) where I wrote logistic regression code.
 
 ## Recent Projects
 
