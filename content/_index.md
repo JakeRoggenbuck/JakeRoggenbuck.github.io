@@ -11,6 +11,15 @@ tags:
     "manager",
     "machine learning",
   ]
+images:
+  - /images/redos-research.avif
+  - /images/redox-ql.avif
+  - /images/kr.avif
+  - /images/algoboard.avif
+  - /images/acs.avif
+  - /images/component.avif
+  - /images/jai.avif
+  - /images/t3.avif
 ---
 
 <div style="text-align: left; max-width: 700px; margin: 0 auto; line-height: 1.6;">
