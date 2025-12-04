@@ -4,14 +4,10 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 {{- range .Sites }}
+  {{- $baseURL := "https://jr0.org" -}}
   {{- /* Include home page first */ -}}
   {{- with .Home }}
-  {{- $url := .Permalink -}}
-  {{- if not (hasPrefix $url "http") -}}
-    {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
-    {{- $rel := .RelPermalink -}}
-    {{- $url = printf "%s%s" $base $rel -}}
-  {{- end -}}
+  {{- $url := printf "%s%s" $baseURL .RelPermalink -}}
   <url>
     <loc>{{ $url }}</loc>
 
@@ -22,12 +18,7 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
-    {{- $imgUrl := .Permalink -}}
-    {{- if not (hasPrefix $imgUrl "http") -}}
-      {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
-      {{- $rel := .RelPermalink -}}
-      {{- $imgUrl = printf "%s%s" $base $rel -}}
-    {{- end -}}
+    {{- $imgUrl := printf "%s%s" $baseURL .RelPermalink -}}
     <image:image>
       <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
@@ -37,7 +28,7 @@
     {{- with .Params.images -}}
     {{- range . }}
     <image:image>
-      <image:loc>{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}</image:loc>
+      <image:loc>{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ printf "%s%s" $baseURL . }}{{ end }}</image:loc>
     </image:image>
     {{- end }}
     {{- end }}
@@ -47,12 +38,7 @@
 
   {{- /* Include all regular pages */ -}}
   {{- range .RegularPages }}
-  {{- $url := .Permalink -}}
-  {{- if not (hasPrefix $url "http") -}}
-    {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
-    {{- $rel := .RelPermalink -}}
-    {{- $url = printf "%s%s" $base $rel -}}
-  {{- end -}}
+  {{- $url := printf "%s%s" $baseURL .RelPermalink -}}
   <url>
     <loc>{{ $url }}</loc>
 
@@ -63,12 +49,7 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
-    {{- $imgUrl := .Permalink -}}
-    {{- if not (hasPrefix $imgUrl "http") -}}
-      {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
-      {{- $rel := .RelPermalink -}}
-      {{- $imgUrl = printf "%s%s" $base $rel -}}
-    {{- end -}}
+    {{- $imgUrl := printf "%s%s" $baseURL .RelPermalink -}}
     <image:image>
       <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
@@ -78,7 +59,7 @@
     {{- with .Params.images -}}
     {{- range . }}
     <image:image>
-      <image:loc>{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}</image:loc>
+      <image:loc>{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ printf "%s%s" $baseURL . }}{{ end }}</image:loc>
     </image:image>
     {{- end }}
     {{- end }}
