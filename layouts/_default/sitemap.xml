@@ -7,7 +7,7 @@
   {{- /* Include home page first */ -}}
   {{- with .Home }}
   <url>
-    <loc>{{ .Permalink }}</loc>
+    <loc>{{ .Permalink | absURL }}</loc>
 
     {{- with .Lastmod }}
     <lastmod>{{ .Format "2006-01-02T15:04:05-07:00" }}</lastmod>
@@ -17,7 +17,7 @@
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
     <image:image>
-      <image:loc>{{ .Permalink }}</image:loc>
+      <image:loc>{{ .Permalink | absURL }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
     </image:image>
     {{- end }}
@@ -36,7 +36,7 @@
   {{- /* Include all regular pages */ -}}
   {{- range .RegularPages }}
   <url>
-    <loc>{{ .Permalink }}</loc>
+    <loc>{{ .Permalink | absURL }}</loc>
 
     {{- with .Lastmod }}
     <lastmod>{{ .Format "2006-01-02T15:04:05-07:00" }}</lastmod>
@@ -46,7 +46,7 @@
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
     <image:image>
-      <image:loc>{{ .Permalink }}</image:loc>
+      <image:loc>{{ .Permalink | absURL }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
     </image:image>
     {{- end }}
