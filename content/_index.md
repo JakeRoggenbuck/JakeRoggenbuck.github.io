@@ -66,7 +66,7 @@ One of my many interests includes creating database systems. My prior fascinatio
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
-Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
+Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](https://usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
 
 <img alt="Jake Roggenbuck Software for Performance Monitoring in Python Called Kronicler" src="/images/kr.avif">
 
