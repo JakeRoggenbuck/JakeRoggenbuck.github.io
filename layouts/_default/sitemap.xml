@@ -4,9 +4,19 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 {{- range .Sites }}
+  {{- /* Ensure BaseURL has a scheme */ -}}
+  {{- $baseURL := $.Site.BaseURL -}}
+  {{- if not (hasPrefix $baseURL "http") -}}
+    {{- if hasPrefix $baseURL "//" -}}
+      {{- $baseURL = printf "https:%s" $baseURL -}}
+    {{- else -}}
+      {{- $baseURL = printf "https://%s" (strings.TrimPrefix "/" $baseURL) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $baseURL = strings.TrimSuffix "/" $baseURL -}}
+
   {{- /* Include home page first */ -}}
   {{- with .Home }}
-  {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
   {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
   {{- $url := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
   <url>
@@ -19,9 +29,8 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
-    {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
     {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
-    {{- $imgUrl := printf "%s/%s" $baseURL $relPath -}}
+    {{- $imgUrl := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
     <image:image>
       <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
@@ -41,7 +50,6 @@
 
   {{- /* Include all regular pages */ -}}
   {{- range .RegularPages }}
-  {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
   {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
   {{- $url := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
   <url>
@@ -54,9 +62,8 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
-    {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
     {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
-    {{- $imgUrl := printf "%s/%s" $baseURL $relPath -}}
+    {{- $imgUrl := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
     <image:image>
       <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
