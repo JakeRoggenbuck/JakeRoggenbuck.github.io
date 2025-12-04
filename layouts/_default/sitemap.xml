@@ -6,8 +6,11 @@
 {{- range .Sites }}
   {{- /* Include home page first */ -}}
   {{- with .Home }}
+  {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
+  {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
+  {{- $url := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
   <url>
-    <loc>{{ .Permalink | absURL }}</loc>
+    <loc>{{ $url }}</loc>
 
     {{- with .Lastmod }}
     <lastmod>{{ .Format "2006-01-02T15:04:05-07:00" }}</lastmod>
@@ -16,8 +19,11 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
+    {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
+    {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
+    {{- $imgUrl := printf "%s/%s" $baseURL $relPath -}}
     <image:image>
-      <image:loc>{{ .Permalink | absURL }}</image:loc>
+      <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
     </image:image>
     {{- end }}
@@ -35,8 +41,11 @@
 
   {{- /* Include all regular pages */ -}}
   {{- range .RegularPages }}
+  {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
+  {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
+  {{- $url := cond (eq $relPath "") $baseURL (printf "%s/%s" $baseURL $relPath) -}}
   <url>
-    <loc>{{ .Permalink | absURL }}</loc>
+    <loc>{{ $url }}</loc>
 
     {{- with .Lastmod }}
     <lastmod>{{ .Format "2006-01-02T15:04:05-07:00" }}</lastmod>
@@ -45,8 +54,11 @@
     {{- /* Add images from markdown front matter + page bundles */ -}}
     {{- $resources := .Resources.ByType "image" -}}
     {{- range $resources }}
+    {{- $baseURL := strings.TrimSuffix "/" $.Site.BaseURL -}}
+    {{- $relPath := strings.TrimPrefix "/" .RelPermalink -}}
+    {{- $imgUrl := printf "%s/%s" $baseURL $relPath -}}
     <image:image>
-      <image:loc>{{ .Permalink | absURL }}</image:loc>
+      <image:loc>{{ $imgUrl }}</image:loc>
       {{- with .Title }}<image:title>{{ . }}</image:title>{{ end }}
     </image:image>
     {{- end }}
