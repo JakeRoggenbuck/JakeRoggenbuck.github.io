@@ -162,6 +162,14 @@ Currently working as Director of Engineering and helping build <a href="https://
 {{< /timeline >}}
 -->
 
+## Other Socials
+
+#### Luma - Hackathons
+
+- [@jaker](https://luma.com/user/jaker) - participant in events
+- [@roggenbuck](https://luma.com/user/roggenbuck) - hosting events
+- [@jakeroggenbuck](https://luma.com/user/jakeroggenbuck) - participant in events
+
 ## Contact
 
 Email: [me@jr0.org](mailto:me@jr0.org) - Bug Reports: [bug@jr0.org](mailto:bug@jr0.org) - Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
