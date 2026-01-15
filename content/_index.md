@@ -56,7 +56,7 @@ I'm currently conducting programming language research. Broadly programming lang
 
 Recently, my research involves testing and improving regular expression libraries. My initial investigation into RegEx runtime resulted in a poster submission to the Undergraduate Research Conference at UC Davis.
 
-<img alt="Jake Roggenbuck Research at UC Davis Programming Language Lab on Preventing ReDoS Attacks and Analyzing eval times of Regex engines" src="/images/redos-research.avif">
+<img alt="Jake Roggenbuck Research at UC Davis Programming Language Lab on Preventing ReDoS Attacks and Analyzing eval times of Regex engines" title="Regex security research at UC Davis" loading="lazy" decoding="async" src="/images/redos-research.avif">
 
 Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), which protects JavaScript and TypeScript backend applications from catastrophic backtracking by wrapping Rust's linear time engine as a JavaScript package. This project landed on the front page of Y Combinator's Hacker News.
 
@@ -66,13 +66,13 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraphs, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
-<img alt="Jake Roggenbuck UC Davis Database Systems Competition Winner RedoxQL" src="/images/redox-ql.avif">
+<img alt="Jake Roggenbuck UC Davis Database Systems Competition Winner RedoxQL" title="RedoxQL database competition winner" loading="lazy" decoding="async" src="/images/redox-ql.avif">
 
 {{< github repo="jakeroggenbuck/RedoxQL" showThumbnail=true >}}
 
 Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler) which allows you to efficiently capture performance metrics for product systems. I created my own database to ensure it would be fast based on problem-specific constraints like logs being append only, making my database extremely fast for this specific use case. You can start using Kronicler at [usekronicler.com](https://usekronicler.com) for performance metrics, or you could use the fast database implementation for similar problems by importing the library and manually capturing data as explained in the [README](https://github.com/JakeRoggenbuck/kronicler).
 
-<img alt="Jake Roggenbuck Software for Performance Monitoring in Python Called Kronicler" src="/images/kr.avif">
+<img alt="Jake Roggenbuck Software for Performance Monitoring in Python Called Kronicler" title="Kronicler performance monitoring software" loading="lazy" decoding="async" src="/images/kr.avif">
 
 {{< github repo="jakeroggenbuck/kronicler" showThumbnail=true >}}
 
@@ -82,11 +82,11 @@ Recently, I started reading [Database Internals](https://www.oreilly.com/library
 
 I frequently participant in hackathons both in Davis in San Francisco.
 
-<img alt="Jake Roggenbuck winning the Vibe Code Hackathon" src="/images/vibe-win.jpeg">
+<img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" loading="lazy" decoding="async" src="/images/vibe-win.jpeg">
 
-<img alt="Jake Roggenbuck and team with James Tan" src="/images/jake-and-team-and-james-tan.png">
+<img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-james-tan.png">
 
-<img alt="Jake Roggenbuck and team with Garry Tan" src="/images/jake-and-team-and-garry-tan.jpg">
+<img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-garry-tan.jpg">
 
 ## Notable Projects
 
@@ -94,7 +94,7 @@ I frequently participant in hackathons both in Davis in San Francisco.
 
 Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your friends, clubs, and other organizations.
 
-<img alt="Jake Roggenbuck Software AlgoBoard" src="/images/algoboard.avif">
+<img alt="Jake Roggenbuck Software AlgoBoard" title="AlgoBoard competitive coding platform" loading="lazy" decoding="async" src="/images/algoboard.avif">
 
 {{< github repo="jakeroggenbuck/algoboard" showThumbnail=true >}}
 
@@ -104,7 +104,7 @@ AlgoBoard and the weekly competitions I ran, greatly helped me prepare for techn
 
 A utility to check stats about your CPU, and auto regulate clock speeds to help with either performance or battery life.
 
-<img alt="Jake Roggenbuck Auto Clock Speed Software Written in Rust" src="/images/acs.avif">
+<img alt="Jake Roggenbuck Auto Clock Speed Software Written in Rust" title="Auto Clock Speed utility in Rust" loading="lazy" decoding="async" src="/images/acs.avif">
 
 {{< github repo="jakeroggenbuck/auto-clock-speed" showThumbnail=true >}}
 
@@ -114,7 +114,7 @@ Auto Clock Speed now has over 13 thousand downloads on [crates.io](https://crate
 
 A programming language that compiles to x86-64 assembly for math using postfix notation
 
-<img src="/images/component.avif">
+<img alt="Component programming language project" title="Component language compiler project" loading="lazy" decoding="async" src="/images/component.avif">
 
 {{< github repo="jakeroggenbuck/component" showThumbnail=true >}}
 
@@ -122,7 +122,7 @@ A programming language that compiles to x86-64 assembly for math using postfix n
 
 <!-- This was an entry to a "Lang Jam" where I had only a few days to make an entire interpreter. These were the types of programming languages that led me to programming language research. -->
 
-<!-- <img src="/images/jai.avif"> -->
+<!-- <img alt="JAI language jam project" title="JAI interpreter project" loading="lazy" decoding="async" src="/images/jai.avif"> -->
 
 <!-- {{< github repo="jakeroggenbuck/jai" showThumbnail=true >}} -->
 
@@ -134,7 +134,7 @@ Before college, I was involved in two different research projects. This first wa
 
 Abstract: "We investigate some interesting properties of the sequence made up of every third term of the Thue-Morse sequence, and consider other similar sequences."
 
-<img alt="Jake Roggenbuck Author of Observations on Every Third Digit of the Thue-Morse Sequence Math Research Paper" src="/images/t3.avif">
+<img alt="Jake Roggenbuck Author of Observations on Every Third Digit of the Thue-Morse Sequence Math Research Paper" title="Thue-Morse sequence research paper" loading="lazy" decoding="async" src="/images/t3.avif">
 
 The full paper and code example can be found on the GitHub project.
 
@@ -174,7 +174,7 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 ## Hobbies
 
-<img src="/images/jake-in-SF.avif">
+<img alt="Jake Roggenbuck photographing the Dropout Graduation at the Palace of Fine Arts in San Francisco" title="Photography at the Palace of Fine Arts" loading="lazy" decoding="async" src="/images/jake-in-SF.avif">
 
 Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in SF.
 
