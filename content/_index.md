@@ -170,6 +170,14 @@ Currently working as Director of Engineering and helping build <a href="https://
 - [@roggenbuck](https://luma.com/user/roggenbuck) - hosting events
 - [@jakeroggenbuck](https://luma.com/user/jakeroggenbuck) - participant in events
 
+#### Leetcode - [@jakeroggenbuck](https://leetcode.com/u/jakeroggenbuck/)
+
+#### Hacker News - [@roggenbuck](https://news.ycombinator.com/user?id=roggenbuck)
+
+#### X - [@jakeroggenbuck](https://x.com/jakeroggenbuck)
+
+#### Mastodon - [@jake](https://mstdn.social/@jake)
+
 ## Contact
 
 Email: [me@jr0.org](mailto:me@jr0.org) - Bug Reports: [bug@jr0.org](mailto:bug@jr0.org) - Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
