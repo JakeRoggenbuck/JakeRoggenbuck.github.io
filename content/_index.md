@@ -20,6 +20,10 @@ images:
   - /images/component.avif
   - /images/jai.avif
   - /images/t3.avif
+  - /images/jake-and-team-and-garry-tan.jpg
+  - /images/jake-and-team-and-james-tan.png
+  - /images/jake-in-SF.avif
+  - /images/jake-in-SF.jpg
 ---
 
 <div style="text-align: left; max-width: 700px; margin: 0 auto; line-height: 1.6;">
