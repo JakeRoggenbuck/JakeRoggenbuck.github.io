@@ -46,7 +46,7 @@ I'm passionate about building useful products which led me to found and scale a 
 
 The best way to view my work is on my [GitHub](https://github.com/JakeRoggenbuck) and this website.
 
-## Current Research:
+## Current Research
 
 I'm currently conducting programming language research. Broadly programming language research focuses on security and safety of how programming languages are designed and implemented, as well as theoretical ideas that can be applied to change what traits languages can guarantee.
 
@@ -58,7 +58,7 @@ Later work includes [Regolith](https://github.com/JakeRoggenbuck/regolith), whic
 
 {{< github repo="jakeroggenbuck/regolith" showThumbnail=true >}}
 
-## Database Systems:
+## Database Systems
 
 One of my many interests includes creating database systems. My prior fascination with optimization was ignited when I took [ECS 165A](https://expolab.org/ecs165a-winter2025.html) at UC Davis. My team's database called [RedoxQL](https://github.com/JakeRoggenbuck/RedoxQL) placed first for one of the milestones based on performance. The technical write-up in the [README](https://github.com/JakeRoggenbuck/RedoxQL) explains how we eked out every bit of performance we could using flamegraphs, benchmarks, compiler settings, and performant data structures (Like B-Trees).
 
@@ -74,7 +74,17 @@ Since then, I've created [Kronicler](https://github.com/JakeRoggenbuck/kronicler
 
 Recently, I started reading [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330/) by Alex Petrov. I highly recommend this book for learning more about building databases.
 
-## Notable Projects:
+## Hackathons
+
+I frequently participant in hackathons both in Davis in San Francisco.
+
+<img alt="Jake Roggenbuck winning the Vibe Code Hackathon" src="/images/vibe-win.jpeg">
+
+<img alt="Jake Roggenbuck and team with James Tan" src="/images/jake-and-team-and-james-tan.png">
+
+<img alt="Jake Roggenbuck and team with Garry Tan" src="/images/jake-and-team-and-garry-tan.jpg">
+
+## Notable Projects
 
 ### AlgoBoard.org
 
@@ -104,13 +114,13 @@ A programming language that compiles to x86-64 assembly for math using postfix n
 
 {{< github repo="jakeroggenbuck/component" showThumbnail=true >}}
 
-### JAI
+<!-- ### JAI -->
 
-This was an entry to a "Lang Jam" where I had only a few days to make an entire interpreter. These were the types of programming languages that led me to programming language research.
+<!-- This was an entry to a "Lang Jam" where I had only a few days to make an entire interpreter. These were the types of programming languages that led me to programming language research. -->
 
-<img src="/images/jai.avif">
+<!-- <img src="/images/jai.avif"> -->
 
-{{< github repo="jakeroggenbuck/jai" showThumbnail=true >}}
+<!-- {{< github repo="jakeroggenbuck/jai" showThumbnail=true >}} -->
 
 ## Previous Research
 
@@ -129,10 +139,6 @@ The full paper and code example can be found on the GitHub project.
 #### Bio Research - TMBL
 
 I was also involved with research in [Topological Molecular Biology](/tmbl) where I wrote logistic regression code.
-
-## Recent Projects
-
-#### [More Projects](./projects)
 
 ## Open Source
 
@@ -161,6 +167,12 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 {{< /timeline >}}
 -->
+
+## Hobbies
+
+<img src="/images/jake-in-SF.avif">
+
+Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in SF.
 
 ## Other Socials
 
