@@ -82,11 +82,11 @@ Recently, I started reading [Database Internals](https://www.oreilly.com/library
 
 I frequently participant in hackathons both in Davis in San Francisco.
 
-<img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" loading="lazy" decoding="async" src="/images/vibe-win.jpeg">
-
-<img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-james-tan.png">
-
-<img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-garry-tan.jpg">
+{{< gallery >}}
+    <img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" loading="lazy" decoding="async" src="/images/vibe-win.jpeg" class="grid-w33">
+    <img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-james-tan.png" class="grid-w33">
+    <img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-garry-tan.jpg" class="grid-w33">
+{{< /gallery >}}
 
 ## Notable Projects
 
