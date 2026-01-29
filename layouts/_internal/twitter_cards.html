@@ -1,0 +1,27 @@
+{{- $title := .Title | default .Site.Title -}}
+{{- $description := (.Params.Summary | default .Params.Description) | default .Site.Params.description -}}
+{{- $images := slice -}}
+
+{{- with .Params.images -}}
+  {{- $images = . -}}
+{{- else -}}
+  {{- $resources := .Resources.ByType "image" -}}
+  {{- $featured := $resources.GetMatch "*feature*" -}}
+  {{- if not $featured }}{{ $featured = $resources.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- if $featured -}}
+    {{- $images = slice $featured.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (not $images) .Site.Params.images -}}
+  {{- $images = .Site.Params.images -}}
+{{- end -}}
+
+<meta name="twitter:card" content="{{ if $images }}summary_large_image{{ else }}summary{{ end }}" />
+<meta name="twitter:title" content="{{ $title }}" />
+{{- with $description }}
+<meta name="twitter:description" content="{{ . }}" />
+{{- end }}
+{{- with (index $images 0) }}
+<meta name="twitter:image" content="{{ . | absURL }}" />
+{{- end }}

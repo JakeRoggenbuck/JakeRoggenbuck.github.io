@@ -1,0 +1,31 @@
+{{- $title := .Title | default .Site.Title -}}
+{{- $description := (.Params.Summary | default .Params.Description) | default .Site.Params.description -}}
+{{- $images := slice -}}
+
+{{- with .Params.images -}}
+  {{- $images = . -}}
+{{- else -}}
+  {{- $resources := .Resources.ByType "image" -}}
+  {{- $featured := $resources.GetMatch "*feature*" -}}
+  {{- if not $featured }}{{ $featured = $resources.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- if $featured -}}
+    {{- $images = slice $featured.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (not $images) .Site.Params.images -}}
+  {{- $images = .Site.Params.images -}}
+{{- end -}}
+
+<meta property="og:title" content="{{ $title }}" />
+{{- with $description }}
+<meta property="og:description" content="{{ . }}" />
+{{- end }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{- with .Site.Title }}
+<meta property="og:site_name" content="{{ . }}" />
+{{- end }}
+{{- range $images }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{- end }}

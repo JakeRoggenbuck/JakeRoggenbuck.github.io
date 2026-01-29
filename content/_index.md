@@ -83,10 +83,18 @@ Recently, I started reading [Database Internals](https://www.oreilly.com/library
 I frequently participant in hackathons both in Davis in San Francisco.
 
 {{< gallery >}}
-    <img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" loading="lazy" decoding="async" src="/images/vibe-win.jpeg" class="grid-w33">
-    <img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-james-tan.png" class="grid-w33">
-    <img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" loading="lazy" decoding="async" src="/images/jake-and-team-and-garry-tan.jpg" class="grid-w33">
+    <img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" src="/images/vibe-win.jpeg" class="grid-w33">
+    <img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" src="/images/jake-and-team-and-james-tan.png" class="grid-w33">
+    <img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" src="/images/jake-and-team-and-garry-tan.jpg" class="grid-w33">
+    <img alt="Jake Roggenbuck working at Vibe Code Hackathon" title="Jake Roggenbuck working at Vibe Code Hackathon" src="/images/vibe-working-1.jpeg" class="grid-w33">
+    <img alt="Jake Roggenbuck at Vibe Code Hackathon" title="Jake Roggenbuck at Vibe Code Hackathon" src="/images/vibe-working-2.jpeg" class="grid-w33">
+    <img alt="Jake Roggenbuck and Ben at Vibe Code Hackathon" title="Jake Roggenbuck and Ben at Vibe Code Hackathon" src="/images/jake-and-ben-at-vibe-4.jpg" class="grid-w33">
+    <img alt="Jake Roggenbuck and team at Y Combinator Hackathon" title="Jake Roggenbuck and team at Y Combinator Hackathon" src="/images/jake-and-team-yc-hackathon.jpg" class="grid-w33">
+    <img alt="Jake Roggenbuck at Y Combinator Hackathon" title="Jake Roggenbuck and Y Combinator Hackathon" src="/images/jake-at-yc-hackathon.jpg" class="grid-w33">
+    <img alt="Jake Roggenbuck and team at Hack Davis 2025" title="Jake Roggenbuck and team at Hack Davis 2025" src="/images/hackdavis-2025-win.png" class="grid-w33">
 {{< /gallery >}}
+
+You can find my [Luma accounts](#luma---hackathons) below.
 
 ## Notable Projects
 
@@ -176,7 +184,7 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 <img alt="Jake Roggenbuck photographing the Dropout Graduation at the Palace of Fine Arts in San Francisco" title="Photography at the Palace of Fine Arts" loading="lazy" decoding="async" src="/images/jake-in-SF.avif">
 
-Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in SF.
+Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in San Francisco. I also do landscape and wildlife photography when I go on hikes (See [Nature Photos](/posts/exakta-lens-sony-camera/#nature-photos)).
 
 ## Other Socials
 
