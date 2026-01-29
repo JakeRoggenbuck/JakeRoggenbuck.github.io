@@ -152,9 +152,13 @@ The full paper and code example can be found on the GitHub project.
 
 I was also involved with research in [Topological Molecular Biology](/tmbl) where I wrote logistic regression code.
 
+<img src="/images/urbani-notebook.avif">
+
+(Jupyter Notebook from research)
+
 ## Open Source
 
-### I also contribute to open source, most notably:
+I also contribute to open source, most notably:
 
 [**onlook-dev/onlook (YC W25)**](https://github.com/onlook-dev/onlook),
 [**pretzelai/pretzelai (YC W24)**](https://github.com/pretzelai/pretzelai),
