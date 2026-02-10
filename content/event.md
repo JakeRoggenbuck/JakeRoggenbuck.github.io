@@ -12,6 +12,8 @@ Join the Climate Stack Hackathon - https://luma.com/pbf6iszg
 
 We're hosting a hackathon on February 13th at UC Davis. $5k in prizes, Y Combinator founders as judges, and free food! It's free to attend but space is limited, so sign up soon to reserve your spot.
 
+RSVP on Luma: https://luma.com/pbf6iszg
+
 ### Additional Sponsors
 
 Morph (YC S23) – free credits!
