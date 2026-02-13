@@ -27,3 +27,7 @@ You can still find my [Dev Logs](/devlogs). However, I no longer update these.
 ## Topological Molecular Biology lab at UC Davis
 
 [Topological Molecular Biology](/tmbl)
+
+## Other
+
+I noticed that [Arc](https://paulgraham.com/arc.html)'s tutorial page ins't working, so I made a [page](/misc/arc) about it. The page includes [tut.txt](/misc/arc/tut.txt) hosted on this site and the [Wayback Machine link](https://web.archive.org/web/20160305032215/http://old.ycombinator.com/arc/tut.txt).
