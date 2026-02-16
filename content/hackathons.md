@@ -4,13 +4,36 @@ type: page
 date: 2025-09-10T00:00:00
 ---
 
-{{< timeline >}}
+## Y Combinator - AgentMail Hack Halloween - Crash Test - Best Use of Moss
 
-{{< timelineItem icon="star" header="Hack Davis 2025" badge="🏆 Winner" subheader="🏆 Best Interdisciplinary Hack - Assemblr" >}}
+{{< gallery >}}
+<img src="../images/jake-and-team-yc-hackathon.jpg" class="grid-w33" />
+<img src="../images/jake-at-yc-hackathon.jpg" class="grid-w33" />
+{{< /gallery >}}
+
+Agentically scan for bugs in FastAPI backend servers.
+
+{{< github repo="jakeroggenbuck/YC-Hackathon-Oct-2025" showThumbnail=true >}}
+
+We won 3rd place for "Best Use of Moss" and got $5K in credits.
+
+## Tranpose Platform’s VibeCode Hackathon - Vibe Code 4
+
+{{< gallery >}}
+<img src="../images/jake-and-team-and-james-tan.png" class="grid-w33" />
+<img src="../images/jake-and-team-and-garry-tan.jpg" class="grid-w33" />
+<img src="../images/jake-and-ben-at-vibe-4.jpg" class="grid-w33" />
+{{< /gallery >}}
+
+Vibe Gen creates great math explanation videos by creating [Manim](https://github.com/3b1b/manim) code that gets rendered into graphics.
+
+<img width="1904" height="944" alt="Vibe Gen Screenshot" src="https://github.com/user-attachments/assets/d8f48f05-315a-4adb-b283-d84eecb1f493" />
+
+{{< github repo="Rani-Codes/VIBE25-4-Project" showThumbnail=true >}}
+
+## Hack Davis 2025 - Best Interdisciplinary Hack - Assemblr
 
 We build acustom IDE that lowers the barrier to learning assembly to help you learn by automating an RC car.
-
-<br/><br/>
 
 {{< gallery >}}
 <img src="../images/assemblr-devpost.png" class="grid-w33" />
@@ -23,9 +46,6 @@ We build acustom IDE that lowers the barrier to learning assembly to help you le
 Learning low-level programming languages like assembly is often intimidating and abstract, with a steep learning curve that students typically face later in their college years. But we believe that understanding assembly builds stronger, more powerful coders- and that it shouldn't be reserved for the few who make it that far.
 
 We set out to democratize the learning experience by creating an interactive and engaging way to explore assembly through something tangible: controlling the movement of a RC car.
-
-<br/>
-<br/>
 
 {{< gallery >}}
 
@@ -43,9 +63,7 @@ GitHub
 
 {{< github repo="jakeroggenbuck/hackdavis-2025" showThumbnail=true >}}
 
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Tranpose Platform's VibeCode Hackathon" badge="🏆 Winner" subheader="🏆 Onlook Challenge - Chomp" >}}
+## Tranpose Platform's VibeCode Hackathon - Onlook Challenge - Chomp
 
 We built a short-form content app for buying take-out food with the goal of reducing user dropoff from analysis paralysis.
 
@@ -57,18 +75,23 @@ We built a short-form content app for buying take-out food with the goal of redu
 
 {{< /gallery >}}
 
-{{< /timelineItem >}}
+## 1st Place Winner - UC Davis Climate Pitch Competition
 
-{{< timelineItem icon="code" header="Hack Davis 2024" subheader="Safe Drive AI">}}
+ 🐮 Calculate the enteric methane emissions from cows based on their food.
+
+<img src="https://github.com/user-attachments/assets/c304ce5f-181d-4445-aa47-fe59accfa81f" />
+
+We won $1K for first place in the climate pitch.
+
+## Hack Davis 2024 - Safe Drive AI
 
 Mission: Use OpenCV, PyTorch and Intel Developer Cloud to reduce car related injuries and deaths.
 
   <img src="../images/lane-detection.png"  />
 
 {{< github repo="jakeroggenbuck/hackdavis-2024" showThumbnail=true >}}
-{{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="ProdCon 2025" subheader="🏆 3rd Place Winner - Sid">}}
+## ProdCon 2025 - 3rd Place Winner - Sid
 
 The core issue we are solving is that the education technology is set up for logistics and not learning, which leaves students to cram for tests, accumulate study dept, and ultimately fall behind.
 
@@ -82,9 +105,7 @@ Shouldn't EdTech work for students and professors?
 Devpost
 {{< /button >}}
 
-{{< /timelineItem >}}
-
-{{< timelineItem icon="code" header="Amazon Sustainability Data Initiative (ASDI) Global Hackathon" subheader="Plant Here">}}
+## Amazon Sustainability Data Initiative (ASDI) Global Hackathon
 
 Thousands of years ago, humans learned how to farm and formed small agricultural communities that would eventually become the complex networks of farms, food processors, and vendors that feed the world today. But humans then had no technology to assist them besides simple tools and knowledge of common patterns (such as the right weather and soil). Today we have fast internet, machine learning algorithms, and satellite technology that helps us make those decisions! We wanted to employ some of these incredible innovations to build our own service that helps farmers make the most of their land by planting the most suitable crops possible, thus contributing to the UN Sustainable Development Goals of zero hunger and climate action.
 
@@ -105,7 +126,3 @@ GitHub
   <br/>
 
 {{< github repo="jakeroggenbuck/asdi-global-hackathon" showThumbnail=true >}}
-
-{{< /timelineItem >}}
-
-{{< /timeline >}}
