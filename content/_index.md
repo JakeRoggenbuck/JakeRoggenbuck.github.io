@@ -100,7 +100,7 @@ You can find my [Luma accounts](#luma---hackathons) below.
 
 ## Notable Projects
 
-### AlgoBoard.org
+### [AlgoBoard.org](https://algoboard.org/)
 
 Algo Board is a website to promote friendly competition for solving algorithmic coding problems. Algo Board lets you host weekly / monthly competitions for your friends, clubs, and other organizations.
 
