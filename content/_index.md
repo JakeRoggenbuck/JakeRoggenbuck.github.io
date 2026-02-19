@@ -190,7 +190,7 @@ Currently working as Director of Engineering and helping build <a href="https://
 
 <img alt="Jake Roggenbuck photographing the Dropout Graduation at the Palace of Fine Arts in San Francisco" title="Photography at the Palace of Fine Arts" loading="lazy" decoding="async" src="/images/jake-in-SF.avif">
 
-Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in San Francisco. I also do landscape and wildlife photography when I go on hikes (See [Nature Photos](/posts/exakta-lens-sony-camera/#nature-photos)).
+Here is me doing photography for the [Dropout Graduation](https://www.businessinsider.com/meet-the-silicon-valley-college-dropouts-throwing-their-own-graduation-2025-4?op=1) outside of the Palace of Fine Arts in San Francisco. I also do landscape and wildlife photography when I go on hikes (See [Nature Photos](/posts/exakta-lens-sony-camera/#nature-photos)). I'm currently using a Sony a6400 with a Sony FE 50mm f/1.8, a Sigma 20mm f/1.4, a 16mm-50mm f/3.5-5.5 kit lens, and a lens from an [old Exakta camera](https://jr0.org/posts/exakta-lens-sony-camera/).
 
 ## Other Socials
 
