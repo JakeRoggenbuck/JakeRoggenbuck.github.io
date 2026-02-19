@@ -80,7 +80,7 @@ Recently, I started reading [Database Internals](https://www.oreilly.com/library
 
 ## Hackathons
 
-I frequently participant in hackathons both in Davis in San Francisco.
+I frequently participant in hackathons both in Davis and San Francisco. Below are a few highlights:
 
 {{< gallery >}}
     <img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" src="/images/vibe-win.jpeg" class="grid-w33">
@@ -93,6 +93,8 @@ I frequently participant in hackathons both in Davis in San Francisco.
     <img alt="Jake Roggenbuck at Y Combinator Hackathon" title="Jake Roggenbuck and Y Combinator Hackathon" src="/images/jake-at-yc-hackathon.jpg" class="grid-w33">
     <img alt="Jake Roggenbuck and team at Hack Davis 2025" title="Jake Roggenbuck and team at Hack Davis 2025" src="/images/hackdavis-2025-win.png" class="grid-w33">
 {{< /gallery >}}
+
+View the list of hackathons I've participant on my [hackathons page](https://jr0.org/hackathons/).
 
 You can find my [Luma accounts](#luma---hackathons) below.
 

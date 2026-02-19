@@ -4,6 +4,27 @@ type: page
 date: 2025-09-10T00:00:00
 ---
 
+## Overview
+
+I've participated in 14 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
+
+<!-- Quick Hackathon List
+- JAI lang jam
+- Scry for DeveloperWeek 2021 Hackathon
+- YC AgentMail 2025
+- Hosted Climate Hack 2026
+- Climate Pitch 2024
+- Hack Davis 2025
+- Hack Davis 2024
+- Hack Davis 2023
+- Vibe Code 1 2025
+- Vibe Code 4 2025
+- Prod Con 2025
+- Prod Con 2024
+- AWS Climate Hack 2022
+- Eco Hacks 2022
+-->
+
 ## Y Combinator - AgentMail Hack Halloween - Crash Test - Best Use of Moss
 
 {{< gallery >}}
@@ -82,6 +103,8 @@ We built a short-form content app for buying take-out food with the goal of redu
 <img src="https://github.com/user-attachments/assets/c304ce5f-181d-4445-aa47-fe59accfa81f" />
 
 We won $1K for first place in the climate pitch.
+
+{{< github repo="jakeroggenbuck/cowculator-v2" showThumbnail=true >}}
 
 ## Hack Davis 2024 - Safe Drive AI
 
