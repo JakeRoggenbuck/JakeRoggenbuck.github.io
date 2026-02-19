@@ -208,6 +208,12 @@ Here is me doing photography for the [Dropout Graduation](https://www.businessin
 
 #### Mastodon - [@jake](https://mstdn.social/@jake)
 
+#### SF Tinkerers - [Jake](https://sf.aitinkerers.org/connect/client/client_j7Qyilo4wC4)
+
+#### DevPost - [JakeRoggenbuck](https://devpost.com/JakeRoggenbuck)
+
+#### Dev.to - [@jakeroggenbuck](https://dev.to/jakeroggenbuck)
+
 ## Contact
 
 Email: [me@jr0.org](mailto:me@jr0.org) - Bug Reports: [bug@jr0.org](mailto:bug@jr0.org) - Public GPG Key: [309BBC9](jakeroggenbuck.gpg)<br>
