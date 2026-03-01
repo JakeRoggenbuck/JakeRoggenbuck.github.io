@@ -30,6 +30,9 @@ I've participated in 14 hackathons and have won prizes ranging from $5K in free 
 {{< gallery >}}
 <img src="../images/jake-and-team-yc-hackathon.jpg" class="grid-w33" />
 <img src="../images/jake-at-yc-hackathon.jpg" class="grid-w33" />
+
+<img src="../images/jakes-codes-agent-mail.jpg" class="grid-w33" />
+<img src="../images/agent-mail-demo.jpg" class="grid-w33" />
 {{< /gallery >}}
 
 Agentically scan for bugs in FastAPI backend servers.
