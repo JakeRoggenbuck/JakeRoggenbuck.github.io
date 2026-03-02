@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPU Log-Digit Explorer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas id="glcanvas" aria-label="Fractal viewport"></canvas>
+
+    <div class="hud">
+      <div class="title">GPU Log-Digit Explorer</div>
+      <div class="row">
+        <label for="digitLocation">Digit Location</label>
+        <input id="digitLocation" type="range" min="0" max="6" step="1" value="4" />
+        <span id="digitLocationValue">4</span>
+      </div>
+      <div class="row">
+        <label for="snapToIntegers">Python Grid Mode</label>
+        <input id="snapToIntegers" type="checkbox" checked />
+        <span>floor(x), floor(base)</span>
+      </div>
+      <div class="row">
+        <label for="colorfulness">Colorfulness</label>
+        <input id="colorfulness" type="range" min="0.25" max="8" step="0.05" value="2.2" />
+        <span id="colorfulnessValue">2.20</span>
+      </div>
+      <div class="row">
+        <label for="colorOffset">Color Offset</label>
+        <input id="colorOffset" type="range" min="0" max="6.283" step="0.001" value="0.4" />
+        <span id="colorOffsetValue">0.400</span>
+      </div>
+      <div class="row compact">
+        <button id="resetBtn">Reset View</button>
+      </div>
+      <div id="stats" class="stats"></div>
+      <div class="help">
+        Wheel: zoom<br />
+        Drag: pan<br />
+        Double click: recenter + zoom<br />
+        View starts near x/base in [0, 600]<br />
+        Digit locations 0-6 are most reliable in GPU float precision
+      </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

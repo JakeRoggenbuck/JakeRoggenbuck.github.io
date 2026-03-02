@@ -1,0 +1,108 @@
+:root {
+  --bg: #070b14;
+  --panel: rgba(10, 17, 31, 0.72);
+  --panel-border: rgba(131, 159, 220, 0.4);
+  --text: #e8eefc;
+  --muted: #a7badf;
+  --accent: #5de4c7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(circle at 20% 0%, #0f1b36 0%, var(--bg) 45%, #03050a 100%);
+  color: var(--text);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+#glcanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  cursor: grab;
+}
+
+#glcanvas.dragging {
+  cursor: grabbing;
+}
+
+.hud {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  width: min(350px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  overflow-y: auto;
+  padding: 14px 14px 10px;
+  border-radius: 14px;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.row.compact {
+  display: block;
+  margin-top: 10px;
+}
+
+label {
+  color: var(--muted);
+}
+
+input,
+select,
+button {
+  width: 100%;
+  min-height: 30px;
+  border: 1px solid rgba(145, 175, 239, 0.5);
+  border-radius: 8px;
+  background: rgba(9, 14, 26, 0.75);
+  color: var(--text);
+  font-size: 13px;
+  padding: 4px 8px;
+}
+
+button {
+  background: linear-gradient(135deg, #1d6cbb 0%, #1f9b8b 100%);
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.stats,
+.help {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
