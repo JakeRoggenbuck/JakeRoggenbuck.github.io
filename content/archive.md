@@ -27,3 +27,7 @@ You can still find my [Dev Logs](/devlogs). However, I no longer update these.
 ## Topological Molecular Biology lab at UC Davis
 
 [Topological Molecular Biology](/tmbl)
+
+## Misc
+
+Events will be added to [Events][events.md]
