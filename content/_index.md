@@ -32,7 +32,7 @@ images:
 
 Favorite languages: [C](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers), [Rust](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=rust&sort=stargazers), [Go](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=go&sort=stargazers), [C++](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c%2B%2B&sort=stargazers), [Python](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers), [TypeScript](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=typescript&sort=stargazers)
 
-Primary interests: [Programming Languages](pl), [Software Performce](perf), [Startups](startup)
+Primary interests: [Programming Languages](pl), [Software Performce](perf), [Startups](startup), [Hackathons](hackathons)
 
 Secondary topics of interest: [Photography](photography), [Math](math), [Space](space), [Machine Learning](ml)
 

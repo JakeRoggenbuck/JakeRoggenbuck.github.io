@@ -6,9 +6,11 @@ date: 2025-09-10T00:00:00
 
 ## Overview
 
-I've participated in 14 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
+I've participated in 16 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
 
 <!-- Quick Hackathon List
+- YC Browser Use 2026
+- Cactus x DeepMind
 - JAI lang jam
 - Scry for DeveloperWeek 2021 Hackathon
 - YC AgentMail 2025
