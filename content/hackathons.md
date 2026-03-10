@@ -2,6 +2,7 @@
 title: Hackathons
 type: page
 date: 2025-09-10T00:00:00
+showTableOfContents: true
 ---
 
 ## Overview
