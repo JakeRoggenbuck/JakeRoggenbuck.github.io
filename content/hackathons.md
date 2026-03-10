@@ -45,6 +45,14 @@ I competed in the Cactus and Google DeepMind hackathon on Market Street.
 
 {{< github repo="jakeroggenbuck/functiongemma-hackathon" showThumbnail=true >}}
 
+## Hosted Climate Stack - c0mpiled/3
+
+I hosted the Climate Stack hackathon at UC Davis.
+
+Event Page: https://luma.com/pbf6iszg
+
+<!-- TODO: Add more details here -->
+
 ## Y Combinator - AgentMail Hack Halloween - Crash Test - Best Use of Moss
 
 {{< gallery >}}
