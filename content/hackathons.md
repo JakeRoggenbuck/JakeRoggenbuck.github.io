@@ -25,6 +25,26 @@ I've participated in 14 hackathons and have won prizes ranging from $5K in free 
 - Eco Hacks 2022
 -->
 
+## Y Combinator - Browser Use Hackathon
+
+<img width="1433" height="513" alt="image" src="https://github.com/user-attachments/assets/042a4307-ec56-408f-a746-c9bb68aa5bc3" />
+
+<!-- TODO: Add some images here of me at the hackathon -->
+
+I built a OpenClaw skill auditing system.
+
+{{< github repo="jakeroggenbuck/clawdit-yc-hackathon" showThumbnail=true >}}
+
+I was able to find one malicious skill that was public and could cause serious damage.
+
+## Cactus x Google DeepMind
+
+<img width="700" height="638" alt="image" src="https://github.com/user-attachments/assets/2a3ac7f1-b133-4efb-922b-7bd837761562" />
+
+I competed in the Cactus and Google DeepMind hackathon on Market Street.
+
+{{< github repo="jakeroggenbuck/functiongemma-hackathon" showThumbnail=true >}}
+
 ## Y Combinator - AgentMail Hack Halloween - Crash Test - Best Use of Moss
 
 {{< gallery >}}
