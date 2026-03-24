@@ -30,4 +30,4 @@ You can still find my [Dev Logs](/devlogs). However, I no longer update these.
 
 ## Misc
 
-Events will be added to [Events][events.md]
+Events will be added to [Events](/events)
