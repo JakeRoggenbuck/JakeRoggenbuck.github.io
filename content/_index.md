@@ -40,7 +40,7 @@ Projects: [Regolith](https://github.com/JakeRoggenbuck/regolith), [Kronicler](ht
 
 Highlighted posts: [Optimizing Course Search by over 8x](https://jr0.org/posts/optimizing-course-api/), [Backend SQL Injection Research](https://jr0.org/posts/backend-sql-report/). 
 
-Page List: [Archive](archive), [Book Reviews](books), [Dev Logs](devlogs), [Events](events), [Fractals](fractals), [Hackathons](hackathons), [Math](math), [Machine Learning](ml), [Software Performance](perf), [Photography](photography), [Programming Languages](pl), [Posts](posts), [Space](space), [Startups](startup), [Topological Molecular Biology](tmbl)
+Other Pages: [Archive](archive), [Book Reviews](books), [Dev Logs (Old)](devlogs), [Events](events), [Fractals](fractals), [Posts](posts), [Topological Molecular Biology](tmbl)
 
 ## Overview
 
