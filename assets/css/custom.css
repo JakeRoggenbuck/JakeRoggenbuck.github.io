@@ -1,0 +1,8 @@
+/* Pre-layout galleries before Packery initializes on window.load.
+   Images already have grid-w33/grid-w50 widths, so flex-wrap flows
+   them into columns immediately without waiting for images to load. */
+[id^="gallery-"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
