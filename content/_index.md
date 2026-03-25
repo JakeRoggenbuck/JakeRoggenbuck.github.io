@@ -21,6 +21,7 @@ images:
   - /images/jai.avif
   - /images/t3.avif
   - /images/jake-and-team-and-garry-tan.jpg
+  - /images/jake-and-team-and-james-tan.jpg
   - /images/jake-and-team-and-james-tan.png
   - /images/jake-in-SF.avif
   - /images/jake-in-SF.jpg
@@ -88,7 +89,7 @@ I frequently participant in hackathons both in Davis and San Francisco. Below ar
 
 {{< gallery >}}
     <img alt="Jake Roggenbuck winning the Vibe Code Hackathon" title="Vibe Code hackathon win" src="/images/vibe-win.jpeg" width="800" height="533" class="grid-w33">
-    <img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" src="/images/jake-and-team-and-james-tan.png" width="4088" height="2629" class="grid-w33">
+    <img alt="Jake Roggenbuck and team with James Tan" title="Hackathon team with James Tan" src="/images/jake-and-team-and-james-tan.jpg" width="4088" height="2629" class="grid-w33">
     <img alt="Jake Roggenbuck and team with Garry Tan" title="Hackathon team with Garry Tan" src="/images/jake-and-team-and-garry-tan.jpg" width="5415" height="2893" class="grid-w33">
     <img alt="Jake Roggenbuck working at Vibe Code Hackathon" title="Jake Roggenbuck working at Vibe Code Hackathon" src="/images/vibe-working-1.jpeg" width="800" height="533" class="grid-w33">
     <img alt="Jake Roggenbuck at Vibe Code Hackathon" title="Jake Roggenbuck at Vibe Code Hackathon" src="/images/vibe-working-2.jpeg" width="5488" height="3659" class="grid-w33">
