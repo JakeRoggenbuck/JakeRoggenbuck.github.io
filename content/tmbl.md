@@ -16,17 +16,17 @@ Here is what I wrote about it in Nov of 2021:
 
 A lot of work was done in Python scripts, notebooks, and Google Sheets. Seen here is a test dataset I used for part of my regression model experimentation.
 
-<img src="../../images/sars-dataset.avif">
+<img src="../../images/sars-dataset.avif" width="1044" height="834">
 
 The main process for this research involved finding existing sequences of sars-cov-2 and sars-1 using the NCBI website. You'd then find a research paper describing the sequence and find the start and end "residues" (index used to locate genes in DNA). I would look for where the spike protein started and ended and write up a script that looked similar to this:
 
-<img src="../../images/urbani-notebook.avif">
+<img src="../../images/urbani-notebook.avif" width="936" height="844">
 
 Lots of work went into dealing with thousands of sequences and fitting a regression model. It also took a lot of work to understand why the model worked for certain sequences and not others. During the course of a year, I learned the thoroughness needed for research.
 
-<img src="../../images/tmbl-1.avif">
-<img src="../../images/tmbl-2.avif">
-<img src="../../images/tmbl-3.avif">
+<img src="../../images/tmbl-1.avif" width="790" height="824">
+<img src="../../images/tmbl-2.avif" width="930" height="499">
+<img src="../../images/tmbl-3.avif" width="913" height="531">
 
 Above are all files that I wrote for different tasks like checking why certain false positives were present or why certain gene translations didn't work as expected.
 
