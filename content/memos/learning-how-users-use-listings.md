@@ -1,7 +1,7 @@
 ---
 title: Learning how users use "Listings"
 description: 
-date: 2025-08-23T00:00:00
+date: 2026-04-06T00:00:00
 tags: ["posthog", "software"]
 type: post
 ---
