@@ -10,6 +10,10 @@ This is a list of resources I used to have on my website, or things that do not 
 
 You can still find my [Dev Logs](/devlogs). However, I no longer update these.
 
+## Cattlelog Summer Eng Brief
+
+[Cattlelog Summer Engineering Brief](../cdn/cattlelog-summer-eng-brief.pdf)
+
 ## STPRQ - 02/24/2025
 
 [Subjective Test for Pull Request Quality](../cdn/Subjective-Test-for-Pull-Request-Quality.pdf)
