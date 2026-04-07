@@ -40,6 +40,10 @@ Jake Roggenbuck - 02/24/2025 - Criteria for measuring quality of pull requests -
 
 [Topological Molecular Biology](/tmbl)
 
+## Memos
+
+Memos are anything I've written and want to share but are too short for a blog post. You can find my [Memos](/memos).
+
 ## Misc
 
 Events will be added to [Events](/events)
