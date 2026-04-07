@@ -9,7 +9,7 @@ type: page
 
 Source: https://github.com/JakeRoggenbuck/log-fractals
 
-View: [log-digit.html](/fractals/log-digit.html)
+See the online fractals viewer: [log-digit.html](/fractals/log-digit.html)
 
 {{< gallery >}}
     <img width="340" height="340" alt="image" src="https://github.com/user-attachments/assets/d181e2d6-7238-4679-99bb-60cc78e58b67" class="grid-w33" />
