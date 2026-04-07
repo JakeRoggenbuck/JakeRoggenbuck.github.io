@@ -32,11 +32,18 @@ Jake Roggenbuck - 02/24/2025 - Criteria for measuring quality of pull requests -
 
 ## PostHog
 
+A complete guide to adding an A/B test to a software product using
+PostHog and React.
+
 [Adding A/B tests to PostHog](../cdn/Adding-A-B-tests-to-PostHog.pdf)
+
+A guide to to view all time metrics in PostHog.
 
 [How to view PostHog all time metrics](../cdn/PostHog-all-time-metrics.pdf)
 
 ## Topological Molecular Biology lab at UC Davis
+
+I was also involved with research in Topological Molecular Biology when I was in High School.
 
 [Topological Molecular Biology](/tmbl)
 
@@ -46,4 +53,4 @@ Memos are anything I've written and want to share but are too short for a blog p
 
 ## Misc
 
-Events will be added to [Events](/events)
+Events will be added to [Events](/events).
