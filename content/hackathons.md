@@ -7,11 +7,12 @@ showTableOfContents: true
 
 ## Overview
 
-I've participated in 16 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
+I've participated in 17 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
 
 <!-- Quick Hackathon List
+- Amazon Nova 2026
 - YC Browser Use 2026
-- Cactus x DeepMind
+- Cactus x DeepMind 2026
 - JAI lang jam
 - Scry for DeveloperWeek 2021 Hackathon
 - YC AgentMail 2025
@@ -27,6 +28,14 @@ I've participated in 16 hackathons and have won prizes ranging from $5K in free 
 - AWS Climate Hack 2022
 - Eco Hacks 2022
 -->
+
+## Amazon Nova - Minecraft Datapack Copilot
+
+Quickly build functional minecraft datapacks with Amazon Nova.
+
+{{< github repo="kyle-parker-1500/amazon-nova-hackathon" showThumbnail=true >}}
+
+Use Amazon Nova to build functional minecraft datapacks. It's inaccessible for most Minecraft players to write datapacks by themselves, and this makes it easy!
 
 ## Y Combinator - Browser Use Hackathon
 
@@ -51,6 +60,14 @@ I competed in the Cactus and Google DeepMind hackathon on Market Street.
 ## Hosted Climate Stack - c0mpiled/3
 
 I hosted the Climate Stack hackathon at UC Davis.
+
+{{< gallery >}}
+<img src="../images/climate-hack-1.jpeg" class="grid-w33" />
+<img src="../images/climate-hack-2.jpeg" class="grid-w33" />
+<img src="../images/climate-hack-3.jpeg" class="grid-w33" />
+<img src="../images/climate-hack-4.jpeg" class="grid-w33" />
+<img src="../images/climate-hack-5.jpeg" class="grid-w33" />
+{{< /gallery >}}
 
 Event Page: https://luma.com/pbf6iszg
 
