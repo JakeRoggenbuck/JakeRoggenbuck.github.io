@@ -199,6 +199,8 @@ Here is me doing photography for the [Dropout Graduation](https://www.businessin
 
 ## Other Socials
 
+#### Codeberg - [@roggenbuck](https://codeberg.org/roggenbuck)
+
 #### Luma - Hackathons
 
 - [@jaker](https://luma.com/user/jaker) - participant in events
