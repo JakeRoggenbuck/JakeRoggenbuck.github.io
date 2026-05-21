@@ -159,7 +159,7 @@ The full paper and code example can be found on the GitHub project.
 
 I was also involved with research in [Topological Molecular Biology](/tmbl) where I wrote logistic regression code.
 
-<img src="/images/urbani-notebook.avif" width="936" height="844">
+<img src="/images/urbani-notebook.avif" alt="Jupyter notebook from TMBL logistic regression research on the Urbani SARS sequence" title="TMBL Jupyter notebook from research" width="936" height="844">
 
 (Jupyter Notebook from research)
 

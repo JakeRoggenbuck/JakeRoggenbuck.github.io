@@ -18,7 +18,7 @@ Surprisingly, no extra information about a given user is included in these reque
 
 Here is how I crated the SQL in PostHog SQL editor. We can run it and see our data get populated.
 
-<img src="../../images/posthog-table.png">
+<img src="../../images/posthog-table.png" alt="PostHog SQL editor showing the listing_viewed query and its results" title="PostHog SQL editor with listing_viewed query">
 
 Here is the code block that you can copy from.
 
@@ -40,11 +40,11 @@ LIMIT 100
 
 We can now save this as an insight:
 
-<img src="../../images/posthog-save-table.png">
+<img src="../../images/posthog-save-table.png" alt="Saving the PostHog listing_viewed query as an insight" title="Saving the PostHog query as an insight">
 
 We can now see it in the Product analytics.
 
-<img src="../../images/posthog-view-table.png">
+<img src="../../images/posthog-view-table.png" alt="PostHog Product Analytics showing the saved listing_viewed insight" title="Saved listing_viewed insight in PostHog Product Analytics">
 
 ## What we learned
 
