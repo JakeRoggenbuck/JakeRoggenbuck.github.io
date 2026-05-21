@@ -7,9 +7,10 @@ showTableOfContents: true
 
 ## Overview
 
-I've participated in 17 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
+I've participated in 18 hackathons and have won prizes ranging from $5K in free credits to a Vintage Nintendo Game Boy. More importantly, are the ad hoc teams that were built in the processing of creating projects. Hackathons are excellent for finding people you like to work with, and learning new technologies.
 
 <!-- Quick Hackathon List
+- YC GStack
 - Amazon Nova 2026
 - YC Browser Use 2026
 - Cactus x DeepMind 2026
@@ -29,15 +30,38 @@ I've participated in 17 hackathons and have won prizes ranging from $5K in free 
 - Eco Hacks 2022
 -->
 
+## Y Combinator - GStack Hackathon - 3rd Place Overall
+
+<img src="../images/gstack-pitch.jpg" />
+
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/ca1e3ce8-1ca8-4454-a130-afa6ac685c33" />
+
+Claude Code for physical robotic systems. An MCP server that gives Claude a physical body via the HiWonder 6DOF robot arm.
+
+<a href="https://www.youtube.com/watch?v=gASNUOZupzA">
+<img width="1139" height="642" alt="Screenshot 2026-05-18 at 12 06 34 PM" src="https://github.com/user-attachments/assets/5ccadfc3-9b48-4b59-badf-98de42c26337" />
+</a>
+
+**Video Link** - https://www.youtube.com/watch?v=gASNUOZupzA
+
+{{< gallery >}}
+<img src="../images/gstack-final-photo-2.jpg" class="grid-w33" />
+<img src="../images/yc-gstack-final-photo.jpg" class="grid-w33" />
+{{< /gallery >}}
+
 ## Amazon Nova - Minecraft Datapack Copilot
 
 Quickly build functional minecraft datapacks with Amazon Nova.
+
+<img width="1139" height="642" alt="Screenshot 2026-05-18 at 12 06 34 PM" src="https://raw.githubusercontent.com/kyle-parker-1500/amazon-nova-hackathon/main/demo-image.png" />
 
 {{< github repo="kyle-parker-1500/amazon-nova-hackathon" showThumbnail=true >}}
 
 Use Amazon Nova to build functional minecraft datapacks. It's inaccessible for most Minecraft players to write datapacks by themselves, and this makes it easy!
 
 ## Y Combinator - Browser Use Hackathon
+
+<img src="../images/yc-browser-use-2.jpg" />
 
 <img width="1433" height="513" alt="image" src="https://github.com/user-attachments/assets/042a4307-ec56-408f-a746-c9bb68aa5bc3" />
 
@@ -48,6 +72,8 @@ I built a OpenClaw skill auditing system.
 {{< github repo="jakeroggenbuck/clawdit-yc-hackathon" showThumbnail=true >}}
 
 I was able to find one malicious skill that was public and could cause serious damage.
+
+<img src="../images/yc-browser-use-1.jpg" />
 
 ## Cactus x Google DeepMind
 
@@ -70,6 +96,8 @@ I hosted the Climate Stack hackathon at UC Davis.
 {{< /gallery >}}
 
 Event Page: https://luma.com/pbf6iszg
+
+<img src="../images/climate-stack.png" />
 
 <!-- TODO: Add more details here -->
 
