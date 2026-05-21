@@ -35,7 +35,15 @@ Often I explain that if you improve the usefulness of the language, it becomes e
 <img alt="Jake Roggenbuck giving ReDoS talk at UC Davis" title="Jake Roggenbuck giving ReDoS talk at UC Davis" src="/images/pl-talk.png" >
 </a>
 
+This is a talk from UC Davis' Undergraduate Research Conference. I spoke about the continuation of my research into Regular Expression Denial of Service attacks.
+
 **Video link:** https://www.youtube.com/watch?v=wvvvvJwWor4
+
+Here is my poster from the previous year's Undergraduate Research Conference.
+
+<img alt="Jake presenting ReDoS research at UCR" title="Regex security research at UC Davis for UCR" loading="lazy" decoding="async" width="1875" height="2500" src="/images/jake-and-caleb-at-urc.jpg">
+
+<img alt="Jake Roggenbuck Research at UC Davis Programming Language Lab on Preventing ReDoS Attacks and Analyzing eval times of Regex engines" title="Regex security research at UC Davis" loading="lazy" decoding="async" width="1875" height="2500" src="/images/redos-research.avif">
 
 I've kept a log of what I have worked on in my lab through the years. We stopped doing "update meetings" roughly when I started Regex research, so these slides include everything before. The majority of the content for these was spoken and aren't included anywhere.
 
