@@ -42,7 +42,7 @@ Claude Code for physical robotic systems. An MCP server that gives Claude a phys
 <img width="1139" height="642" alt="Screenshot 2026-05-18 at 12 06 34 PM" src="https://github.com/user-attachments/assets/5ccadfc3-9b48-4b59-badf-98de42c26337" />
 </a>
 
-**Video Link** - https://www.youtube.com/watch?v=gASNUOZupzA
+**Video link** - https://www.youtube.com/watch?v=gASNUOZupzA
 
 {{< gallery >}}
 <img src="../images/gstack-final-photo-2.jpg" class="grid-w33" />
